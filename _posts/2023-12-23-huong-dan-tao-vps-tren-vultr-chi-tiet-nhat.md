@@ -1,8 +1,7 @@
 ---
-
-layout: post
 published: True
 title: Hướng dẫn tạo VPS trên VULTR chi tiết nhất
+date: 2023-12-23
 categories: 
   - "ubuntu"
 tags: 
