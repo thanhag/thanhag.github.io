@@ -55,7 +55,7 @@ FF8 là phiên bản đầu tiên sử dụng hệ thống "Junction" để tăn
 
 Là khái niệm tương đương với thú triệu hồi trong các phiên bản trước. Giống như trong FF6, ở đây khi nhận được G.F, người chơi có thể junction (liên kết) với nhân vật để tăng cường sức mạnh. G.F trong FF8 không chỉ có vai trò là thú triệu hồi chỉ xuất hiện trong trận đánh như ở các phiên bản trước mà còn giúp nhân vật có thêm nhiều khả năng mới, cũng như là vật trung gian giúp liện kết chỉ số của nhân vật với ma pháp, từ đó chỉ số được nâng cao.
 
-\[caption id="attachment\_1793" align="aligncenter" width="809"\]![GF Ifrit Final Fantasy VIII by KlausBoss](/assets/images/gf_ifrit_final_fantasy_viii_by_klausboss.jpg) _G.F **Ifrit** Final Fantasy VIII Art by KlausBoss_\[/caption\]
+[GF Ifrit Final Fantasy VIII by KlausBoss](/assets/images/gf_ifrit_final_fantasy_viii_by_klausboss.jpg) _G.F **Ifrit** Final Fantasy VIII Art by KlausBoss_
 
 Thay vì phải trang bị vũ khí hay áo giáp như các phiên bản trước, trong FF8 chỉ cần trang bị G.F là nhân vật có thêm nhiều khả năng mới và sức mạnh mới. Một nhân vật có thể trang bị được nhiều G.F và khả năng mang lại cho nhân vật cũng khác nhau tùy từng G.F. Các G.F cũng có hệ thống level như nhân vật, đều phát triển qua mỗi trận đánh khi nhận được điểm kinh nghiệm và AP. Có 3 cách để có để có được G.F là hút (draw) từ quái vật trong trận đánh, dùng Item và đánh bại G.F khi nó xuất hiện trong vai trò kẻ địch. Đối với G.F cần phải draw từ quái vật thì nếu không draw mà đánh bại quái vật thì G.F sẽ mất đi vĩnh viễn và người chơi không còn cơ hội lấy lại được. Đối với G.F xuất hiện trong vai trò kẻ địch thì người chơi có thể khiêu chiến bất cứ lúc nào. Trong game có cả thảy 16 G.F mà người chơi có thể điều khiển và junction. Ngoài ra còn một số khác người chơi không điều khiển được vẫn được xếp vào hàng ngũ G.F.
 
@@ -63,7 +63,7 @@ Thay vì phải trang bị vũ khí hay áo giáp như các phiên bản trướ
 
 Mỗi G.F. đều có những khả năng đặc thù gọi là Ability. Khi nhân vật junction (kết nối) với G.F. thì nhân vật sẽ có được những khả năng đặc thù đó. Ability của G.F. có nhiều chủng loại, bao gồm các lệnh dùng trong chiến đấu như ma pháp, GF (để triệu hồi G.F. trong trận đánh), các ability tăng cường cho sức mạnh của chính GF và nhiều ability đặc dị như khả năng tinh chế Item thành ma pháp, khả năng truy cập shop từ xa...
 
-\[caption id="attachment\_1794" align="aligncenter" width="564"\]![GF trong final fantasy VIII](/assets/images/GF-trong-final-fantasy-VIII.jpg) _G.F trong final fantasy VIII Art by: LornaKelleherArt.deviantart.com on @DeviantArt_\[/caption\]
+[GF trong final fantasy VIII](/assets/images/GF-trong-final-fantasy-VIII.jpg) _G.F trong final fantasy VIII Art by: LornaKelleherArt.deviantart.com on @DeviantArt_
 
 Trong các ability của GF thì loại đặc biệt nhất là khả năng giúp nhân vật junction với ma pháp như sẽ thuật ở phần sau. Mỗi GF có nhiều ability để học và người chơi hoàn toàn quyết định việc cho GF học ability nào. GF học ability bằng những điểm AP (Ability Point) nhận được sau mỗi trận đánh. Ở các phiên bản trước, mỗi nhân vật thường được cố định với một bộ khả năng hay lệnh dùng trong trận đánh thì trong FF8, người chơi hoàn toàn có thể tùy ý sắp đặt các lệnh và khả năng này cho nhân vật thông qua việc junction với G.F. Ngoài ra, người chơi hoàn toàn có thể điều chỉnh từng năng chỉ số như sức mạnh vật lý, ma pháp, phòng ngự... theo ý mình. Đây là điểm đặc trưng của FF8 mà các bản trước không có được.
 
@@ -83,7 +83,7 @@ Ma pháp đóng vai trò quan trọng trong việc giúp nhân vật nâng cao c
 
 Số lượng ma pháp (một chủng loại) kết nối với chỉ số càng nhiều thì càng làm gia tăng chỉ số đó. Và đây cũng là cách đơn giản nhất để nhân vật đạt giá trị cực đại là 255 cho từng chỉ số.Do vậy, một khi đã kết nối ma pháp với chỉ số nào đó mà vẫn tiếp tục sử dụng ma pháp đó thì giá trị của chỉ số bị giảm đi.
 
-\[caption id="attachment\_1795" align="aligncenter" width="600"\]![Junction-ket noi ma phap trong Final fantasy VIII](/assets/images/junction-ket-noi-ma-phap-trong-Final-fantasy-VIII.gif) Junction-ket noi ma phap trong Final fantasy VIII\[/caption\]
+[Junction-ket noi ma phap trong Final fantasy VIII](/assets/images/junction-ket-noi-ma-phap-trong-Final-fantasy-VIII.gif) Junction-ket noi ma phap trong Final fantasy VIII
 
 Ngoài ra, ma pháp còn giúp đòn đánh có thêm thuộc tính, tính chất của ma pháp đó hay giúp nhân vật kháng cự với thuộc tính/tính chất nhất định nào đó của ma pháp, tùy chủng loại. Chẳng hạn nếu kết nối ma pháp thuộc tính lửa vào chức năng phòng ngừa thuộc tính thì nhân vật đó sẽ ít chịu sát thương/ miễn nhiễm/ hấp thu khi bị tấn công bằng thuộc tính đó. Các trạng thái bất thường như ngủ, hỗn loạn, hóa đá,... do ma pháp gây ra cũng có thể đề phòng bằng cách tương tự.
 
@@ -314,27 +314,27 @@ Về lời thoại nhân vật, mỗi nhân vật đều có cách nói riêng t
 
 ## ****E. Một số hình ảnh của bản dịch Việt văn****
 
-\[caption id="attachment\_1877" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-1.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-1.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1878" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-2.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-2.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1888" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-12.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-12.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1887" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-11.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-11.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1886" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-10.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-10.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1885" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-9.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-9.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1884" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-8.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-8.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1883" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-7.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-7.jpg) Final fantasy Viii viet ngu
 
 ## ![](/assets/images/Final-fantasy-Viii-viet-ngu-6.jpg) ![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-5-1.jpg)
 
-\[caption id="attachment\_1880" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-4-1.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-4-1.jpg) Final fantasy Viii viet ngu
 
-\[caption id="attachment\_1879" align="aligncenter" width="1024"\]![Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-3-1.jpg) Final fantasy Viii viet ngu\[/caption\]
+[Final fantasy Viii viet ngu](/assets/images/Final-fantasy-Viii-viet-ngu-3-1.jpg) Final fantasy Viii viet ngu
 
 ## ****F. Credits (những vị thần đã đem đến bản việt hóa cho chúng ta):****
 

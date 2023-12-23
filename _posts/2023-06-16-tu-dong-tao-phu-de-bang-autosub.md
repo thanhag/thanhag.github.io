@@ -24,7 +24,7 @@ Mình sẽ hướng dẫn chi tiết nhất cách để _tạo phụ đề tự 
 
 **UPDATE 2023 KÉO XUỐNG CUỐI BÀI VIẾT, CÓ DÒNG CHỮ MÀU ĐỎ "Một cách đơn giản hơn", DÀNH CHO BẠN NÀO KHÔNG RÀNH CÔNG NGHỆ.**
 
-\[caption id="attachment\_1643" align="aligncenter" width="571"\]![Tạo phụ đề tự động](/assets/images/Tao-phu-de-tu-dong-bang-AutoSub.jpg) Tạo phụ đề tự động\[/caption\]
+[Tạo phụ đề tự động](/assets/images/Tao-phu-de-tu-dong-bang-AutoSub.jpg) Tạo phụ đề tự động
 
 ## Ok, bây giờ giới thiệu một chút về tiện ích **[Autosub](https://github.com/agermanidis/autosub) :**
 

@@ -183,9 +183,9 @@ Cách sử dụng phần mềm này khá giống với **Avidemux** , và có 
 - Vào **File > Open** chọn file video cần cắt
 - Vào **Play > Jump to time…** và điều hướng đánh dấu thời gian bắt đầu cắt (bạn có thể keo thanh trượt màu xanh bên dưới cũng được)
 
-\[caption id="attachment\_1972" align="aligncenter" width="421"\]![Machete-Phan mem cat ghep noi video](/assets/images/Machete-Phan-mem-cat-ghep-noi-video-4.png) _Chọn Jump to time_\[/caption\]
+[Machete-Phan mem cat ghep noi video](/assets/images/Machete-Phan-mem-cat-ghep-noi-video-4.png) _Chọn Jump to time_
 
-\[caption id="attachment\_1973" align="aligncenter" width="423"\]![Machete-Phan mem cat ghep noi video](/assets/images/Machete-Phan-mem-cat-ghep-noi-video-5.png) _Chỉnh thời gian đến điểm bắt đầu cắt_\[/caption\]
+[Machete-Phan mem cat ghep noi video](/assets/images/Machete-Phan-mem-cat-ghep-noi-video-5.png) _Chỉnh thời gian đến điểm bắt đầu cắt_
 
 - Sau đó vào **Edit > Set the beginning of a selection**
 

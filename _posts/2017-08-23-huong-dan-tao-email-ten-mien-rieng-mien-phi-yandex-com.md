@@ -22,7 +22,7 @@ breadcrumbs: true
 
 Mình hướng dẫn sử dụng dịch vụ miễn phí của **Yandex.com**
 
-\[caption id="attachment\_1573" align="aligncenter" width="480"\]![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com)](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.jpg) Hướng dẫn tạo email tên miền riêng miễn phí với Yandex.com\[/caption\]
+[Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com)](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.jpg) Hướng dẫn tạo email tên miền riêng miễn phí với Yandex.com
 
 Email theo tên miền riêng của bạn (ví dụ admin@TenMienCuaBan.com thay vì địa chỉ chung @gmail.com, @live.com như thông thường) đem lại sự chuyên nghiệp cho email của bạn.
 
@@ -32,7 +32,7 @@ Email theo tên miền riêng của bạn (ví dụ admin@TenMienCuaBan.com tha
 
 Bạn hãy đăng ký một tài khoản Yandex [tại đây](https://passport.yandex.com/registration),:
 
-\[caption id="attachment\_1567" align="aligncenter" width="680"\]![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-1.png) Đăng ký Yandex.com\[/caption\]
+[Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-1.png) Đăng ký Yandex.com
 
 Điền thông tin vào các ô tương ứng, chỗ "Mobile number" bạn điền chính xác số điện thoại của mình vào, thêm +84 đầu và bỏ số không (ví dụ +849\*\*\*\*\*\*23).  Nhấn **Send code,** chờ tin nhắn, lấy mã số và điền vào rồi nhấn **Confirm** để xác nhận.
 
@@ -42,13 +42,13 @@ Xong thì bấm **Register**.
 
 Ngay lập tức bạn được chuyển đến trang thông tin cá nhân như bên dưới, hãy update lại thông tin nếu cần.
 
-\[caption id="attachment\_1568" align="aligncenter" width="1218"\]![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-2.png) Trang thông tin cá nhân của Yandex\[/caption\]
+[Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-2.png) Trang thông tin cá nhân của Yandex
 
 ### II. Thêm tên miền vào tài khoản Yandex
 
 Truy cập vào [domain.yandex.com](https://domain.yandex.com/) , trong ô **Enter a domain name for your mailbox** bạn gõ vào tên miền cần thêm vào và nhấn **Connect domain.**
 
-\[caption id="attachment\_1569" align="aligncenter" width="820"\]![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-3.png) Thêm tên miền vào tài khoản Yandex\[/caption\]
+[Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-3.png) Thêm tên miền vào tài khoản Yandex
 
 **1\. Giờ là bước xác nhận tên miền của bạn:**
 
@@ -64,7 +64,7 @@ Cách này không cần bạn phải có Web Hosting, bạn vào trang quản l
 
 Xong bấm vào nút **Verify domain ownership.** (Cách này chờ xác nhận hơi lâu, có thể là 24 giờ)
 
-\[caption id="attachment\_1570" align="aligncenter" width="595"\]![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-4.png) Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1\[/caption\]
+[Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-4.png) Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com) 1
 
 **2\. Cấu hình record MX**
 
@@ -79,7 +79,7 @@ Tạo một record MX khác:
 
 Nếu bạn có dùng [cloudflare](http://sofsog.com/thiet-ke-web/wordpress/huong-dan-su-dung-cloudflare) thì cấu hình giống như hình là ok:
 
-\[caption id="attachment\_1580" align="aligncenter" width="951"\]![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com)](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.png) Cấu hình **Record MX** ở cloudflare\[/caption\]
+[Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com)](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.png) Cấu hình **Record MX** ở cloudflare
 
 Sau khi xong, nhấn nút **Verify MX records** để xác nhận.
 
@@ -162,7 +162,7 @@ Lưu ý là email này phải được đăng nhập vào hòm thư của yande
 
 Điền các thông tin cần thiết như trong hình
 
-\[caption id="attachment\_1591" align="aligncenter" width="965"\]![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com)](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-1-2.png) SMTP Options sử dụng SSL như hướng dẫn của Yandex. Nếu bạn Send Test Email không được, hãy thử chuyển qua TLS, Các thông tin khác điền như trong hình, riêng Username và password là email của bạn (tất nhiên rồi)\[/caption\]
+[Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com)](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-1-2.png) SMTP Options sử dụng SSL như hướng dẫn của Yandex. Nếu bạn Send Test Email không được, hãy thử chuyển qua TLS, Các thông tin khác điền như trong hình, riêng Username và password là email của bạn (tất nhiên rồi)
 
 ![Hướng dẫn tạo email tên miền riêng miễn phí (Yandex.com)](/assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com-2-2.png)
 
@@ -194,7 +194,7 @@ Vào email ở ô **Forward to** bên trên, tìm email mà Yandex gửi rồi b
 
 Đầu tiên, bạn cần [đăng ký Google Account tại đây](https://accounts.google.com/SignUp?continue=https%3A%2F%2Fplus.google.com%2Fcollections%2Ffeatured), click **I prefer to use my current email address** rồi nhập địa chỉ email Yandex vừa tạo vào, như hình:
 
-\[caption id="attachment\_1600" align="aligncenter" width="348"\]![Tao avarta cho email Yandex khi gui vao gmail](/assets/images/Tao-avarta-cho-email-Yandex-khi-gui-vao-gmail.png) Điền các thông tin cần thiết vào\[/caption\]
+[Tao avarta cho email Yandex khi gui vao gmail](/assets/images/Tao-avarta-cho-email-Yandex-khi-gui-vao-gmail.png) Điền các thông tin cần thiết vào
 
 Đăng ký xong sẽ xuất hiện hình dưới đây, vào email yandex để xác nhận
 

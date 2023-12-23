@@ -28,7 +28,7 @@ Xem thêm bài liên quan:
 
 Nếu bạn tìm tới bài viết này chắc cũng đã hiểu sơ qua về _**Nginx**_. _**Nginx**_ ban đầu được tạo ra như một máy chủ web để giải quyết [vấn đề C10k](https://en.wikipedia.org/wiki/C10k_problem) . Và như một máy chủ web (web server) , nó có thể phục vụ dữ liệu của bạn với tốc độ gần bằng ánh sáng. Nhưng _**Nginx**_ không chỉ là một máy chủ web. Bạn có thể sử dụng nó như một [reverse proxy](https://vi.wikipedia.org/wiki/Reverse_proxy), làm cho việc tích hợp dễ dàng với các máy chủ ngược dòng chậm hơn (slower upstream servers) (như Unicorn, hoặc Puma). Bạn có thể phân phối lưu lượng truy cập của bạn một cách hoàn hảo (load balancer: cân bằng tải), stream media, thay đổi kích thước ảnh khi đang di chuyển, cache nội dung, và nhiều thứ nữa.
 
-\[caption id="attachment\_2060" align="aligncenter" width="964"\]![Huong-dan-nginx-sofsog.com](/assets/images/Huong-dan-nginx-sofsog.com_.png) Huong-dan-nginx-sofsog.com\[/caption\]
+[Huong-dan-nginx-sofsog.com](/assets/images/Huong-dan-nginx-sofsog.com_.png) Huong-dan-nginx-sofsog.com
 
 Kiến trúc cơ bản của _**nginx**_ bao gồm một quy trình tổng (Master process) và các công nhân (workers) của nó. Master process phải đọc file cấu hình và duy trì những "process worker", trong khi các workers thực hiện xử lý các yêu cầu thực tế.
 
