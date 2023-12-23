@@ -7,10 +7,11 @@ tags:
   - "bitcoin"
   - "btc"
   - "xbt"
-coverImage: "Bitcoin-là-gì-BTC-là-gì-Toàn-tập-về-Bitcoin-BTC.2.png"
+header:
+  image: images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
 ---
 
-Không dài dòng, **Bitcoin** (ký hiệu: **BTC, XBT, [![](images/9px-BitcoinSign.svg.png)](https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:BitcoinSign.svg)** ) là một loại tiền điện tử hoặc tiền mã hóa (cryptocurrency) đầu tiên và phổ biến nhất trên thế giới. Nó được tạo ra vào năm 2009 bởi một người hoặc một nhóm người sử dụng bút danh Satoshi Nakamoto, và ngày nay trở thành một phần quan trọng của hệ thống tài chính kỹ thuật số.
+Không dài dòng, **Bitcoin** (ký hiệu: **BTC, XBT, [](images/BitcoinSign.svg)** ) là một loại tiền điện tử hoặc tiền mã hóa (cryptocurrency) đầu tiên và phổ biến nhất trên thế giới. Nó được tạo ra vào năm 2009 bởi một người hoặc một nhóm người sử dụng bút danh Satoshi Nakamoto, và ngày nay trở thành một phần quan trọng của hệ thống tài chính kỹ thuật số.
 
 ![Bitcoin là gì BTC là gì Toàn tập về Bitcoin (BTC).2](images/Bitcoin-là-gì-BTC-là-gì-Toàn-tập-về-Bitcoin-BTC.2.png)
 
