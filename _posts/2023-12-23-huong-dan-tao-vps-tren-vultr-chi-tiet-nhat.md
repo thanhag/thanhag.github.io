@@ -9,7 +9,7 @@ tags:
   - "ubuntu"
   - "vps"
   - "vultr"
-coverImage: /assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+coverImage: //assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
 
 ---
 
@@ -19,11 +19,11 @@ Chất lượng VPS trên Vultr thì khỏi phải bàn. Trang _**sofsog.com**_ 
 
 Vào trang chủ của Vultr bằng link [https://www.vultr.com/?ref=7392243](https://www.vultr.com/?ref=7392243) - Đây là link ref của mình, các bạn vào bằng link này sẽ nhận được 100$ miễn phí để thử tất cả các chức năng của nền tảng Vultr (Lưu ý: Khách hàng được giới thiệu phải liên kết thẻ tín dụng hợp lệ hoặc phương thức Paypal để đủ điều kiện nhận khoản tín dụng 100 USD. Phần tín dụng 100 USD chưa sử dụng sẽ hết hạn sau 14 ngày).
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com-1](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg) Gõ email và password vào các ô tương ứng rồi bấm vào nút "**Create account**"
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com-1](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg) Gõ email và password vào các ô tương ứng rồi bấm vào nút "**Create account**"
 
-![](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-2.jpg) Bấm vào nút "**Add a Payment Method**" để liên kết thẻ tín dụng, ở đây mình liên kết bằng thẻ VISA (thẻ phải kích hoạt thanh toán qua internet nhé)
+![](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-2.jpg) Bấm vào nút "**Add a Payment Method**" để liên kết thẻ tín dụng, ở đây mình liên kết bằng thẻ VISA (thẻ phải kích hoạt thanh toán qua internet nhé)
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-03.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-03.jpg)
 
 Điền đầy đủ thông tin của bạn, lưu ý địa chỉ nhớ trùng khớp với ngân hàng nhé. Nhớ chọn **"I just want to link my credit card - $0.00 deposit"**. Vultr sẽ trừ 0$ chỉ để kiểm tra thẻ của bạn. Điền đầy đủ, kiểm tra chính xác thì bấm nút **"Pay with Credit Card".**
 
@@ -33,27 +33,27 @@ Sau khi liên kết thanh toán thành công, bạn tiếp tục bấm vào nút
 
 Bấm vào nút **"Configure Instance"** (Hoặc tìm những nút gì liên quan **Instance** tương tự), sau dó chọn **Cloud Compute** như hình
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-04.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-04.jpg)
 
 Chọn "CPU & Storage Technology", ở đây mình chọn **"Intel Regular Performance"** vì giá nó rẻ hơn mấy cái kia.
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com-04](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-07.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com-04](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-07.jpg)
 
 Lăn chuột xuống dưới để chọn Server Location. Nếu muốn kết nối nhanh từ Việt Nam thì mình khuyên nên chọn **Singapore** hoặc **Tokyo, Osaka**. Mình sẽ chọn **Singapore**.
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-05.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-05.jpg)
 
 Lăn chuột xuống để chọn Server Image, tức là chọn hình ảnh của hệ điều hành trên server, mình chọn **Ubunu-22.04 LTS x64**.
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-06.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-06.jpg)
 
 Tiếp tục xuống dưới để chọn Server size, tùy nhu cầu các bạn chọn, ở đây mình chọn loại rẻ nhất đang có **5$/tháng**.
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-08.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-08.jpg)
 
 Kéo xuống dưới, chỗ **"Add Auto Backups"**, đây là tính năng tự động sao lưu của Vultr, nhưng tốn phí 1$/tháng, nếu hệ thống của bạn quan trọng thì cứ giữ nguyên, còn mình thì không cần, mình bỏ chọn nó như hình dưới đây
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-09.jpg) ![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-10.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-09.jpg) ![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-10.jpg)
 
 Xong, còn các thứ khác mình để mặc định. Cuối cùng, bấm nút **"Deploy Now",** chờ một lúc để Vultr làm nhiệm vụ của mình. Quá trình tạo VPS trên Vultr sẽ mất khoảng 1 đến 2 phút. Sau đó bạn sẽ nhận được một email thông báo thành công từ Vultr kèm **thông tin IP** và cấu hình VPS. **Mật khẩu Root** ở trong trang Server information ở phần Password (bạn có thể click vào biểu tượng con mắt để nhìn mật khẩu).
 
@@ -61,15 +61,15 @@ Xong, còn các thứ khác mình để mặc định. Cuối cùng, bấm nút 
 
 Vào **Products > Compute**, click chọn vào VPS vừa tạo.
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-12.png)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-12.png)
 
 Trong trang khu vực quản lý VPS của mình trên Vultr, bấm vào cái **nút hình máy vi tính góc phải, phía trên** để vào **noVNC** điều khiển VPS
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-11.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-11.jpg)
 
 Bạn sẽ thấy dòng chữ "**vultr login:**" gõ vào tài khoản gốc mặc định **"root"**, sau đó bạn sẽ được hỏi **password**, có thể gõ trực tiếp hoặc copy và dán vào như hình bên dưới
 
-![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/image/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-13.jpg)
+![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](//assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-13.jpg)
 
 ### 1\. Thêm user:
 
