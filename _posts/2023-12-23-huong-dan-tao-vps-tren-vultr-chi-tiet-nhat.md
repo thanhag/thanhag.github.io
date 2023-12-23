@@ -74,7 +74,7 @@ Bạn sẽ thấy dòng chữ "**vultr login:**" gõ vào tài khoản gốc m�
 
 ![Hướng dẫn tạo VPS trên VULTR chi tiết nhất -sofsog.com](/assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất-sofsog.com-13.jpg)
 
-### 1\. Thêm user:
+### 1\. Thêm user
 
 Sau khi kết nối VPS thành công, bạn cần tạo một user để làm việc hằng ngày, vì user **"root"** này rất quan trọng, không nên dùng nó thường xuyên. Ví dụ mình tạo 1 user "**sofsog**" và cài đặt quyền quản trị cho user này luôn bằng lệnh dưới (nhớ thay đổi sofsog bằng tên user bạn muốn tạo):
 
@@ -90,7 +90,7 @@ sudo usermod -aG sudo sofsog
 
 Bây giờ, người dùng sofsog này đã có quyền quản trị trên hệ thống Ubuntu. Bạn có thể sử dụng tài khoản đó để thực hiện các tác vụ quản trị.
 
-### 2\. Mở SSH trên Ubuntu:
+### 2\. Mở SSH trên Ubuntu
 
 Gõ lệnh sau và nhấn Enter để cài đặt gói **OpenSSH** Server:
 
