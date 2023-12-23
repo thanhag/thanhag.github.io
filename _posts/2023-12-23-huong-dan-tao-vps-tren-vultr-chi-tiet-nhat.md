@@ -2,6 +2,7 @@
 published: True
 title: Hướng dẫn tạo VPS trên VULTR chi tiết nhất
 date: 2023-12-23
+toc: true #Thêm mục lục tự động
 categories: 
   - "ubuntu"
 tags: 
