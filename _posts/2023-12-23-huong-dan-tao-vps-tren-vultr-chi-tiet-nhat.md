@@ -8,7 +8,8 @@ tags:
   - "ubuntu"
   - "vps"
   - "vultr"
-coverImage: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+header:
+  image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
 
 ---
 
