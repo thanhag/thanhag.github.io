@@ -17,7 +17,7 @@ breadcrumbs: true
 
 Gạo lứt đen còn hay được gọi là “gạo cẩm” hoặc “gạo tím”. Chúng có màu tím đen đặc trưng do chứa sắc tố anthocyanin có đặc tính chống oxy hóa mạnh. Ở Trung quốc cổ đại, gạo đen được cho là quý hiếm và bổ dưỡng đến mức bị cấm sử dụng ở giới thường dân, chỉ người trong hoàng tộc mới được thưởng thức. Ngày nay nhờ sự phát triển loại gạo này được dùng rộng rãi trong nền ẩm thực trên thế giới.
 
-[Công dụng và tác hại của gạo lức đen (Gạo Cấm)](/assets/images/cong-dung-va-tac-hai-cua-gao-lut-den-gao-cam-Sofsog.com_.jpg) Công dụng và tác hại của gạo lức đen (Gạo Cấm)
+![Công dụng và tác hại của gạo lức đen (Gạo Cấm)](/assets/images/cong-dung-va-tac-hai-cua-gao-lut-den-gao-cam-Sofsog.com_.jpg) Công dụng và tác hại của gạo lức đen (Gạo Cấm)
 
 Gạo lứt đen được đánh giá là một trong những loại gạo có hàm lượng protein cao nhất. Trong 100 gam gạo đen chứa đến 9 gam protein, trong khi gạo lứt chỉ có 7 gam. Gạo đen cũng là một nguồn cung cấp chất sắt dồi dào, một khoáng chất cần thiết để vận chuyển oxy đi khắp cơ thể của bạn. Ước tính 45gam gạo đen chưa nấu chín cung cấp:
 

@@ -10,7 +10,7 @@ categories:
 
 Posted By [Stacey Roberts](https://problogger.com/author/stacey/) 13th of May 2015 [General](https://problogger.com/category/general/)  [61 Comments](https://problogger.com/4-things-to-consider-when-choosing-your-domain-name/#disqus_thread)
 
-## [![Choosing a domain name - Don't choose anything until you've read these four things to consider at problogger.net](/assets/images/Choosing-a-domain-name-Dont-choose-anything-until-youve-read-these-four-things-to-consider-at-problogger.net_.jpg)](https://problogger.com/wp-content/uploads/2015/04/Choosing-a-domain-name-Dont-choose-anything-until-youve-read-these-four-things-to-consider-at-problogger.net_.jpg)
+## ![Choosing a domain name - Don't choose anything until you've read these four things to consider at problogger.net](/assets/images/Choosing-a-domain-name-Dont-choose-anything-until-youve-read-these-four-things-to-consider-at-problogger.net_.jpg)
 
 When there’s more than [284 million registered domain names](http://tekeye.biz/2014/how-many-websites-are-there) online, you’re going to want yours to stand out. But you also want to be easily remembered, have a URL that accurately describes your business, and it would help if it ranks well in Google. Right?
 

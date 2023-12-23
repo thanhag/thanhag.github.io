@@ -35,30 +35,30 @@ Sau khi kích hoạt xong, nó sẽ kêu bạn kích hoạt, hãy click vào nú
 
 Sau đó bạn hãy ấn vào nút Get you API key để lấy khóa API riêng dành cho bạn.
 
-[![cai-dat-akismet-03](/assets/images/cai-dat-akismet-03.jpg)](http://sofsog.com/wp-content/uploads/2016/09/cai-dat-akismet-03.jpg)
+![cai-dat-akismet-03](/assets/images/cai-dat-akismet-03.jpg)
 
 Nó sẽ chuyển bạn tới trang chủ của Akismet, ấn vào nút Get an Akismet API key.
 
-[![cai-dat-akismet-04](/assets/images/cai-dat-akismet-04.jpg)](http://sofsog.com/wp-content/uploads/2016/09/cai-dat-akismet-04.jpg)
+![cai-dat-akismet-04](/assets/images/cai-dat-akismet-04.jpg)
 
 Sau đó đăng nhập vào bằng tài khoản wordpress.com của bạn rồi cấp quyền nó truy cập dịch vụ Akismet. Bắt đầu họ sẽ hỏi bạn muốn sử dụng Akismet gói nào, hãy chọn Personal để dùng miễn phí.
 
-[![cai-dat-akismet-05](/assets/images/cai-dat-akismet-05.jpg)](http://sofsog.com/wp-content/uploads/2016/09/cai-dat-akismet-05.jpg)
+![cai-dat-akismet-05](/assets/images/cai-dat-akismet-05.jpg)
 
 Lại một lần nữa họ sẽ mời bạn ủng hộ kinh phí. Nếu không muốn ủng hộ thì hãy kéo cái nút xuống hết cỡ để dùng miễn phí.
 
-[![cai-dat-akismet-06](/assets/images/cai-dat-akismet-06.jpg)](http://sofsog.com/wp-content/uploads/2016/09/cai-dat-akismet-06.jpg)
+![cai-dat-akismet-06](/assets/images/cai-dat-akismet-06.jpg)
 
 Cuối cùng là bạn đã có được cái API Key.
 
-[![cai-dat-akismet-07](/assets/images/cai-dat-akismet-07.jpg)](http://sofsog.com/wp-content/uploads/2016/09/cai-dat-akismet-07.jpg)
+![cai-dat-akismet-07](/assets/images/cai-dat-akismet-07.jpg)
 
 Copy nó và vào Settings -> Akismet rồi điền vào và kích hoạt.
 
-[![cai-dat-akismet-08](/assets/images/cai-dat-akismet-08.jpg)](http://sofsog.com/wp-content/uploads/2016/09/cai-dat-akismet-08.jpg)
+![cai-dat-akismet-08](/assets/images/cai-dat-akismet-08.jpg)
 
 Hoàn tất, hãy nói lời vĩnh biệt spammer đi nào.
 
-[![cai-dat-akismet-10](/assets/images/cai-dat-akismet-10.jpg)](http://sofsog.com/wp-content/uploads/2016/09/cai-dat-akismet-10.jpg)
+![cai-dat-akismet-10](/assets/images/cai-dat-akismet-10.jpg)
 
 Nguồn:**Thach Pham Blog**

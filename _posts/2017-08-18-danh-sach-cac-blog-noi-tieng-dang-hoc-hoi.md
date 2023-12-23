@@ -12,7 +12,7 @@ Những thương thiệu themes được các bloggers VN sử dụng khá đa d
 
 ## 1[ThachPham.com](http://thachpham.com/)
 
-[![](/assets/images/thachpham-dung-them-gi-696x456.png)](https://vuihocweb.com/wp-content/uploads/2017/04/thachpham-dung-them-gi.png)
+![](/assets/images/thachpham-dung-them-gi-696x456.png)
 
 Thachpham.com đang dùng **Composs** của **Orange-Themes**!
 
@@ -29,7 +29,7 @@ Nói thêm về [Theme-Junkie](https://www.theme-junkie.com/), đây là thươ
 
 ## 2[**CanhMe.com**](https://canhme.com/)
 
-[![](/assets/images/canhme.com-dung-theme-gi-696x447.png)](https://vuihocweb.com/wp-content/uploads/2017/04/canhme.com-dung-theme-gi.png)
+![](/assets/images/canhme.com-dung-theme-gi-696x447.png)
 
 CanhMe.com hiện đang dùng **TheWorld** – một theme thiết kế thanh lịch – nhanh và chuẩn SEO của **Theme-Junkie**!
 
@@ -46,7 +46,7 @@ Về [MyThemeShop](https://vuihocweb.com/quatang/mythemeshop-themes-va-plugins-t
 
 ## 3[**TrungDuc.Net**](https://trungduc.net/)
 
-[![](/assets/images/trungduc.net-d%C3%B9ng-theme-g%C3%AC-696x318.png)](https://vuihocweb.com/wp-content/uploads/2017/04/trungduc.net-d%C3%B9ng-theme-g%C3%AC.png)
+![](/assets/images/trungduc.net-d%C3%B9ng-theme-g%C3%AC-696x318.png)
 
 TrungDuc.net đang dùng **Newspaper by Tagdiv**, theme tin tức – tạp chí số 1 hiện nay!
 
@@ -56,7 +56,7 @@ TrungDuc.Net và Blog của MediaZ dùng theme [Newspaper by Tagdiv](https://dem
 
 ## 4[**WPcanban.com**](https://wpcanban.com/)
 
-[![](/assets/images/WPcanban.com-d%C3%B9ng-theme-g%C3%AC-696x364.png)](https://vuihocweb.com/wp-content/uploads/2017/04/WPcanban.com-d%C3%B9ng-theme-g%C3%AC.png)
+![](/assets/images/WPcanban.com-d%C3%B9ng-theme-g%C3%AC-696x364.png)
 
 WPcanban.com đang dùng **Paradise** – một **child-theme của Genesis** do chính WPcanban phát triển
 
@@ -66,7 +66,7 @@ Tác giả Bùi Trung Hiếu hiện đang dùng theme Paradise – một ChildTh
 
 ## 5[**NgocDenRoi.com**](https://ngocdenroi.com/)
 
-[![](/assets/images/Chi-ph%C3%AD-x%C3%A2y-d%E1%BB%B1ng-Website-WordPress-d%E1%BA%A1ng-Blog-nh%C6%B0-ngocdenroi.com_-696x373.png)](https://vuihocweb.com/wp-content/uploads/2017/03/Chi-ph%C3%AD-x%C3%A2y-d%E1%BB%B1ng-Website-WordPress-d%E1%BA%A1ng-Blog-nh%C6%B0-ngocdenroi.com_.png)
+![](/assets/images/Chi-ph%C3%AD-x%C3%A2y-d%E1%BB%B1ng-Website-WordPress-d%E1%BA%A1ng-Blog-nh%C6%B0-ngocdenroi.com_-696x373.png)
 
 Ngocdenroi.com đang dùng **SteadyIncome** của **MythemeShop**
 
@@ -82,7 +82,7 @@ Ngocdenroi.com đang dùng **SteadyIncome** của **MythemeShop**
 
 ## 6[KiemTienCenter.com (Thế Khương Blog)](https://kiemtiencenter.com/)
 
-[![](/assets/images/Kiemtiencenter.com-d%C3%B9ng-theme-g%C3%AC-696x454.png)](https://vuihocweb.com/wp-content/uploads/2017/04/Kiemtiencenter.com-d%C3%B9ng-theme-g%C3%AC.png)
+![](/assets/images/Kiemtiencenter.com-d%C3%B9ng-theme-g%C3%AC-696x454.png)
 
 Kiemtiencenter.com của Thế Khương dùng **Pressive Theme** của **ThriveThemes**
 
@@ -96,7 +96,7 @@ Không giống như các Bloggers VN, các Bloggers nổi tiếng thế giới c
 
 ## 7[**WPBeginner.com**](http://www.wpbeginner.com/)
 
-[![](/assets/images/wpbeginner.com-d%C3%B9ng-theme-g%C3%AC-696x455.png)](https://vuihocweb.com/wp-content/uploads/2017/04/wpbeginner.com-d%C3%B9ng-theme-g%C3%AC.png)
+![](/assets/images/wpbeginner.com-d%C3%B9ng-theme-g%C3%AC-696x455.png)
 
 WPBeginner.com dùng **child-theme tự phát triển** dựa trên **Genesis Framework**!
 
@@ -106,7 +106,7 @@ WPBeginner là blog nổi tiếng nhất trong thế giới WordPress hiện nay
 
 ## 8[WoorkUp.com](https://woorkup.com/)
 
-[![](/assets/images/WoorkUp.com-d%C3%B9ng-theme-g%C3%AC-696x393.png)](https://vuihocweb.com/wp-content/uploads/2017/04/WoorkUp.com-d%C3%B9ng-theme-g%C3%AC.png)
+![](/assets/images/WoorkUp.com-d%C3%B9ng-theme-g%C3%AC-696x393.png)
 
 WoorkUp.com dùng **SocialMe** – một theme rất nhanh của **MyThemeShop**!
 
@@ -118,7 +118,7 @@ Brian Jackson cũng là một chuyên gia về WordPress, bạn có thể tìm t
 
 ## 9[BobWP.com](http://bobwp.com/)
 
-[![](/assets/images/BobWP.com-d%C3%B9ng-theme-g%C3%AC-696x444.png)](https://vuihocweb.com/wp-content/uploads/2017/04/BobWP.com-d%C3%B9ng-theme-g%C3%AC.png)
+![](/assets/images/BobWP.com-d%C3%B9ng-theme-g%C3%AC-696x444.png)
 
 BobWP.com dùng **Smart Passive Income Pro** – **childtheme rất nổi tiếng của Genesis**!
 
@@ -130,7 +130,7 @@ Và, nếu bạn cũng là fan của Genesis, thì nhìn Header của BobWP bạ
 
 ## 10**[ShoutMeLoud.com](http://shoutmeloud.com/)**
 
-[![](/assets/images/Shoutmeloud.com-d%C3%B9ng-theme-g%C3%AC-696x534.png)](https://vuihocweb.com/wp-content/uploads/2017/04/Shoutmeloud.com-d%C3%B9ng-theme-g%C3%AC.png)
+![](/assets/images/Shoutmeloud.com-d%C3%B9ng-theme-g%C3%AC-696x534.png)
 
 ShoutMeLoud.com cũng dùng Child-theme tự phát triển từ Genesis Framework!
 

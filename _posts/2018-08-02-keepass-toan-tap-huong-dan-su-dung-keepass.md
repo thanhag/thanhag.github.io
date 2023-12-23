@@ -192,13 +192,13 @@ OK, cơ bản là vậy thôi, các bạn tìm hiểu sâu thêm nhé
 
 Cách sử dụng cũng tương tự, mình không hướng dẫn phần này, các bạn tự tìm hiểu
 
-![iPod](/assets/images/menuipod.gif) [iKeePass](https://itunes.apple.com/app/id299697688) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) [Passwordix](https://itunes.apple.com/app/id488134069) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) [SyncPass](https://itunes.apple.com/app/id533858341) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) [MyKeePass](https://mykeepass.blogspot.com/) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) [PassDrop](http://passdrop.rudism.com/) (for iPhone / iPad) ![1.x Yes](/assets/images/plg1xyes.png) ![iPod](/assets/images/menuipod.gif) [KyPass](https://www.kyuran.be/kypass/) (for iPhone / iPad)
+![iPod](/assets/images/menuipod.gif) ![iKeePass](https://itunes.apple.com/app/id299697688) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) ![Passwordix](https://itunes.apple.com/app/id488134069) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) ![SyncPass](https://itunes.apple.com/app/id533858341) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) ![MyKeePass](https://mykeepass.blogspot.com/) (for iPhone / iPad) ![iPod](/assets/images/menuipod.gif) ![PassDrop](http://passdrop.rudism.com/) (for iPhone / iPad) ![1.x Yes](/assets/images/plg1xyes.png) ![iPod](/assets/images/menuipod.gif) [KyPass](https://www.kyuran.be/kypass/) (for iPhone / iPad)
 
 ## **SỬ DỤNG KEEPASS TRÊN ANDROID**
 
 Các bạn tìm và tải một trong các ứng dụng sau để cài đặt vào smarphone android của mình
 
-![KeePassDroid](/assets/images/menukpdroid.png) [KeePassDroid](https://play.google.com/store/apps/details?id=com.android.keepass) (for Android) ![KeePass2Android](/assets/images/menukp2android.png) [KeePass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) (for Android) ![KeepShare](/assets/images/menukeepshare.png) [KeepShare](https://play.google.com/store/apps/details?id=com.hanhuy.android.keepshare) (for Android)
+![KeePassDroid](/assets/images/menukpdroid.png) ![KeePassDroid](https://play.google.com/store/apps/details?id=com.android.keepass) (for Android) ![KeePass2Android](/assets/images/menukp2android.png) ![KeePass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) (for Android) ![KeepShare](/assets/images/menukeepshare.png) [KeepShare](https://play.google.com/store/apps/details?id=com.hanhuy.android.keepshare) (for Android)
 
 ## KẾT LUẬN
 

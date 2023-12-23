@@ -28,22 +28,22 @@ Hiện một số bạn download cd trên mạng với định dạng \[NRG-IS
 
 Giải nén, chạy file exe
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B1.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B1-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B1.jpg)
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B2.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B2-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B2.jpg)
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B3.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B3-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B3.jpg)
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B4.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B4-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B4.jpg)
 
 Mở file key.txt copy User name và code điền vào:
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B5.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B5-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B5.jpg)
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B6.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B6-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B6.jpg)
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B7.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B7-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B7.jpg)
 
-[![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B8.jpg)](http://sofsog.com/wp-content/uploads/2017/06/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B8-1.jpg)
+![](/assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B8.jpg)
 
 Xong, chúc các bạn thành công

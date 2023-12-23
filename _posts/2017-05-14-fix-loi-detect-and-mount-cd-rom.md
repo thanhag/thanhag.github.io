@@ -35,7 +35,7 @@ Cách fix lỗi này rất đơn giản. Bạn chỉ cần rút USB ra tầm 3-4
 
 ### Phương án 2
 
-[![](/assets/images/mountcdrom-pic3-1.jpg)](http://sofsog.com/wp-content/uploads/2017/05/mountcdrom-pic3-2.jpg)
+![](/assets/images/mountcdrom-pic3-1.jpg)
 
 Nếu các trên vẫn chưa được, bạn sẽ được chuyển ra Main Menu, từ đây hãy chọn dòng **Execute a shell**, gõ lệnh mount vào /cdrom:
 

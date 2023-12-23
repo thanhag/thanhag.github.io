@@ -30,7 +30,7 @@ Cũng có vài trường hợp, khu vực tùy chỉnh này có thể là một 
 
 Như vậy là plugin TinyMCE Advanced này có một khu vực tùy chỉnh trong phần Settings, hãy click vào nó để bắt đầu thiết lập nào.
 
-[![tinymce-advanced2](/assets/images/TinyMCE-Advanced2.jpg)](http://sofsog.com/wp-content/uploads/2016/09/TinyMCE-Advanced2.jpg)
+![tinymce-advanced2](/assets/images/TinyMCE-Advanced2.jpg)
 
 Tất nhiên là không có plugin nào có thiết lập giống plugin nào nên bạn chú ý đọc kỹ từng phần và tập mò cách sử dụng cho quen. Sau khi tùy chỉnh xong bạn phải ấn nút Save Change để các thay đổi có hiệu lực.
 
@@ -38,7 +38,7 @@ Tất nhiên là không có plugin nào có thiết lập giống plugin nào n�
 
 Chúng ta vừa cài plugin TinyMCE Advanced và tùy chỉnh rồi, chúng ta biết rằng plugin này sẽ có tác dụng trong khu vực soạn thảo nội dung thì chắc chắn để kiểm tra chúng ta sẽ phải vào phần soạn thảo nội dung mà kiểm tra rồi.
 
-[![tinymce-advanced3](/assets/images/TinyMCE-Advanced3.jpg)](http://sofsog.com/wp-content/uploads/2016/09/TinyMCE-Advanced3.jpg)
+![tinymce-advanced3](/assets/images/TinyMCE-Advanced3.jpg)
 
 OK ! Xong
 

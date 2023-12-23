@@ -24,7 +24,7 @@ Mình sẽ hướng dẫn chi tiết nhất cách để _tạo phụ đề tự 
 
 **UPDATE 2023 KÉO XUỐNG CUỐI BÀI VIẾT, CÓ DÒNG CHỮ MÀU ĐỎ "Một cách đơn giản hơn", DÀNH CHO BẠN NÀO KHÔNG RÀNH CÔNG NGHỆ.**
 
-[Tạo phụ đề tự động](/assets/images/Tao-phu-de-tu-dong-bang-AutoSub.jpg) Tạo phụ đề tự động
+![Tạo phụ đề tự động](/assets/images/Tao-phu-de-tu-dong-bang-AutoSub.jpg) Tạo phụ đề tự động
 
 ## Ok, bây giờ giới thiệu một chút về tiện ích **[Autosub](https://github.com/agermanidis/autosub) :**
 
@@ -42,7 +42,7 @@ Các bạn vào [trang chủ của Python](https://www.python.org/) chọn phi
 
 Mở file vừa tải về lên và cài đặt bình thường
 
-[![python](/assets/images/c3d84166-6389-11e6-9cda-2144e2c98ade.png)](http://sofsog.com/wp-content/uploads/2017/08/c3d84166-6389-11e6-9cda-2144e2c98ade.png)
+![python](/assets/images/c3d84166-6389-11e6-9cda-2144e2c98ade.png)
 
 **Lưu ý: Chọn Add Python.exe to Path như trong hình nhá.**
 

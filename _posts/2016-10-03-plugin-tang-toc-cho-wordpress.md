@@ -26,13 +26,13 @@ Nếu như bạn muốn cải thiện tốc độ của blog mà không sử d�
 
 Một plugin mà luôn nằm trong danh sách bắt buộc phải có trong WordPress với riêng mình là WP Super Cache. Với ưu điểm dễ sử dụng, không cần cấu hình nhiều mà vẫn hỗ trợ rất nhiều chức năng cần thiết, mình tin rằng đây luôn là sự lựa chọn tối ưu nhất cho những người không am hiểu nhiều về kỹ thuật.
 
-[![W3 Total Cache](/assets/images/33_8015047187_6ca712f586_o.jpg "Plugin tạo cache nâng cao để tăng tốc blog WordPress")](http://sofsog.com/wp-content/uploads/-000//1/33_8015047187_6ca712f586_o.jpg)
+![W3 Total Cache](/assets/images/33_8015047187_6ca712f586_o.jpg "Plugin tạo cache nâng cao để tăng tốc blog WordPress")
 
 Ngoài ra còn một plugin có cùng chức năng nhưng có phần hơi khó sử dụng đó là W3 Total Cache. Tuy nhiên nếu bạn cần một plugin có nhiều chức năng hơn và cấu hình nâng cao hơn thì đây cũng là một sự lựa chọn tốt.
 
 #### Giảm tải Javascript với [jsDelivr WordPress CDN Plugin](http://wordpress.org/extend/plugins/jsdelivr-wordpress-cdn-plugin/ "Plugin chuyển các file javascript ra máy chủ ngoài")
 
-[![%image_alt%](/assets/images/8015084944_b8b5be3d99_o.png "Áp dụng công nghệ CDN cho các file Javascript để tăng tốc blog WordPress")](http://sofsog.com/wp-content/uploads/-000//1/8015084944_b8b5be3d99_o.png)
+![%image_alt%](/assets/images/8015084944_b8b5be3d99_o.png "Áp dụng công nghệ CDN cho các file Javascript để tăng tốc blog WordPress")
 
 Đây là một plugin mới được giới sử dụng WordPress biết tới khoảng hơn 1 tháng nay. Plugin này sẽ tự động chuyển các file Javascript (.js) ra máy chủ công cộng bên ngoài nhằm cải thiện tối thiểu thời gian tải trang, đồng thời tiết kiệm băng thông vì không sử dụng trực tiếp các file Javascript trên host mình.
 
@@ -48,25 +48,25 @@ Tương tự như với plugin jsDevilery, plugin này sẽ giúp bạn thay th�
 
 ### Tối ưu hình ảnh to với Hammy
 
-[![%image_alt%](/assets/images/2_8015220006_c53bbe14a1_o.jpg "Tự động giảm kích thước hình ảnh theo từng trình duyệt")](http://sofsog.com/wp-content/uploads/-000//1/2_8015220006_c53bbe14a1_o.jpg)
+![%image_alt%](/assets/images/2_8015220006_c53bbe14a1_o.jpg "Tự động giảm kích thước hình ảnh theo từng trình duyệt")
 
 Nếu bạn đã từng truy cập vào một số website có nhiều hình ảnh bằng trình duyệt trên các thiết bị di động thì sẽ thấy điều đó đáng sợ đến chừng nào. Các hình ảnh có kích thước to sẽ gây ra tình trạng tải ì ạch trên các trình duyệt di động vì khả năng xử lý của các thiết bị di động có giới hạn. Vì vậy muốn giải quyết vấn đề này, chúng ta phải tiến hành giảm kích cỡ hình ảnh xuống cho từng trình duyệt để thích hợp hơn với các thiết bị đó, và đó chính là tính năng của plugin này.
 
 ### Bảo mật và tăng tốc với CloudFlare
 
-[![%image_alt%](/assets/images/33_8015142697_7ca62d77f4_o.png)](http://sofsog.com/wp-content/uploads/-000//1/33_8015142697_7ca62d77f4_o.png)
+![%image_alt%](/assets/images/33_8015142697_7ca62d77f4_o.png)
 
 Dịch vụ này đã được mình nhắc tới trong bài viết giới thiệu công nghệ CDN. Về bản chất thực sự của nó thì đây là dịch vụ miễn phí để kích hoạt tính năng CDN cho website để tăng tốc blog, đồng thời tối ưu hóa và bảo mật blog bạn tránh khỏi các nguy cơ tấn công và spam, một điều tuyệt vời hơn nữa là CloudFlare hiện nay còn cho phép sử dụng SSL miễn phí để bảo mật website tốt hơn.
 
 ### Phân tích tốc độ blog với [Plugin Performance Profile](http://wordpress.org/extend/plugins/p3-profiler/ "Phân tích tác nhân làm chậm blog WordPress")
 
-[![Plugin Performance Profile](/assets/images/8015092405_b91e90d3e9_o.png "Phân tích tác nhân làm chậm blog WordPress")](http://sofsog.com/wp-content/uploads/-000//1/8015092405_b91e90d3e9_o.png)
+![Plugin Performance Profile](/assets/images/8015092405_b91e90d3e9_o.png "Phân tích tác nhân làm chậm blog WordPress")
 
 Nếu như bạn chưa rõ vì sao blog mình trở nên chậm chạp thì có thể dùng plugin này để phân tích. Các báo cáo chi tiết sẽ cho bạn thấy được phần nào trong blog chiếm tài nguyên nhiều nhất, từ đó bạn có thể tối ưu hóa cho từng phần đó để giảm tải gánh nặng cho máy chủ.
 
 ### Sử dụng [Async Social Sharing](http://wordpress.org/extend/plugins/async-social-sharing/ "Tạo các nút chia sẻ bài viết với các file javascript đã được tối ưu") để chèn nút mạng xã hội tối ưu
 
-[![%image_alt%](/assets/images/37_8015162403_3ba536a423_o.jpg)](http://sofsog.com/wp-content/uploads/-000//1/37_8015162403_3ba536a423_o.jpg)
+![%image_alt%](/assets/images/37_8015162403_3ba536a423_o.jpg)
 
 Bạn có chèn các nút chia sẻ bài viết lên mạng xã hội vào blog không? Vậy bạn có nhận ra điều gì từ những nút chia sẻ đó? Chẳng có điều gì khác ngoài việc blog bạn trở nên hơi chậm một chút vì phải load thêm các file Javascript đi kèm nó. Thế thì hãy sử dụng plugin này ngay, Async Social Sharing sẽ tiến hành tải các file javascript sau khi toàn bộ nội dung trên blog đã được tải xong. Vì sao lại phải tải các nút này sau cùng? Bởi vì nội dung trên blog của bạn quan trọng hơn, người ta chỉ bấm vào nút Like hay +1 chỉ khi thấy nội dung của bạn thật sự tốt, như vậy thì cớ gì phải để các file javascript của các nút này tải cùng lúc với nội dung của bạn?
 

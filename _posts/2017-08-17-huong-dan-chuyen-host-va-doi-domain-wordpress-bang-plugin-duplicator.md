@@ -27,21 +27,21 @@ Xem thêm: [Sao lưu dữ liệu WordPress thủ công](http://sofsog.com/thiet
 
 Sau khi cài plugin Duplicator, bạn vào**Duplicator -> Packages -> Create New**
 
-[![duplicator-newpackage](/assets/images/duplicator-newpackage.png)](http://sofsog.com/wp-content/uploads/2017/08/duplicator-newpackage.png)
+![duplicator-newpackage](/assets/images/duplicator-newpackage.png)
 
 Sau đó bạn có thể đặt tên package nếu muốn, hoặc ấn vào phần **Archive** để tùy chọn loại bỏ một số dữ liệu mà bạn không muốn nó mang theo nếu cần, còn không cứ để nguyên và ấn Next.
 
-[![duplicator-newpackage02](/assets/images/duplicator-newpackage02.png)](http://sofsog.com/wp-content/uploads/2017/08/duplicator-newpackage02.png)
+![duplicator-newpackage02](/assets/images/duplicator-newpackage02.png)
 
 Bước này nó sẽ tiến hành quét sơ dữ liệu của bạn để kiểm tra dung lượng và báo cáo chi tiết xem cấu hình của bạn có thích hợp để xuất dữ liệu ra hay không vì thường nếu website của bạn có nhiều dữ liệu mà host yếu quá thì sẽ không chạy được.
 
-[![duplicator-newpackage03](/assets/images/duplicator-newpackage03.png)](http://sofsog.com/wp-content/uploads/2017/08/duplicator-newpackage03.png)
+![duplicator-newpackage03](/assets/images/duplicator-newpackage03.png)
 
 Nếu nó chỉ báo Warning (Warn) một số phần thôi thì bạn vẫn có thể dùng được, chỉ là thời gian hơi lâu một chút. Bạn có thể ấn nút Build để bắt đầu tạo gói sao lưu dữ liệu từ plugin này, thời gian đợi có thể nhanh hay chậm tùy vào độ lớn của dữ liệu.
 
 Sau khi nó làm xong, bạn có thể tải tập tin dữ liệu và file **installer.php** về máy. File installer.php này là file mà bạn cần bắt buộc để chạy khi cần phục hồi dữ liệu lại trên host khác.
 
-[![duplicator-newpackage-finish](/assets/images/duplicator-newpackage-finish.png)](http://sofsog.com/wp-content/uploads/2017/08/duplicator-newpackage-finish.png)
+![duplicator-newpackage-finish](/assets/images/duplicator-newpackage-finish.png)
 
 Bây giờ mình cần khôi phục dữ liệu này trên host khác, thì sẽ upload file .zip (dữ liệu của website) và installer.php (công cụ phục hồi) lên host.
 
@@ -49,7 +49,7 @@ Sau đó vào File Manager của host tìm tập tin .zip vừa upload lên và 
 
 Tiếp tục chạy file installer.php trên host theo đường dẫn _<http://domain/installer.php>_.
 
-[![duplicator-restore-01](/assets/images/duplicator-restore-01.png)](http://sofsog.com/wp-content/uploads/2017/08/duplicator-restore-01.png)
+![duplicator-restore-01](/assets/images/duplicator-restore-01.png)
 
 Hãy nhập thông tin database của bạn vào, bạn nên tạo sẵn database mới từ trước, nhập xong nhớ ấn nút **Test Connection** để xem bạn đã nhập đúng thông tin database hay chưa.
 
@@ -59,11 +59,11 @@ Sau đó chọn Advanved Options và đánh dấu vào **Manual package extract
 
 Kế tiếp, nó sẽ hỏi bạn thiết lập tên miền mới và tạo tài khoản admin mới cho website nếu muốn. Thường thì bạn chạy file **installer.php** ở tên miền nào thì nó sẽ tự xác định website sử dụng tên miền đó. Sau khi chắc chắn xong thông tin thì ấn nút **Run Update**.
 
-[![duplicator-restore-03](/assets/images/duplicator-restore-03.png)](http://sofsog.com/wp-content/uploads/2017/08/duplicator-restore-03.png)
+![duplicator-restore-03](/assets/images/duplicator-restore-03.png)
 
 Cuối cùng là nó hiện ra bảng này tức là dữ liệu đã khôi phục thành công.
 
-[![duplicator-restore-04](/assets/images/duplicator-restore-04.png)](http://sofsog.com/wp-content/uploads/2017/08/duplicator-restore-04.png)
+![duplicator-restore-04](/assets/images/duplicator-restore-04.png)
 
 Bây giờ thì dữ liệu của bạn đã được chuyển qua host mới và sử dụng một tên miền mới. Việc của bạn cần làm bây giờ là:
 

@@ -114,7 +114,7 @@ Cứ để nguyên chương trình như vậy (hoặc bấm Minimize), vào room
 
 ### **5. pussywood2, small trees - Thu nhỏ gỗ trong game giúp dễ nhìn hơn: (như trong hình dưới)**
 
-[![Image](/assets/images/213189j.gif)](http://sofsog.com/wp-content/uploads/2017/05/2119esz.jpg)
+![Image](/assets/images/213189j.gif)
 
 **Link download:** [pussywood2](https://drive.google.com/file/d/15db3i2Psc8RIyuTeq7fr_Is_By7PDwVn/view?usp=drive_link)
 

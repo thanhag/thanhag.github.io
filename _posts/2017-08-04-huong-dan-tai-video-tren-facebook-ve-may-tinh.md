@@ -34,7 +34,7 @@ breadcrumbs: true
 
 **Tải video Facebook không cần phần mềm mà thông qua 2 công cụ download video Facebook trực tuyến trong bài viết này, sẽ giúp các bạn tiết kiệm thời gian khi muốn xem video Facebook offline.**
 
-[huong dan tai video tren facebook](/assets/images/huong-dan-tai-video-tren-facebook.jpg) Hướng dẫn tải video trên facebook
+![huong dan tai video tren facebook](/assets/images/huong-dan-tai-video-tren-facebook.jpg) Hướng dẫn tải video trên facebook
 
 Cùng sự phát triển không ngừng của ứng dụng Facebook khi cập nhật nhiều tính năng mới, kéo theo đó là nhu cầu sử dụng phong phú mạng xã hội này cũng tăng theo. Chẳng hạn muốn tải video nào đó trên Facebook về máy tính.
 

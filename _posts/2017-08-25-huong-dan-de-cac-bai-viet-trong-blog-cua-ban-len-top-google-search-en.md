@@ -55,7 +55,7 @@ The top results include this word in the title, and the best-performing pages ha
 
 While keyword stuffing is an old SEO technique that I don’t recommend, you should definitely include the keyword a few times in your article.
 
-[![](/assets/images/alana-mitchell.png)](http://neilpatel.com/)
+![](/assets/images/alana-mitchell.png)
 
 Write for humans, not computers, but if there’s a natural opportunity to include the keyword, use it!
 
@@ -87,7 +87,7 @@ By using words like “top” and “recipes” and phrases like “list of” a
 
 **Include the keywords in H2 or H3 headings.**
 
-[![](/assets/images/neilad3.png)](http://neilpatel.com/)
+![](/assets/images/neilad3.png)
 
 The best articles are divided up into different sections under specific headings.In HTML, these are known as H2 or H3 headings (H1 headings are reserved for the title of your article).
 
@@ -105,7 +105,7 @@ While you don’t want to overuse your keyword, it helps to include it in one or
 
 ## **Optimize your content**
 
-[![](/assets/images/neilad2.png)](http://neilpatel.com/)
+![](/assets/images/neilad2.png)
 
 Google is constantly changing their search algorithm.To make sure you stay on top of the search results page, you need to look beyond today’s tactics and focus on long-term strategies that will keep you on top of search results.
 
@@ -133,7 +133,7 @@ This type of content is better for use, and thus ranks higher in Google.
 
 **Improve readability**
 
-[![](/assets/images/neilad1.png)](http://neilpatel.com/)
+![](/assets/images/neilad1.png)
 
 While Google values length, it also ranks content by how easy your content is to read.This, of course, varies by industry. If you have a B2B medical website selling complex instruments to physicians, you shouldn’t simplify your content for your readers.
 
@@ -448,7 +448,7 @@ _How will you optimize your blog articles to rank high in Google search?_
 - [9](http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fneilpatel.com%2Fblog%2Foptimize-blog-articles-rank-high-google%2F)
 - [7](http://plus.google.com/share?url=http%3A%2F%2Fneilpatel.com%2Fblog%2Foptimize-blog-articles-rank-high-google%2F)
 
-[![](/assets/images/bg-zzz.png)](http://neilpatel.com/)
+![](/assets/images/bg-zzz.png)
 
 How to generate 195,013 visitors a month without spending a dollaron ads
 
@@ -466,7 +466,7 @@ He is a New York Times best selling author. The Wall Street Journal calls him a 
 
 [WHO IS NEIL PATEL?](http://neilpatel.com/about/)
 
-[![Free Advanced Webinar - How To Turn Ice Cold Prospects Into Happy Customers](/assets/images/webinar-sidebar.png)](http://neilpatel.com/)
+![Free Advanced Webinar - How To Turn Ice Cold Prospects Into Happy Customers](/assets/images/webinar-sidebar.png)
 
 - Guides
 - Popular posts
@@ -485,7 +485,7 @@ He is a New York Times best selling author. The Wall Street Journal calls him a 
     - [Conversion Optimization](http://neilpatel.com/what-is-conversion-optimization/)
     - [Marketing Automation](http://neilpatel.com/what-is-marketing-automation/)
 
-[![Neil's Advanced Marketing Program helped me grow my business by 300% - Alana Mitchell, Owner of Skincare by Alana](/assets/images/alana-mitchell-sidebar.png)](http://neilpatel.com/)
+![Neil's Advanced Marketing Program helped me grow my business by 300% - Alana Mitchell, Owner of Skincare by Alana](/assets/images/alana-mitchell-sidebar.png)
 
 Upcoming Webinar
 
@@ -493,7 +493,7 @@ How to generate 195,013 visitors a month without spending a dollar on ads
 
 REGISTER NOW
 
-[![Make $$$ while you ZZZ](/assets/images/zzz-sidebar.png)](http://neilpatel.com/)
+![Make $$$ while you ZZZ](/assets/images/zzz-sidebar.png)
 
 ### Comments (1)
 

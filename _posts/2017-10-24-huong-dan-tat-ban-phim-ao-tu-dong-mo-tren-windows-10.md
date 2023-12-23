@@ -42,7 +42,7 @@ Nếu vẫn còn bị, chuyển sang cách 2.
 - Trên màn hình **Start** hoặc trong **Menu Start**, gõ **Services.msc** và nhấn **Enter**.
 - Cửa sổ **Services Management Console** sẽ mở ra. Xác định vị trí dịch vụ **Touch Keyboard and Handwriting Panel Service**.
 
-[![](/assets/images/Touch-Keyboard-Service.png)](https://sofsog.com/wp-content/uploads/2017/10/Touch-Keyboard-Service-1.png)
+![](/assets/images/Touch-Keyboard-Service.png)
 
 - Nhấp đúp chuột vào dịch vụ đó. Trong hộp thoại **Touch Keyboard and Handwriting Panel Service**, tìm đến mục **Startup type** và chọn tùy chọn **Disabled** để vô hiệu hóa Touch Keyboard.
 - Nhấn **OK**.

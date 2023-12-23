@@ -79,7 +79,7 @@ Tiếp tục theo hướng đi này, mình làm ngày càng quen và đánh giá
 
 \* Tháng 3/2017:
 
-**Bổ sung proof tháng 3 đây.** Kết quả Tháng 3: thu nhập 10689$ (đã trừ số tiền refund trong tháng). Dừng lại ở mốc này thôi, sắp tới mình sẽ giảm bớt Product launch, để dành thời gian để tập trung thử sức các mảng khác. Làm live proof luôn cho nó thật cơm, thật gạo (**click hình dưới để xem video**): [![[​IMG]](/assets/images/vDTqC6n.png)](https://vimeo.com/211076266)
+**Bổ sung proof tháng 3 đây.** Kết quả Tháng 3: thu nhập 10689$ (đã trừ số tiền refund trong tháng). Dừng lại ở mốc này thôi, sắp tới mình sẽ giảm bớt Product launch, để dành thời gian để tập trung thử sức các mảng khác. Làm live proof luôn cho nó thật cơm, thật gạo (**click hình dưới để xem video**): ![[​IMG]](/assets/images/vDTqC6n.png)
 
 **Chốt lại:** **Sau khi đổi mới phương pháp và đi theo hướng đi của mình thì đã đạt được thành tựu nho nhỏ.** **Nếu bây giờ vẫn loay hoay với website, review thì chắc bây giờ mình đã bỏ Product launch rồi.**
 

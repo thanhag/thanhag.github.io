@@ -32,7 +32,7 @@ If a particular file is taking too long to download, you can easily skip it or c
 
 When the files have been downloaded, you can
 
-[open the website](https://www.technorms.com/8028/automatically-open-sites-in-incognito-mode-chrome "Want to Open Specific Sites in Incognito by Default? Ghost Incognito Can Hel") at its root using a file similar to this one here, which is **“index.html.”**![Download-websites-with-HTTrack](/assets/images/sshot-1179.png "Download websites with HTTrack")
+![open the website](https://www.technorms.com/8028/automatically-open-sites-in-incognito-mode-chrome "Want to Open Specific Sites in Incognito by Default? Ghost Incognito Can Hel") at its root using a file similar to this one here, which is **“index.html.”**![Download-websites-with-HTTrack](/assets/images/sshot-1179.png "Download websites with HTTrack")
 
 > [DOWNLOAD HTTRACK](http://www.httrack.com/page/2/en/index.html "Download HTTrack")
 
@@ -76,7 +76,7 @@ Select a few options in the **“Range”** tab – choose whether to download
 
 When complete, you can open the download and
 
-[view it offline](https://www.technorms.com/5697/google-docs-calendar-offline "Google Enables Offline Mode for Google Docs and Calendar, Here’s How It Works"), like this:![Download-websites-with-PageNest](/assets/images/sshot-1218.png "Download websites with PageNest")
+![view it offline](https://www.technorms.com/5697/google-docs-calendar-offline "Google Enables Offline Mode for Google Docs and Calendar, Here’s How It Works"), like this:![Download-websites-with-PageNest](/assets/images/sshot-1218.png "Download websites with PageNest")
 
 > [DOWNLOAD PAGENEST](http://pagenest.com/download.html "Download PageNest")
 
