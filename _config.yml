@@ -96,6 +96,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+teaser: /assets/images/500x300.png
 
 defaults:
   # _posts
