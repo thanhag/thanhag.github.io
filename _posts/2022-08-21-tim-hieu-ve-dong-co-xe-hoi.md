@@ -17,7 +17,7 @@ toc: true
 breadcrumbs: true
 ---
 
-\[embed\]<https://www.youtube.com/watch?v=ZQvfHyfgBtA\[/embed\>]
+{% include video id="ZQvfHyfgBtA" provider="youtube" %}
 
 Nếu kinh nghiệm duy nhất của bạn về hoạt động bên trong của động cơ ô tô là "Chi phí sửa chữa cái đó là bao nhiêu?" đồ họa này là dành cho bạn. Động cơ ô tô là những kỳ quan máy móc đáng kinh ngạc. Đã đến lúc bạn học thêm về điều kỳ diệu dưới mui xe!  
   

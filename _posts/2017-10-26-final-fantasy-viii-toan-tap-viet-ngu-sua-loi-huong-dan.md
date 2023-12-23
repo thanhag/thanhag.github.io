@@ -93,7 +93,7 @@ Ngoài ra, ma pháp còn giúp đòn đánh có thêm thuộc tính, tính chấ
 
 Nhân vật có thể triệu hồi G.F đã kết nối thông qua lệnh G.F trong chiến đấu. Trong các phiên bản trước cũng có chức năng triệu hồi ma thú tương tự, nhưng được xem như một dạng tấn công ma pháp đặc biệt thì sức mạnh G.F trong FF8 biến đổi theo Level, không cần phải tiêu tốn MP (kèm một số điều kiện) nhưng phải tốn một khoảng thời gian từ lúc chọn lệnh G.F cho đến khi G.F xuất hiện. Trong thời gian đó thì G.F sẽ thay nhân vật chịu sát thương nếu bị tấn công, vì vậy sinh ra ngưỡng HP của G.F và các dụng cụ hồi phục cho G.F. Thời gian đợi đến khi G.F xuất hiện phụ thuộc vào mức độ tương tính của G.F đó với nhân vật. Tương tính càng cao thì thời gian càng rút ngắn. Có thể cải thiện tương tính bằng cách tăng tần suất sử dụng G.F hoặc dùng một số dụng cụ đặc biệt.
 
-\[embed\]<https://www.youtube.com/watch?v=oFtMnj5w9\_4\[/embed\>]
+{% include video id="oFtMnj5w9" provider="youtube" %}
 
 _Pha triệu hồi G.F IFRIT chiến đấu_
 
@@ -143,7 +143,9 @@ Thứ hạng này tăng giảm tùy vào hành động, chiến đấu hay cách
 
 Trong trận đánh, khi mức HP của nhân vật xuống thấp thì nhân vật có thể phát động đặc kỹ của cá nhân. Về cơ bản thì có thể dùng đặc kỹ khi HP ở mức báo động, hay khi lâm vào các tình huống nguy cấp. Càng nguy cấp thì càng dễ phát động đặc kỹ và hiệu quả của đặc kỹ càng gia tăng.
 
-\[embed\]<https://www.youtube.com/watch?v=MSZCeLdmw7U\[/embed\>] Chính nhờ hệ thống kết nối nên các nhân vật trong FF8 mất đi tính độc đáo của riêng từng người, không thể hiện được nét đặc sắc của từng nhân vật vì nhân vật nào cũng có thể mạnh như nhau. Vậy nên có thể nói đặc kỹ là yếu tố duy nhất để nhân vật thể hiện nét riêng của từng người. Nhìn chung thì các nhân vật nam có khuynh hướng dùng đặc kỹ tấn công liên tục, trong khi các nhân vật nữ thiên về đặc kỹ dùng ma pháp, hỗ trợ.
+{% include video id="MSZCeLdmw7U" provider="youtube" %}
+
+Chính nhờ hệ thống kết nối nên các nhân vật trong FF8 mất đi tính độc đáo của riêng từng người, không thể hiện được nét đặc sắc của từng nhân vật vì nhân vật nào cũng có thể mạnh như nhau. Vậy nên có thể nói đặc kỹ là yếu tố duy nhất để nhân vật thể hiện nét riêng của từng người. Nhìn chung thì các nhân vật nam có khuynh hướng dùng đặc kỹ tấn công liên tục, trong khi các nhân vật nữ thiên về đặc kỹ dùng ma pháp, hỗ trợ.
 
 ### 13. **Triple Triad.**
 

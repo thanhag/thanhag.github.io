@@ -54,7 +54,7 @@ Mình viết bài này chủ yếu muốn để lại một đường link cho c
 
 Không dài dòng nữa, bạn nào chưa biết muốn tìm hiểu game này thì có thể google, hoặc xem 1 trận đánh hoàn chỉnh dưới đây:
 
-\[embed\]<https://www.youtube.com/watch?v=z7dTiSTPmvc&t\[/embed\>]
+{% include video id="z7dTiSTPmvc" provider="youtube" %}
 
 Xem báo Vnexpress nói về thể loại game này: [Những lý do khiến dòng game AOE trở nên vĩ đại](https://sohoa.vnexpress.net/tin-tuc/lang-game/nhung-ly-do-khien-dong-game-aoe-tro-nen-vi-dai-3634974.html)
 
