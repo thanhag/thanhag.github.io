@@ -8,11 +8,11 @@ tags:
   - update
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Bạn sẽ tìm thấy bài đăng này trong thư mục `_posts` của bạn. Hãy tiếp tục chỉnh sửa nó và xây dựng lại trang web để xem những thay đổi của bạn. Bạn có thể xây dựng lại trang web theo nhiều cách khác nhau, nhưng cách phổ biến nhất là chạy `jekyll Serve`, lệnh này khởi chạy máy chủ web và tự động tạo lại trang web của bạn khi tệp được cập nhật.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Để thêm bài đăng mới, chỉ cần thêm một tệp trong thư mục `_posts` tuân theo quy ước `YYYY-MM-DD-name-of-post.ext` và bao gồm nội dung cần thiết phía trước. Hãy xem nguồn của bài đăng này để có ý tưởng về cách thức hoạt động của nó.
 
-Jekyll also offers powerful support for code snippets:
+Jekyll cũng cung cấp sự hỗ trợ mạnh mẽ cho các đoạn mã:
 
 ```ruby
 def print_hi(name)
@@ -22,7 +22,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Hãy xem [Tài liệu Jekyll][jekyll-docs] để biết thêm thông tin về cách tận dụng tối đa Jekyll. Gửi tất cả các lỗi/yêu cầu tính năng tại [kho lưu trữ GitHub của Jekyll] [jekyll-gh]. Nếu bạn có thắc mắc, bạn có thể hỏi họ trên [Jekyll Talk] [jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
