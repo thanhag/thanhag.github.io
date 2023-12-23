@@ -3,14 +3,15 @@ published: True
 title: Hướng dẫn tạo VPS trên VULTR chi tiết nhất
 date: 2023-12-23
 toc: true #Thêm mục lục tự động
+breadcrumbs: true  # disabled by default
 categories: 
   - "ubuntu"
 tags: 
   - "ubuntu"
   - "vps"
   - "vultr"
-image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
-teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+header:
+  image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
 
 ---
 
