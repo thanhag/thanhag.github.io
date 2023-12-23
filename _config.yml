@@ -13,16 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+
+
+# Thêm logo đúng size vào đúng chỗ sẽ hiển thị phía trước tiêu đề trang web
+# logo: "/assets/images/88x88.png" 
+title: "Thành Nguyễn Blog"
+email: thanhag@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+twitter_username: rambothanh
+github_username: rambothanh
+minimal_mistakes_skin: default  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
+
+
+
 
 # Build settings
 markdown: kramdown
@@ -87,15 +94,17 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
+      # show_date: true # để hiển thị ngày tạo bài đăng, có thể add vào từng bài đăng
       layout: single
       author_profile: true
-      read_time: true
+      read_time: true # Bật đoạn thời gian đọc ước tính
       comments: true
       share: true
       related: true
