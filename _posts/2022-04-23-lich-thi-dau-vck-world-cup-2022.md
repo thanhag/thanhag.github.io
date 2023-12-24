@@ -6,7 +6,7 @@ categories:
 header:
   image: /assets/images/Sofsog.com-Ket-qua-boc-tham-chi-bang-worldcup2022.jpg
   teaser: /assets/images/Sofsog.com-Ket-qua-boc-tham-chi-bang-worldcup2022.jpg
-toc: true
+
 breadcrumbs: true
 ---
 

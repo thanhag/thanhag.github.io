@@ -11,7 +11,7 @@ tags:
 header:
   image: /assets/images/cong-dung-va-tac-hai-cua-gao-lut-den-gao-cam-Sofsog.com_.jpg
   teaser: /assets/images/cong-dung-va-tac-hai-cua-gao-lut-den-gao-cam-Sofsog.com_.jpg
-toc: true
+
 breadcrumbs: true
 ---
 

@@ -8,8 +8,9 @@ categories:
 header:
   image: /assets/images/Sofsog.com-Kích-hoạt-Remote-Desktop-từ-xa-bằng-psexec-Enable-RDP-remotely.jpg
   teaser: /assets/images/Sofsog.com-Kích-hoạt-Remote-Desktop-từ-xa-bằng-psexec-Enable-RDP-remotely.jpg
-toc: true
+
 breadcrumbs: true
+permalink: /chia-se/internet/kich-hoat-remote-desktop-tu-xa-bang-psexec
 ---
 
 **Remote desktop protocol (RDP)** là một giao thức hỗ trợ để điều kiển máy tính window từ xa. Bài viết này chỉ dành cho những bạn nào đã biết về RDP rồi và muốn kích hoạt **RDP** từ một máy tính nào đó trong mạng nội bộ.
@@ -27,10 +28,14 @@ Dưới đây là một vài tập lệnh để bật **RDP** trên máy tính t
 3. Thay đổi đường dẫn thành c:\\pstools
 4. Chạy dòng lệnh bên dưới: (thay đổi các chữ màu đỏ cho phù hợp với mạng của các bạn)
 
-psexec \\\\**hostname.sofsog.com** reg add "hklm\\system\\currentcontrolset\\control\\terminal server" /f /v fDenyTSConnections /t REG\_DWORD /d 0
+    ```bash
+    psexec \\**hostname.sofsog.com** reg add "hklm\system\currentcontrolset\control\terminal server" /f /v fDenyTSConnections /t REG_DWORD /d 0
+    ```
 
-4\. Chạy thêm lệnh này để mở các cổng cần thiết trong tường lửa trên máy từ xa: (thay đổi các chữ màu đỏ cho phù hợp với mạng của các bạn)
+5. Chạy thêm lệnh này để mở các cổng cần thiết trong tường lửa trên máy từ xa: (thay đổi *hostname.sofsog.com* cho phù hợp với mạng của các bạn)
 
-psexec \\\\hostname.sofsog.com netsh firewall set service remoteadmin enable
+    ```bash
+    psexec \\hostname.sofsog.com netsh firewall set service remoteadmin enable
+    ```
 
 [Sofsog.com](https://sofsog.com/) chúc các bạn thành công.
