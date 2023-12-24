@@ -1,4 +1,5 @@
 ---
+published: False
 title: "GT Explains: What is Environment System Variable and How to Edit it in Windows"
 date: "2017-08-20"
 categories: 

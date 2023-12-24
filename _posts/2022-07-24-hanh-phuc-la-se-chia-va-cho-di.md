@@ -19,7 +19,7 @@ breadcrumbs: true
 
 Ai cũng mong sống vui vẻ và mọi người thường đặt hạnh phúc như một ưu tiên hàng đầu trong cuộc sống. Với cách nghĩ này, họ sẽ chỉ giữ được hạnh phúc trong chốc lát. Vì trên thực tế, hạnh phúc là một vấn đề phức tạp.
 
-**Hạnh phúc quyết định sự tồn tại của con người**
+## Hạnh phúc quyết định sự tồn tại của con người
 
 Theo triết học gia người Hy Lạp Aristotle: "Hạnh phúc là mục đích cuối cùng, là sự cố gắng của cả đời người". Tuy nhiên, lời khẳng định của vị triết gia nổi tiếng này khá chung chung, không rõ ràng và khiến mọi thứ có phần mơ hồ khi luận về hạnh phúc. Vì thực tế, hạnh phúc là một vấn đề phức tạp.
 
@@ -29,7 +29,7 @@ Cớ vì sao đến cuối đời, sau khi trải qua những vất vả, đau �
 
 Nắm trong tay hạnh phúc đã khó, gìn giữ được hạnh phúc còn gian nan hơn vạn lần. Việc giữ gìn hạnh phúc giống như trồng một cái cây, cần người trân trọng và nâng niu, chăm sóc và nuôi dưỡng bằng tất cả những gì họ có. Nếu không, cây sẽ chết, cũng như hạnh phúc sẽ tan biến rất nhanh. Liệu sự thật có đúng như thế thật không?
 
-**Sự thật là…**
+## Sự thật là…
 
 Việc nâng cao mức độ hạnh phúc trong cuộc sống khó khăn hơn ta nghĩ rất nhiều. Nếu muốn hạnh phúc, đọc sách self-help thôi thì chưa đủ; chúng ta phải hiểu được những nghiên cứu trong sách, ngay từ những kiến thức thông thường.
 
@@ -39,7 +39,7 @@ Chúng ta thường không biết những thứ mình thật sự muốn. Giữa
 
 Những nghiên cứu về hạnh phúc là những kiến thức rất khó để tiếp thu, nhưng ta phải tìm tòi và thấu hiểu, nếu muốn biết niềm hạnh phúc sẽ tác động thế nào đến cuộc sống của mình. Nếu bạn bỏ qua điều này, bạn sẽ vẫn phải phụ thuộc vào bản chất của nó.
 
-**Sự thích nghi và Vòng xoáy Khoái lạc**
+## Sự thích nghi và Vòng xoáy Khoái lạc
 
 "Vòng xoáy khoái lạc là một xu hướng của con người luôn khao khát quay về trạng thái ôn hòa của hạnh phúc, dù những sự việc xảy ra trong đời có tiêu cực như thế nào chăng nữa."
 
@@ -53,7 +53,7 @@ Mặc cho những hưng phấn ban đầu, những người trúng số không c
 
 "Trải nghiệm sang trọng làm giảm đi cảm giác vui nhộn đơn giản của cuộc sống, nếu bạn đã trượt tuyết ở dãy núi Alps huyền thoại, khu trượt tuyết gần nhà trông thật nhàm chán". - David Myers
 
-**"Tiếp thị" hạnh phúc - một khái niệm lạ mà không lạ**
+## "Tiếp thị" hạnh phúc - một khái niệm lạ mà không lạ
 
 Các nhà chiến lược marketing biết rằng, chúng ta dễ bị chi phối bởi các chiêu trò quảng cáo, chiêu trò ‘rót mật’ vào tai thượng đế. Họ nói rằng, nếu chúng ta mua sản phẩm này, chúng ta sẽ hạnh phúc, và rồi ... chúng ta quyết định mua nó, theo hiệu ứng bầy đàn. Khi bị thuyết phục, bạn tự rước những "của nợ" vào người, mặc dù, sâu trong thâm tâm bạn biết rõ bạn không cần chúng.
 
@@ -65,13 +65,13 @@ Chúng ta không đủ khôn ngoan để biết rằng, hạnh phúc chẳng ké
 
 Cách "tiếp thị" hạnh phúc của các nhà chiến lược marketing sẽ luôn hiệu quả, miễn là có những người không tự hỏi bản thân về những nhu cầu hạnh phúc thật sự.
 
-**Vì cuộc đời là những chuyến đi, hãy tự hình dung ra cuộc hành trình đó của riêng bạn**
+## Vì cuộc đời là những chuyến đi, hãy tự hình dung ra cuộc hành trình đó của riêng bạn
 
 Chúng ta có xu hướng chỉ nghĩ đến kết quả cuối cùng, và điều này có thể khiến bản thân cảm thấy không hạnh phúc, vì những trải nghiệm không đầy đủ. Chúng ta cần phải hình dung mình trong cả một quá trình, trước khi đạt đến mốc "kết quả cuối cùng" và thưởng thức quá trình này nhiều nhất có thể.
 
 Trong một chuyến đi, việc chỉ nghĩ tới đích đến cuối cùng sẽ vô tình gây áp lực cho cuộc hành trình đó, thậm chí khiến bản thân nghĩ mình đang đi sai hướng. Cách ta đối mặt với cuộc sống cũng thế.
 
-**Thực ra, bạn sẽ hạnh phúc khi giúp đỡ được ai đó**
+## Thực ra, bạn sẽ hạnh phúc khi giúp đỡ được ai đó
 
 Khi làm từ thiện, việc giúp đỡ những người kém may mắn hơn mình sẽ làm ta có cảm giác tuyệt vời và đầy ý nghĩa. Khi chúng ta cho đi, chúng ta không nghĩ đến vụ lợi cá nhân, nhưng niềm vui và hạnh phúc vẫn đến với mình, không đuổi theo cũng tự nhiên tìm đến.
 
@@ -79,7 +79,7 @@ Thứ chúng ta cho đi không nhất thiết phải là vật chất, tiền b�
 
 ![Vì sao không nên đặt hạnh phúc lên vị trí hàng đầu: Câu trả lời sẽ khiến bạn càng bình thản hơn trong cuộc sống này - Ảnh 5.](/assets/images/photo-4-15174513191421165021165.jpg "Vì sao không nên đặt hạnh phúc lên vị trí hàng đầu: Câu trả lời sẽ khiến bạn càng bình thản hơn trong cuộc sống này - Ảnh 5.")
 
-**Vậy nên…**
+## Vậy nên…
 
 Hãy tự tha thứ cho mình nếu cảm thấy bản thân làm điều có lỗi với cha mẹ, người thân và bạn bè, hoặc với chính bạn.
 

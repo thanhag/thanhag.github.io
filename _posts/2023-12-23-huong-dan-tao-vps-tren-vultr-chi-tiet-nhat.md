@@ -78,13 +78,13 @@ Bạn sẽ thấy dòng chữ "**vultr login:**" gõ vào tài khoản gốc m�
 
 Sau khi kết nối VPS thành công, bạn cần tạo một user để làm việc hằng ngày, vì user **"root"** này rất quan trọng, không nên dùng nó thường xuyên. Ví dụ mình tạo 1 user "**sofsog**" và cài đặt quyền quản trị cho user này luôn bằng lệnh dưới (nhớ thay đổi sofsog bằng tên user bạn muốn tạo):
 
-```
+```bash
 sudo adduser sofsog
 ```
 
 Hệ thống sẽ yêu cầu bạn nhập một mật khẩu cho người dùng mới và xác nhận lại mật khẩu. Hãy nhập mật khẩu và nhấn Enter. Tiếp theo, bạn sẽ được yêu cầu cung cấp thông tin tùy chọn cho người dùng mới, bao gồm tên đầy đủ, số điện thoại, v.v. Bạn có thể nhập thông tin này hoặc bỏ qua bằng cách nhấn Enter cho các mục bạn không muốn cung cấp thông tin. Để cấp quyền quản trị cho người dùng sofsog, chạy lệnh sau:
 
-```
+```bash
 sudo usermod -aG sudo sofsog
 ```
 
@@ -94,14 +94,14 @@ Bây giờ, người dùng sofsog này đã có quyền quản trị trên hệ 
 
 Gõ lệnh sau và nhấn Enter để cài đặt gói **OpenSSH** Server:
 
-```
+```bash
 sudo apt update
 sudo apt install openssh-server
 ```
 
 Trong quá trình cài đặt, bạn sẽ được yêu cầu nhập mật khẩu người dùng hiện tại. Hãy nhập mật khẩu và chờ cho quá trình cài đặt hoàn tất. Khi quá trình cài đặt thành công, dịch vụ SSH sẽ tự động được kích hoạt và chạy trên hệ thống Ubuntu của bạn. Bạn có thể kiểm tra trạng thái của dịch vụ SSH bằng cách chạy lệnh sau:
 
-```
+```bash
 sudo systemctl status ssh
 ```
 
@@ -113,19 +113,19 @@ Nếu dịch vụ SSH đang hoạt động, bạn sẽ thấy thông báo với 
 
 Mở Terminal và sử dụng lệnh sau để mở tệp cấu hình SSH:
 
-```
+```bash
 sudo nano /etc/ssh/sshd\_config
 ```
 
 Tìm đến dòng **`#PermitRootLogin`** trong tệp cấu hình và bỏ dấu **"#"** ở đầu dòng nếu có, sau đó đặt giá trị thành **`yes`**. Điều này cho phép đăng nhập qua SSH bằng tài khoản người dùng thay vì tài khoản **root**. Nếu bạn không muốn cho phép đăng nhập **root** qua SSH, bạn có thể bỏ qua bước này. Lưu và đóng tệp cấu hình bằng cách nhấn **Ctrl + X**, sau đó nhấn **Y** để lưu thay đổi và **Enter** để xác nhận tên tệp. Thêm người dùng sofsog vào nhóm ssh bằng lệnh sau:
 
-```
+```bash
 sudo usermod -aG ssh sofsog
 ```
 
 Khởi động lại dịch vụ SSH để áp dụng các thay đổi bằng lệnh sau:
 
-```
+```bash
 sudo systemctl restart ssh
 ```
 

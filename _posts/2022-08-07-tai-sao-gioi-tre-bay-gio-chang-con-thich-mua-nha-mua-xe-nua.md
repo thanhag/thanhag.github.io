@@ -14,9 +14,9 @@ toc: true
 breadcrumbs: true
 ---
 
-# Thời buổi này, nhà đẹp xe sang đối với giới trẻ chẳng còn là thước đo của sự thành công nữa. Số lượng người trẻ không thích mua nhà mua xe ngày càng tăng cao
+Thời buổi này, nhà đẹp xe sang đối với giới trẻ chẳng còn là thước đo của sự thành công nữa. Số lượng người trẻ không thích mua nhà mua xe ngày càng tăng cao
 
-Định nghĩa một người thành công trong mắt thế hệ ông bà, cha mẹ là gì?
+## Định nghĩa một người thành công trong mắt thế hệ ông bà, cha mẹ là gì?
 
 Là nhà lầu, xe hơi, có của ăn của để, có nhiều nhà, nhiều đất, nhiều thứ để "người ta nhìn thấy mà người mộ". Nói chung, thành công theo quan niệm của thế hệ trước là phải có tài sản tích trữ về hiện vật, có thể sờ nắn, quy đổi ra tiền.
 
@@ -24,7 +24,7 @@ Còn ở thế hệ mới bây giờ, thế hệ bản lề "Millenniums" không
 
 Và họ có cái lý của họ.
 
-**Tại sao lại thế?**
+## Tại sao lại thế?
 
 Một số nhà xã hội học nói rằng thế hệ trẻ bây giờ đã phải trải qua nhiều giai đoạn khủng hoảng kinh tế, thế nên người ta dần sợ những khoản nợ dai dẳng. Chẳng ai còn dám liều bỏ ra số tiền lớn để rồi chông chênh trong việc lấy lại từng đồng.
 
@@ -40,7 +40,7 @@ Nhưng đây không phải là yếu tố quan trọng. Quan trọng nhất ở 
 
 Mấu chốt ở đây là, người ta bây giờ không cần thiết phải thịnh vượng, lắm tiền nhiều của, cuộc sống ổn định. Người ta thích có cuộc sống thoải mái với thời gian biểu bất tuân, độc lập tài chính và chu du đây đó tận hưởng trải nghiệm.
 
-**Tức là, người ta giờ đây không còn nhiều hứng thú với vật chất nữa**
+## Tức là, người ta giờ đây không còn nhiều hứng thú với vật chất nữa
 
 Lý do đơn giản lắm.
 
@@ -58,7 +58,7 @@ Trong vài nghiên cứu của Forbes, chu kỳ nhảy việc của người tr�
 
 ![03-1474826695056-2](/assets/images/03-1474826695056-2.jpg)
 
-**Lý tưởng "phải có trong tay thứ gì đó" đã có vẻ lỗi thời**
+## Lý tưởng "phải có trong tay thứ gì đó" đã có vẻ lỗi thời
 
 Trong vòng 1 thập kỷ qua, đã có nhiều nghiên cứu tâm lý được tiến hành. Các nhà tâm lý học đã chứng minh được rằng việc đầu tư tiền của vào các trải nghiệm mới sẽ mang lại nhiều lợi ích về khía cạnh cảm giác sống hạnh phúc, thỏa mãn hơn so với việc cứ tò tò đi mua nhiều đồ đạc mới.
 
@@ -66,7 +66,7 @@ Trải nghiệm mới, niềm vui mới, chứ không phải lúc nào cũng là
 
 ![01-1474826695053-3](/assets/images/01-1474826695053-3.jpg)
 
-**Các trải nghiệm đưa chúng ta xích lại gần nhau**
+## Các trải nghiệm đưa chúng ta xích lại gần nhau
 
 Yếu tố cấu thành một xã hội hoàn hảo chính là **sự tương tác**, những mối **quan hệ giữa người với người**, dù muốn hay không. Khoa học đã chứng minh rồi, càng giao tiếp, càng nói chuyện nhiều, bạn sẽ càng cảm thấy hạnh phúc.
 
@@ -80,7 +80,7 @@ Trong nghiên cứu của James Hamblin, một nhà bình luận báo chí có n
 
 Hãy nên nhớ rằng, kể cả một trải nghiệm tồi cũng sẽ trở thành một câu chuyện hay. Còn một cái xe sang thì không.
 
-**Lắm tiền lắm của thì nhiều lo toan, các cụ cũng bảo thế**
+## Lắm tiền lắm của thì nhiều lo toan, các cụ cũng bảo thế
 
 Với những tài sản mà chúng ta có, nhất là khi nó mang giá trị cực lớn, sẽ làm con người ta sinh cảm giá lo ngại về chúng, sợ rơi sợ vỡ, sợ mất, sợ ai cầm nhầm, sợ đủ thứ.
 
@@ -90,7 +90,7 @@ Giả sử bạn có căn nhà đẹp, nội thất đắt tiền đi. Bạn s�
 
 Thời gian sẽ phá hủy những chiếc xe, từng tấm ván lát sàn, từng chiếc TV đắt tiền theo nhiều cách khác nhau. Nhưng chẳng có trải nghiệm nào là phai tàn theo thời gian hết.
 
-**Quan trọng nhất, thời thế thay đổi thì giá thành cũng đổi thay**
+## Quan trọng nhất, thời thế thay đổi thì giá thành cũng đổi thay
 
 Nói đơn giản, iPhone 7 mới chính thức ra mắt được chục ngày, nhưng bạn sẽ không vồ vập mua ngay. Bạn đợi một thời gian nữa, sau khi cơn sốt hạ nhiệt, bạn sẽ cầm tiền đi mua iPhone 4, lúc ấy có giá rẻ đến kinh người. Chỉ mới vài năm trước, chiếc điện thoại ấy từng tốn cả một gia tài.
 
@@ -108,4 +108,4 @@ Thứ chẳng bao giờ mua được, cũng không ai đánh cắp được từ
 
 Chính là **trải nghiệm sống, kinh nghiệm sống, cách làm người.**
 
-_Theo Kênh 14/Trí Thức Trẻ_
+Theo Kênh 14/Trí Thức Trẻ

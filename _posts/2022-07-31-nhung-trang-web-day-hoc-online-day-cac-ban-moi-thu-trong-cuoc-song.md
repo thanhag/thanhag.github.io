@@ -22,9 +22,9 @@ toc: true
 breadcrumbs: true
 ---
 
-## Những website và ứng dụng dưới đây có thể cung cấp cho bạn lượng kiến thức khổng lồ, các bài học online về mọi lĩnh vực từ khoa học, kinh tế, nghệ thuật, xã hội cho đến những xu hướng công nghệ mới nhất
+Những website và ứng dụng dưới đây có thể cung cấp cho bạn lượng kiến thức khổng lồ, các bài học online về mọi lĩnh vực từ khoa học, kinh tế, nghệ thuật, xã hội cho đến những xu hướng công nghệ mới nhất
 
- Hãy quên những ngôi trường, những khóa học đắt đỏ nhồi kín sinh viên để rồi chỉ cho ra kết quả học tập tệ hại đi. Những website và ứng dụng dưới đây sẽ cung cấp cho bạn lượng kiến thức khổng lồ về mọi lĩnh vực từ khoa học, kinh tế, nghệ thuật, xã hội cho đến những xu hướng công nghệ mới nhất, hoàn toàn miễn phí hoặc với chi phí cực thấp so với việc đi học ở trường hay các trung tâm.
+Hãy quên những ngôi trường, những khóa học đắt đỏ nhồi kín sinh viên để rồi chỉ cho ra kết quả học tập tệ hại đi. Những website và ứng dụng dưới đây sẽ cung cấp cho bạn lượng kiến thức khổng lồ về mọi lĩnh vực từ khoa học, kinh tế, nghệ thuật, xã hội cho đến những xu hướng công nghệ mới nhất, hoàn toàn miễn phí hoặc với chi phí cực thấp so với việc đi học ở trường hay các trung tâm.
 
 ![](/assets/images/40tranghoconlinedaybanmoithutrendoi.jpg)
 
@@ -32,7 +32,7 @@ breadcrumbs: true
 
 Hãy cùng điểm lại các nguồn học tuyệt vời dưới đây, bấm vào tên để đến địa chỉ học nhé.
 
-**1\. Các nền tảng cung cấp khóa học online**
+## 1\. Các nền tảng cung cấp khóa học online
 
 ![](/assets/images/40tranghoconlinedaybanmoithutrendoi.png)
 
@@ -66,7 +66,7 @@ Hãy cùng điểm lại các nguồn học tuyệt vời dưới đây, bấm v
 
 [How to start a startup](http://startupclass.samaltman.com/) — Tổng hợp các bài học (qua video và tài liệu đọc) được truyền dạy trong vườn ươm khởi nghiệp hàng đầu thế giới Y Combinator
 
-**2\. Học lập trình**
+## 2\. Học lập trình
 
 ![](/assets/images/40tranghoconlinedaybanmoithutrendoi-1.png)
 
@@ -98,7 +98,7 @@ Hãy cùng điểm lại các nguồn học tuyệt vời dưới đây, bấm v
 
 [Dash](https://dash.generalassemb.ly/) — Học các kỹ thuật thiết kế web mới nhất
 
-**3\. Học Data Science - lĩnh vực đang cực hot hiện nay**
+## 3\. Học Data Science - lĩnh vực đang cực hot hiện nay
 
 ![](/assets/images/40tranghoconlinedaybanmoithutrendoi-2.png)
 
@@ -110,7 +110,7 @@ Hãy cùng điểm lại các nguồn học tuyệt vời dưới đây, bấm v
 
 Ngoài ra, các nền tảng học online như Coursera, Udacity, edX ở trên cũng đều có rất nhiều khóa học về data science và data analysis.
 
-**4\. Học ngoại ngữ**
+## 4\. Học ngoại ngữ
 
 [Duolingo](https://www.duolingo.com/) — Học nhiều ngoại ngữ miễn phí
 
@@ -120,7 +120,7 @@ Ngoài ra, các nền tảng học online như Coursera, Udacity, edX ở trên 
 
 [Memrise](http://www.memrise.com/) — Sử dụng flashcards để học từ vựng
 
-**5\. Mở rộng kiến thức**
+## 5\. Mở rộng kiến thức
 
 [TED Talks](http://www.ted.com/) — Tổng hợp các bài diễn thuyết chia sẻ những ý tưởng đột phá nhất về khoa học, giáo dục, thiết kế (nhiều video có sub tiếng Việt)
 
@@ -128,7 +128,7 @@ Ngoài ra, các nền tảng học online như Coursera, Udacity, edX ở trên 
 
 [Squareknot](https://squareknot.com/) — Tương tự như Wikihow, Guides.co cung cấp các bài hướng dẫn sinh động và đẹp mắt về mọi thứ trong cuộc sống
 
-**6\. Web khác**
+## 6\. Web khác
 
 [Chesscademy](http://www.chesscademy.com/) — Học cách chơi cờ miễn phí
 
@@ -138,4 +138,4 @@ Ngoài ra, các nền tảng học online như Coursera, Udacity, edX ở trên 
 
 Xem thêm: [Phong cách sống](https://sofsog.com/phong-cach-song)
 
-_Tham khảo Medium_
+Tham khảo Medium
