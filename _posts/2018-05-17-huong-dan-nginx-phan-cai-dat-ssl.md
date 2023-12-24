@@ -176,8 +176,8 @@ Cập nhật mới nhất có thể tìm thấy [ở đây](https://certbot.eff.
 ### Tạo chứng chỉ mới
 
 ```terminal
-certbot certonly --webroot --webroot-path /var/www/netguru/current/public/  \\
-          -d foo.netguru.co \\
+certbot certonly --webroot --webroot-path /var/www/netguru/current/public/  \
+          -d foo.netguru.co \
           -d bar.netguru.co
 ```
 
@@ -185,9 +185,12 @@ Hãy chắc chắn rằng nó có thể được gia hạn đúng cách
 
 `certbot renew --dry-run`
 
-Đảm bảo bạn đã thêm gia hạn tự động vào crontab. Chạy crontab -e và thêm dòng sau:
+Đảm bảo bạn đã thêm gia hạn tự động vào crontab. Chạy `crontab -e` và thêm dòng sau:
 
-`0 3 * * * /usr/bin/certbot renew --quiet --renew-hook "/usr/sbin/nginx -s reload"`
+```terminal
+0 3 * * * /usr/bin/certbot renew --quiet --renew-hook "/usr/sbin/nginx -s reload"
+```
+
 
 Kiểm tra xem SSL có hoạt động bình thường không thông qua [ssllabs](https://www.ssllabs.com/ssltest/)
 
