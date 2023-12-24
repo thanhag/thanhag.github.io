@@ -19,6 +19,7 @@ header:
   teaser: /assets/images/Tìm-hiểu-về-Product-Key-và-các-loại-key-khác-trên-Windows.png
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/tim-hieu-product-key-cac-loai-key-khac-tren-windows
 ---
 
 Nếu bạn đã sử dụng một sản phẩm Windows trong hai thập kỷ qua, chắc chắn bạn đã nghe qua từ "_**Product Key**_". Đó là dãy chữ và số gồm 25 ký tự giúp bạn có thể quản lý toàn bộ hệ thống của Windows mà không có bất kì hạn chế nào, nói cách khác đó là dãy số đó sẽ giúp bạn dùng được Windows bản quyền.

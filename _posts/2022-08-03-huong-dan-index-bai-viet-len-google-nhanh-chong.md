@@ -21,6 +21,7 @@ header:
   teaser: /assets/images/Sofsog.com-huong-dan-cach-index-bai-viet-len-google-nhanh-nhat.jpg
 toc: true
 breadcrumbs: true
+permalink: /seo/huong-dan-index-bai-viet-len-google-nhanh-chong
 ---
 
 **Index,** **Indexing** hay **_Index bài viết lên Google_** là một Thuật ngữ **SEO** rất quen thuộc đối với những người làm web. Và có lẽ, đây cũng là một trong những thuật ngữ được sử dụng nhiều nhất trong giới **SEO**. Tuy nhiên, liệu chúng ta có thực sư hiểu index là gì cũng như sự khác biệt về việc **index** của các công cụ tìm kiếm, nhất là Google để có thể lập một kế hoạch **SEO** một cách hiệu quả? Trước tiên, hãy cùng đi vào tìm hiểu về khái niệm Index là gì?

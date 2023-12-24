@@ -12,7 +12,7 @@ tags:
 header:
   image: /assets/images/photo-1-15178872173831682333338.png
   teaser: /assets/images/photo-1-15178872173831682333338.png
-toc: true
+
 breadcrumbs: true
 ---
 

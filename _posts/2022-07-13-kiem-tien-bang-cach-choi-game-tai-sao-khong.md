@@ -19,6 +19,7 @@ header:
   teaser: /assets/images/secondlife604x423-1511864313076.jpg
 toc: true
 breadcrumbs: true
+permalink: /game/kiem-tien-bang-cach-choi-game-tai-sao-khong
 ---
 
 Mình xin giới thiệu các bạn danh sách 3 games có thể giúp bạn _**kiếm tiền bằng cách chơi game**_. Vừa thỏa mãn sự đam mê, vừa đảm bảo túi tiền, thậm chí kiếm được nhiều tiền (nếu ... tự hiểu)

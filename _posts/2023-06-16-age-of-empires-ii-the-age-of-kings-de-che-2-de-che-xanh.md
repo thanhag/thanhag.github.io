@@ -40,9 +40,11 @@ header:
   teaser: /assets/images/Screenshot-2017-10-06-08.50.35.png
 toc: true
 breadcrumbs: true
+# https://sofsog.com/game/age-of-empires-ii-the-age-of-kings-de-che-2-de-che-xanh
+permalink: /game/age-of-empires-ii-the-age-of-kings-de-che-2-de-che-xanh
 ---
 
-**update link mới vào 16/6/2023**
+## Update link mới vào 16/6/2023
 
 **Age of Empires 2: The Conquerors**, là một game chiến thuật thời gian thực rất được yêu thích tại Việt Nam.
 

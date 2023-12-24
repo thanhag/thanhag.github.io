@@ -20,6 +20,7 @@ header:
   teaser: /assets/images/40tranghoconlinedaybanmoithutrendoi-2.png
 toc: true
 breadcrumbs: true
+permalink: /phong-cach-song/nhung-trang-web-day-hoc-online-day-cac-ban-moi-thu-trong-cuoc-song
 ---
 
 Những website và ứng dụng dưới đây có thể cung cấp cho bạn lượng kiến thức khổng lồ, các bài học online về mọi lĩnh vực từ khoa học, kinh tế, nghệ thuật, xã hội cho đến những xu hướng công nghệ mới nhất

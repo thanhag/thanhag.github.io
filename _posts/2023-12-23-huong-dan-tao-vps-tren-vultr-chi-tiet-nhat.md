@@ -2,10 +2,7 @@
 published: True
 title: Hướng dẫn tạo VPS trên VULTR chi tiết nhất
 date: 2023-12-23
-toc: true #Thêm mục lục tự động
-breadcrumbs: true  # disabled by default
-# https://sofsog.com/thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
-permalink: /thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
+
 categories: 
   - "ubuntu"
 tags: 
@@ -15,6 +12,10 @@ tags:
 header:
   image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
   teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+toc: true #Thêm mục lục tự động
+breadcrumbs: true  # disabled by default
+# https://sofsog.com/thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
+permalink: /thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
 
 ---
 

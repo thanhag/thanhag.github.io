@@ -20,6 +20,7 @@ header:
   teaser: /assets/images/tang-view-cho-youtube.jpg
 toc: true
 breadcrumbs: true
+permalink: /kiem-tien/huong-dan-tang-luot-xem-video-youtube-tang-views-youtube
 ---
 
 Ở bài viết này mình sẽ thống kê lại 1 số phương pháp giúp **_tăng lượt xem video youtube_ hay _tăng views youtube_**

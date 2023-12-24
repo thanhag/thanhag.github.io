@@ -16,6 +16,8 @@ header:
   teaser: /assets/images/installsoftwarelinux-pic0.png
 toc: true
 breadcrumbs: true
+
+permalink: /thu-thuat-chung/huong-dan-cai-dat-phan-mem-tren-kali-linux
 ---
 
 Không giống như Windows, trên Kali Linux và các phiên bản GNU/Linux khác có rất nhiều cách cài đặt phần mềm với các dạng file khác nhau, chúng ta cùng nhau tìm hiểu nào!
