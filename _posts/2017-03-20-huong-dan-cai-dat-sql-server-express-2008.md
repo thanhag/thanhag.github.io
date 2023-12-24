@@ -14,7 +14,7 @@ toc: true
 breadcrumbs: true
 ---
 
-![Huong dan cai dat SQL server 2008 ](/assets/images/SQL-Server-2008.png)
+Bài viết này như một ghi chú cá nhân.
 
 # 1\. Download
 
@@ -148,10 +148,14 @@ Chúng ta tạo thử một database có tên simplehr.
 
 ![%image_alt%](/assets/images/20687.png)
 
-[?](http://o7planning.org/vi/10219/huong-dan-cai-dat-va-cau-hinh-sql-server-express-2008#)
 
-<table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="sql keyword">Create</code> <code class="sql keyword">table</code> <code class="sql plain">My_Table&nbsp; (</code></div><div class="line number2 index1 alt1"><code class="sql spaces">&nbsp;&nbsp;&nbsp;</code><code class="sql plain">ID </code><code class="sql keyword">int</code> <code class="sql keyword">primary</code> <code class="sql keyword">key</code><code class="sql plain">,</code></div><div class="line number3 index2 alt2"><code class="sql spaces">&nbsp;&nbsp;&nbsp;</code><code class="sql keyword">Name</code> <code class="sql keyword">Varchar</code><code class="sql plain">(32)</code></div><div class="line number4 index3 alt1"><code class="sql plain">);</code></div><div class="line number5 index4 alt2"></div><div class="line number6 index5 alt1"><code class="sql keyword">Insert</code> <code class="sql keyword">into</code> <code class="sql plain">My_Table(Id,</code><code class="sql keyword">Name</code><code class="sql plain">)</code></div><div class="line number7 index6 alt2"><code class="sql keyword">values</code> <code class="sql plain">(1 , </code><code class="sql string">'Tom Cat'</code><code class="sql plain">);</code></div></div></td></tr></tbody></table>
+```sql
+Create table My_Table  (
+   ID int primary key,
+   Name Varchar(32)
+);
+Insert into My_Table(Id,Name)
+values (1 , 'Tom Cat');
+```
 
 ![%image_alt%](/assets/images/20691.png)
-
-![%image_alt%](/assets/images/20_20693.png)
