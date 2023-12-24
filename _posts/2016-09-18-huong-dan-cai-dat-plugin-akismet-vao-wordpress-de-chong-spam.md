@@ -9,9 +9,9 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/akismet-logo.jpg
+  
   teaser: /assets/images/akismet-logo.jpg
-toc: true
+
 breadcrumbs: true
 ---
 
@@ -61,4 +61,4 @@ Hoàn tất, hãy nói lời vĩnh biệt spammer đi nào.
 
 ![cai-dat-akismet-10](/assets/images/cai-dat-akismet-10.jpg)
 
-Nguồn:**Thach Pham Blog**
+Nguồn:Thach Pham Blog

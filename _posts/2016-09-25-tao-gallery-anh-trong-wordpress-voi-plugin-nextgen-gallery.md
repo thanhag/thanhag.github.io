@@ -9,7 +9,7 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/nextgen-logo.png
+  
   teaser: /assets/images/nextgen-logo.png
 toc: true
 breadcrumbs: true

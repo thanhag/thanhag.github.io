@@ -10,7 +10,7 @@ tags:
   - "wordpress-co-ban"
   - "yoast-seo"
 header:
-  image: /assets/images/Yoast-Logo-Icon.png
+  
   teaser: /assets/images/Yoast-Logo-Icon.png
 toc: true
 breadcrumbs: true

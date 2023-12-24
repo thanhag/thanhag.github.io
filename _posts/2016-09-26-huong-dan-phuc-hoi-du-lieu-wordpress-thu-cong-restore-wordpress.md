@@ -8,7 +8,7 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/Backup_center_icon.png
+  
   teaser: /assets/images/Backup_center_icon.png
 toc: true
 breadcrumbs: true

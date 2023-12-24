@@ -10,9 +10,9 @@ tags:
   - "wordpress-co-ban"
   - "wp-extra-file-types"
 header:
-  image: /assets/images/Huong-dan-su-sung-file-svg-cho-wordpress.png
+  
   teaser: /assets/images/Huong-dan-su-sung-file-svg-cho-wordpress.png
-toc: true
+
 breadcrumbs: true
 ---
 

@@ -16,7 +16,7 @@ toc: true
 breadcrumbs: true
 ---
 
-Nhằm chống lại sự dài dòng =)) của đường link category trong WordPress, mà mặc định nó là “home/category/name/” thì tôi đang dùng một custom code để làm việc này, tuy nhiên các bạn cũng hoàn toàn có thể làm được điều tương tự với một plugin của WordPress. Khoan hãy nhắc tới plugin đó, giờ ta bàn lý do tại sao chúng ta nên xóa nó:
+Nhằm chống lại sự dài dòng của đường link category trong WordPress, mà mặc định nó là `“home/category/name/”` thì tôi đang dùng một custom code để làm việc này, tuy nhiên các bạn cũng hoàn toàn có thể làm được điều tương tự với một plugin của WordPress. Khoan hãy nhắc tới plugin đó, giờ ta bàn lý do tại sao chúng ta nên xóa nó:
 
 ![Xóa bỏ chữ Categogy trong đường link của wordpress](/assets/images/xoa-bo-chu-category-trong-duong-link-cua-wordpress.png)
 
@@ -48,13 +48,15 @@ Bật xóa chữ Category trong đường link
 
 \* Lưu ý là để điều chỉnh lại đường dẫn không có category base trong Menu hoặc trong toàn bộ link trên trang, ta dùng hàm hack sau cho vào trong file functions.php nhé:
 
-/\* xóa đường link của category \*/
+```php
+/* xóa đường link của category */
 
-function \_nice\_category\_link($link) {
-    return str\_replace('/category/', '/' , $link);
+function\_nice_category_link($link) {
+    return str_replace('/category/', '/' , $link);
 }
 
-add\_filter('category\_link', '\_nice\_category\_link');
+add_filter('category_link', '_nice_category_link');
+```
 
 Và bây giờ thử truy cập đường link của Category và thưởng thức thành quả mới nào !
 

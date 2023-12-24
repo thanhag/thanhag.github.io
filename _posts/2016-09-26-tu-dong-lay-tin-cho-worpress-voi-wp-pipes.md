@@ -11,7 +11,7 @@ tags:
 header:
   image: /assets/images/wppipes.png
   teaser: /assets/images/wppipes.png
-toc: true
+
 breadcrumbs: true
 ---
 

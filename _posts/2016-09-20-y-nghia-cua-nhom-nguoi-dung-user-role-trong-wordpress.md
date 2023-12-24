@@ -9,7 +9,7 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/User-group.png
+  
   teaser: /assets/images/User-group.png
 toc: true
 breadcrumbs: true

@@ -3,6 +3,16 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Tên tôi là Nguyễn Trọng Thành, người chịu trách nhiệm về mọi thứ trên trang này. Sofsog.com là blog cá nhân tập trung vào việc phổ biến kiến ​​thức về thiết kế website, công nghệ thông tin, lập trình, phần mềm,… tới mọi người. Phương châm của Sofsog.com là chia sẻ để phát triển. Ngoài ra, blog này giống như một cuốn nhật ký, là nơi tôi ghi lại những gì mình đã học, đã làm,… Để khi nào quên có thể vào đây để xem lại.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Công việc hiện tại của tôi là về tài chính và kế toán. Nhưng sở thích của tôi là thiết kế web, lập trình, công nghệ thông tin. Tôi đã tự học chúng thông qua internet.
+
+### Tôi có những phẩm chất như
+
+- Năng động và hòa đồng
+- Người chăm chỉ
+- Ở một mức độ nào đó, tôi không bao giờ ngừng học hỏi
+- ...?
+
+### Tiểu sử của tôi
+Thành thật mà nói, không nhớ nổi tiểu sử, vào facebook tìm hiểu thêm nhé.

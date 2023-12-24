@@ -9,7 +9,7 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/gantry-mobile1.jpg
+  
   teaser: /assets/images/gantry-mobile1.jpg
 toc: true
 breadcrumbs: true

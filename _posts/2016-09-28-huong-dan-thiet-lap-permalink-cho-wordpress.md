@@ -8,7 +8,7 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/Permalink.png
+ 
   teaser: /assets/images/Permalink.png
 toc: true
 breadcrumbs: true
@@ -56,7 +56,8 @@ Nếu bạn đang dùng host thông thường mà bị lỗi 404 khi bật perma
 
 Bạn hãy vào host bằng FTP và mở file .htaccess ra (nếu chưa có thì tạo) và copy đoạn này vào:
 
-\# BEGIN WordPress
+```xml
+# BEGIN WordPress
 <IfModule mod\_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -65,7 +66,7 @@ RewriteCond %{REQUEST\_FILENAME} !-f
 RewriteCond %{REQUEST\_FILENAME} !-d
 RewriteRule . /index.php \[L\]
 </IfModule>
-
 # END WordPress
+```
 
 Chúc các bạn thực hành thành công.

@@ -9,7 +9,7 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/genesis-logo.png
+  
   teaser: /assets/images/genesis-logo.png
 toc: true
 breadcrumbs: true

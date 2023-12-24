@@ -9,9 +9,9 @@ tags:
   - "phong-cach-song"
   - "tuoi-30"
 header:
-  image: /assets/images/30-tuoi-co-nen-hoc-mot-chuyen-nganh-khac-2.jpg
+  
   teaser: /assets/images/30-tuoi-co-nen-hoc-mot-chuyen-nganh-khac-2.jpg
-toc: true
+
 breadcrumbs: true
 ---
 

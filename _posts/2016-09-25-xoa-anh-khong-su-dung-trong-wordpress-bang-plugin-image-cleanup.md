@@ -9,7 +9,7 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/Cleanup.png
+  
   teaser: /assets/images/Cleanup.png
 toc: true
 breadcrumbs: true
