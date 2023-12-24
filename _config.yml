@@ -78,7 +78,7 @@ author:
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/rambothanh"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fa-brands fa-x-twitter"
       url: "https://twitter.com/rambothanh"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -89,15 +89,18 @@ author:
 
 footer:
   links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/rambothanh"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      icon: "fa-brands fa-x-twitter"
+      url: "https://twitter.com/rambothanh"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/rambothanh"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/rambothanh"
 
 teaser: /assets/images/500x300.png
 
