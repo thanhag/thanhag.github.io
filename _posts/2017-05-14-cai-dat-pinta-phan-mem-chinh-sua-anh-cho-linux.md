@@ -12,7 +12,7 @@ tags:
   - "linux"
   - "pinta"
 header:
-  image: /assets/images/pinta-trinh-sua-anh-tren-linux-1.jpg
+ 
   teaser: /assets/images/pinta-trinh-sua-anh-tren-linux-1.jpg
 toc: true
 breadcrumbs: true
@@ -22,12 +22,18 @@ Bài viết này mình xin giới thiệu với các bạn một phần mềm ch
 
 Trên Windows thì nói đến chỉnh sửa ảnh thì không thể không nhắc đến Photoshop hoặc phần mềm có sẵn trong hệ điều hành Windows – MS Paint.
 
-Trên Linux thì sao, mặc định như Linux Mint 17.1 mà mình đang sử dụng thì nó cũng đã có sẵn phần mềm GIMP Image Editor để chỉnh sửa ảnh; một số người so sánh GIMP với Photoshop về tính năng thì mình nghĩ nó cũng giống Photoshop về khoản khó sử dụng. Bản thân mình cũng đã sử dụng nó cho việc chỉnh sửa các ảnh để upload lên bài viết của mình nhưng khá nhọc nhằn nên mình muốn tìm một phần mềm tương tự như MS Paint – phần mềm dễ sử dụng hơn và tiện hơn cho công việc. ![](/assets/images/pinta-trinh-sua-anh-tren-linux-1.jpg) **Pinta là gì?** Pinta là một phần mềm vẽ/chỉnh sửa hình ảnh mã nguồn mở và miễn phí , một phiên bản sau của Paint.NET. Nó cung cấp một giao diện tiện dụng cho người dùng và khá dễ dàng trong việc chỉnh sửa hình ảnh.
+Trên Linux thì sao, mặc định như Linux Mint 17.1 mà mình đang sử dụng thì nó cũng đã có sẵn phần mềm GIMP Image Editor để chỉnh sửa ảnh; một số người so sánh GIMP với Photoshop về tính năng thì mình nghĩ nó cũng giống Photoshop về khoản khó sử dụng. Bản thân mình cũng đã sử dụng nó cho việc chỉnh sửa các ảnh để upload lên bài viết của mình nhưng khá nhọc nhằn nên mình muốn tìm một phần mềm tương tự như MS Paint – phần mềm dễ sử dụng hơn và tiện hơn cho công việc.
+
+![](/assets/images/pinta-trinh-sua-anh-tren-linux-1.jpg) 
+
+**Pinta là gì?** Pinta là một phần mềm vẽ/chỉnh sửa hình ảnh mã nguồn mở và miễn phí , một phiên bản sau của Paint.NET. Nó cung cấp một giao diện tiện dụng cho người dùng và khá dễ dàng trong việc chỉnh sửa hình ảnh.
 
 Hướng dẫn cài đặt trên kali linux:
 
+```terminal
 sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
 
 sudo apt-get update
 
 sudo apt-get install pinta
+```
