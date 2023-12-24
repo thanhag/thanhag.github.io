@@ -78,7 +78,7 @@ author:
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/rambothanh"
     - label: "Twitter"
-      icon: "fa-brands fa-x-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/rambothanh"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -93,7 +93,7 @@ footer:
       icon: "fab fa-fw fa-facebook"
       url: "https://facebook.com/rambothanh"
     - label: "Twitter"
-      icon: "fa-brands fa-x-twitter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/rambothanh"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -131,3 +131,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-VKX8JLF0QG"
+    anonymize_ip: false # default
