@@ -38,15 +38,15 @@ Trong những ngày đầu của [TCP](https://vi.wikipedia.org/wiki/TCP), các 
 
 Thuật toán của Nagle nhằm tránh bị tắt nghẽn bởi một số lượng lớn các gói nhỏ. Nó không can thiệp vào các gói TCP kích thước đầy đủ (Maximum Segment Size, hoặc MSS trong ngắn hạn), chỉ can thiệp vào các gói có kích thước nhỏ hơn MSS. Những gói đó sẽ được truyền chỉ khi người nhận gửi thành công tất cả các xác nhận của các gói trước đó (ACKs). Và trong thời gian chờ đợi, người gửi có thể lưu nhiều dữ liệu đệm hơn (buffer more data).
 
+```C#
 if package.size >= MSS.size
   send(package)
 elsif acks.all\_received?
   send(package)
 else
-
 # accumulate data
-
 end
+```
 
 Trong thời gian đó, một đề xuất khác xuất hiện: Delayed ACK.
 
@@ -54,15 +54,17 @@ Trong giao tiếp TCP, chúng ta gửi dữ liệu và nhận được các xác
 
 Delayed ACK cố gắng giải quyết vấn đề tắt ngẽn bởi một số lượng lớn các gói ACK. Để giảm thiểu nó, người nhận sẽ đợi một số dữ liệu sẽ được gửi tiếp để cộng chung các ACK với các dữ liệu đó. Nếu không có dữ liệu được gửi lại, chúng ta phải gửi các ACK ít nhất 2\*MSS, hoặc từ 200 dến 500 ms (trong trường hợp chúng ta không còn nhận gói)
 
+```C#
 if packages.any?
   send
-elsif last\_ack\_send\_more\_than\_2MSS\_ago? || 200\_ms\_timer.finished?
+elsif last_ack_send_more_than_2MSS_ago? || 200_ms_timer.finished?
   send
 else
 
 # wait
 
 end
+```
 
 Như bạn thấy điều này có thể dẫn đến một số tình trạng nan giải (deadlock) trong việc kết nối liên tục (emporary deadlocks on the persisted connection). Hãy ghi nhận nó.
 
@@ -111,7 +113,7 @@ Tuy nhiên có một số _**sendfile(2)**_ nhược điểm:
 
 Để bật thứ hay ho này trong nginx, gõ:
 
-sendfile on;
+`sendfile on;`
 
 ### `tcp_nopush`
 
@@ -119,8 +121,10 @@ _**tcp\_nopush**_ là đối nghịch với _**tcp\_nodelay**_. Thay vì đẩy
 
 Nó buộc các gói phải chờ đợi đến khi đạt kích thước tối đa (MSS) trước khi gửi đến cho máy khách. _**Directive**_ này chỉ hoạt động khi _**sendfile**_ được bật
 
+```C#
 sendfile on;
 tcp\_nopush on;
+```
 
 Như bạn thấy, có vẻ như _**tcp\_nopush**_ và _**tcp\_nodelay**_ loại trừ lẫn nhau. Nhưng nếu cả 3 _**directive**_ đều được bật, _**nginx**_ sẽ:
 
@@ -135,44 +139,50 @@ _**worker\_process** **directive**_ định nghĩa số lượng worker sẽ đ�
 
 Tuy nhiên, do kiến trúc của _**Nginx**_ xử lý yêu cầu rất nhanh chóng, chúng ta có thể sẽ không sử dụng đến 2-4 quy trình (processes) cùng một lúc (trừ khi bạn làm những web như facebook hoặc thực hiện một số nội dung chuyên sâu về CPU bên trong _**nginx**_)
 
-worker\_process auto;
+`worker_process auto;`
 
 ### **Worker connections**
 
 _**directive**_ liên quan trực tiếp đến _**worker\_process**_ là _**worker\_connections**_. Nó chỉ định có bao nhiêu kết nối có thể được mở bởi _**worker process**_ cùng một lúc. Số này thể hiện tất cả các kết nối không phải chỉ là kết nối với máy khách (vd: kết nối với máy chủ proxy). Ngoài ra, cần lưu ý rằng một máy khách có thể mở nhiều kết nối để tìm nạp các tài nguyên khác cùng một lúc.
 
-worker\_connections 1024;
+`worker_connections 1024;`
 
 ### Open files limit
 
 “Mọi thứ đều là một file” trong các hệ thống dựa trên Unix. Nó có nghĩa là các tài liệu, thư mục, pipes, hoặc thậm chí là các sockets. Hệ thống có một giới hạn bao nhiêu tập tin có thể được mở đồng thời bởi một quá trình (process). Để kiểm tra giới hạn gõ:
 
+```C#
 ulimit -Sn      # soft limit
 ulimit -Hn      # hard limit
+```
 
 Giới hạn hệ thống này phải được tinh chỉnh theo _**worker\_connections**_. Mọi kết nối đến sẽ mở ít nhất một tệp (thường là hai kết nối socket và kết nối phụ trợ khác hoặc file tĩnh trên ỗ đĩa). Vì vậy, tốt nhất là để giá trị này bằng với _**worker\_connections X 2**_. May mắn thay, _**Nginx**_ cung cấp tùy chọn tăng giá trị hệ thống này trong cấu hình nginx. Để cấu hình, hãy thêm _**directive** **worker\_rlimit\_nofile**_ với giá trị thích hợp và reload lại _**nginx.**_
 
-worker\_rlimit\_nofile 2048;
+`worker_rlimit_nofile 2048;`
 
 ### **Config**
 
 Nói dài dòng để hiểu hơn thôi, cuối cùng chúng ta cấu hình lại đơn giản như sau:
 
-worker\_process auto;
-worker\_rlimit\_nofile 2048; # Changes the limit on the maximum number of open files (RLIMIT\_NOFILE) for worker processes.
-worker\_connections 1024;   # Sets the maximum number of simultaneous connections that can be opened by a worker process.
+```C#
+worker_process auto;
+worker_rlimit_nofile 2048; # Changes the limit on the maximum number of open files (RLIMIT_NOFILE) for worker processes.
+worker_connections 1024;   # Sets the maximum number of simultaneous connections that can be opened by a worker process.
+```
 
 ### **Số lượng kết nối tối đa:**
 
 Với các tham số ở trên, chúng ta có thể tính toán số lượng kết nối mà chúng ta có thể xử lý đồng thời:
 
+```C#
 max no of connections =
 
-    worker\_processes \* worker\_connections
+    worker_processes * worker_connections
 ----------------------------------------------
- (keep\_alive\_timeout + avg\_response\_time) \* 2
+ (keep_alive_timeout + avg_response_time) * 2
+```
 
-keep\_alive\_timeout (sẽ nói thêm sau) + avg\_response\_time cho chúng ta biết thời gian kết nối được mở. Chúng ta chia nó cho 2, vì bạn thường sẽ có 2 kết nối được mở bởi một máy khách: một giữa nginx và máy khách, một giữa nginx và upstream serve
+keep_alive_timeout (sẽ nói thêm sau) + avg_response_time cho chúng ta biết thời gian kết nối được mở. Chúng ta chia nó cho 2, vì bạn thường sẽ có 2 kết nối được mở bởi một máy khách: một giữa nginx và máy khách, một giữa nginx và upstream serve
 
 ## **Gzip**
 
@@ -184,8 +194,9 @@ Gzip có mức độ nén (compression level) khác nhau: từ 1 đến 9. Tăng
 
 Dưới đây là ví dụ về việc nén tệp bằng gzip với các cấp độ khác nhau. 0 là viết tắt của một tập tin không nén.
 
-curl -I -H 'Accept-Encoding: gzip,deflate' <https://sofsog.com/>
+`curl -I -H 'Accept-Encoding: gzip,deflate' <https://sofsog.com/>`
 
+```C#
 ❯ du -sh ./\*
  64K    ./0\_gzip
  16K    ./1\_gzip
@@ -209,6 +220,7 @@ curl -I -H 'Accept-Encoding: gzip,deflate' <https://sofsog.com/>
 -rw-r--r-- 1 matDobek  staff  11080  3 Nov 08:50 7\_gzip
 -rw-r--r-- 1 matDobek  staff  11071  3 Nov 08:51 8\_gzip
 -rw-r--r-- 1 matDobek  staff  11005  3 Nov 08:51 9\_gzip
+```
 
 ### **`gzip_http_version 1.1;`**
 
@@ -216,26 +228,28 @@ _**directive**_ này nói cho _**nginx**_ sử dụng gzip chỉ đối với H
 
 ### **Config**
 
+```C#
 gzip on;               # bật gzip
-gzip\_http\_version 1.1; # chỉ bật gzip cho http 1.1 và cao hơn
-gzip\_disable "msie6";  # IE 6 gặp sự cố với gzip
-gzip\_comp\_level 5;     # inc compresion level và mức sử dung CPU
-gzip\_min\_length 100;   # trọng lượng tối thiếu cho tiệp gzip
-gzip\_proxied any;      # Bật gzip cho proxied requests (vd: CDN)
-gzip\_buffers 16 8k;    # bộ đệm nén (nếu chúng ta vượt quá giá trị này, đĩa cứng sẽ được sử dụng thay cho RAM)
-gzip\_vary on;          # add header Vary Accept-Encoding (sẽ nói thêm bên dưới phần Cache)
+gzip_http_version 1.1; # chỉ bật gzip cho http 1.1 và cao hơn
+gzip_disable "msie6";  # IE 6 gặp sự cố với gzip
+gzip_comp_level 5;     # inc compresion level và mức sử dung CPU
+gzip_min_length 100;   # trọng lượng tối thiếu cho tiệp gzip
+gzip_proxied any;      # Bật gzip cho proxied requests (vd: CDN)
+gzip_buffers 16 8k;    # bộ đệm nén (nếu chúng ta vượt quá giá trị này, đĩa cứng sẽ được sử dụng thay cho RAM)
+gzip_vary on;          # add header Vary Accept-Encoding (sẽ nói thêm bên dưới phần Cache)
 
 # Xác định file cần được nén
 
-gzip\_types text/plain;
-gzip\_types text/css;
-gzip\_types application/javascript;
-gzip\_types application/json;
-gzip\_types application/vnd.ms-fontobject;
-gzip\_types application/x-font-ttf;
-gzip\_types font/opentype;
-gzip\_types image/svg+xml;
-gzip\_types image/x-icon;
+gzip_types text/plain;
+gzip_types text/css;
+gzip_types application/javascript;
+gzip_types application/json;
+gzip_types application/vnd.ms-fontobject;
+gzip_types application/x-font-ttf;
+gzip_types font/opentype;
+gzip_types image/svg+xml;
+gzip_types image/x-icon;
+```
 
 ## **Caching**
 
@@ -246,16 +260,20 @@ Caching là một thứ khác có thể tăng tốc yêu cầu (requests) một 
 
 Cache có thể được chia thành hai loại: bộ nhớ cache công khai (public cache) và riêng tư (private cache). Public Cache lưu trữ những phản hồi (responses) để sử dụng lại cho nhiều người dùng. Private cache được dành riêng cho một người dùng.
 
-add\_header Cache-Control public;
-add\_header Pragma public;
+```C#
+add_header Cache-Control public;
+add_header Pragma public;
+```
 
 Đối với nội dung tiêu chuẩn, chúng ta nên giữ chúng trong thời gian 1 tháng:
 
-location ~\* \\.(jpg|jpeg|png|gif|ico|css|js)$ {
+```C#
+location ~* \.(jpg|jpeg|png|gif|ico|css|js)$ {
   expires 1M;
-  add\_header Cache-Control public;
-  add\_header Pragma public;
+  add_header Cache-Control public;
+  add_header Pragma public;
 }
+```
 
 Cấu hình như bên trên cơ bản đã đủ. Tuy nhiên, nó có một thông báo trước khi sử sụng public cache.
 
@@ -268,11 +286,13 @@ Chúng ta có 2 trình duyệt:
 
 _Trình duyệt phiên bản cũ_ gửi yêu cầu _**sofsog.com/style.css**_ đến CDN của chúng ta. Vì CDN chưa có tài nguyên này, nó sẽ truy vấn máy chủ của chúng ta và trả về phản hồi (response) không nén. CDN lưu trữ tập tin đã được băm (hash) (để sử dụng sau này):
 
+```C#
 {
   ...
   sofsog.com/styles.css => FILE("/sites/sofsog/style.css")
   ...
 }
+```
 
 Cuối cùng, file sẽ được trả lại cho máy khách.
 
@@ -280,24 +300,27 @@ Bây giờ, _trình duyệt mới_ gửi cùng một yêu cầu tới CDN, yêu 
 
 Nếu chúng ta có thể yêu cầu bộ nhớ cache công khai xác định tài nguyên dựa trên URI và mã hóa, chúng tôi có thể tránh vấn đề này.
 
+```C#
 {
   ...
   (sofsog.com/styles.css, gzip) => FILE("/sites/sofsog/style.css.gzip")
   (sofsog.como/styles.css, text/css) => FILE("/sites/sofsog/style.css")
   ...
 }
-\`\`
+```
 
 Và đây chính xác là những gì _**Vary Accept-Encoding;**_ làm. Nó cho bộ nhớ "public cache" biết rằng một tài nguyên có thể được phân biệt bởi một URI và một tiêu đề _**Accept-Encoding.**_
 
 Vì vậy, cấu hình cuối cùng của chúng ta sẽ như sau:
 
-location ~\* \\.(jpg|jpeg|png|gif|ico|css|js)$ {
+```C#
+location ~* \.(jpg|jpeg|png|gif|ico|css|js)$ {
   expires 1M;
-  add\_header Cache-Control public;
-  add\_header Pragma public;
-  add\_header Vary Accept-Encoding;
+  add_header Cache-Control public;
+  add_header Pragma public;
+  add_header Vary Accept-Encoding;
 }
+```
 
 ## **Timeouts**
 
@@ -307,10 +330,12 @@ _**send\_timeout**_ đặt thời gian chờ để truyền phản hồi cho kh�
 
 Hãy cẩn thận khi thiết lập các giá trị bên trên, vì thời gian chờ đợi quá lâu có thể làm bạn dễ bị tấn công, trong khi thời gian quá ngắn không đủ để phản hồi các máy khách chậm.
 
-\# Configure timeouts
-client\_body\_timeout   12;
-client\_header\_timeout 12;
-send\_timeout          10;
+```C#
+# Configure timeouts
+client_body_timeout   12;
+client_header_timeout 12;
+send_timeout          10;
+```
 
 ## **Buffers**
 
@@ -334,10 +359,12 @@ Nếu kích thước của request header  bị vượt quá, lỗi 400 (Yêu c
 
 ### **Config**
 
+```C#
 client\_body\_buffer\_size       16K;
 client\_header\_buffer\_size     1k;
 large\_client\_header\_buffers   2 1k;
 client\_max\_body\_size          8m;
+```
 
 ## **Keep-Alive**
 
@@ -345,6 +372,7 @@ Giao thức TCP, dựa trên HTTP, yêu cầu thực hiện một  "three-way 
 
 Giả sử bạn đang yêu cầu /image.jpg từ Warsaw và kết nối với máy chủ gần nhất ở Berlin:
 
+```Terminal
 Open connection
 
 TCP Handshake:
@@ -357,6 +385,7 @@ Warsaw  ->---------------------- /image.jpg --------------------------->- Berlin
 Warsaw  -<--------------------- (image data) --------------------------<- Berlin
 
 Close connection
+```
 
 Đối với yêu cầu khác, bạn sẽ phải thực hiện lại toàn bộ quá trình khởi tạo này một lần nữa. Nếu bạn gửi nhiều yêu cầu trong một khoảng thời gian ngắn, điều này có thể tăng tốc dộ. Và đây là nơi mà _**keepalive**_ có ích. Sau khi phản hồi thành công (successful response), nó giữ kết nối nhàn rỗi (connection idle) trong một khoảng thời gian nhất định (ví dụ 10 giây). Nếu yêu cầu khác được thực hiện trong thời gian này, kết nối hiện tại sẽ được sử dụng lại và thời gian nhàn rỗi (idle time) được làm mới.
 
@@ -364,7 +393,8 @@ Nginx cung cấp một vài chỉ thị (directives) mà bạn có thể sử d�
 
 - _**keepalive**_ giữa khách hàng và _**nginx**_
 
-keepalive\_disable msie6;        # tắt keepalive trên IE6
+```C#
+keepalive_disable msie6;        # tắt keepalive trên IE6
 
 # Số lượng yêu cầu mà khách hàng có thể thực hiện qua một kết nối duy nhất
 
@@ -372,14 +402,16 @@ keepalive\_disable msie6;        # tắt keepalive trên IE6
 
 # khi thử nghiệm với load‑generation tool, thường gửi một số lượng lớn các yêu cầu từ một máy khách đơn
 
-keepalive\_requests 100000;
+keepalive_requests 100000;
 
 # Thời gian idle keepalive connection mở
 
-keepalive\_timeout 60;
+keepalive_timeout 60;
+```
 
 - _**keepalive**_ giữa khách hàng và _**upstream**_
 
+```C#
 upstream backend {
     # Số lượng các kết nối "idle keepalive" đến "upstream server" được mở cho mỗi worker process
     keepalive 16;
@@ -387,11 +419,12 @@ upstream backend {
 
 server {
   location /http/ {
-    proxy\_pass <http://http\_backend>;
-    proxy\_http\_version 1.1;
-    proxy\_set\_header Connection "";
+    proxy_pass <http://http_backend>;
+    proxy_http_version 1.1;
+    proxy_set_header Connection "";
   }
 }
+```
 
 OK, được 1 phần nữa
 
