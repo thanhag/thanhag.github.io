@@ -46,7 +46,7 @@ Trong lúc _**nginx**_ đang chạy, bạn có thể quản lý nó bằng cách
 ## Một số Signal có sẵn
 
 - `stop`: shutdown nhanh _**nginx**_
-- `quit`: shutdown một cách cẩn thận, duyên dáng (^\_^) (Chờ đợi các workers hoàn thành các tiến trình của chúng rồi mới tắt)
+- `quit`: shutdown một cách cẩn thận, duyên dáng (^_^) (Chờ đợi các workers hoàn thành các tiến trình của chúng rồi mới tắt)
 - `reload`: Tải lại file cấu hình
 - `reopen`: Mở lại các file nhật ký (file log)
 
@@ -165,28 +165,28 @@ Bên Trong _**nginx**_, ban có thể chỉ định nhiều máy chủ ảo, m�
 
 ```nginx
 server {
-  listen      \*:80 default\_server;
-  server\_name sofsog.com;
+  listen      *:80 default_server;
+  server_name sofsog.com;
 
   return 200 "Hello from sofsog.com";
 }
 
 server {
-  listen      \*:80;
-  server\_name server2.com;
+  listen      *:80;
+  server_name server2.com;
 
   return 200 "Hello from server2.com";
 }
 
 server {
-  listen      \*:81;
-  server\_name server3.com;
+  listen      *:81;
+  server_name server3.com;
 
   return 200 "Hello from server3.com";
 }
 ```
 
-Đoạn cấu hình trên cung cấp cho _**nginx**_ hiểu cách xử lý các yêu cầu gửi đến. _**Nginx**_ trước tiên sẽ kiểm tra **directive _listen_** để kiểm tra xem máy chủ ảo (virtual server) nào đang  lắng nghe trên sự kết hợp giữa **IP:port** đã cho. Sau đó, giá trị từ **directive _server\_name_** được kiểm tra dựa trên "H_ost_ header" lưu trữ tên miền của máy chủ.
+Đoạn cấu hình trên cung cấp cho _**nginx**_ hiểu cách xử lý các yêu cầu gửi đến. _**Nginx**_ trước tiên sẽ kiểm tra **directive _listen_** để kiểm tra xem máy chủ ảo (virtual server) nào đang  lắng nghe trên sự kết hợp giữa **IP:port** đã cho. Sau đó, giá trị từ **directive _server_name_** được kiểm tra dựa trên "H_ost_ header" lưu trữ tên miền của máy chủ.
 
 _**Nginx**_ sẽ chọn máy chủ ảo theo thứ tự sau:
 
@@ -219,8 +219,8 @@ server_name ~^[0-9]*\.sofsog\.com$;   # regular expressions matching
 Khi có sự không rõ ràng, _**nginx**_ sử dụng thứ tự sau:
 
 1. Tên chính xác
-2. Tên ký tự đại diện dài nhất bắt đầu bằng dấu sao, vd: “\*.example.org”
-3. Tên ký tự đại diện dài nhất kết thúc bằng dấu sao, vd: “mail.\*”
+2. Tên ký tự đại diện dài nhất bắt đầu bằng dấu sao, vd: “*.example.org”
+3. Tên ký tự đại diện dài nhất kết thúc bằng dấu sao, vd: “mail.*”
 4. Biểu thức thông dụng (regular expressions) khớp đầu tiên (Theo thứ tự xuất hiện trong file cấu hình)
 
 _**Nginx**_ sẽ lưu trữ 02 hash tables (bảng băm) là: tên chính xác, tên ký tự đại diện dài nhất bắt đầu bằng dấu sao, tên ký tự đại diện dài nhất kết thúc bằng dấu sao. Nếu kết quả không nằm trong bất kỳ bảng nào, các biểu thức thông đụng (regular expressions) sẽ được kiểm tra tuần tự.
@@ -237,7 +237,7 @@ Là viết tắt của:
 server_name  sofsog.com  www.sofsog.com  *.sofsog.com;
 ```
 
-Nhưng giữa 2 cách viết trên vẫn có sự khác biệt là: _**.sofsog.com**_ được lưu trữ trong bảng thứ hai, có nghĩa là nó chậm hơn một chút so với khai báo rõ ràng (sofsog.com www.sofsog.com \*.sofsog.com)
+Nhưng giữa 2 cách viết trên vẫn có sự khác biệt là: _**.sofsog.com**_ được lưu trữ trong bảng thứ hai, có nghĩa là nó chậm hơn một chút so với khai báo rõ ràng (sofsog.com www.sofsog.com *.sofsog.com)
 
 ## **_`listen`_ directive**
 
@@ -415,7 +415,7 @@ Ví dụ bên trên: đối với yêu cầu /foo.html, nó sẽ cố gắng tr
 2. index.html
 3. Nếu không tìm thấy: 404.
 
-Điều thú vị là, nếu chúng ta định nghĩa _try\_files_ trong **_server_ context** và sau đó xác định _location_ khớp với tất cả các yêu cầu, _try\_files_ của chúng ta sẽ không được thực hiện. Điều này xảy ra vì _try\_files_ trong _**server** **context**_ định nghĩa vị trí giả (_pseudo-location_) của riêng nó, đó là _location_ kém cụ thể nhất có thể. Do đó, định nghĩa  _location /_ sẽ cụ thể hơn vị trí giả (_pseudo-location_) của chúng ta.
+Điều thú vị là, nếu chúng ta định nghĩa _try_files_ trong **_server_ context** và sau đó xác định _location_ khớp với tất cả các yêu cầu, _try_files_ của chúng ta sẽ không được thực hiện. Điều này xảy ra vì _try_files_ trong _**server** **context**_ định nghĩa vị trí giả (_pseudo-location_) của riêng nó, đó là _location_ kém cụ thể nhất có thể. Do đó, định nghĩa  _location /_ sẽ cụ thể hơn vị trí giả (_pseudo-location_) của chúng ta.
 
 ```nginx
 server {
