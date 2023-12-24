@@ -9,6 +9,7 @@ header:
   teaser: /assets/images/1.EVKey-cong-cu-go-tieng-Viet-tot-nhat-Sofsog.com_.jpg
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/evkey-bo-go-tieng-viet-moi-khac-phuc-loi-go-tieng-viet-tren-trinh-duyet-excel
 ---
 
 Khi bạn cảm thấy không hài lòng khi gõ tiếng Việt trên thanh trình duyệt Chrome, Excel và các phần mềm khác trên máy tính, ....bị nhiều lỗi khác nhau. Đó là lúc bạn nên thay đổi bộ gõ tiếng Việt mới **EVKey.**
@@ -95,4 +96,4 @@ Vậy là xong rồi đấy, quá đơn giản đúng không.
 
 Khi mình cài _**EVKey**_ thấy một số lỗi mình hay bị ở _**Unikey**_ đều được khắc phục. Ngoài ra _**EVKey**_ còn có nhiều tính năng hơn _**Unikey**_. Vậy còn chờ gì nữa, bạn cũng cài đi nào!
 
-Sofsog.com chúc các bạn thành công!
+[Sofsog.com](https://sofsog.com/) chúc các bạn thành công!

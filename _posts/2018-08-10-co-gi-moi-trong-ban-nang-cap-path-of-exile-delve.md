@@ -12,9 +12,11 @@ tags:
 header:
   image: /assets/images/3.-Có-gì-mới-trong-bản-nâng-cấp-Path-of-Exile-Delve.jpg
   teaser: /assets/images/3.-Có-gì-mới-trong-bản-nâng-cấp-Path-of-Exile-Delve.jpg
-toc: true
+
 breadcrumbs: true
 ---
+
+**Lưu ý:** bài viết đã lỗi thời
 
 Có những kho báu được chôn sâu bên trong Mỏ **Azurite** của **Wraeclast**. Trang **Shacknews** đã tham gia tour mở rộng tiếp theo của **Path of Exile**[,](https://sofsog.com/) mạo hiểm đi vào dungeon (hầm ngục) vô hạn đầu tiên của trò chơi.
 

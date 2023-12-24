@@ -32,7 +32,7 @@ tags:
 header:
   image: /assets/images/Nhung-trang-web-huu-ich-nhat-tren-internet.jpg
   teaser: /assets/images/Nhung-trang-web-huu-ich-nhat-tren-internet.jpg
-toc: true
+
 breadcrumbs: true
 ---
 
@@ -40,9 +40,9 @@ breadcrumbs: true
 
 ![Nhung trang web huu ich nhat tren internet](/assets/images/Nhung-trang-web-huu-ich-nhat-tren-internet.jpg)
 
-# Danh sách những trang web hữu ích nhất
+## Danh sách những trang web hữu ích nhất
 
-1. 1. [archive.is](https://archive.is/) [\-](https://sofsog.com/) Chụp nhanh dữ liệu của bất kỳ trang web nào, và nó sẽ tồn tài mãi mãi ngay cả khi trang web gốc biến mất.
+1. [archive.is](https://archive.is/) [\-](https://sofsog.com/) Chụp nhanh dữ liệu của bất kỳ trang web nào, và nó sẽ tồn tài mãi mãi ngay cả khi trang web gốc biến mất.
 2. [autodraw.com](https://www.autodraw.com/) [-](https://sofsog.com/) Vẽ một hình tượng trưng tự do và trang web sẽ gợi ý chúng ta những hình ảnh mà trong thâm tâm chúng ta muốn vẽ, rất kỳ diệu.
 3. [fast.com](https://fast.com/en/) [-](https://sofsog.com/) Đơn giản là kiểm tra tốc độ internet hiện tại của bạn
 4. [slides.com](https://slides.com/) [-](https://sofsog.com/) Tạo các trang trình chiếu hoàn hảo và phát các bản trình bày của bạn tới khán giả với mọi kích thước.

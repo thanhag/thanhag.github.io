@@ -17,6 +17,7 @@ header:
   teaser: /assets/images/Huong-dan-nginx-performance-sofsog.com_.jpg
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-nginx-phan-performance
 ---
 
 Bài này hoặc **loạt bài** này (nếu mình có thời gian) mình thực hiện bằng cách vừa học vừa viết lại, nguồn từ internet, chủ yếu mình lược dịch lại từ các trang web nước ngoài. Mục đích vừa để chia sẻ vừa để lại lưu trữ (sau này mình quên có thể vào để xem lại).

@@ -19,6 +19,7 @@ header:
   teaser: /assets/images/Huong-dan-nginx-SSL-sofsog.com_.png
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-nginx-phan-cai-dat-ssl
 ---
 
 Bài này hoặc **loạt bài _hướng dẫn nginx_** này (nếu mình có thời gian) mình thực hiện bằng cách vừa học vừa viết lại , nguồn từ internet, chủ yếu mình lược dịch lại từ các trang web nước ngoài. Mục đích vừa để chia sẻ vừa để lại lưu trữ (sau này mình quên có thể vào để xem lại).

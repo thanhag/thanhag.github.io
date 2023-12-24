@@ -18,6 +18,7 @@ header:
   teaser: /assets/images/1.-huong-dan-su-dung-keepass-sofsog.com_.jpg
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/phan-mem/keepass-toan-tap-huong-dan-su-dung-keepass
 ---
 
 Trong thời đại công nghệ hiện nay, việc nhớ các loại password, mật khẩu, thông tin đăng nhập là một cực hình đối với hầu hết mọi người thường xuyên tiếp xúc với internet. Như vậy, một câu hỏi đặt ra là có cách nào để quản lý tất cả các thông tin đăng nhập, password mật khẩu, ... một cách bảo mật, an toàn.
@@ -26,7 +27,7 @@ Tất nhiên, có nhiều phần mềm hỗ trợ việc này, trả phí có, m
 
 Vậy, lại đặt ra câu hỏi là, có phần mềm nào mã nguồn mở (có thể kiểm tra mã nguồn), đáp ứng được những điều đã nói ở trên hay không ? Và bên dưới là câu trả lời.
 
-## **GIỚI THIỆU KEEPASS**
+## Gới thiệu Keepass
 
 **KeePass** là một phần mềm mã nguồn mở miễn phí giúp lưu trữ tất cả mật khẩu, thông tin cá nhân. Chương trình này lưu trữ password của bạn trong một file cơ sở dữ liệu (CSDL) được mã hóa ở mức cao.
 
@@ -36,7 +37,7 @@ Chương trình cũng cho phép bạn in danh sách mật khẩu hoặc cửa s�
 
 Vì **Keepass** là mã nguồn mở nên nó đã được nhiều lập trình viên kiểm tra, và có thể nói nó đảm bảo hơn cái thằng **lastpass** đã nói ở trên về độ an toàn thông tin.
 
-## HƯỚNG DẪN SỬ DỤNG KEEPASS TRÊN WINDOW
+## Hướng dẫn sử dụng Kepass trên Windows
 
 ### Bước 1: Download **keepass**
 

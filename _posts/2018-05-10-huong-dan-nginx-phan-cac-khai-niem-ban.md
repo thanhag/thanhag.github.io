@@ -16,6 +16,7 @@ header:
   teaser: /assets/images/Huong-dan-nginx-sofsog.com_.png
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-nginx-phan-cac-khai-niem-ban
 ---
 
 Bài này hoặc **loạt bài** này (nếu mình có thời gian) mình thực hiện bằng cách vừa học vừa viết lại, nguồn từ internet, chủ yếu mình lược dịch lại từ các trang web nước ngoài. Mục đích vừa để chia sẻ vừa để lại lưu trữ (sau này mình quên có thể vào để xem lại). Ok, dài dòng đủ rồi, vào bài thôi:
@@ -36,11 +37,11 @@ Kiến trúc cơ bản của _**nginx**_ bao gồm một quy trình tổng (Mast
 
 Để bắt đầu _**nginx**_, bạn chỉ cần gõ:
 
-sudo nginx
+`sudo nginx`
 
 Trong lúc _**nginx**_ đang chạy, bạn có thể quản lý nó bằng cách gửi các lệnh thích hợp:
 
-sudo nginx -s signal\_thich-hop
+`sudo nginx -s signal_thich-hop`
 
 #### Một số Signal có sẵn
 
@@ -57,15 +58,18 @@ Theo mặc định, file cấu hình của _**nginx**_ có thể được tìm t
 - `/usr/local/etc/nginx/nginx.conf`, hoặc
 - `/usr/local/nginx/conf/nginx.conf`
 
-#### Trong file cấu hình này bao gồm
+### Trong file cấu hình này bao gồm
 
-- directive: tùy chọn chứa tên và thông số (name và parameters), phải được kết thúc bằng dấu chấm phẩy.
+- **directive**: tùy chọn chứa tên và thông số (name và parameters), phải được kết thúc bằng dấu chấm phẩy.
 
+```Nginx
 gzip on;
+```
 
-- context: Đây là nơi để bạn có thể khai báo các directive (tương tự như phạm vi "scope" trong các ngôn ngữ lập trình)
+- **context**: Đây là nơi để bạn có thể khai báo các directive (tương tự như phạm vi "scope" trong các ngôn ngữ lập trình)
 
-worker\_processes 2; # directive trong global context (chỉ thị trong ngữ cảnh chung)
+```Nginx
+worker_processes 2; # directive trong global context (chỉ thị trong ngữ cảnh chung)
 
 http {              # http context (ngữ cảnh http)
     gzip on;        # directive trong http context
@@ -74,18 +78,22 @@ http {              # http context (ngữ cảnh http)
     listen 80;      # directive trong server context
   }
 }
+```
 
 ## Các loại directive
 
 Bạn phải cẩn thận khi sử dụng một **directive** trong nhiều **context**, vì mô hình kế thừa (inheritance model) là khác  nhau đối với các **directive** khác nhau. Có 3 loại **directive**, mỗi loại lại có mô hình kế thừa (inheritance model) riêng.
 
-#### Normal
+### Normal
 
 **Directive** này chỉ có một giá trị cho mỗi **context**. Ngoài ra, nó chỉ có thể được định nghĩa một lần trong **context**.  Các **subcontext** (ngữ cảnh con) có thể ghi đè **directive** cha (parent directive), nhưng việc ghi đè này chỉ hợp lệ trong đã **subcontext** nêu.
 
+```Nginx
 gzip on;
 gzip off; # Không hợp lệ, vì chỉ có một directive trong cùng một context.
+```
 
+```Nginx
 server {
   location /downloads {
     gzip off;
@@ -95,21 +103,24 @@ server {
     # gzip được bật ở đây
   }
 }
+```
 
-#### Array
+### Array
 
 Việc thêm nhiều **directive** trong cùng một **context** sẽ thêm vào các giá trị, thay vì ghi đè chúng hoàn toàn. Việc định nghĩa một **directive** trong một **subcontext** sẽ ghi đè tất cả các giá trị cha trong **subcontext** đã cho.
 
-error\_log /var/log/nginx/error.log;
-error\_log /var/log/nginx/error\_notive.log notice;
-error\_log /var/log/nginx/error\_debug.log debug;
+```Nginx
+error_log /var/log/nginx/error.log;
+error_log /var/log/nginx/error_notive.log notice;
+error_log /var/log/nginx/error_debug.log debug;
 
 server {
   location /downloads {
     # Dòng dưới này sẽ ghi đè toàn bộ các directive đã cho bên trên
-    error\_log /var/log/nginx/error\_downloads.log;
+    error_log /var/log/nginx/error_downloads.log;
   }
 }
+```
 
 #### Action directive (chỉ thị hành động)
 
@@ -117,6 +128,7 @@ Hành động (action) là loại **directive** thay đổi mọi thứ. Hành
 
 Ví dụ, trong trường hợp **rewrite directive**, mỗi **directive** phù hợp sẽ được thực hiện:
 
+```Nginx
 server {
   rewrite ^ /foobar;
 
@@ -125,6 +137,7 @@ server {
     rewrite ^ /bar;
   }
 }
+```
 
 Nếu user nạp: `/sample`:
 
@@ -135,12 +148,14 @@ Nếu user nạp: `/sample`:
 
 Một ví dụ khác với **return directive**:
 
+```Nginx
 server {
   location / {
     return 200;
     return 404;
   }
 }
+```
 
 Trong trường hợp bên trên, trạng thái 404 được trả về ngay lập tức.
 
@@ -148,8 +163,7 @@ Trong trường hợp bên trên, trạng thái 404 được trả về ngay l�
 
 Bên Trong _**nginx**_, ban có thể chỉ định nhiều máy chủ ảo, mỗi máy chủ được mô tả bằng **_server { }_** **context** (ngữ cảnh server)
 
-Inside _**nginx**_, you can specify multiple virtual servers, each described by a server { } context.
-
+```Nginx
 server {
   listen      \*:80 default\_server;
   server\_name sofsog.com;
@@ -170,6 +184,7 @@ server {
 
   return 200 "Hello from server3.com";
 }
+```
 
 Đoạn cấu hình trên cung cấp cho _**nginx**_ hiểu cách xử lý các yêu cầu gửi đến. _**Nginx**_ trước tiên sẽ kiểm tra **directive _listen_** để kiểm tra xem máy chủ ảo (virtual server) nào đang  lắng nghe trên sự kết hợp giữa **IP:port** đã cho. Sau đó, giá trị từ **directive _server\_name_** được kiểm tra dựa trên "H_ost_ header" lưu trữ tên miền của máy chủ.
 
@@ -180,22 +195,26 @@ _**Nginx**_ sẽ chọn máy chủ ảo theo thứ tự sau:
 3. Danh sách server trên IP:port, đầu tiên được định nghĩa
 4. Nếu không có kết quả phù hợp, từ chối kết nối.
 
-Trong kết ví dụ cấu hình bên trên, kết quả sẽ là:
+Trong ví dụ cấu hình bên trên, kết quả sẽ là:
 
+```bash
 Gửi yêu cầu đến: server2.com:80     => "Hello from server2.com"
 Gửi yêu cầu đến www.server2.com:80 => "Hello from sofsog.com"
 Gửi yêu cầu đến server3.com:80     => "Hello from sofsog.com"
 Gửi yêu cầu đến server2.com:81     => "Hello from server3.com"
 Gửi yêu cầu đến server3.com:81     => "Hello from server3.com"
+```
 
 ## _`server_name`_ directive
 
-**_server\_name_ directive** chấp nhận nhiều giá trị. Nó cũng xử lý các ký tự đại diện và biểu thức thông dụng. (wildcard và regular expressions)
+**_`server_name`_ directive** chấp nhận nhiều giá trị. Nó cũng xử lý các ký tự đại diện và biểu thức thông dụng. (wildcard và regular expressions)
 
-server\_name sofsog.com www.sofsog.com; # exact match
-server\_name \*.sofsog.com;              # wildcard matching
-server\_name sofsog.\*;                  # wildcard matching
-server\_name  ~^\[0-9\]\*\\.sofsog\\.com$;   # regular expressions matching
+```Nginx
+server_name sofsog.com www.sofsog.com; # exact match
+server_name *.sofsog.com;              # wildcard matching
+server_name sofsog.*;                  # wildcard matching
+server_name ~^[0-9]*\.sofsog\.com$;   # regular expressions matching
+```
 
 Khi có sự không rõ ràng, _**nginx**_ sử dụng thứ tự sau:
 
@@ -208,11 +227,15 @@ _**Nginx**_ sẽ lưu trữ 02 hash tables (bảng băm) là: tên chính xác,�
 
 Gần ghi nhớ rằng:
 
-server\_name .sofsog.com;
+```Nginx
+server_name .sofsog.com;
+```
 
 Là viết tắt của:
 
-server\_name  sofsog.com  www.sofsog.com  \*.sofsog.com;
+```Nginx
+server_name  sofsog.com  www.sofsog.com  *.sofsog.com;
+```
 
 Nhưng giữa 2 cách viết trên vẫn có sự khác biệt là: _**.sofsog.com**_ được lưu trữ trong bảng thứ hai, có nghĩa là nó chậm hơn một chút so với khai báo rõ ràng (sofsog.com www.sofsog.com \*.sofsog.com)
 
@@ -220,23 +243,29 @@ Nhưng giữa 2 cách viết trên vẫn có sự khác biệt là: _**.sofsog.c
 
 Trong hầu hết các trường hợp, bạn sẽ thấy rằng **_`listen`_ directive** chấp nhận các giá trị IP:port
 
+```Nginx
 listen 127.0.0.1:80;
 listen 127.0.0.1;    # Sẽ mặc định cổng 80
 
-listen \*:81;
+listen *:81;
 listen 81;           # mặc định tất cả các IP (tên miền) được sử dụng
 
-listen \[::\]:80;      # IPv6 addresses
-listen \[::1\];        # IPv6 addresses
+listen [::]:80;      # IPv6 addresses
+listen [::1];        # IPv6 addresses
+```
 
 Tuy nhiên, bạn cũng có thể chỉ định **UNIX-domain sockets**
 
+```Nginx
 listen unix:/var/run/nginx.sock;
+```
 
 Bạn thậm chí có thể sử dụng _hostname_
 
+```Nginx
 listen localhost:80;
 listen sofsog.com:80;
+```
 
 Điều này nên được sử dụng thận trọng, vì tên máy chủ (_hostname_) có thể không được giải quyết khi khởi chạy _**nginx**_, khiến _**nginx**_ không thể liên kết trên TCP socket đã cho.
 
@@ -244,18 +273,20 @@ listen sofsog.com:80;
 
 Với tất cả kiến ​​thức bên trên,  chúng ta có thể tạo và hiểu cấu hình tối thiểu cần thiết để chạy _**nginx**_
 
-\# /etc/nginx/nginx.conf
+```Nginx
+# /etc/nginx/nginx.conf
 
 events {}                   # Bối cảnh events cần được xác định để xem xét cấu hình hợp lệ
 
 http {
  server {
     listen 80;
-    server\_name  sofsog.com  www.sofsog.com  \*.sofsog.com;
+    server_name  sofsog.com  www.sofsog.com  *.sofsog.com;
 
     return 200 "Hello";
   }
 }
+```
 
 ## _`root`_, _`location`_, và _`try_files`_ **directive**
 
@@ -263,16 +294,20 @@ http {
 
 _`root`_ directive khai báo thư mục gốc cho các yêu cầu, cho phép _**nginx**_ ánh xạ yêu cầu gửi đến (incoming request) vào file hệ hống.
 
+```Nginx
 server {
   listen 80;
-  server\_name sofsog.com;
+  server_name sofsog.com;
   root /var/www/sofsog.com;
 }
+```
 
 Điều này cho phép _**nginx**_ trả lại nội dung máy chủ theo yêu cầu
 
+```Nginx
 sofsog.com:80/index.html     # returns /var/www/sofsog.com/index.html
 sofsog.com:80/foo/index.html # returns /var/www/sofsog.com/foo/index.html
+```
 
 ### _`location`_ directive
 
@@ -280,27 +315,32 @@ _`location`_ directive đặt cấu hình tùy thuộc vào URI được yêu c�
 
 _location \[modifier\] path_
 
+```Nginx
 location /foo {
 
-#
+# ...
 
 }
+```
 
 Khi không có _modifier nào được chỉ định, path được coi là tiền tố (prefix), và mọi thứ phía sau nó đều hợp lệ._
 
 Như ví dụ bên trên, kết quả bên dưới này đều hợp lệ (match):
 
+```Nginx
 /foo
 /fooo
 /foo123
 /foo/bar/index.html
 ...
+```
 
 Ngoài ra, nhiều **_`location`_ directives** có thể được sử dụng trong một _**context**_ nhất định.
 
+```Nginx
 server {
   listen 80;
-  server\_name sofsog.com;
+  server_name sofsog.com;
   root /var/www/sofsog.com;
 
   location / {
@@ -311,30 +351,36 @@ server {
     return 200 "foo";
   }
 }
+```
 
+```Nginx
 sofsog.com:80   /       # => "root"
 sofsog.com:80   /foo    # => "foo"
 sofsog.com:80   /foo123 # => "foo"
 sofsog.com:80   /bar    # => "root"
+```
 
 **_Nginx_** cũng cung cấp vài modifiers, có thể được sử dụng kết hợp với **_location_**. Những modifiers đó tác động đến khối **_location_** nào mà được sử dụng, vì mỗi modifier, đã được chỉ định ưu tiên.
 
+```Nginx
 \=           - Exact match
 ^~          - Preferential match
-~ && ~\*     - Regex match
+~ && ~*     - Regex match
 no modifier - Prefix match
+```
 
 _**Nginx**_ đầu tiên sẽ kiểm tra bất kỳ "exact match" nào. Nếu nó không tìm thấy, nó sẽ tìm kiếm những preferential. Nếu match này cũng thất bại, các regex match sẽ được kiểm tra theo thứ tự xuất hiện của chúng. Nếu mọi thứ không thành công, thì giá trị tiền tố cuối cùng (prefix match) sẽ được sử dụng.
 
+```Nginx
 location /match {
   return 200 'Prefix match: matches everything that starting with /match';
 }
 
-location ~\* /match\[0-9\] {
+location ~* /match[0-9] {
   return 200 'Case insensitive regex match';
 }
 
-location ~ /MATCH\[0-9\] {
+location ~ /MATCH[0-9] {
   return 200 'Case sensitive regex match';
 }
 
@@ -345,18 +391,23 @@ location ^~ /match0 {
 location = /match {
   return 200 'Exact match';
 }
+```
 
+```Nginx
 /match     # => 'Exact match'
 /match0    # => 'Preferential match'
 /match1    # => 'Case insensitive regex match'
 /MATCH1    # => 'Case sensitive regex match'
 /match-abc # => 'Prefix match: matches everything that starting with /match'
+```
 
 ### _`try_files`_ directive
 
 **Directive** này sẽ thử các đường dẫn (path) khác nhau, trả về bất cứ gì được tìm thấy
 
-try\_files $uri index.html =404;
+```Nginx
+try_files $uri index.html =404;
+```
 
 Ví dụ bên trên: đối với yêu cầu /foo.html, nó sẽ cố gắng trả về các file theo thứ tự sau:
 
@@ -366,20 +417,25 @@ Ví dụ bên trên: đối với yêu cầu /foo.html, nó sẽ cố gắng tr
 
 Điều thú vị là, nếu chúng ta định nghĩa _try\_files_ trong **_server_ context** và sau đó xác định _location_ khớp với tất cả các yêu cầu, _try\_files_ của chúng ta sẽ không được thực hiện. Điều này xảy ra vì _try\_files_ trong _**server** **context**_ định nghĩa vị trí giả (_pseudo-location_) của riêng nó, đó là _location_ kém cụ thể nhất có thể. Do đó, định nghĩa  _location /_ sẽ cụ thể hơn vị trí giả (_pseudo-location_) của chúng ta.
 
+```Nginx
 server {
-  try\_files $uri /index.html =404;
+  try_files $uri /index.html =404;
 
   location / {
   }
 }
 
-Do đó, bạn nên tránh _try\_files_ trong _**server** **context**_ :
+```
 
+Do đó, bạn nên tránh _try_files_ trong _**server** **context**_ :
+
+```Nginx
 server {
   location / {
-    try\_files $uri /index.html =404;
+    try_files $uri /index.html =404;
   }
 }
+```
 
 ## Kết luận
 

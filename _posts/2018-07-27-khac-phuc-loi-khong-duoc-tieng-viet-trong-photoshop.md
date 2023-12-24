@@ -10,8 +10,8 @@ tags:
 header:
   image: /assets/images/Sua-loi-fix-loi-fix-error-sofsog.com_.jpg
   teaser: /assets/images/Sua-loi-fix-loi-fix-error-sofsog.com_.jpg
-toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/sua-loi/khac-phuc-loi-khong-duoc-tieng-viet-trong-photoshop
 ---
 
 Lỗi này cách khắc phục cực kỳ đơn giản.
