@@ -14,7 +14,7 @@ tags:
 header:
   image: /assets/images/Huong-dan-nginx-sofsog.com_.png
   teaser: /assets/images/Huong-dan-nginx-sofsog.com_.png
-toc: true
+
 breadcrumbs: true
 permalink: /thiet-ke-web/wordpress/huong-dan-nginx-phan-cac-khai-niem-ban
 ---
@@ -43,14 +43,14 @@ Trong lúc _**nginx**_ đang chạy, bạn có thể quản lý nó bằng cách
 
 `sudo nginx -s signal_thich-hop`
 
-#### Một số Signal có sẵn
+## Một số Signal có sẵn
 
 - `stop`: shutdown nhanh _**nginx**_
 - `quit`: shutdown một cách cẩn thận, duyên dáng (^\_^) (Chờ đợi các workers hoàn thành các tiến trình của chúng rồi mới tắt)
 - `reload`: Tải lại file cấu hình
 - `reopen`: Mở lại các file nhật ký (file log)
 
-## Directive và Context (chỉ thị và bối cảnh, cái này tốt nhất là không dịch)
+### Directive và Context (chỉ thị và bối cảnh, cái này tốt nhất là không dịch)
 
 Theo mặc định, file cấu hình của _**nginx**_ có thể được tìm thấy trong các đường dẫn sau:
 
