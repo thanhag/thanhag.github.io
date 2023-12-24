@@ -70,7 +70,10 @@ author:
   avatar : "/assets/images/avarta-thanh.jpg"
   bio    : "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
   links:
-    - label: "Website"
+    - label: "An Giang, Việt Nam"
+      icon: "fas fa-fw fa-location-dot"
+      url: "#"
+    - label: "Trang web"
       icon: "fas fa-fw fa-link"
       url: "https://sofsog.com"
     - label: "Facebook"
