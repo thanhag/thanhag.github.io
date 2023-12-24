@@ -71,8 +71,8 @@ author:
   bio    : "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
   links:
     - label: "An Giang, Việt Nam"
-      icon: "fas fa-fw fa-location-dot"
-      url: "#"
+      icon: "fab fa-fw fa-location-dot"
+          
     - label: "Trang web"
       icon: "fas fa-fw fa-link"
       url: "https://sofsog.com"
