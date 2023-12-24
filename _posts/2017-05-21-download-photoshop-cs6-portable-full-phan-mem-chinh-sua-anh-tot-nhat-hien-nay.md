@@ -1,4 +1,5 @@
 ---
+published: False
 title: "Download Photoshop CS6 Portable Full (phần mêm chỉnh sửa ảnh tốt nhất hiện nay)"
 date: "2017-05-21"
 categories: 

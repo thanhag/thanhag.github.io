@@ -13,9 +13,9 @@ tags:
   - "phan-mem"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/G.png
+  
   teaser: /assets/images/G.png
-toc: true
+
 breadcrumbs: true
 ---
 
@@ -25,9 +25,13 @@ breadcrumbs: true
 
 Trước tiên, cài đặt **GIMP** trên **linux**, bạn gõ vào **Terminal**:
 
+```terminal
 apt-get install gimp
+```
 
-\[alert-note\]Lưu ý: Cài đặt trên window các bạn Google nhá.\[/alert-note\] _Giao diện chính của **GIMP** được chia thành ba phần chính:_ Bảng **_Toolbox_** chứa các công cụ xử lý ảnh, kèm theo đó là bảng tùy chọn nằm ngay bên dưới (tương ứng với mỗi công cụ sẽ có một bảng tùy chọn riêng), bảng _**Layers**, **Channels**, **Paths**, **Undo**_ chứa các thông số liên quan đến lớp, kênh màu,… Cuối cùng là bảng **_GNU Image Manipulation Program_** hiển thị ảnh đang xử lý. Để xử lý một ảnh có sẵn, trước hết bạn vào menu **_File > Open_**, duyệt đến file ảnh cần xử lý và nhấn Open. Trong bài này, chúng ta tìm hiểu một số công cụ cơ bản trong **GIMP** như: _**Scale Tool,** **Crop Tool,** **Paths Tool, Flip Tool, Rotate Tool.**_
+Lưu ý: Cài đặt trên window các bạn Google nhá.
+
+_Giao diện chính của **GIMP** được chia thành ba phần chính:_ Bảng **_Toolbox_** chứa các công cụ xử lý ảnh, kèm theo đó là bảng tùy chọn nằm ngay bên dưới (tương ứng với mỗi công cụ sẽ có một bảng tùy chọn riêng), bảng _**Layers**, **Channels**, **Paths**, **Undo**_ chứa các thông số liên quan đến lớp, kênh màu,… Cuối cùng là bảng **_GNU Image Manipulation Program_** hiển thị ảnh đang xử lý. Để xử lý một ảnh có sẵn, trước hết bạn vào menu **_File > Open_**, duyệt đến file ảnh cần xử lý và nhấn Open. Trong bài này, chúng ta tìm hiểu một số công cụ cơ bản trong **GIMP** như: _**Scale Tool,** **Crop Tool,** **Paths Tool, Flip Tool, Rotate Tool.**_
 
 **Scale Tool:** Kéo giãn đối tượng mà không làm “méo” chi tiết Sử dụng công cụ **_Scale Tool_**, bạn dễ dàng thay đổi kích thước các đối tượng trong ảnh. Tại bảng **_Toolbox_**, bạn chọn công cụ _**Scale Tool**_ (biểu tượng ![](/assets/images/710F72705C6C4DC6869ECA9943C93C67.jpg)), chọn đối tượng cần xử lý từ bảng **_Layer_**, nhấp chuột lên vùng hiển thị ảnh. Hộp thoại **_Scale_** sẽ tự động xuất hiện.
 

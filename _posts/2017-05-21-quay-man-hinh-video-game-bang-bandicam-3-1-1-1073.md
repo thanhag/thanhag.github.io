@@ -1,4 +1,5 @@
 ---
+published: False
 title: "Quay màn hình, video game bằng Bandicam 3.1.1.1073"
 date: "2017-05-21"
 categories: 

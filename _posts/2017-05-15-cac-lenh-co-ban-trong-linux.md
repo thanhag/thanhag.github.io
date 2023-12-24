@@ -12,7 +12,7 @@ tags:
   - "linux-command-line"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/command-pic0.png
+  
   teaser: /assets/images/command-pic0.png
 toc: true
 breadcrumbs: true
@@ -20,7 +20,7 @@ breadcrumbs: true
 
 #### Dưới đây là bảng tổng hợp các lệnh cơ bản dùng cho hầu hết các hệ điều hành Linux hiện tại, trong đó có cả Kali Linux, các bạn hãy boolmark lại để xem lại khi quên
 
-<table class="tr-caption-container" cellspacing="0" cellpadding="0" align="center"><tbody><tr><td><img class="aligncenter size-full wp-image-1110" src="images/command-pic0.png" alt="" width="320" height="198"></td></tr><tr><td class="tr-caption">Tổng hợp các lệnh cơ bản.</td></tr></tbody></table>
+![Các lệnh linux cơ bản](/assets/images/command-pic0.png)
 
 #### Di chuyển / liệt kê
 

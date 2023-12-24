@@ -29,23 +29,29 @@ Máy tính của bạn đang kết nối mạng bằng wifi, khi bạn muốn k�
 
 Mở command prompt bằng quyền admimistrator. Vào Run, gõ "cmd", nhấn chuột phải vào icon của command prompt  chọn Run as Administrator. Gõ dòng lệnh bên dưới vào:
 
+```terminal
 netsh wlan show profile name=labnol-office key=clear
+```
 
 Thay "labnol-office" thành tên Wifi mà bạn đang kết nối (Wireless SSID)
 
 Nếu bạn chỉ muốn xem password và không cần xem các thông tin khác thì gõ dòng bên dưới:
 
+```terminal
 netsh wlan show profile name=labnol-office key=clear | findstr Key
+```
 
 ![If you do not see the WiFi Password](/assets/images/windows-wifi-password.png)
 
-Nếu bạn vẫn không thấy password, có thể là bạn không mở command prompt bằng quyền administrator
+Nếu bạn vẫn không thấy password, có thể là bạn không **mở command prompt bằng quyền administrator**
 
 ### Hệ điều hành Mac OS X
 
 Mở Spotlight (Cmd+Space) và gõ termial để mở Terminal. Ở command line, gõ dòng lệnh sau đây vào:
 
+```terminal
 security find-generic-password -wa labnol-office
+```
 
 Thay đổi labnol-office thành tên Wifi mà bạn đang kết nối (Wireless SSID), sau đó điền username và password của Mac của bạn vào.
 
@@ -53,10 +59,14 @@ Thay đổi labnol-office thành tên Wifi mà bạn đang kết nối (Wireless
 
 Mở terminal, gõ dòng lệnh sau: (thay đổi labnol-office thành tên Wifi mà bạn đang kết nối (Wireless SSID))
 
+```terminal
 sudo cat /etc/NetworkManager/system-connections/labnol-office | grep psk=
+```
 
 Hoặc nếu bạn không nhớ tên wifi thì gõ dòng lệnh sau:
 
+```terminal
 sudo grep psk= /etc/NetworkManager/system-connections/\*
+```
 
 Nguồn: labnol.org

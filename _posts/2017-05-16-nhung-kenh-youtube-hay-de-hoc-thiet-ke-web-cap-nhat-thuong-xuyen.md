@@ -16,7 +16,7 @@ tags:
 header:
   image: /assets/images/webdesign-header-1478775033318.jpg
   teaser: /assets/images/webdesign-header-1478775033318.jpg
-toc: true
+
 breadcrumbs: true
 ---
 
