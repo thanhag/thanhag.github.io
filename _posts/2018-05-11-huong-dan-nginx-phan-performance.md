@@ -38,7 +38,7 @@ Trong những ngày đầu của [TCP](https://vi.wikipedia.org/wiki/TCP), các 
 
 Thuật toán của Nagle nhằm tránh bị tắt nghẽn bởi một số lượng lớn các gói nhỏ. Nó không can thiệp vào các gói TCP kích thước đầy đủ (Maximum Segment Size, hoặc MSS trong ngắn hạn), chỉ can thiệp vào các gói có kích thước nhỏ hơn MSS. Những gói đó sẽ được truyền chỉ khi người nhận gửi thành công tất cả các xác nhận của các gói trước đó (ACKs). Và trong thời gian chờ đợi, người gửi có thể lưu nhiều dữ liệu đệm hơn (buffer more data).
 
-```Nginx
+```nginx
 if package.size >= MSS.size
   send(package)
 elsif acks.all\_received?
@@ -54,7 +54,7 @@ Trong giao tiếp TCP, chúng ta gửi dữ liệu và nhận được các xác
 
 Delayed ACK cố gắng giải quyết vấn đề tắt ngẽn bởi một số lượng lớn các gói ACK. Để giảm thiểu nó, người nhận sẽ đợi một số dữ liệu sẽ được gửi tiếp để cộng chung các ACK với các dữ liệu đó. Nếu không có dữ liệu được gửi lại, chúng ta phải gửi các ACK ít nhất 2\*MSS, hoặc từ 200 dến 500 ms (trong trường hợp chúng ta không còn nhận gói)
 
-```Nginx
+```nginx
 if packages.any?
   send
 elsif last_ack_send_more_than_2MSS_ago? || 200_ms_timer.finished?
@@ -121,7 +121,7 @@ _**tcp\_nopush**_ là đối nghịch với _**tcp\_nodelay**_. Thay vì đẩy
 
 Nó buộc các gói phải chờ đợi đến khi đạt kích thước tối đa (MSS) trước khi gửi đến cho máy khách. _**Directive**_ này chỉ hoạt động khi _**sendfile**_ được bật
 
-```Nginx
+```nginx
 sendfile on;
 tcp\_nopush on;
 ```
@@ -151,7 +151,7 @@ _**directive**_ liên quan trực tiếp đến _**worker\_process**_ là _**w
 
 “Mọi thứ đều là một file” trong các hệ thống dựa trên Unix. Nó có nghĩa là các tài liệu, thư mục, pipes, hoặc thậm chí là các sockets. Hệ thống có một giới hạn bao nhiêu tập tin có thể được mở đồng thời bởi một quá trình (process). Để kiểm tra giới hạn gõ:
 
-```Nginx
+```nginx
 ulimit -Sn      # soft limit
 ulimit -Hn      # hard limit
 ```
@@ -164,7 +164,7 @@ Giới hạn hệ thống này phải được tinh chỉnh theo _**worker\_conn
 
 Nói dài dòng để hiểu hơn thôi, cuối cùng chúng ta cấu hình lại đơn giản như sau:
 
-```Nginx
+```nginx
 worker_process auto;
 worker_rlimit_nofile 2048; # Changes the limit on the maximum number of open files (RLIMIT_NOFILE) for worker processes.
 worker_connections 1024;   # Sets the maximum number of simultaneous connections that can be opened by a worker process.
@@ -174,7 +174,7 @@ worker_connections 1024;   # Sets the maximum number of simultaneous connections
 
 Với các tham số ở trên, chúng ta có thể tính toán số lượng kết nối mà chúng ta có thể xử lý đồng thời:
 
-```Nginx
+```nginx
 max no of connections =
 
     worker_processes * worker_connections
@@ -196,7 +196,7 @@ Dưới đây là ví dụ về việc nén tệp bằng gzip với các cấp �
 
 `curl -I -H 'Accept-Encoding: gzip,deflate' <https://sofsog.com/>`
 
-```Nginx
+```nginx
 ❯ du -sh ./\*
  64K    ./0\_gzip
  16K    ./1\_gzip
@@ -228,7 +228,7 @@ _**directive**_ này nói cho _**nginx**_ sử dụng gzip chỉ đối với H
 
 ### **Config**
 
-```Nginx
+```nginx
 gzip on;               # bật gzip
 gzip_http_version 1.1; # chỉ bật gzip cho http 1.1 và cao hơn
 gzip_disable "msie6";  # IE 6 gặp sự cố với gzip
@@ -260,14 +260,14 @@ Caching là một thứ khác có thể tăng tốc yêu cầu (requests) một 
 
 Cache có thể được chia thành hai loại: bộ nhớ cache công khai (public cache) và riêng tư (private cache). Public Cache lưu trữ những phản hồi (responses) để sử dụng lại cho nhiều người dùng. Private cache được dành riêng cho một người dùng.
 
-```Nginx
+```nginx
 add_header Cache-Control public;
 add_header Pragma public;
 ```
 
 Đối với nội dung tiêu chuẩn, chúng ta nên giữ chúng trong thời gian 1 tháng:
 
-```Nginx
+```nginx
 location ~* \.(jpg|jpeg|png|gif|ico|css|js)$ {
   expires 1M;
   add_header Cache-Control public;
@@ -286,7 +286,7 @@ Chúng ta có 2 trình duyệt:
 
 _Trình duyệt phiên bản cũ_ gửi yêu cầu _**sofsog.com/style.css**_ đến CDN của chúng ta. Vì CDN chưa có tài nguyên này, nó sẽ truy vấn máy chủ của chúng ta và trả về phản hồi (response) không nén. CDN lưu trữ tập tin đã được băm (hash) (để sử dụng sau này):
 
-```Nginx
+```nginx
 {
   ...
   sofsog.com/styles.css => FILE("/sites/sofsog/style.css")
@@ -300,7 +300,7 @@ Bây giờ, _trình duyệt mới_ gửi cùng một yêu cầu tới CDN, yêu 
 
 Nếu chúng ta có thể yêu cầu bộ nhớ cache công khai xác định tài nguyên dựa trên URI và mã hóa, chúng tôi có thể tránh vấn đề này.
 
-```Nginx
+```nginx
 {
   ...
   (sofsog.com/styles.css, gzip) => FILE("/sites/sofsog/style.css.gzip")
@@ -313,7 +313,7 @@ Và đây chính xác là những gì _**Vary Accept-Encoding;**_ làm. Nó cho 
 
 Vì vậy, cấu hình cuối cùng của chúng ta sẽ như sau:
 
-```Nginx
+```nginx
 location ~* \.(jpg|jpeg|png|gif|ico|css|js)$ {
   expires 1M;
   add_header Cache-Control public;
@@ -330,7 +330,7 @@ _**send\_timeout**_ đặt thời gian chờ để truyền phản hồi cho kh�
 
 Hãy cẩn thận khi thiết lập các giá trị bên trên, vì thời gian chờ đợi quá lâu có thể làm bạn dễ bị tấn công, trong khi thời gian quá ngắn không đủ để phản hồi các máy khách chậm.
 
-```Nginx
+```nginx
 # Configure timeouts
 client_body_timeout   12;
 client_header_timeout 12;
@@ -359,7 +359,7 @@ Nếu kích thước của request header  bị vượt quá, lỗi 400 (Yêu c
 
 ### **Config**
 
-```Nginx
+```nginx
 client\_body\_buffer\_size       16K;
 client\_header\_buffer\_size     1k;
 large\_client\_header\_buffers   2 1k;
@@ -393,7 +393,7 @@ Nginx cung cấp một vài chỉ thị (directives) mà bạn có thể sử d�
 
 - _**keepalive**_ giữa khách hàng và _**nginx**_
 
-```Nginx
+```nginx
 keepalive_disable msie6;        # tắt keepalive trên IE6
 
 # Số lượng yêu cầu mà khách hàng có thể thực hiện qua một kết nối duy nhất
@@ -411,7 +411,7 @@ keepalive_timeout 60;
 
 - _**keepalive**_ giữa khách hàng và _**upstream**_
 
-```Nginx
+```nginx
 upstream backend {
     # Số lượng các kết nối "idle keepalive" đến "upstream server" được mở cho mỗi worker process
     keepalive 16;
