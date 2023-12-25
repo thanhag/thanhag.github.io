@@ -20,6 +20,7 @@ header:
   teaser: /assets/images/gf_ifrit_final_fantasy_viii_by_klausboss.jpg
 toc: true
 breadcrumbs: true
+permalink: /game/final-fantasy-viii-toan-tap-viet-ngu-sua-loi-huong-dan
 ---
 
 **Final fantasy VIII là một trong những game gắn bó với tuổi thơ của mình, mình không bao giờ quên những khoảnh khắc đáng nhớ khi chơi game này trong suốt cuộc đời này.**

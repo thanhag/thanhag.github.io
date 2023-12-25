@@ -18,6 +18,7 @@ header:
   teaser: /assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.jpg
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-tao-email-ten-mien-rieng-mien-phi-yandex-com
 ---
 
 Mình hướng dẫn sử dụng dịch vụ miễn phí của **Yandex.com**

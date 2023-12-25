@@ -13,6 +13,7 @@ header:
   teaser: /assets/images/Tao-YouTube-Playlists.png
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/thu-thuat-excel/huong-dan-tao-nhanh-danh-sach-video-youtube-youtube-playlists-voi-google-spreadsheet
 ---
 
 Đôi khi bạn muốn chia sẻ một danh sách các video với bạn bè, người thân, hoặc post danh sách trên blog của mình. Danh sách này có nhiều video, không kết đối với kênh youtube của bạn.

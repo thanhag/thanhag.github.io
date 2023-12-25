@@ -13,6 +13,7 @@ header:
   teaser: /assets/images/Sua-loi-there-was-a-problem-sending-a-command-to-the-program-2.png
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/thu-thuat-excel/sua-loi-problem-sending-command-program-trong-excel
 ---
 
 Một ngày đẹp trời, bạn đến chỗ làm, mở các file excel mà bạn vẫn thường làm việc, nhưng không như mọi ngày, một bảng thông báo xuất hiện: "There was a problem sending a command to the program trong Excel".

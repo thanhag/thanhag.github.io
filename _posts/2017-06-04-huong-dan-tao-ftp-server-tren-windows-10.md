@@ -17,6 +17,7 @@ header:
   teaser: /assets/images/FPT-server-windows-10.jpg
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/huong-dan-tao-ftp-server-tren-windows-10
 ---
 
 Nếu muốn tạo một đám mây riêng để chia sẻ và chuyển đổi các file có lưu lượng lớn mà không bị giới hạn, bạn có thể tạo một FTP Server (File Transfer Protocol Server) trên máy tính Windows 10 của mình.

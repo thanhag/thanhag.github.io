@@ -15,13 +15,14 @@ header:
   teaser: /assets/images/cai-dat-chrome-cho-lin.png
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/huong-dan-cai-chrome-cho-kali-linux
 ---
 
 ## **Bước 1:** Các bạn tải google chrome tại trang chỉ chính thức [tại đây](https://www.google.com/chrome/browser/desktop/)
 
 Chọn phiên bản phù hợp và tiến hành tải về. Mặc định file tải về sẽ nằm trong thư mục Downloads
 
-## **Bước 2:** Cài đặt google chrome bằng lệnh sau:
+## **Bước 2:** Cài đặt google chrome bằng lệnh sau
 
 ```terminal
 cd Downloads

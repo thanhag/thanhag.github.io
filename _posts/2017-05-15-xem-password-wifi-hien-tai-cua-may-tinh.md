@@ -21,6 +21,7 @@ header:
   teaser: /assets/images/windows-wifi-password.png
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/xem-password-wifi-hien-tai-cua-may-tinh
 ---
 
 Máy tính của bạn đang kết nối mạng bằng wifi, khi bạn muốn kết nối mạng cho một thiết bị khác, ví dụ như điện thoại, nhưng bạn không nhớ hoặc không biết password wifi, hướng dẫn này sẽ giúp bạn giải quyết trên cả 3 hệ điều hành phổ biến  là Window, Mac OS và Linux.

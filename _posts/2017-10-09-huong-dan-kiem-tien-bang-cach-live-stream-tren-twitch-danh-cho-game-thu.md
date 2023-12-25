@@ -15,6 +15,7 @@ header:
   teaser: /assets/images/b4f3f0ac934d3fc92ead419704740d24-650-80-1500444482207.png
 toc: true
 breadcrumbs: true
+permalink: /game/huong-dan-kiem-tien-bang-cach-live-stream-tren-twitch-danh-cho-game-thu
 ---
 
 Bạn thích chơi game và muốn vừa chơi game vừa kiếm tiền mà chưa biết phải làm thế nào. Bài viết này dành cho bạn. Chơi game hiện giờ không chỉ còn là một thú vui giải trí, mà nó đang trở thành một nghề đem lại thu nhập cao. Vậy để trở thành một streamer bạn cần có những điều kiện gì? và làm thế nào để _**kiếm tiền bằng cách live stream trên Twitch**_?

@@ -16,6 +16,7 @@ header:
   teaser: /assets/images/Sofsog.com-Huong-dan-sua-loi-video-bi-lech-tieng-khi-dua-vao-phan-mem-chinh-sua.png
 toc: true
 breadcrumbs: true
+permalink: /sua-loi/huong-dan-sua-loi-video-lech-tieng-khi-chinh-sua-bang-adobe-premiere
 ---
 
 Khi quay video bằng Iphone, Ipad hoặc quay video chơi game, ....Video đôi khi bị lệch tiếng khi bạn đưa vào phần mềm chỉnh sửa  như Adobe Premiere, Avid hoặc các phần mềm tương tự khác. Đáng nói là khi bạn phát video đó bằng các chương trình như QuickTime, VLC hoặc Window Media Player thì lại bình thường, không bị lệch tiếng.

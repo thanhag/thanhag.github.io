@@ -19,6 +19,7 @@ header:
   teaser: /assets/images/compatimode___13.jpg
 toc: true
 breadcrumbs: true
+permalink: /game/sua-loi-application-was-unable-to-start-correctly-0x0000022-tren-window-10
 ---
 
 Lỗi này có nhiều nguyên nhân, các bạn có thể lần lượt thử từng cách một, nếu giải quyết được thì dừng.

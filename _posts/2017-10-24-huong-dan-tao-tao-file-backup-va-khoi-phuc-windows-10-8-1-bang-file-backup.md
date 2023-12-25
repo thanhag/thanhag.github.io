@@ -1,5 +1,5 @@
 ---
-title: "Hướng dẫn tạo tạo file backup và khôi phục windows 10, 8.1 bằng file backup"
+title: "Hướng dẫn tạo file backup và khôi phục windows 10, 8.1 bằng file backup"
 date: "2017-10-24"
 categories: 
   - "he-dieu-hanh"
@@ -19,6 +19,8 @@ header:
   teaser: /assets/images/huong-dan-tao-file-backup-win-10.jpg
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/huong-dan-tao-tao-file-backup-va-khoi-phuc-windows-10-8-1-bang-file-backup 
+# sai tên (hai chữ tạo) nhưng vẫn giữ lại vì đã quá lâu rồi
 ---
 
  Ghost là cách nhiều người chọn để tạo bản backup windows và phục hồi lại khi máy tính bị trục trặc với nhiều cách khác nhau như sử dụng đĩa ghost, onekey ghost... Mỗi cách đều có ưu điểm riêng, tuy nhiên trên windows 8.1 10 thì bạn có thể dễ dàng tạo 1 bản "ghost" bằng chức năng tương tự gọi là System image backup.System image backup sẽ giúp bạn tạo 1 bản backup cho phân vùng windows hiện tại và có thể dễ dàng phục hồi lại khi máy bị sự cố vào được hoặc không vào được windows.

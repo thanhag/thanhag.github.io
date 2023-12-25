@@ -15,6 +15,7 @@ header:
   teaser: /assets/images/hqdefault.jpg
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/huong-dan-update-kali-linux-thanh-cong-chinh-sua-file-sources-list
 ---
 
 Như các bạn đã biết thì Linux có thể được update thông qua Terminal bằng lệnh _apt-get update._ Nhưng trên Kali Linux. Phần lớn các bạn thực hiện lệnh đó sẽ gặp thất bại. Vì vậy, hôm nay mình hướng dẫn các bạn cách để Update Kali Linux lên phiên bản mới nhất

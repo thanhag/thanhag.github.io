@@ -19,6 +19,7 @@ header:
   teaser: /assets/images/Format-Factory-phần-mềm-cắt-video-nối-video-1.png
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/nhung-phan-mem-cat-video-noi-video-huong-dan-dung
 ---
 
 Bài này mình sẽ tổng hợp lại những _**phần mềm cắt video, nối video**_ theo mình là tốt nhất đối với những bạn _**chỉ muốn cắt và nối**_ mà không chỉnh sửa gì thêm. Tất nhiên tứng phần mềm mình cũng hướng dẫn sơ qua cách thực hiện.

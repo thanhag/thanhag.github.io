@@ -17,6 +17,7 @@ header:
   teaser: /assets/images/G.png
 
 breadcrumbs: true
+permalink: /thu-thuat-chung/nhung-cong-cu-co-ban-trong-gimp
 ---
 
 **GIMP là phần mềm xử lý ảnh nguồn mở mạnh mẽ và hoàn toàn miễn phí. Muốn làm chủ GIMP, trước hết bạn cần tìm hiểu qua về những công cụ cơ bản của GIMP.**

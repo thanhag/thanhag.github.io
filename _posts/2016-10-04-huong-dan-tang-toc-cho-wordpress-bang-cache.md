@@ -15,6 +15,7 @@ header:
   teaser: /assets/images/Huong-dan-tang-toc-cho-wordpress-bang-cache.png
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-tang-toc-cho-wordpress-bang-cache
 ---
 
 Khi tìm hiểu về các bài viết [tăng tốc WordPress](http://sofsog.com/wordpress/plugin-tang-toc-cho-wordpress), có thể bạn sẽ thấy mình nhắc qua khá nhiều hình thức lưu bộ nhớ đệm cho website (hay còn gọi là Cache/Caching), đây là một trong **các phương pháp để tăng tốc website WordPress** rất tốt. Nên nhiều bạn có phản hồi là nên dùng cái nào, dùng hết được không,..vâng vâng,…Do vậy bây giờ mình sẽ làm một bài tổng hợp về các hình thức caching trong WordPress mà mình biết được để nói về công dụng của nó, khả năng ứng dụng cũng như nhược điểm để mọi người có cái nhìn tổng quan hơn.

@@ -20,6 +20,7 @@ header:
   teaser: /assets/images/3841305_Cach_sua_loi_one_screen_keyboard_xuat_hien_Windows_10.jpg
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/huong-dan-tat-ban-phim-ao-tu-dong-mo-tren-windows-10
 ---
 
 Việc bàn phím ảo (On-Screen Keyboard) liên tục xuất hiện mỗi khi bạn khởi động máy tính, và mỗi lần như vậy bạn phải tắt nó đi thủ công rất phiền phức. Mình sẽ hướng dẫn cách tắt nó hoàn toàn luôn:

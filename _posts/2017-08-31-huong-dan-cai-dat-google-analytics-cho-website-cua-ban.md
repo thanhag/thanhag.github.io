@@ -20,6 +20,7 @@ header:
   teaser: /assets/images/1314.jpg
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-cai-dat-google-analytics-cho-website-cua-ban
 ---
 
 Trong bài này Sofsog xin **_h__ướng dẫn cài đặt Google Analytics_** và đọc một số báo cáo cơ bản của Google Analytics cho website của bạn một cách chi tiết nhất.

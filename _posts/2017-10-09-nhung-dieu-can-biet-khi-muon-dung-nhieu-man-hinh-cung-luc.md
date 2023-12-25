@@ -13,6 +13,7 @@ header:
   teaser: /assets/images/homeoffice03-e0fc7.jpg
 toc: true
 breadcrumbs: true
+permalink: /thu-thuat-chung/nhung-dieu-can-biet-khi-muon-dung-nhieu-man-hinh-cung-luc
 ---
 
 Những điều cần lưu tâm trước khi quyết định tậu thêm một chiếc màn hình mới cho công việc hay _**sử dụng nhiều màn hình cùng lúc**_ cho nhu cầu giải trí của bạn

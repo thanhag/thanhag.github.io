@@ -19,6 +19,7 @@ header:
   teaser: /assets/images/DarkOne-Skin-for-Foobar2000.jpg
 toc: true
 breadcrumbs: true
+permalink: /chia-se/gioi-thieu-foobar2000-phan-mem-nghe-nhac-lossless-tot-nhat-hien-nay
 ---
 
 Hiện nay, dưới sự phát triển của internet thì việc sử dụng máy tính hay các thiết bị di động thông minh để giải trí là một phần không thể thiếu trong cuộc sống. Nghe nhạc là một trong những hình thức giải trí được nhiều người sử dụng chính vì vậy thị hiếu âm nhạc càng ngày càng được nâng cao.
