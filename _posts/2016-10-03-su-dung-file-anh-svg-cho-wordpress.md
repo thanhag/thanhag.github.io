@@ -14,6 +14,7 @@ header:
   teaser: /assets/images/Huong-dan-su-sung-file-svg-cho-wordpress.png
 
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/su-dung-file-anh-svg-cho-wordpress
 ---
 
 WordPress đã ra đời từ rất lâu và cho đến ngày nay nó không ngừng phát triển. Hệ quản trị CMS này cũng thường xuyên được nâng cấp với những plugin được tạo ra bởi các lập trình viên giỏi nhất trái đất. Và một trong những plugin đó sẽ được mình chia sẻ cho các bạn trong bài viết này. Với plugin này , các bạn có thể chèn file hình ảnh với đuôi .SVG vào trong WordPress Media Library.

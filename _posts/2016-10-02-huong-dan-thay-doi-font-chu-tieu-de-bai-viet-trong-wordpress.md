@@ -15,6 +15,7 @@ header:
   teaser: /assets/images/Sua-font3.png
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-thay-doi-font-chu-tieu-de-bai-viet-trong-wordpress
 ---
 
 Đôi lúc khi cài đặt một theme đẹp nào đó về, thì lại phát hiện ra theme sử dụng những font chữ lạ, làm cho trang web của bạn hiển thị tiếng việt không đẹp, chữ không đều, bị lỗi, ....

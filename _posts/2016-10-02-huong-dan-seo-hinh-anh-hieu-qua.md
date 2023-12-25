@@ -14,6 +14,7 @@ header:
   teaser: /assets/images/huong-dan-seo-hinh-anh-hieu-qua.jpg.jpg
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-seo-hinh-anh-hieu-qua
 ---
 
 Làm thế nào để SEO hình ảnh một cách hiệu quả? Tối ưu hình ảnh như thế nào để Google “yêu mến bạn từ cái lần lập chỉ mục đầu tiên” . Đây là những câu hỏi mà chắc chắn rất rất nhiều người luôn trăn trở.

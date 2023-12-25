@@ -14,6 +14,7 @@ header:
   teaser: /assets/images/TinyMCE-Advanced-e1474217152864.png
 toc: true
 breadcrumbs: true
+permalink: /thiet-ke-web/wordpress/huong-dan-cai-dat-plugin-tinymce-advanced-vao-wordpress
 ---
 
 **TinyMCE Advanced** – plugin này có chức năng mở rộng chức năng của khu vực soạn thảo nội dung thêm phong phú để bạn trang trí bài viết tốt hơn
