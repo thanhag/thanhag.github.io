@@ -136,7 +136,7 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-VKX8JLF0QG"
-    anonymize_ip: false # default
+    anonymize_ip: true # default false
 
 
 # _config.yml (defaults)
