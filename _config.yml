@@ -140,7 +140,7 @@ analytics:
 
 
 # _config.yml (defaults)
-repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+#repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
 comments:
   provider  : "staticman_v2"
   staticman:
