@@ -145,7 +145,7 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "master"
-    # endpoint  : http://95.179.130.240/v3/entry/github/
+    endpoint  : http://95.179.130.240/v3/entry/github/
 
     # http://95.179.130.240/v3/connect/thanhag/thanhag.github.io
 
