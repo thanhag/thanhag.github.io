@@ -13,10 +13,10 @@ header:
   #image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
   teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
   overlay_image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
-  caption: "Photo credit: [**sofsog**](https://sofsog.com)"
-  actions:
-    - label: "More Info"
-      url: "https://sofsog.com"
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
+  # actions: # Tạo một nút trên hình ảnh 
+  #  - label: "More Info"
+  #    url: "https://sofsog.com"
 excerpt: "Trong hướng dẫn này chúng ta sẽ từng bước tạo 1 _**VPS trên Vultr**_ chạy hệ điều hành **Ubuntu-22.04-LTS.**"
 toc: true #Thêm mục lục tự động
 breadcrumbs: true  # disabled by default
