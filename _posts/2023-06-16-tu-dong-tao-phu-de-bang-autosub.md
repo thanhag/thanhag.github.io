@@ -152,7 +152,7 @@ Dành cho bạn nào không rành về vi tính, bạn Thành Phạm ở trang w
 
 Trước tiên các bạn download tool của bạn ấy về ở 1 trong các link sau: (Link update 6/2023)
 
-[](https://drive.google.com/file/d/1xANc_sw2DPcJ4fxgbNm06pgwbI43Mj6u/view?usp=drive_link)
+[Autogensubgui](https://drive.google.com/file/d/1xANc_sw2DPcJ4fxgbNm06pgwbI43Mj6u/view?usp=drive_link)
 
 Password giải nén (nếu có): sofsog.com
 
