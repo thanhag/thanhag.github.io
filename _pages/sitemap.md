@@ -5,8 +5,6 @@ permalink: /sitemap/
 author_profile: false
 ---
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ '/sitemap.xml' | relative_url }}) available for digesting as well.
-
 Danh sách tất cả các bài viết và trang được tìm thấy trên trang web. Đối với các bạn, robot hiện có sẵn [phiên bản XML]({{ '/sitemap.xml' |relal_url }}) để xử lý.
 
 <h2>Danh sách các trang</h2>
