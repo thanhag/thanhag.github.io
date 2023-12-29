@@ -11,7 +11,8 @@ tags:
   - "seo-hinh-anh"
   - "web-chia-se-anh"
 header:
-  image: /assets/images/eshoots-su-dung-anh-mien-phi.jpg
+  overlay_image: /assets/images/eshoots-su-dung-anh-mien-phi.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/eshoots-su-dung-anh-mien-phi.jpg
 toc: true
 breadcrumbs: true

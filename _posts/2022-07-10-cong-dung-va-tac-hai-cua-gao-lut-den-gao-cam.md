@@ -9,7 +9,8 @@ tags:
   - "gao-luc-den"
   - "gao-lut"
 header:
-  image: /assets/images/cong-dung-va-tac-hai-cua-gao-lut-den-gao-cam-Sofsog.com_.jpg
+  overlay_image: /assets/images/cong-dung-va-tac-hai-cua-gao-lut-den-gao-cam-Sofsog.com_.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/cong-dung-va-tac-hai-cua-gao-lut-den-gao-cam-Sofsog.com_.jpg
 
 breadcrumbs: true

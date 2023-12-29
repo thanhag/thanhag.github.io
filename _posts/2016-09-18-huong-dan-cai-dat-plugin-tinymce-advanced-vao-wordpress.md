@@ -10,7 +10,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/TinyMCE-Advanced-e1474217152864.png
+  overlay_image: /assets/images/TinyMCE-Advanced-e1474217152864.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/TinyMCE-Advanced-e1474217152864.png
 toc: true
 breadcrumbs: true

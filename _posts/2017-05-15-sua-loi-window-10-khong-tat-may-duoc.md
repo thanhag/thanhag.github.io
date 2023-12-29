@@ -14,7 +14,8 @@ tags:
   - "window-10"
   - "window-10-khong-shutdown"
 header:
-  image: /assets/images/Turn-on-fast-startup-recommended.png
+  overlay_image: /assets/images/Turn-on-fast-startup-recommended.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Turn-on-fast-startup-recommended.png
 toc: true
 breadcrumbs: true

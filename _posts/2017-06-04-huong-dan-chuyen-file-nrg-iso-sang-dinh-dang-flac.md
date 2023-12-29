@@ -12,7 +12,8 @@ tags:
   - "huong-dan-mo-file-iso"
   - "huong-dan-mo-file-nrg"
 header:
-  image: /assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B8.jpg
+  overlay_image: /assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B8.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/H25C625B025E125BB259Bng2Bd25E125BA25ABn2B8.jpg
 toc: true
 breadcrumbs: true

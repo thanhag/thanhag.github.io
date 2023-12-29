@@ -14,7 +14,8 @@ tags:
   - "trinh-duyet-ma-hoa"
   - "trinh-duyet-tor"
 header:
-  image: /assets/images/Tor-2.sh_.png
+  overlay_image: /assets/images/Tor-2.sh_.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Tor-2.sh_.png
 toc: true
 breadcrumbs: true

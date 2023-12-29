@@ -10,7 +10,8 @@ tags:
   - "poe"
   - "poe-delve"
 header:
-  image: /assets/images/3.-Có-gì-mới-trong-bản-nâng-cấp-Path-of-Exile-Delve.jpg
+  overlay_image: /assets/images/3.-Có-gì-mới-trong-bản-nâng-cấp-Path-of-Exile-Delve.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/3.-Có-gì-mới-trong-bản-nâng-cấp-Path-of-Exile-Delve.jpg
 
 breadcrumbs: true

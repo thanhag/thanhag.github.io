@@ -13,7 +13,8 @@ tags:
   - "linux"
   - "ubuntu"
 header:
-  image: /assets/images/Ubuntu.png
+  overlay_image: /assets/images/Ubuntu.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Ubuntu.png
 toc: true
 breadcrumbs: true

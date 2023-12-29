@@ -13,7 +13,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/5-Free-Backup-Solutions-For-WordPress.png
+  overlay_image: /assets/images/5-Free-Backup-Solutions-For-WordPress.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/5-Free-Backup-Solutions-For-WordPress.png
 toc: true
 breadcrumbs: true

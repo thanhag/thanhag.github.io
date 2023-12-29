@@ -15,7 +15,8 @@ tags:
   - "gioi-thieu-foobar2000-phan-mem-nghe-nhac-lossless-tot-nhat-hien-nay"
   - "lossless"
 header:
-  image: /assets/images/DarkOne-Skin-for-Foobar2000.jpg
+  overlay_image: /assets/images/DarkOne-Skin-for-Foobar2000.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/DarkOne-Skin-for-Foobar2000.jpg
 toc: true
 breadcrumbs: true

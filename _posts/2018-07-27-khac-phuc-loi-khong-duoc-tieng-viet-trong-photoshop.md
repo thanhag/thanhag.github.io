@@ -8,7 +8,8 @@ tags:
   - "photoshop-khong-go-duoc-tieng-viet"
   - "unikey"
 header:
-  image: /assets/images/Sua-loi-fix-loi-fix-error-sofsog.com_.jpg
+  overlay_image: /assets/images/Sua-loi-fix-loi-fix-error-sofsog.com_.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Sua-loi-fix-loi-fix-error-sofsog.com_.jpg
 breadcrumbs: true
 permalink: /thu-thuat-chung/sua-loi/khac-phuc-loi-khong-duoc-tieng-viet-trong-photoshop

@@ -10,7 +10,8 @@ tags:
   - "nhung-meo-hay-khi-choi-stardew-valley"
   - "stardew-valley"
 header:
-  image: /assets/images/11.-Những-mẹo-hay-khi-chơi-Stardew-Valley.jpg
+  overlay_image: /assets/images/11.-Những-mẹo-hay-khi-chơi-Stardew-Valley.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/11.-Những-mẹo-hay-khi-chơi-Stardew-Valley.jpg
 toc: true
 breadcrumbs: true

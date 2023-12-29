@@ -13,7 +13,8 @@ tags:
   - "thu-thuat-chung"
   - "window-10"
 header:
-  image: /assets/images/FPT-server-windows-10.jpg
+  overlay_image: /assets/images/FPT-server-windows-10.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/FPT-server-windows-10.jpg
 toc: true
 breadcrumbs: true

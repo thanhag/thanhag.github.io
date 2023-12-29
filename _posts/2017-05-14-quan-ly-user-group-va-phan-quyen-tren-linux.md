@@ -12,7 +12,8 @@ tags:
   - "quan-ly-user"
   - "user-trong-linux"
 header:
-  image: /assets/images/mode.png
+  overlay_image: /assets/images/mode.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/mode.png
 toc: true
 breadcrumbs: true

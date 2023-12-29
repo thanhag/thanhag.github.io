@@ -11,7 +11,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/Huong-dan-tang-toc-cho-wordpress-bang-cache.png
+  overlay_image: /assets/images/Huong-dan-tang-toc-cho-wordpress-bang-cache.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Huong-dan-tang-toc-cho-wordpress-bang-cache.png
 toc: true
 breadcrumbs: true

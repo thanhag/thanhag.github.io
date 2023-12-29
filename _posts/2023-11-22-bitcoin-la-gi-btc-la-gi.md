@@ -8,7 +8,8 @@ tags:
   - "btc"
   - "xbt"
 header:
-  image: /assets/images/Bitcoin-là-gì-BTC-là-gì-Toàn-tập-về-Bitcoin-BTC.2.png
+  overlay_image: /assets/images/Bitcoin-là-gì-BTC-là-gì-Toàn-tập-về-Bitcoin-BTC.2.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Bitcoin-là-gì-BTC-là-gì-Toàn-tập-về-Bitcoin-BTC.2.png
 toc: true
 breadcrumbs: true

@@ -12,7 +12,8 @@ tags:
   - "proshow-producer"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/Proshow-producer.png
+  overlay_image: /assets/images/Proshow-producer.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Proshow-producer.png
 toc: true
 breadcrumbs: true

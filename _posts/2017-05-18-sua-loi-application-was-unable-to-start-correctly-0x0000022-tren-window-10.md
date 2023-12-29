@@ -15,7 +15,8 @@ tags:
   - "sua-loi-application-was-unable-to-start-correctly-0xc0000022"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/compatimode___13.jpg
+  overlay_image: /assets/images/compatimode___13.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/compatimode___13.jpg
 toc: true
 breadcrumbs: true

@@ -8,7 +8,8 @@ tags:
   - "sql"
   - "sql-2008"
 header:
-  image: /assets/images/SQL-Server-2008.png
+  overlay_image: /assets/images/SQL-Server-2008.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/SQL-Server-2008.png
 toc: true
 breadcrumbs: true

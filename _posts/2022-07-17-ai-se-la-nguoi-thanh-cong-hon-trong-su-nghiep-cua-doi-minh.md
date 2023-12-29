@@ -10,7 +10,8 @@ tags:
   - "thanh-cong"
   - "uber"
 header:
-  image: /assets/images/photo-1-15178872173831682333338.png
+  overlay_image: /assets/images/photo-1-15178872173831682333338.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/photo-1-15178872173831682333338.png
 
 breadcrumbs: true

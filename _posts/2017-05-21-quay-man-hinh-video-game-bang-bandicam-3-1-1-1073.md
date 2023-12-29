@@ -16,7 +16,8 @@ tags:
   - "quay-video-man-hinh"
   - "video-game-bang-bandicam-3-1-1-1073"
 header:
-  image: /assets/images/select_directx_opengl_02.png
+  overlay_image: /assets/images/select_directx_opengl_02.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/select_directx_opengl_02.png
 toc: true
 breadcrumbs: true

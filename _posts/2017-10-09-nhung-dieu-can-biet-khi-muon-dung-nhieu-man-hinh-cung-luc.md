@@ -9,7 +9,8 @@ tags:
   - "nhung-dieu-can-biet-khi-muon-su-dung-nhieu-man-hinh-cung-luc"
   - "su-dung-nhieu-man-hinh-cung-luc"
 header:
-  image: /assets/images/homeoffice03-e0fc7.jpg
+  overlay_image: /assets/images/homeoffice03-e0fc7.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/homeoffice03-e0fc7.jpg
 toc: true
 breadcrumbs: true

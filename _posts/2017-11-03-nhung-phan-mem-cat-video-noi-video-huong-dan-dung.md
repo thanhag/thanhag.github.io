@@ -15,7 +15,8 @@ tags:
   - "phan-mem-ghep-noi-video"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/Format-Factory-phần-mềm-cắt-video-nối-video-1.png
+  overlay_image: /assets/images/Format-Factory-phần-mềm-cắt-video-nối-video-1.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Format-Factory-phần-mềm-cắt-video-nối-video-1.png
 toc: true
 breadcrumbs: true

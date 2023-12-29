@@ -10,7 +10,8 @@ tags:
   - "wordpress-co-ban"
   - "yoast-seo"
 header:
-  image: /assets/images/FOCUS-KEYWORD.png
+  overlay_image: /assets/images/FOCUS-KEYWORD.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/FOCUS-KEYWORD.png
 toc: true
 breadcrumbs: true

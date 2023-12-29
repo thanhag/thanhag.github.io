@@ -17,7 +17,8 @@ tags:
   - "wordpress"
   - "wordpress-hosting"
 header:
-  image: /assets/images/cloud-hosting.png
+  overlay_image: /assets/images/cloud-hosting.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/cloud-hosting.png
 toc: true
 breadcrumbs: true

@@ -9,7 +9,8 @@ tags:
   - "wordpress-co-ban"
   - "wp-pipes"
 header:
-  image: /assets/images/wppipes.png
+  overlay_image: /assets/images/wppipes.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/wppipes.png
 
 breadcrumbs: true

@@ -12,7 +12,8 @@ tags:
   - "dns-trung-gian"
   - "huong-dan-su-dung-cloudflare"
 header:
-  image: /assets/images/cloudflare-example-960x480.png
+  overlay_image: /assets/images/cloudflare-example-960x480.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/cloudflare-example-960x480.png
 toc: true
 breadcrumbs: true

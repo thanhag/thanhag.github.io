@@ -19,7 +19,8 @@ tags:
   - "tro-choi"
   - "zigzag"
 header:
-  image: /assets/images/10-game-online-choi-khi-dang-chan-3.jpeg
+  overlay_image: /assets/images/10-game-online-choi-khi-dang-chan-3.jpeg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/10-game-online-choi-khi-dang-chan-3.jpeg
 toc: true
 breadcrumbs: true

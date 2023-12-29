@@ -17,7 +17,8 @@ tags:
   - "thiet-ke-web"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/Sofsog.com-huong-dan-cach-index-bai-viet-len-google-nhanh-nhat.jpg
+  overlay_image: /assets/images/Sofsog.com-huong-dan-cach-index-bai-viet-len-google-nhanh-nhat.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Sofsog.com-huong-dan-cach-index-bai-viet-len-google-nhanh-nhat.jpg
 toc: true
 breadcrumbs: true

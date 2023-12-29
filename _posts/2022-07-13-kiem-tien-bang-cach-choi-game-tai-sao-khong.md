@@ -15,7 +15,8 @@ tags:
   - "kiem-tien-bang-cach-choi-game"
   - "second-life"
 header:
-  image: /assets/images/secondlife604x423-1511864313076.jpg
+  overlay_image: /assets/images/secondlife604x423-1511864313076.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/secondlife604x423-1511864313076.jpg
 toc: true
 breadcrumbs: true

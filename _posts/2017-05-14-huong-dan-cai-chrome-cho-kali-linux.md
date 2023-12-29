@@ -11,7 +11,8 @@ tags:
   - "kali-linux"
   - "linux"
 header:
-  image: /assets/images/cai-dat-chrome-cho-lin.png
+  overlay_image: /assets/images/cai-dat-chrome-cho-lin.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/cai-dat-chrome-cho-lin.png
 toc: true
 breadcrumbs: true

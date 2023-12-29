@@ -16,7 +16,8 @@ tags:
   - "vo-hieu-ban-phim-ao"
   - "windows-10"
 header:
-  image: /assets/images/3841305_Cach_sua_loi_one_screen_keyboard_xuat_hien_Windows_10.jpg
+  overlay_image: /assets/images/3841305_Cach_sua_loi_one_screen_keyboard_xuat_hien_Windows_10.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/3841305_Cach_sua_loi_one_screen_keyboard_xuat_hien_Windows_10.jpg
 toc: true
 breadcrumbs: true

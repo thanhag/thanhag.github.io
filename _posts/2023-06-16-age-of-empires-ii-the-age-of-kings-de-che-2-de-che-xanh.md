@@ -36,7 +36,8 @@ tags:
   - "unpnp"
   - "xoa-tuyet"
 header:
-  image: /assets/images/Screenshot-2017-10-06-08.50.35.png
+  overlay_image: /assets/images/Screenshot-2017-10-06-08.50.35.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Screenshot-2017-10-06-08.50.35.png
 toc: true
 breadcrumbs: true

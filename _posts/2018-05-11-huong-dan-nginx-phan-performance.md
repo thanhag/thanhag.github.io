@@ -13,7 +13,8 @@ tags:
   - "nginx-co-ban"
   - "nginx-for-beginner"
 header:
-  image: /assets/images/Huong-dan-nginx-performance-sofsog.com_.jpg
+  overlay_image: /assets/images/Huong-dan-nginx-performance-sofsog.com_.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Huong-dan-nginx-performance-sofsog.com_.jpg
 toc: true
 breadcrumbs: true

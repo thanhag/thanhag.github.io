@@ -13,7 +13,8 @@ tags:
   - "sua-loi"
   - "thu-thuat"
 header:
-  image: /assets/images/kali-error.gif
+  overlay_image: /assets/images/kali-error.gif
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/kali-error.gif
 toc: true
 breadcrumbs: true

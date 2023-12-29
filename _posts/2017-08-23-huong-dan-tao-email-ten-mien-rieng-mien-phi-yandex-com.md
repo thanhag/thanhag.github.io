@@ -14,7 +14,8 @@ tags:
   - "yandex"
   - "yandex-com"
 header:
-  image: /assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.jpg
+  overlay_image: /assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Hướng-dẫn-tạo-email-tên-miền-riêng-miễn-phí-Yandex.com_.jpg
 toc: true
 breadcrumbs: true

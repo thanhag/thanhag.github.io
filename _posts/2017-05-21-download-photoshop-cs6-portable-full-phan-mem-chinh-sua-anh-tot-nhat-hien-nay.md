@@ -14,7 +14,8 @@ tags:
   - "portable"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/1.png
+  overlay_image: /assets/images/1.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/1.png
 toc: true
 breadcrumbs: true

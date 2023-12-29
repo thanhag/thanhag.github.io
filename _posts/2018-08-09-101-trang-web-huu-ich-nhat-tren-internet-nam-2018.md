@@ -30,7 +30,8 @@ tags:
   - "tu-thiet-ke-can-nha-cua-ban-tu-dau"
   - "xem-mui-gio-tren-the-gioi"
 header:
-  image: /assets/images/Nhung-trang-web-huu-ich-nhat-tren-internet.jpg
+  overlay_image: /assets/images/Nhung-trang-web-huu-ich-nhat-tren-internet.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Nhung-trang-web-huu-ich-nhat-tren-internet.jpg
 
 breadcrumbs: true

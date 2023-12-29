@@ -26,7 +26,8 @@ tags:
   - "video"
   - "video-facebook"
 header:
-  image: /assets/images/huong-dan-tai-video-tren-facebook.jpg
+  overlay_image: /assets/images/huong-dan-tai-video-tren-facebook.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/huong-dan-tai-video-tren-facebook.jpg
 toc: true
 breadcrumbs: true

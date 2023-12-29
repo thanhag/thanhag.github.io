@@ -16,7 +16,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/1314.jpg
+  overlay_image: /assets/images/1314.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/1314.jpg
 toc: true
 breadcrumbs: true

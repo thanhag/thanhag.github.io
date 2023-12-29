@@ -8,7 +8,8 @@ tags:
   - "nhip-song"
   - "phong-cach"
 header:
-  image: /assets/images/02-1474826695055-1.jpg
+  overlay_image: /assets/images/02-1474826695055-1.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/02-1474826695055-1.jpg
 toc: true
 breadcrumbs: true

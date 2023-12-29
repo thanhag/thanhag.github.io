@@ -4,7 +4,8 @@ date: "2022-04-23"
 categories: 
   - "tin-tuc"
 header:
-  image: /assets/images/Sofsog.com-Ket-qua-boc-tham-chi-bang-worldcup2022.jpg
+  overlay_image: /assets/images/Sofsog.com-Ket-qua-boc-tham-chi-bang-worldcup2022.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Sofsog.com-Ket-qua-boc-tham-chi-bang-worldcup2022.jpg
 
 breadcrumbs: true

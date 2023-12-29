@@ -14,7 +14,8 @@ tags:
   - "youtube"
   - "youtube-design-web"
 header:
-  image: /assets/images/webdesign-header-1478775033318.jpg
+  overlay_image: /assets/images/webdesign-header-1478775033318.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/webdesign-header-1478775033318.jpg
 
 breadcrumbs: true

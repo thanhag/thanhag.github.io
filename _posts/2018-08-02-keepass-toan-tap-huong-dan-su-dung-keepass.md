@@ -14,7 +14,8 @@ tags:
   - "keepass-tusk"
   - "lastpass"
 header:
-  image: /assets/images/1.-huong-dan-su-dung-keepass-sofsog.com_.jpg
+  overlay_image: /assets/images/1.-huong-dan-su-dung-keepass-sofsog.com_.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/1.-huong-dan-su-dung-keepass-sofsog.com_.jpg
 toc: true
 breadcrumbs: true

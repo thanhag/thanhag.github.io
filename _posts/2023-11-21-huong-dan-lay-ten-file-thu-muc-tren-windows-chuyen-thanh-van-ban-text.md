@@ -10,7 +10,8 @@ tags:
   - "lay-ten-thu-muc"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/Hướng-dẫn-lấy-tên-file-và-thư-mục-trên-Windows-và-chuyển-thành-văn-bản-Text-2.png
+  overlay_image: /assets/images/Hướng-dẫn-lấy-tên-file-và-thư-mục-trên-Windows-và-chuyển-thành-văn-bản-Text-2.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Hướng-dẫn-lấy-tên-file-và-thư-mục-trên-Windows-và-chuyển-thành-văn-bản-Text-2.png
 toc: true
 breadcrumbs: true

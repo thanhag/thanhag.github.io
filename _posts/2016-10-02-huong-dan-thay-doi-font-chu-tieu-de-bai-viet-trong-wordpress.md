@@ -11,7 +11,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/Sua-font3.png
+  overlay_image: /assets/images/Sua-font3.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Sua-font3.png
 toc: true
 breadcrumbs: true

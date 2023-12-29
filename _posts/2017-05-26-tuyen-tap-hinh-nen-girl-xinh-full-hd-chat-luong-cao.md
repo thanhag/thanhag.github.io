@@ -18,7 +18,8 @@ tags:
   - "wallpaper"
   - "web-chia-se-anh"
 header:
-  image: /assets/images/hinh-nen-girl-xinh-facebook-1.jpg
+  overlay_image: /assets/images/hinh-nen-girl-xinh-facebook-1.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/hinh-nen-girl-xinh-facebook-1.jpg
 toc: true
 breadcrumbs: true

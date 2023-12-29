@@ -15,7 +15,8 @@ tags:
   - "volume-license"
   - "windows-10"
 header:
-  image: /assets/images/Tìm-hiểu-về-Product-Key-và-các-loại-key-khác-trên-Windows.png
+  overlay_image: /assets/images/Tìm-hiểu-về-Product-Key-và-các-loại-key-khác-trên-Windows.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Tìm-hiểu-về-Product-Key-và-các-loại-key-khác-trên-Windows.png
 toc: true
 breadcrumbs: true

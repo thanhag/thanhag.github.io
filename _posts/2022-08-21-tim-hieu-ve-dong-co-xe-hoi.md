@@ -11,7 +11,8 @@ tags:
   - "tim-hieu-ve-dong-co-xe-hoi"
   - "xe-hoi"
 header:
-  image: /assets/images/Tìm-hiểu-về-động-cơ-xe-hơi.png
+  overlay_image: /assets/images/Tìm-hiểu-về-động-cơ-xe-hơi.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Tìm-hiểu-về-động-cơ-xe-hơi.png
 toc: true
 breadcrumbs: true

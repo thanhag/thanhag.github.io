@@ -11,7 +11,8 @@ tags:
   - "phong-cach-song"
   - "vong-xoay-khoai-lac"
 header:
-  image: /assets/images/photo-1-15174513191371642673335.jpg
+  overlay_image: /assets/images/photo-1-15174513191371642673335.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/photo-1-15174513191371642673335.jpg
 toc: true
 breadcrumbs: true

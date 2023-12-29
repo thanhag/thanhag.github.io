@@ -8,7 +8,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/media-library-wordpress.jpg
+  overlay_image: /assets/images/media-library-wordpress.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/media-library-wordpress.jpg
 toc: true
 breadcrumbs: true

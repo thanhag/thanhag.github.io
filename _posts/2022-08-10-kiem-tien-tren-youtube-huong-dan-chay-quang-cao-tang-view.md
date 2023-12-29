@@ -7,7 +7,8 @@ tags:
   - "kiem-tien"
   - "youtube"
 header:
-  image: /assets/images/tang-view-cho-youtube.jpg
+  overlay_image: /assets/images/tang-view-cho-youtube.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/tang-view-cho-youtube.jpg
 toc: true
 breadcrumbs: true

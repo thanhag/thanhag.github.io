@@ -9,7 +9,8 @@ tags:
   - "thu-thuat"
   - "thu-thuat-excel"
 header:
-  image: /assets/images/Sua-loi-there-was-a-problem-sending-a-command-to-the-program-2.png
+  overlay_image: /assets/images/Sua-loi-there-was-a-problem-sending-a-command-to-the-program-2.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Sua-loi-there-was-a-problem-sending-a-command-to-the-program-2.png
 toc: true
 breadcrumbs: true

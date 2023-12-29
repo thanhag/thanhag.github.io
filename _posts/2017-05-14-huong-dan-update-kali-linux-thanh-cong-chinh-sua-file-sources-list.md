@@ -11,7 +11,8 @@ tags:
   - "update-kali-linux"
   - "upgrade-kali-linux"
 header:
-  image: /assets/images/hqdefault.jpg
+  overlay_image: /assets/images/hqdefault.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/hqdefault.jpg
 toc: true
 breadcrumbs: true

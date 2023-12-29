@@ -8,7 +8,8 @@ tags:
   - "multi-rename"
   - "total-commander"
 header:
-  image: /assets/images/Huong-dan-doi-ten-file-hang-loat.png
+  overlay_image: /assets/images/Huong-dan-doi-ten-file-hang-loat.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Huong-dan-doi-ten-file-hang-loat.png
 toc: true
 breadcrumbs: true

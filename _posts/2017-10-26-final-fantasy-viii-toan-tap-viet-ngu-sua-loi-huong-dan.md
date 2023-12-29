@@ -16,7 +16,8 @@ tags:
   - "game-the-he-8x"
   - "game-tuoi-tho"
 header:
-  image: /assets/images/gf_ifrit_final_fantasy_viii_by_klausboss.jpg
+  overlay_image: /assets/images/gf_ifrit_final_fantasy_viii_by_klausboss.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/gf_ifrit_final_fantasy_viii_by_klausboss.jpg
 toc: true
 breadcrumbs: true

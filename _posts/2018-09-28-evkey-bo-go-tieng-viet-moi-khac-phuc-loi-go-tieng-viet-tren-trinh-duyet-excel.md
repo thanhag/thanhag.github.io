@@ -5,7 +5,8 @@ categories:
   - "thu-thuat-chung"
   - "thu-thuat-excel"
 header:
-  image: /assets/images/1.EVKey-cong-cu-go-tieng-Viet-tot-nhat-Sofsog.com_.jpg
+  overlay_image: /assets/images/1.EVKey-cong-cu-go-tieng-Viet-tot-nhat-Sofsog.com_.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/1.EVKey-cong-cu-go-tieng-Viet-tot-nhat-Sofsog.com_.jpg
 toc: true
 breadcrumbs: true

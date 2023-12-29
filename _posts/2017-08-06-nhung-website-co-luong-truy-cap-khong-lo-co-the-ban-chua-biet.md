@@ -24,7 +24,8 @@ tags:
   - "twentytowords-com"
   - "website-hay"
 header:
-  image: /assets/images/photo-5-1501996515097.jpg
+  overlay_image: /assets/images/photo-5-1501996515097.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/photo-5-1501996515097.jpg
 toc: true
 breadcrumbs: true

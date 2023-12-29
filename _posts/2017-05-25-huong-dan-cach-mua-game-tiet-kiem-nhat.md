@@ -15,7 +15,8 @@ tags:
   - "steam"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/xbox_one_editorial3.jpg
+  overlay_image: /assets/images/xbox_one_editorial3.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/xbox_one_editorial3.jpg
 toc: true
 breadcrumbs: true

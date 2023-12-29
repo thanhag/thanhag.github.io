@@ -6,7 +6,8 @@ categories:
   - "internet"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/Sofsog.com-Kích-hoạt-Remote-Desktop-từ-xa-bằng-psexec-Enable-RDP-remotely.jpg
+  overlay_image: /assets/images/Sofsog.com-Kích-hoạt-Remote-Desktop-từ-xa-bằng-psexec-Enable-RDP-remotely.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Sofsog.com-Kích-hoạt-Remote-Desktop-từ-xa-bằng-psexec-Enable-RDP-remotely.jpg
 
 breadcrumbs: true

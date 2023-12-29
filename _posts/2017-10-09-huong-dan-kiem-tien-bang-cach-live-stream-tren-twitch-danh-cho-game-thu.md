@@ -11,7 +11,8 @@ tags:
   - "live-stream"
   - "twitch"
 header:
-  image: /assets/images/b4f3f0ac934d3fc92ead419704740d24-650-80-1500444482207.png
+  overlay_image: /assets/images/b4f3f0ac934d3fc92ead419704740d24-650-80-1500444482207.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/b4f3f0ac934d3fc92ead419704740d24-650-80-1500444482207.png
 toc: true
 breadcrumbs: true

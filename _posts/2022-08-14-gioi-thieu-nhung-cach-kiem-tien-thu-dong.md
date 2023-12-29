@@ -11,7 +11,8 @@ tags:
   - "kiem-tien-thu-dong"
   - "kiem-tien-tren-mang"
 header:
-  image: /assets/images/thu-nhap-thu-dong-9.jpg
+  overlay_image: /assets/images/thu-nhap-thu-dong-9.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/thu-nhap-thu-dong-9.jpg
 toc: true
 breadcrumbs: true

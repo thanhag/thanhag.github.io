@@ -12,7 +12,8 @@ tags:
   - "sua-loi"
   - "trong-bai-viet-nay"
 header:
-  image: /assets/images/Sofsog.com-Huong-dan-sua-loi-video-bi-lech-tieng-khi-dua-vao-phan-mem-chinh-sua.png
+  overlay_image: /assets/images/Sofsog.com-Huong-dan-sua-loi-video-bi-lech-tieng-khi-dua-vao-phan-mem-chinh-sua.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Sofsog.com-Huong-dan-sua-loi-video-bi-lech-tieng-khi-dua-vao-phan-mem-chinh-sua.png
 toc: true
 breadcrumbs: true

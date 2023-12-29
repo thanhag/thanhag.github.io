@@ -10,7 +10,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/huong-dan-seo-hinh-anh-hieu-qua.jpg.jpg
+  overlay_image: /assets/images/huong-dan-seo-hinh-anh-hieu-qua.jpg.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/huong-dan-seo-hinh-anh-hieu-qua.jpg.jpg
 toc: true
 breadcrumbs: true

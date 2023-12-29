@@ -9,7 +9,8 @@ tags:
   - "kali-linux"
   - "setup-kali-linux"
 header:
-  image: /assets/images/Huong-dan-cai-dat-Kali-limux-1.png
+  overlay_image: /assets/images/Huong-dan-cai-dat-Kali-limux-1.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Huong-dan-cai-dat-Kali-limux-1.png
 toc: true
 breadcrumbs: true

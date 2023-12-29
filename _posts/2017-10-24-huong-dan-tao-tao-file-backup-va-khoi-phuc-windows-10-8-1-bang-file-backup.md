@@ -15,7 +15,8 @@ tags:
   - "khoi-phuc-windown-10"
   - "thu-thuat-chung"
 header:
-  image: /assets/images/huong-dan-tao-file-backup-win-10.jpg
+  overlay_image: /assets/images/huong-dan-tao-file-backup-win-10.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/huong-dan-tao-file-backup-win-10.jpg
 toc: true
 breadcrumbs: true

@@ -9,7 +9,8 @@ tags:
   - "tao-youtube-playlists"
   - "thu-thuat-excel"
 header:
-  image: /assets/images/Tao-YouTube-Playlists.png
+  overlay_image: /assets/images/Tao-YouTube-Playlists.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Tao-YouTube-Playlists.png
 toc: true
 breadcrumbs: true

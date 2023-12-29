@@ -10,7 +10,8 @@ tags:
   - "wordpress-co-ban"
   - "xoa-bo-chu-category"
 header:
-  image: /assets/images/xoa-bo-chu-category-trong-duong-link-cua-wordpress.png
+  overlay_image: /assets/images/xoa-bo-chu-category-trong-duong-link-cua-wordpress.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/xoa-bo-chu-category-trong-duong-link-cua-wordpress.png
 toc: true
 breadcrumbs: true

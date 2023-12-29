@@ -9,7 +9,8 @@ tags:
   - "wordpress"
   - "wordpress-co-ban"
 header:
-  image: /assets/images/Filezilla-1-icon.png
+  overlay_image: /assets/images/Filezilla-1-icon.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Filezilla-1-icon.png
 toc: true
 breadcrumbs: true

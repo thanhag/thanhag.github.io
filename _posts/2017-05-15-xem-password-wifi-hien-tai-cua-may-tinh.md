@@ -17,7 +17,8 @@ tags:
   - "xem-pass-wifi"
   - "xem-password-wifi"
 header:
-  image: /assets/images/windows-wifi-password.png
+  overlay_image: /assets/images/windows-wifi-password.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/windows-wifi-password.png
 toc: true
 breadcrumbs: true

@@ -16,7 +16,8 @@ tags:
   - "thu-thuat-chung"
   - "trang-web-day-online"
 header:
-  image: /assets/images/40tranghoconlinedaybanmoithutrendoi-2.png
+  overlay_image: /assets/images/40tranghoconlinedaybanmoithutrendoi-2.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/40tranghoconlinedaybanmoithutrendoi-2.png
 toc: true
 breadcrumbs: true
