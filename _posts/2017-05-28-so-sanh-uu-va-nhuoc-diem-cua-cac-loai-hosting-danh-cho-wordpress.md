@@ -21,6 +21,7 @@ header:
   teaser: /assets/images/cloud-hosting.png
 toc: true
 breadcrumbs: true
+classes: wide # mo rong sang thanh ben de muc luc
 ---
 
 Nhìn chung, WordPress hosting được chia thành **6 loại**. Trước khi đăng ký các gói hosting, bạn phải hiểu những gì họ đang có. ưu điểm và nhược điểm của các loại hosting là gì? Để biết chính xác những gì trang web của bạn cần.
