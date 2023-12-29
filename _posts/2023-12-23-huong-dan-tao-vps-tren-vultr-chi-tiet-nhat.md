@@ -13,7 +13,7 @@ header:
   #image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
   teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
   overlay_image: /assets/images/phong-canh-vietnam.jpg
-  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" # Font cho nay chu ho tro tieng viet
   # actions: # Tạo một nút trên hình ảnh 
   #  - label: "More Info"
   #    url: "https://sofsog.com"
