@@ -14,13 +14,14 @@ tags:
   - "tu-dong-dich-phu-de"
   - "tu-dong-tao-phu-de"
 header:
-  image: /assets/images/Tao-phu-de-tu-dong-bang-AutoSub.jpg
+  overlay_image: /assets/images/Tao-phu-de-tu-dong-bang-AutoSub.jpg
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Tao-phu-de-tu-dong-bang-AutoSub.jpg
+excerpt: "Có thể tạo phụ đề từ bất cứ ngôn ngữ nào. Trong bài này mình chỉ ví dụ từ một video tiếng anh chưa có phụ đề, sẽ tự động tạo phụ đề tiếng anh và tự động dịch sang tiếng việt"
 toc: true
 breadcrumbs: true
 permalink: /thu-thuat-chung/tu-dong-tao-phu-de-bang-autosub
 ---
-
 Mình sẽ hướng dẫn chi tiết nhất cách để _tạo phụ đề tự động_ từ một Video hoặc file âm thanh bằng phần mềm Autosub. Có thể tạo phụ đề từ bất cứ ngôn ngữ nào. Trong bài này mình chỉ ví dụ từ một video tiếng anh chưa có phụ đề, sẽ tự động tạo phụ đề tiếng anh và tự động dịch sang tiếng việt.
 
 **UPDATE 2023 KÉO XUỐNG CUỐI BÀI VIẾT, CÓ DÒNG CHỮ MÀU ĐỎ "Một cách đơn giản hơn", DÀNH CHO BẠN NÀO KHÔNG RÀNH CÔNG NGHỆ.**
