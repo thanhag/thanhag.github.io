@@ -161,7 +161,7 @@ repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistak
 comments:
   provider: "facebook"
   facebook:
-    appid: 1234123123 # optional
+    appid: 949385505167728 # optional
     num_posts: 5 # 5 (default)
     colorscheme: "light" # "light" (default), "dark"
 
