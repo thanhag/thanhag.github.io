@@ -17,7 +17,9 @@ toc: true
 breadcrumbs: true
 ---
 
-Chào các bạn, bài viết này mình sẽ giới thiệu đến các bạn lệnh DIR trong DOS. Có thể nói lệnh DIR là một lệnh rất hay trong DOS. Bằng cách áp dụng linh hoạt lệnh này, các bạn có thể dễ dàng, nhanh chóng lấy ra được danh sách tên các file, lấy tên thư mục trên Windows. Lệnh DIR sẽ thực hiện liệt kê ra danh sách tên các file và thư mục nằm trong một thư mục nào đó mà mình cần. Muốn liệt kê ra tên các file và thư mục nằm trong thư mục nào thì mình dùng lệnh cd để đi đến thư mục đó rồi thực hiện lệnh DIR. Hoặc từ một thư mục bất kỳ, thực hiện lệnh DIR với đường dẫn đầy đủ đến thư mục mà mình cần liệt kê danh sách tên file, thư mục. Ví dụ, trong ổ D mình có thư mục “Hoc tap”, giờ mình muốn biết trong thư mục này chứa những file, thư mục con nào mình thực hiện theo 2 cách như hình dưới
+Chào các bạn, bài viết này mình sẽ giới thiệu đến các bạn lệnh DIR trong DOS. Có thể nói lệnh DIR là một lệnh rất hay trong DOS. Bằng cách áp dụng linh hoạt lệnh này, các bạn có thể dễ dàng, nhanh chóng lấy ra được danh sách tên các file, lấy tên thư mục trên Windows.
+
+Lệnh DIR sẽ thực hiện liệt kê ra danh sách tên các file và thư mục nằm trong một thư mục nào đó mà mình cần. Muốn liệt kê ra tên các file và thư mục nằm trong thư mục nào thì mình dùng lệnh cd để đi đến thư mục đó rồi thực hiện lệnh DIR. Hoặc từ một thư mục bất kỳ, thực hiện lệnh DIR với đường dẫn đầy đủ đến thư mục mà mình cần liệt kê danh sách tên file, thư mục. Ví dụ, trong ổ D mình có thư mục “Hoc tap”, giờ mình muốn biết trong thư mục này chứa những file, thư mục con nào mình thực hiện theo 2 cách như hình dưới
 
 ![Hướng dẫn lấy tên file và thư mục trên Windows và chuyển thành văn bản (Text)](/assets/images/Hướng-dẫn-lấy-tên-file-và-thư-mục-trên-Windows-và-chuyển-thành-văn-bản-Text.png)
 
