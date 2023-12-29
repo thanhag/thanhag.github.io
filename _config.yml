@@ -67,7 +67,9 @@ plugins:
 
 author:
   name   : "Thành"
-  avatar : "/assets/images/avarta-thanh.jpg"
+  avatar : /assets/images/main/Thanh-Avarta.png
+  
+  #"/assets/images/avarta-thanh.jpg"
   bio    : "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
   location: "An Giang, Việt Nam"
   links:
