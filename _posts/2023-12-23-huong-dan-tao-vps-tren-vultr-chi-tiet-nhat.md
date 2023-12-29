@@ -17,6 +17,7 @@ header:
   actions:
     - label: "More Info"
       url: "https://sofsog.com"
+excerpt: "Trong hướng dẫn này chúng ta sẽ từng bước tạo 1 _**VPS trên Vultr**_ chạy hệ điều hành **Ubuntu-22.04-LTS.**"
 toc: true #Thêm mục lục tự động
 breadcrumbs: true  # disabled by default
 # https://sofsog.com/thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
