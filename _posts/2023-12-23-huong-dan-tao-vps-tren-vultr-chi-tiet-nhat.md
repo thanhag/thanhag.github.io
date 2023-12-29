@@ -10,8 +10,13 @@ tags:
   - "vps"
   - "vultr"
 header:
-  image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+  #image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
   teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+  overlay_image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+  caption: "Photo credit: [**sofsog**](https://sofsog.com)"
+  actions:
+    - label: "More Info"
+      url: "https://sofsog.com"
 toc: true #Thêm mục lục tự động
 breadcrumbs: true  # disabled by default
 # https://sofsog.com/thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
