@@ -27,7 +27,7 @@ Thêm vào file `_page.scss`, chỗ `--overplay` đoạn sau:
 Và chỗ `.wrapper` đoạn sau:
 
 ```css
-// Làm mờ xung quanh chữ
-      backdrop-filter: blur(2px);
+// Làm mờ xung quanh chữ 3px là vừa, 2px không đủ rõ chữ
+      backdrop-filter: blur(3px); 
 ```
 

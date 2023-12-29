@@ -215,8 +215,8 @@ body {
       @include breakpoint($x-large) {
         max-width: $x-large;
       }
-      // Làm mờ xung quanh chữ
-      backdrop-filter: blur(2px);
+      //Làm mờ xung quanh chữ 3px là vừa, 2px không đủ rõ chữ
+      backdrop-filter: blur(3px);
     }
 
     .page__title,
