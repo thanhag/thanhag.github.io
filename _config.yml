@@ -151,11 +151,18 @@ repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistak
 #     # https://staticman-weathered-sea-2594.fly.dev/v3/connect/thanhag/thanhag.github.io
 
 
+# comments:
+#   provider: "utterances"
+#   utterances:
+#     theme: "github-light" # "github-dark"
+#     issue_term: "pathname"
+#     label: "comment" # Optional - must be existing label.
+
 comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
-    label: "comment" # Optional - must be existing label.
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
 
 
