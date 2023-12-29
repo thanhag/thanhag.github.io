@@ -135,7 +135,7 @@ tag_archive:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "G-VKX8JLF0QG"
+    tracking_id: "G-S05S9PCKB2" # Luồn dữ liệu sofsog.com
     anonymize_ip: true # default false
 
 
