@@ -7,8 +7,6 @@ toc: true
 
 ## Chính sách bảo mật
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
-
 Sự riêng tư của khách truy cập của tôi là vô cùng quan trọng. Chính sách quyền riêng tư này nêu rõ các loại thông tin cá nhân được nhận và thu thập cũng như cách sử dụng thông tin đó.
 
 Đầu tiên và quan trọng nhất, tôi sẽ không bao giờ chia sẻ địa chỉ email của bạn hoặc bất kỳ thông tin cá nhân nào khác cho bất kỳ ai mà không có sự đồng ý trực tiếp của bạn.

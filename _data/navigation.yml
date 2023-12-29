@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
+  - title: "Bài viết"
     url: /posts/
-  - title: "Categories"
+  - title: "Danh mục"
     url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "About"
     url: /about/
+  - title: "Điều khoản và Chính sách bảo mật"
+    url: /terms/  
