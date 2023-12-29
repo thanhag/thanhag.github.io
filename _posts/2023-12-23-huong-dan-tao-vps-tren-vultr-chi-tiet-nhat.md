@@ -12,7 +12,7 @@ tags:
 header:
   #image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
   teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
-  overlay_image: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+  overlay_image: /assets/images/phong-canh-vietnam.jpg
   caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
   # actions: # Tạo một nút trên hình ảnh 
   #  - label: "More Info"
