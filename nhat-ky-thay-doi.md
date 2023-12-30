@@ -67,3 +67,20 @@ javascript:(function(){
     document.documentElement.style.filter = document.documentElement.style.filter ? '' : 'invert(100%)'
 })();
 ```
+
+```javascript
+javascript:(function(){
+    var body = document.body;
+    var currentColor = window.getComputedStyle(body).getPropertyValue('background-color');
+  	if (currentColor === 'rgb(0, 0, 0)' || currentColor === 'black') 
+		{
+          body.style.backgroundColor = 'white';
+          body.style.color = 'black';
+
+        }else if (currentColor === 'rgb(255, 255, 255)' || currentColor === 'white') {
+          body.style.backgroundColor = 'black';
+          body.style.color = 'white';
+  }
+})();
+```
+
