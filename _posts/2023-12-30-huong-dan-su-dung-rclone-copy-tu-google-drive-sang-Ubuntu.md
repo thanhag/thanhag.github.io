@@ -11,7 +11,7 @@ tags:
   - google-drive
 header:
   teaser: /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%200.jpg
-  overlay_image: /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%200.jpg
+  overlay_image: /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%202.jpg
   caption: 'Nguồn ảnh: Google'
 excerpt: >-
   Để tải file lên **Google Drive** từ **Ubuntu**, bạn có thể sử dụng giao thức
