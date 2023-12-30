@@ -52,3 +52,8 @@ Và chỗ `.wrapper` đoạn sau:
 // Làm mờ xung quanh chữ 3px là vừa, 2px không đủ rõ chữ
       backdrop-filter: blur(3px); 
 ```
+
+## Sửa lỗi menu trên android không đè lên nút `Theo dõi` trên android
+
+- Đã tạo [discussions](https://github.com/mmistakes/minimal-mistakes/discussions/4602) trên repo [mmistakes](https://github.com/mmistakes) nhưng chưa được ai quan tâm.
+- 
