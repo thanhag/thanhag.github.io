@@ -1,6 +1,7 @@
 ---
 published: false
-date: {}
+title: "Hướng dẫn sử dụng rclone copy từ google drive sang Ubuntu"
+date: "2023-12-30"
 categories:
   - ubuntu
   - thu-thuat-chung
@@ -20,16 +21,20 @@ toc: true
 breadcrumbs: true
 permalink: /ubuntu/huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu
 ---
-Hướng dẫn này mình sẽ  thực hiện sao chép một thư mục và tất cả các thư mục con của nó lên **Google Drive** đơn giản nhất sử dụng công cụ dòng lệnh **rclone**. Mình thực hiện từ một **máy tính windows cá nhân** sử dụng giao thức **ssh** kết nối với **Ubuntu server**. Dưới đây là các bước để thực hiện:
 
-## 1. Cài đặt rclone bằng cách thực hiện các bước sau:
+Hướng dẫn này mình sẽ  thực hiện sao chép một thư mục và tất cả các thư mục con của nó lên **Google Drive** đơn giản nhất sử dụng công cụ dòng lệnh **rclone**. Mình thực hiện từ một **máy tính windows cá nhân** sử dụng giao thức **ssh** kết nối với **Ubuntu server**.
+
+Dưới đây là các bước để thực hiện:
+
+## 1. Cài đặt rclone bằng cách thực hiện các bước sau
 
 Kết nối vào **Ubuntu** của bạn thông qua ssh. Sau đó chạy lệnh:
 
 ```terminal
 curl https://rclone.org/install.sh | sudo bash
 ```
-## 2. Tiếp theo, thực hiện xác thực bằng cách chạy lệnh sau và làm theo các hướng dẫn trên màn hình:
+
+## 2. Tiếp theo, thực hiện xác thực bằng cách chạy lệnh sau và làm theo các hướng dẫn trên màn hình
 
 ```terminal
 rclone config
@@ -133,8 +138,9 @@ y/n>
 ```
 
 Đến đây là **bước quan trọng**:
-- Nếu bạn đang chạy  ứng dụng **rclone** này trên ubuntu có trình duyệt web, thì bạn bấm `y` 
-- Nếu bạn đang thực hiện bằng cách sử dụng giao thức **ssh** như đầu bài viết có nói thì bạn bấm `n`. Trong hướng dẫn này **mình thực hiện ssh từ máy tính windows kết nối với Ubuntu server thông qua ssh **, đo đó mình chọn `n`
+
+- Nếu bạn đang chạy  ứng dụng **rclone** này trên ubuntu có trình duyệt web, thì bạn bấm `y`
+- Nếu bạn đang thực hiện bằng cách sử dụng giao thức **ssh** như đầu bài viết có nói thì bạn bấm `n`. Trong hướng dẫn này **mình thực hiện ssh từ máy tính windows kết nối với Ubuntu server thông qua ssh**, đo đó mình chọn `n`
 
 ```terminal
 Use web browser to automatically authenticate rclone with remote?
@@ -146,9 +152,10 @@ y) Yes (default)
 n) No
 y/n> n
 ```
-Đến bước xác thực, để làm việc này, bạn sẽ cần **rclone** có sẵn trên máy có sẵn trình duyệt web. 
 
-Các bạn để ý màn hình hiển thị có dòng lệnh tương tự như bên dưới: `rclone authorize "drive" "eyJzY29w1hgINyh8aXZlIn0"`, sẽ cần để thực hiện bước tiếp theo. 
+Đến bước xác thực, để làm việc này, bạn sẽ cần **rclone** có sẵn trên máy có sẵn trình duyệt web.
+
+Các bạn để ý màn hình hiển thị có dòng lệnh tương tự như bên dưới: `rclone authorize "drive" "eyJzY29w1hgINyh8aXZlIn0"`, sẽ cần để thực hiện bước tiếp theo.
 
 ```
 Option config_token.
@@ -160,17 +167,18 @@ Then paste the result.
 Enter a value.
 config_token> 
 ```
+
 Cứ để y nguyên màn hình dòng lệnh như thế và trở về **máy tính windows cá nhân** để thực hiện bước tiếp theo
 
-## 3. Trên máy windows:
+## 3. Trên máy windows
 
 Bạn vào link: [download rclone](https://rclone.org/downloads/) để tải ứng dụng `rclone` về, các bạn lựa chọn đúng hệ điều hành của mình, ở đây mình chọn `Intel/AMD - 64 Bit` dành cho `Windows`
 
-Chèn hình
+![hinh](/assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%203.jpg)
 
 Tải về giải nén ra, ta được như mục như hình:
 
-Chèn hình
+![hinh](/assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%204.jpg)
 
 Vào thư mục này, giữ phím `Shift` và `click phải chuột` vào vùng trống rồi chọn một chương trình dòng lệnh như `Command Prompt (cmd)` hoặc  `PowerShell`,  trong hướng dẫn này mình chạy bằng `cmd`
 
@@ -178,9 +186,13 @@ Trở lại **ubuntu** để xem cái dòng lệnh cần chạy, nó tương t�
 
 Copy dòng lệnh đó và chạy trên `cmd` của **windows**, chương trình sẽ tự động mở trình duyệt của bạn để bắt đầu xác thực, nếu nó không tự động mở, bạn có thể tự mở bằng cách copy dòng hiển thị trên màn hình dòng lệnh `cmd`tương tự như vầy `http://127.0.0.1:53682/auth?state=XI4vj...` rồi dán vào trình duyệt, gõ `enter`.
 
-Nếu bạn đã đăng nhập sẵn tài khoản `Google Drive` thì chỉ cần chọn đúng tài khoản và chấp nhận cho `rclone` truy cập vào là xong. Ngược lại, thì bạn cần đăng nhập vào tài khoản `Google Drive`của mình để tiếp tục việc xác thực, khi xác thực xong, màn hình `cmd` sẽ hiển thị như hình dưới đây:
+Nếu bạn đã đăng nhập sẵn tài khoản `Google Drive` thì chỉ cần chọn đúng tài khoản và chấp nhận cho `rclone` truy cập vào là xong. Ngược lại, thì bạn cần đăng nhập vào tài khoản `Google Drive`của mình để tiếp tục việc xác thực, khi xác thực xong, trình duyệt sẽ hiển thị:
 
-Chèn hình
+![hình sofsog.com](/assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%201.jpg)
+
+Và màn hình `cmd` sẽ hiển thị như hình dưới đây:
+
+![hình sofsog.com](/assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%202.jpg)
 
 Copy `token`  được đánh dấu trong hình trên, **lưu ý cách copy trên cmd thường tự động ngắt dòng**, tốt nhất là copy rồi dán vào file txt sau đó điều chỉnh sao cho nó chỉ ở trên 1 dòng rồi copy lại.
 
@@ -191,6 +203,7 @@ Lúc này màn hình dòng lệnh trên máy **Ubuntu** đang hiển thị như 
 ```terminal
 config_token> 
 ```
+
 Dán đoạn `token` vừa copy từ máy tính **windows** vào đó để nó xác thực. Nếu thành công nó sẽ tiếp tục hỏi `Định cấu hình đây là Bộ nhớ dùng chung (Drive nhóm)?` gõ `enter` để bỏ qua, tiếp tục được hỏi `Keep this "thanhag" remote?`, lại `enter` để bỏ qua. Sau đó gõ `q` để thoát khỏi chế độ cài đặt.
 
 ```terminal
@@ -218,6 +231,7 @@ s) Set configuration password
 q) Quit config
 e/n/d/r/c/s/q> q
 ```
+
 Công cụ dòng lệnh của bạn hiển thị tương tự như trên là cài đặt thành công
 
 ## 5. Bắt đầu copy dữ liệu
@@ -228,7 +242,8 @@ Sau khi hoàn tất cấu hình, bạn có thể sử dụng lệnh sau để sa
 rclone copy /path/to/source/folder thanhag:/destination/folder
 ```
 
-Trong đó: 
+Trong đó:
+
 - `/path/to/source/folder` là đường dẫn tới thư mục nguồn bạn muốn sao chép.
 - `thanhag` là tên cấu hình bạn đã đặt trong bước 2.
 - `/destination/folder` là đường dẫn đến thư mục đích trên `Google Drive`. Nếu thư mục đích không tồn tại, **rclone** sẽ tự động tạo nó.
@@ -238,6 +253,7 @@ Ví dụ, để sao chép thư mục `/home/user/documents` và tất cả các 
 ```terminal
 rclone copy /home/user/documents thanhag:/backup/documents
 ```
+
 Để copy ngược lại, một thư mục từ Google Drive về Ubuntu của bạn, chạy lệnh:
 
 ```terminal
@@ -245,6 +261,7 @@ rclone copy thanhag:/source/folder /path/to/destination/folder
 ```
 
 Trong đó:
+
 - `thanhag` là tên cấu hình bạn đã đặt trong bước 2.
 - `/source/folder` là đường dẫn đến thư mục nguồn trên Google Drive.
 - `/path/to/destination/folder` là đường dẫn đến thư mục đích trên Ubuntu của bạn. Nếu thư mục đích không tồn tại, **rclone** sẽ tự động tạo nó.
