@@ -17,7 +17,7 @@
 
 locale: "vi-VN"
 # Thêm logo đúng size vào đúng chỗ sẽ hiển thị phía trước tiêu đề trang web
-# logo: "/assets/images/88x88.png" 
+logo: "/assets/images/main/Logo-Thanh88x88.png"
 
 title: "Blog của Thành"
 email: thanhag@gmail.com
