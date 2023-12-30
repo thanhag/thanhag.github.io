@@ -1,6 +1,6 @@
 ---
 published: false
-date: 2023-12-30T00:00:00.000Z
+date: {}
 categories:
   - ubuntu
   - thu-thuat-chung
@@ -166,7 +166,7 @@ Cứ để y nguyên màn hình dòng lệnh như thế và trở về **máy t�
 
 Bạn vào link: [download rclone](https://rclone.org/downloads/) để tải ứng dụng `rclone` về, các bạn lựa chọn đúng hệ điều hành của mình, ở đây mình chọn `Intel/AMD - 64 Bit` dành cho `Windows`
 
-chèn hình
+Chèn hình
 
 Tải về giải nén ra, ta được như mục như hình:
 
