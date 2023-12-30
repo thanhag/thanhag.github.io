@@ -1,8 +1,8 @@
-## Việt hoá, cấu hình, Google analytic, bình luận
+## Việt hoá, cấu hình, Google analytic, bình luận file `_config.yml`
 
 - Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
 - Chốt cuối tạo bình luận bằng Facebook
-- Thêm logo 88x88  vào
+-
 
 ## Thay đổi CSS
 
@@ -29,4 +29,38 @@ Và chỗ `.wrapper` đoạn sau:
 ```css
 // Làm mờ xung quanh chữ 3px là vừa, 2px không đủ rõ chữ
       backdrop-filter: blur(3px); 
+```
+
+<<<<<<< HEAD
+=======
+
+## Sửa lỗi menu trên android không đè lên nút `Theo dõi` trên android
+
+- Đã tạo [discussions](https://github.com/mmistakes/minimal-mistakes/discussions/4602) trên repo [mmistakes](https://github.com/mmistakes) nhưng chưa được ai quan tâm.
+- Loading ...
+
+## Chế độ tối
+
+- Mở `DevTools` chọn `Bảng điều kiển (Console)` copy đoạn javascript bên dưới để chạy, chuyển đối cứng 100% chuyển cả hình ảnh:
+
+```javascript
+javascript:(function(){
+    document.documentElement.style.filter = document.documentElement.style.filter ? '' : 'invert(100%)'
+})();
+```
+
+```javascript
+javascript:(function(){
+    var body = document.body;
+    var currentColor = window.getComputedStyle(body).getPropertyValue('background-color');
+   if (currentColor === 'rgb(0, 0, 0)' || currentColor === 'black') 
+  {
+          body.style.backgroundColor = 'white';
+          body.style.color = 'black';
+
+        }else if (currentColor === 'rgb(255, 255, 255)' || currentColor === 'white') {
+          body.style.backgroundColor = 'black';
+          body.style.color = 'white';
+  }
+})();
 ```
