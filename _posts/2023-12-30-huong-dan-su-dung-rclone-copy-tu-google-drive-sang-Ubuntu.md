@@ -6,10 +6,10 @@ categories:
   - thu-thuat-chung
 tags:
   - ubuntu
-  - vps
-  - vultr
+  - rclone
+  - google-drive
 header:
-  teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+  teaser: /assets/images/phong-canh-vietnam.jpg
   overlay_image: /assets/images/phong-canh-vietnam.jpg
   caption: 'Nguồn ảnh: [**sofsog**](https://sofsog.com)'
 excerpt: >-
@@ -18,7 +18,7 @@ excerpt: >-
   **rclone**.
 toc: true
 breadcrumbs: true
-permalink: /ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
+permalink: /ubuntu/huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu
 ---
 Để tải file lên **Google Drive** từ **Ubuntu**, bạn có thể sử dụng giao thức cơ bản **WebDAV** hoặc sử dụng các công cụ dòng lệnh như **gdrive** hoặc **rclone**. 
 
