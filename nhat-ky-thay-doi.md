@@ -56,4 +56,4 @@ Và chỗ `.wrapper` đoạn sau:
 ## Sửa lỗi menu trên android không đè lên nút `Theo dõi` trên android
 
 - Đã tạo [discussions](https://github.com/mmistakes/minimal-mistakes/discussions/4602) trên repo [mmistakes](https://github.com/mmistakes) nhưng chưa được ai quan tâm.
-- 
+- Loading ... 
