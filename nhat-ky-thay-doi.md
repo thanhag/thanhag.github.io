@@ -1,7 +1,12 @@
-## Việt hoá, cấu hình, Google analytic, bình luận
+## Việt hoá, cấu hình, Google analytic, bình luận file `_config.yml`
 
 - Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
 - Chốt cuối tạo bình luận bằng Facebook
+- Thêm logo 88x88 vào `/assets/images/main` và thêm cấu hình vào file `_config.yml` 
+
+```
+```
+
 - 
 
 ## Thay đổi CSS
@@ -30,4 +35,3 @@ Và chỗ `.wrapper` đoạn sau:
 // Làm mờ xung quanh chữ 3px là vừa, 2px không đủ rõ chữ
       backdrop-filter: blur(3px); 
 ```
-
