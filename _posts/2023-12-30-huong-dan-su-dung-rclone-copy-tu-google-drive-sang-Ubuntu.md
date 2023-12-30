@@ -3,11 +3,11 @@ published: false
 ---
 Để tải file lên **Google Drive** từ **Ubuntu**, bạn có thể sử dụng giao thức cơ bản **WebDAV** hoặc sử dụng các công cụ dòng lệnh như **gdrive** hoặc **rclone**. 
 
-Hướng dẫn này mình sẽ  thực hiện sao chép một thư mục và tất cả các thư mục con của nó lên **Google Drive** đơn giản nhất sử dụng công cụ dòng lệnh **rclone**. Mình thự hiện từ một **máy tính windows cá nhân** sử dụng giao thức **ssh** kết nối với **Ubuntu server**. Dưới đây là các bước để thực hiện:
+Hướng dẫn này mình sẽ  thực hiện sao chép một thư mục và tất cả các thư mục con của nó lên **Google Drive** đơn giản nhất sử dụng công cụ dòng lệnh **rclone**. Mình thực hiện từ một **máy tính windows cá nhân** sử dụng giao thức **ssh** kết nối với **Ubuntu server**. Dưới đây là các bước để thực hiện:
 
 ## 1. Cài đặt rclone bằng cách thực hiện các bước sau:
 
-Kết nối và Ubuntu của bạn thông qua ssh. Sau đó chạy lệnh:
+Kết nối vào **Ubuntu** của bạn thông qua ssh. Sau đó chạy lệnh:
 
 ```terminal
 curl https://rclone.org/install.sh | sudo bash
@@ -167,12 +167,12 @@ Chèn hình
 
 Copy `token`  được đánh dấu trong hình trên, **lưu ý cách copy trên cmd thường tự động ngắt dòng**, tốt nhất là copy rồi dán vào file txt sau đó điều chỉnh sao cho nó chỉ ở trên 1 dòng rồi copy lại.
 
-## Trở lại máy Ubuntu
+## 4. Trở lại máy Ubuntu
 
-Lúc này màn hình đang chờ, sẽ tương tự như:
+Lúc này màn hình dòng lệnh trên máy **Ubuntu** đang hiển thị như bên dưới để chờ bạn dán `token` vào
 
 ```terminal
-config_token>dán token vào đây 
+config_token> 
 ```
 Dán đoạn `token` vừa copy từ máy tính **windows** vào đó để nó xác thực. Nếu thành công nó sẽ tiếp tục hỏi `Định cấu hình đây là Bộ nhớ dùng chung (Drive nhóm)?` gõ `enter` để bỏ qua, tiếp tục được hỏi `Keep this "thanhag" remote?`, lại `enter` để bỏ qua. Sau đó gõ `q` để thoát khỏi chế độ cài đặt.
 
@@ -203,7 +203,7 @@ e/n/d/r/c/s/q> q
 ```
 Công cụ dòng lệnh của bạn hiển thị tương tự như trên là cài đặt thành công
 
-## Bắt đầu copy dữ liệu
+## 5. Bắt đầu copy dữ liệu
 
 Sau khi hoàn tất cấu hình, bạn có thể sử dụng lệnh sau để sao chép thư mục và tất cả các thư mục con lên `Google Drive`:
 
