@@ -14,19 +14,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+minimal_mistakes_skin    : default  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-locale: "vi-VN"
+# Site Settings
+locale                   : "vi-VN"
 # Thêm logo đúng size vào đúng chỗ sẽ hiển thị phía trước tiêu đề trang web
-logo: "/assets/images/main/Logo-Thanh88x88.png"
-
-title: "Blog của Thành"
-email: thanhag@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+logo                     : "/assets/images/main/Logo-Thanh88x88.png"
+title                    : "Blog của Thành"
+subtitle                 : # site tagline that appears below site title in masthead
+description              : >- # this means to ignore newlines until "baseurl:"
   Đây là trang blog cá nhân của Thành, vừa là nơi chia sẻ, vừa là nơi ghi chú
   lại những kinh nghiệm cá nhân.
+
+email: thanhag@gmail.com
+
 twitter_username: rambothanh
 github_username: rambothanh
-minimal_mistakes_skin: default  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 search: true
 
 
@@ -65,14 +69,14 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author
 author:
-  name   : "Thành"
-  avatar : /assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
-  # /assets/images/main/Thanh-Avarta.png # Ảnh đủ màu
-  
-  #"/assets/images/avarta-thanh.jpg"
-  bio    : "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
-  location: "An Giang, Việt Nam"
+  name          : "Thành"
+  avatar        : /assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
+                # /assets/images/main/Thanh-Avarta.png # Ảnh đủ màu  
+                #"/assets/images/avarta-thanh.jpg"
+  bio           : "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
+  location      : "An Giang, Việt Nam"
   links:
     - label: "Trang web"
       icon: "fas fa-fw fa-link"
@@ -89,6 +93,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/rambothanh"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rambothanh1985@gmail.com"  
 
 footer:
   links:
