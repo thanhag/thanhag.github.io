@@ -11,7 +11,7 @@ logo: "/assets/images/main/Logo-Thanh88x88.png"
 
 ### favicon
 
-- Tạo favicon theo hướng dẫn [Của peateasea](https://peateasea.de/add-favicon-to-mm-jekyll-site/)
+- Tạo favicon theo hướng dẫn của [peateasea](https://peateasea.de/add-favicon-to-mm-jekyll-site/)
 - Thêm file `_includes/head/custom.html` và thêm vào tệp này nội dụng như sau:
 
 ```html
