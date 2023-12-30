@@ -157,7 +157,7 @@ y/n> n
 
 Các bạn để ý màn hình hiển thị có dòng lệnh tương tự như bên dưới: `rclone authorize "drive" "eyJzY29w1hgINyh8aXZlIn0"`, sẽ cần để thực hiện bước tiếp theo.
 
-```
+```terminal
 Option config_token.
 For this to work, you will need rclone available on a machine that has a web browser available.
 For more help and alternate methods see: https://rclone.org/remote_setup/
