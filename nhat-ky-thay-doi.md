@@ -2,15 +2,15 @@
 
 - Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
 - Chốt cuối tạo bình luận bằng Facebook
-- 
+- Thêm logo 88x88  vào
 
 ## Thay đổi CSS
 
-### Font chữ:
+### Font chữ
 
 - `.page__hero-caption` font chữ của class này không hỗ trợ tiếng việc: xoá font chữ Georgia trong file font `_variables.scss`
 
-### Tạo ảnh bìa của bài viết trắng đen và mờ và bụi:
+### Tạo ảnh bìa của bài viết trắng đen và mờ và bụi
 
 Thêm vào file `_page.scss`, chỗ `--overplay` đoạn sau:
 
@@ -30,4 +30,3 @@ Và chỗ `.wrapper` đoạn sau:
 // Làm mờ xung quanh chữ 3px là vừa, 2px không đủ rõ chữ
       backdrop-filter: blur(3px); 
 ```
-
