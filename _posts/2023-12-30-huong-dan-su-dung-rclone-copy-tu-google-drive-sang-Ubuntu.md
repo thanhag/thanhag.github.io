@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Hướng dẫn sử dụng rclone copy từ google drive sang Ubuntu"
 date: "2023-12-30"
 categories:
@@ -268,8 +268,44 @@ Trong đó:
 
 Ví dụ, để sao chép thư mục `/backup/documents` từ Google Drive về thư mục `/home/user/documents` trên máy tính, bạn có thể chạy lệnh sau:
 
-```
+```shell
 rclone copy thanhag:/backup/documents /home/user/documents
 ```
 
 Lưu ý rằng quá trình sao chép có thể mất thời gian, phụ thuộc vào kích thước và số lượng file trong thư mục và các thư mục con.
+
+## 6. Copy dữ liệu nhiều, mất nhiều thời gian
+
+Trường hợp bạn copy số lượng file quá nhiều, thời gian copy rất lâu. Bạn muốn thoát phiên **ssh** để làm việc khác, để máy chủ **ubuntu** tự làm việc thì phải làm sao. 
+
+Khi bạn đang chạy rclone để sao chép thông qua **SSH** và sau đó tắt phiên **SSH**, nếu bạn tắt phiên SSH mà không sử dụng các cơ chế đặc biệt như `nohup`, `screen`, hay `tmux` để giữ quá trình `rclone` chạy ngay cả khi phiên **SSH** đã kết thúc, thì quá trình **rclone** sẽ bị tắt khi phiên SSH kết thúc.
+
+Để đảm bảo rằng rclone tiếp tục chạy sau khi bạn tắt phiên SSH, mình sẽ hướng dẫn các bạn sử dụng `screen` để tạo một phiên làm việc trong đó bạn chạy **rclone**. Với `screen`, bạn có thể đăng nhập, chạy **rclone** và sau đó tắt phiên **SSH** mà không ảnh hưởng đến quá trình **rclone**. Ví dụ:
+
+Tạo một phiên làm việc mới:
+
+
+```shell
+screen -S rclone-session
+```
+
+Trong phiên làm việc mới, chạy rclone:
+
+```shell
+rclone copy /path/to/source/folder thanhag:/destination/folder
+```
+
+Sau khi rclone đang chạy, nhấn tổ hợp phím `Ctrl + A` sau đó nhấn phím `D` để thoát phiên `screen` mà **không tắt rclone**.
+
+Đến đây bạn có thể thoải mái thoát tắt **SHH** máy chủ sẽ tự làm việc của mình
+
+Khi bạn muốn truy cập lại vào phiên làm việc `screen`, bạn có thể sử dụng lệnh sau:
+
+
+```shell
+screen -r rclone-session
+```
+
+Lệnh này sẽ đưa bạn trở lại phiên làm việc `screen` và bạn có thể kiểm tra và điều khiển quá trình **rclone**
+
+Chúc các bạn thành công!
