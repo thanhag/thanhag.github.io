@@ -1,14 +1,18 @@
 ## Việt hoá, cấu hình, Google analytic, bình luận file `_config.yml`
 
-- Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
-- Chốt cuối tạo bình luận bằng Facebook
-- Thêm logo 88x88 vào `/assets/images/main` và thêm cấu hình vào file `_config.yml` 
+### Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
+### Chốt cuối tạo bình luận bằng Facebook
+### Thêm logo 88x88 vào `/assets/images/main` và thêm cấu hình vào file `_config.yml` 
 
 ```yml
 logo: "/assets/images/main/Logo-Thanh88x88.png"
 ```
+## Thẻ head
 
-- 
+### favicon
+
+- Tạo favicon theo hướng dẫn [Của peateasea](https://peateasea.de/add-favicon-to-mm-jekyll-site/)
+- Thêm file ``
 
 ## Thay đổi CSS
 
