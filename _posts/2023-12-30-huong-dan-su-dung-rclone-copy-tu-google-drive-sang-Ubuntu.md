@@ -1,5 +1,24 @@
 ---
 published: false
+date: 2023-12-30T00:00:00.000Z
+categories:
+  - ubuntu
+  - thu-thuat-chung
+tags:
+  - ubuntu
+  - vps
+  - vultr
+header:
+  teaser: /assets/images/Hướng-dẫn-tạo-VPS-trên-VULTR-chi-tiết-nhất.jpg
+  overlay_image: /assets/images/phong-canh-vietnam.jpg
+  caption: 'Nguồn ảnh: [**sofsog**](https://sofsog.com)'
+excerpt: >-
+  Để tải file lên **Google Drive** từ **Ubuntu**, bạn có thể sử dụng giao thức
+  cơ bản **WebDAV** hoặc sử dụng các công cụ dòng lệnh như **gdrive** hoặc
+  **rclone**.
+toc: true
+breadcrumbs: true
+permalink: /ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat
 ---
 Để tải file lên **Google Drive** từ **Ubuntu**, bạn có thể sử dụng giao thức cơ bản **WebDAV** hoặc sử dụng các công cụ dòng lệnh như **gdrive** hoặc **rclone**. 
 
@@ -239,8 +258,3 @@ rclone copy thanhag:/backup/documents /home/user/documents
 ```
 
 Lưu ý rằng quá trình sao chép có thể mất thời gian, phụ thuộc vào kích thước và số lượng file trong thư mục và các thư mục con.
-
-
-
-
-
