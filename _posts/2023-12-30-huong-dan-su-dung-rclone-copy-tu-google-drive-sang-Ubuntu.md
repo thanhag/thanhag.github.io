@@ -10,9 +10,9 @@ tags:
   - rclone
   - google-drive
 header:
-  teaser: /assets/images/phong-canh-vietnam.jpg
-  overlay_image: /assets/images/phong-canh-vietnam.jpg
-  caption: 'Nguồn ảnh: [**sofsog**](https://sofsog.com)'
+  teaser: /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%200.jpg
+  overlay_image: /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%200.jpg
+  caption: 'Nguồn ảnh: Google'
 excerpt: >-
   Để tải file lên **Google Drive** từ **Ubuntu**, bạn có thể sử dụng giao thức
   cơ bản **WebDAV** hoặc sử dụng các công cụ dòng lệnh như **gdrive** hoặc
@@ -21,6 +21,7 @@ toc: true
 breadcrumbs: true
 permalink: /ubuntu/huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu
 ---
+
 
 Hướng dẫn này mình sẽ  thực hiện sao chép một thư mục và tất cả các thư mục con của nó lên **Google Drive** đơn giản nhất sử dụng công cụ dòng lệnh **rclone**. Mình thực hiện từ một **máy tính windows cá nhân** sử dụng giao thức **ssh** kết nối với **Ubuntu server**.
 
