@@ -4,7 +4,8 @@
 - Chốt cuối tạo bình luận bằng Facebook
 - Thêm logo 88x88 vào `/assets/images/main` và thêm cấu hình vào file `_config.yml` 
 
-```
+```yml
+logo: "/assets/images/main/Logo-Thanh88x88.png"
 ```
 
 - 
