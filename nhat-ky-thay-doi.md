@@ -100,7 +100,23 @@ Thêm đoạn màu trong file `_dark.scss` vào `_default.scss`
    }
 }
 ```
-Tạo nút checkbox
+Tạo nút checkbox:
+
+```html
+<label class="c-scheme-switch" for="scheme-checkbox">
+               <span class="visually-hidden">Enable dark mode</span>
+               <input type="checkbox" id="scheme-checkbox" tabindex="0" class="c-scheme-switch_input">
+               <div class="c-scheme-switch_slider">
+                  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" height="17.25" width="17.25" xmlns="http://www.w3.org/2000/svg" stroke="currentcolor" class="sun-icon icon">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364-.707-.707M6.343 6.343l-.707-.707m12.728.0-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                  </svg>
+                  <div class="c-scheme-switch_slider-track"></div>
+                  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" height="17.25" width="17.25" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentcolor" class="moon-icon icon">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003.0 0012 21a9.003 9.003.0 008.354-5.646z"></path>
+                  </svg>
+               </div>
+            </label>
+```
 
 
 
