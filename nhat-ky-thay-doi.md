@@ -101,7 +101,7 @@ Thêm đoạn màu trong file `_dark.scss` vào `_default.scss`, (đoạn dướ
 }
 ```
 
-Tạo nút checkbox:
+Tạo nút checkbox, thêm đoạn dưới vào file `masthead.html`
 
 ```html
 <label class="c-scheme-switch" for="scheme-checkbox">
@@ -120,16 +120,52 @@ Tạo nút checkbox:
 ```
 
 
-Thêm javascript dưới vào file `head.html` cái này thành công
+Thêm javascript dưới vào file `head.html`:
+
+```html
+<!-- Xử lý nút bật tắt chế độ tối -->
+
+<script>
+  const currentScheme = localStorage.getItem("scheme");
+  let uncheckBox = !1; // Gán giá trị này là false
+  
+  function disableDarkMode() {
+      document.documentElement.setAttribute("data-scheme", "light"), localStorage.setItem("scheme", "light")
+  }
+  
+  function enableDarkMode() {
+      document.documentElement.setAttribute("data-scheme", "dark"), localStorage.setItem("scheme", "dark")
+  }
+  // Nếu biến lấy đưỢc từ trình duyệt là dark thì bật dark và ngược lại
+  currentScheme === "dark" ? enableDarkMode() : 
+  currentScheme === "light" ? (disableDarkMode(), uncheckBox = !0) :
+  // Nếu chưa có biến currentScheme
+  window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? enableDarkMode() : 
+  
+  
+  // Có thể bỏ dấu , và thêm dấu ; để thay thế
+  // Đoạn dưới này có ý nghĩa thứ tự như sau:
+  // 1. Chạy hàm: disableDarkMode()
+  // 2. Gán uncheckBox = !0 (giá trị là true)
+  // 3. Đăng ký một sự kiện:DOMContentLoaded và xử lý:
+  //    - Tìm checkbox có class c-scheme-switch_input
+  //    - Đăng ký sự kiện change cho checkbox tìm được và xử lý sự kiện đó: t.checked là true), hàm enableDarkMode() được gọi. Nếu không, hàm disableDarkMode() được gọi.  
+  //    - Gán giá trị ngược lại cho t.checked: Kiểm tra biến uncheckBox và gán giá trị cho t.checked tương ứng.   
+  (disableDarkMode(), uncheckBox = !0), addEventListener("DOMContentLoaded", e => {
+      const t = document.querySelector('input[type="checkbox"].c-scheme-switch_input');
+      t.addEventListener("change", () => {
+          t.checked ? enableDarkMode() : disableDarkMode()
+      }), uncheckBox ? t.checked = !1 : t.checked = !0
+  })
+</script>
+<!-- end Xử lý nút bật tắt chế độ tối -->
+```
+
 
 Add thêm scss của nút này vào file `_default.scss` luôn cho đơn giản
 
 ```scss
-
-
 // Thêm css cho nút thay đổi theme
-
-
 [type=checkbox] {
 	box-shadow: none;
 }
@@ -361,6 +397,7 @@ label {
 
 ```
 
+Đến đây nút chuyển chế độ đã hiển thị đẹp, click vào đã xử lý được biến local và thay đổi thuộc tính cho `html` data-scheme="light" thay đổi thành data-scheme="dark"
 
 
 
