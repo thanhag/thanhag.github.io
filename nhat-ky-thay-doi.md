@@ -67,7 +67,8 @@ javascript:(function(){
 
 ### Thực hiện trên local:
 
-- Thêm đoạn màu trong file `_dark.scss` vào `_default.scss`
+Thêm đoạn màu trong file `_dark.scss` vào `_default.scss`
+
 ```scss
 // Thêm đoạn này để xử lý darkmode
 [data-scheme=dark] {
@@ -99,6 +100,9 @@ javascript:(function(){
    }
 }
 ```
+
+
+
 
 
 
