@@ -162,7 +162,7 @@ Thêm javascript dưới vào file `head.html`:
 ```
 
 
-Add thêm scss của nút này vào file `_default.scss` luôn cho đơn giản
+Add thêm scss của nút này vào file `_default.scss` luôn cho đơn giản, lưu ý đường dẫn tấm hình `/dust-texture.png`
 
 ```scss
 // Thêm css cho nút thay đổi theme
