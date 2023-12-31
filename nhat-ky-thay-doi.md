@@ -399,6 +399,24 @@ label {
 
 Đến đây nút chuyển chế độ đã hiển thị đẹp, click vào đã xử lý được biến local và thay đổi thuộc tính cho `html` data-scheme="light" thay đổi thành data-scheme="dark"
 
+Đã thử thêm vào `:root {` biến `--background-color: #fff ;` và `[data-scheme=dark] {` biến `--background-color: #000000 ;` rồi sử dụng biến này kiểu ghi đè ở 
+
+```scss
+//Thêm vào từ trang kia
+:root {
+  
+   --background-color: #fff ;
+  background-color:  var(--background-color); // định nghĩa này áp dụng cho toàn bộ html
+}   
+
+// Thêm đoạn này để xử lý darkmode
+[data-scheme=dark] {
+	--background-color: #000000 ;
+   // Thêm vào từ trang kia
+   --foreground-muted-color: var(--color-gray-300);
+}
+```
+
 
 
 
