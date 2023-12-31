@@ -67,7 +67,7 @@ javascript:(function(){
 
 ### Thực hiện trên local:
 
-Thêm đoạn màu trong file `_dark.scss` vào `_default.scss`
+Thêm đoạn màu trong file `_dark.scss` vào `_default.scss`, (đoạn dưới không tác dụng vì biến $ được biên dịch trước khi hiển thị, đang tìm cách khác)
 
 ```scss
 // Thêm đoạn này để xử lý darkmode
@@ -100,6 +100,7 @@ Thêm đoạn màu trong file `_dark.scss` vào `_default.scss`
    }
 }
 ```
+
 Tạo nút checkbox:
 
 ```html
@@ -116,6 +117,248 @@ Tạo nút checkbox:
                   </svg>
                </div>
             </label>
+```
+
+
+Thêm javascript dưới vào file `head.html` cái này thành công
+
+Add thêm scss của nút này vào file `_default.scss` luôn cho đơn giản
+
+```scss
+
+
+// Thêm css cho nút thay đổi theme
+
+
+[type=checkbox] {
+	box-shadow: none;
+}
+
+
+.icon {
+	display: inline-block;
+	block-size: 1em;
+	inline-size: 1em;
+	fill: currentColor;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.c-scheme-switch {
+	position: relative;
+
+	&_slider {
+		position: relative;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		cursor: pointer;
+		gap: 1ch;
+		padding: 0;
+		color: #1c1c19;
+		color: var(--foreground-color);
+		font-family: courier prime, monospace;
+		font-family: var(--font-family-code);
+
+		& .icon {
+			transition: 250ms;
+		}
+
+		& .moon-icon {
+			opacity: 0.2;
+		}
+
+		& .sun-icon {
+			opacity: 1;
+		}
+	}
+
+	&_slider-track {
+		$offset: 3px;
+		$diameter: 0.9em;
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: space-around;
+		box-sizing: content-box;
+		block-size: calc(#{$diameter} + #{$offset} * 2);
+		inline-size: calc(#{$diameter} * 2 + #{$offset} * 2);
+		border: 2px solid #1c1c19;
+		border: 2px solid var(--foreground-color);
+		border-radius: 1e5px;
+		border-radius: var(--radius-round);
+		transition: 250ms;
+
+		&::before {
+			content: "";
+			position: absolute;
+			inset-block-start: 50%;
+			inset-inline-start: $offset;
+			z-index: 2;
+			z-index: var(--layer-2);
+			box-sizing: border-box;
+			block-size: $diameter;
+			inline-size: $diameter;
+			border-radius: 1e5px;
+			border-radius: var(--radius-round);
+			background-color: #1c1c19;
+			background-color: var(--foreground-color);
+			transform: translate(0, -50%);
+			will-change: transform;
+			transition: inherit;
+		}
+	}
+
+	@media (min-width: 768px) {
+		&_slider-track {
+			$diameter: 1em;
+			-webkit-mask-image: url(/dust-texture.png);
+			mask-image: url(/dust-texture.png);
+			-webkit-mask-size: 960px 450px;
+			mask-size: 960px 450px;
+		}
+	}
+
+	&_input {
+		position: absolute;
+		inset: 0;
+		background: 0 0;
+		border: none;
+		z-index: 1;
+		z-index: var(--layer-1);
+		cursor: pointer;
+
+		&:focus {
+			background: 0 0;
+			border: none;
+			box-shadow: none;
+		}
+
+		&:focus + .c-scheme-switch_slider .c-scheme-switch_slider-track {
+			
+			box-shadow: 0 0 0 2px var(--foreground-muted-color);
+		}
+
+		&:checked + .c-scheme-switch_slider .moon-icon {
+			opacity: 1;
+		}
+
+		&:checked + .c-scheme-switch_slider .sun-icon {
+			opacity: 0.2;
+		}
+
+		&:checked + .c-scheme-switch_slider .c-scheme-switch_slider-track::before {
+			transform: translate(100%, -50%);
+		}
+	}
+}
+
+
+.visually-hidden {
+	position: absolute;
+	block-size: auto;
+	inline-size: 1px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	&:focus {
+		display: block;
+		block-size: auto;
+		inline-size: auto;
+		clip: auto;
+		z-index: 2147483647;
+		z-index: var(--layer-important);
+	}
+}
+
+$color_1: #1c1c19;
+$color_2: var(--foreground-color);
+
+input {
+	padding: .75rem 1rem;
+	padding: var(--size-3)var(--size-4);
+	color: $color_1;
+	color: $color_2;
+	background: #fafaf9;
+	background: var(--input-background);
+	border: 2px solid #1c1c19;
+	border: 2px solid var(--border-color);
+	border-radius: .375rem;
+	border-radius: var(--radius);
+	font: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+button {
+	padding: .75rem 1rem;
+	padding: var(--size-3)var(--size-4);
+	color: $color_1;
+	color: $color_2;
+	background: #fafaf9;
+	background: var(--input-background);
+	border: 2px solid #1c1c19;
+	border: 2px solid var(--border-color);
+	border-radius: .375rem;
+	border-radius: var(--radius);
+	font: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+textarea {
+	padding: .75rem 1rem;
+	padding: var(--size-3)var(--size-4);
+	color: $color_1;
+	color: $color_2;
+	background: #fafaf9;
+	background: var(--input-background);
+	border: 2px solid #1c1c19;
+	border: 2px solid var(--border-color);
+	border-radius: .375rem;
+	border-radius: var(--radius);
+	font: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+select {
+	padding: .75rem 1rem;
+	padding: var(--size-3)var(--size-4);
+	color: $color_1;
+	color: $color_2;
+	background: #fafaf9;
+	background: var(--input-background);
+	border: 2px solid #1c1c19;
+	border: 2px solid var(--border-color);
+	border-radius: .375rem;
+	border-radius: var(--radius);
+	font: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+
+
+label {
+	>input {
+		
+		margin-block-start: var(--size-1);
+	}
+	>textarea {
+		
+		margin-block-start: var(--size-1);
+	}
+	>select {
+		
+		margin-block-start: var(--size-1);
+	}
+}
+
 ```
 
 
