@@ -19,7 +19,7 @@ minimal_mistakes_skin    : default  # "air", "aqua", "contrast", "dark", "dirt",
 # Site Settings
 locale                   : "vi-VN"
 # Thêm logo đúng size vào đúng chỗ sẽ hiển thị phía trước tiêu đề trang web
-logo                     : "/assets/images/main/Logo-Thanh88x88.png"
+# logo                     : "/assets/images/main/Logo-Thanh88x88.png" # ẩn logo, vì nhiều hình quá trông có vẻ rối
 title                    : "Blog của Thành"
 subtitle                 : # site tagline that appears below site title in masthead
 description              : >- # this means to ignore newlines until "baseurl:"
