@@ -6,7 +6,7 @@
   - Thêm vào Gemfile: `gem 'jekyll-archives'`
   - Thêm vào file `_confog.yml`
   
-```
+```yml
 plugins:
 - jekyll-archives  # Thêm chỗ này
 
@@ -57,9 +57,6 @@ Và chỗ `.wrapper` đoạn sau:
 // Làm mờ xung quanh chữ 3px là vừa, 2px không đủ rõ chữ
       backdrop-filter: blur(3px); 
 ```
-
-<<<<<<< HEAD
-=======
 
 ## Sửa lỗi menu trên android không đè lên nút `Theo dõi` trên android
 
