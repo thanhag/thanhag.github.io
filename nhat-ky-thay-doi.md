@@ -2,7 +2,34 @@
 
 - Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
 - Chốt cuối tạo bình luận bằng Facebook
--
+- Cấu hình cat và tag:
+  - Thêm vào Gemfile: `gem 'jekyll-archives'`
+  - Thêm vào file `_confog.yml`
+  
+```
+plugins:
+- jekyll-archives  # Thêm chỗ này
+
+# Ghi đè toàn bộ chỗ này
+category_archive:
+  type: jekyll-archives
+  path: /
+tag_archive:
+  type: jekyll-archives
+  path: /
+# https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /:name/
+    tag: /:name/
+  
+```
 
 ## Thay đổi CSS
 
