@@ -73,9 +73,11 @@ plugins:
 # Site Author
 author:
   name          : "Thành"
-  avatar        : /assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
+  avatar        : /assets/images/main/thanh-avarta-dumaudep-vintage.png # ẢNH HIỆU ỨNG VINTAGE
+                #/assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
                 # /assets/images/main/Thanh-Avarta.png # Ảnh đủ màu  
                 #"/assets/images/avarta-thanh.jpg"
+                # /assets/images/main/thanh-avarta-dumaudep-vintage.png # ẢNH HIỆU ỨNG VINTAGE
   bio           : "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
   location      : "An Giang, Việt Nam"
   links:
