@@ -14,6 +14,8 @@ header:
   overlay_image: /assets/images/Tìm-hiểu-về-động-cơ-xe-hơi.png
   caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
   teaser: /assets/images/Tìm-hiểu-về-động-cơ-xe-hơi.png
+excerpt: >-
+  Nếu kinh nghiệm duy nhất của bạn về hoạt động bên trong của động cơ ô tô là "Chi phí sửa chữa cái đó là bao nhiêu?" đồ họa này là dành cho bạn. Động cơ ô tô là những kỳ quan máy móc đáng kinh ngạc. Đã đến lúc bạn học thêm về điều kỳ diệu dưới mui xe! 
 toc: true
 breadcrumbs: true
 ---
