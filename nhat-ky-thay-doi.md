@@ -2,7 +2,7 @@
 
 - Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
 - Chốt cuối tạo bình luận bằng Facebook
-- Cấu hình cat và tag:
+- Cấu hình cat và tag **Không thực hiện được khi host ở github, chỉ thực hiện thành công ở local**, đã trở về mặc định
   - Thêm vào Gemfile: `gem 'jekyll-archives'`
   - Thêm vào file `_confog.yml`
   

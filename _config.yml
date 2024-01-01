@@ -68,8 +68,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-archives  # Thêm chỗ này
-  
+  #- jekyll-archives  # Host trên Github nên không dùng được 
+
 # Site Author
 author:
   name          : "Thành"
@@ -137,34 +137,34 @@ defaults:
       author_profile: true
 
 
-# Cấu hình jekyll-archives
-category_archive:
-  type: jekyll-archives
-  path: /
-tag_archive:
-  type: jekyll-archives
-  path: /
-# https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /:name/
-    tag: /:name/
+# Cấu hình jekyll-archives # Host trên Github nên không dùng được 
+# category_archive:
+#   type: jekyll-archives
+#   path: /
+# tag_archive:
+#   type: jekyll-archives
+#   path: /
+# # https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /:name/
+#     tag: /:name/
 # End Cấu hình jekyll-archives
 
 
-# Cấu hình gốc, đã thay bằng bên trên
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
+# Cấu hình gốc
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 analytics:
   provider: "google-gtag"
