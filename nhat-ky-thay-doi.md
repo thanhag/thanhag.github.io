@@ -65,6 +65,14 @@ Và chỗ `.wrapper` đoạn sau:
 - Đã tạo [discussions](https://github.com/mmistakes/minimal-mistakes/discussions/4602) trên repo [mmistakes](https://github.com/mmistakes) nhưng chưa được ai quan tâm.
 - Loading ...
 
+## Thay đổi màu nền sang màu xám nhạt `#FAFAF9`
+
+- Chỉ cần thêm đoạn sau vào file `_default.scss`
+  
+```scss
+
+```
+
 ## Chế độ tối
 
 - Mở `DevTools` chọn `Bảng điều kiển (Console)` copy đoạn javascript bên dưới để chạy, chuyển đối cứng 100% chuyển cả hình ảnh:
