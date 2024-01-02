@@ -1,3 +1,6 @@
+## Lưu ý
+
+Sử dụng font tùy chỉnh thì nên vào trang web: <https://www.fontsquirrel.com/> , để tối ưu hóa lại font
 
 ## SP3 - Traveling Typewriter.otf
 
