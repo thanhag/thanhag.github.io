@@ -2,6 +2,7 @@
 
 - Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
 - Chốt cuối tạo bình luận bằng Facebook
+- Thêm favicon theo hướng dẫn [ở đây](https://peateasea.de/add-favicon-to-mm-jekyll-site/) làm để so sánh với favicon cũ, bản mới nhìn trên android thì thấy hơn, nhưng trên tab trình duyệt thì không rõ ràng mấy.
 - Cấu hình cat và tag **Không thực hiện được khi host ở github, chỉ thực hiện thành công ở local**, đã trở về mặc định
   - Thêm vào Gemfile: `gem 'jekyll-archives'`
   - Thêm vào file `_confog.yml`
