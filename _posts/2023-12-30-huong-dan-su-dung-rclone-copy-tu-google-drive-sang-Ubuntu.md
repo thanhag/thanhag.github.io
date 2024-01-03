@@ -333,7 +333,7 @@ There is a screen on:
 
 ```
 
-Xóa session bằng lệnh sau, thay thế `<sessionID>` bằng số session ID mà bạn đã tìm được:
+Xóa session bằng lệnh sau, thay thế `<sessionID>` bằng số session ID mà bạn muốn xóa:
   
 ```terminal
   screen -X -S <sessionID> quit
