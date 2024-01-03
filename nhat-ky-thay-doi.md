@@ -1,3 +1,11 @@
+## Tạo các trang donate
+
+### Buy me a Coffe : https://www.buymeacoffee.com/thanhag
+
+### Momo: https://nhantien.momo.vn/0919466523
+
+### paypal.me: paypal.me/thanhag/3usd
+
 ## Việt hoá, cấu hình, Google analytic, bình luận file `_config.yml`
 
 - Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
