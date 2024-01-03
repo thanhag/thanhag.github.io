@@ -1,7 +1,7 @@
 ---
 published: true
-title: "Hướng dẫn sử dụng rclone copy từ google drive sang Ubuntu"
-date: "2023-12-30"
+title: Hướng dẫn sử dụng rclone copy từ google drive sang Ubuntu
+date: '2023-12-30'
 categories:
   - ubuntu
   - thu-thuat-chung
@@ -10,8 +10,10 @@ tags:
   - rclone
   - google-drive
 header:
-  teaser: /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%200.jpg
-  overlay_image: /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%202.jpg
+  teaser: >-
+    /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%200.jpg
+  overlay_image: >-
+    /assets/images/sofsog.com-huong-dan-su-dung-rclone-copy-tu-google-drive-sang-Ubuntu%202.jpg
   caption: 'Nguồn ảnh: Google'
 excerpt: >-
   Để tải file lên **Google Drive** từ **Ubuntu**, bạn có thể sử dụng giao thức
@@ -283,7 +285,7 @@ Khi bạn đang chạy rclone để sao chép thông qua **SSH** và sau đó t�
 
 Để đảm bảo rằng rclone tiếp tục chạy sau khi bạn tắt phiên SSH, mình sẽ hướng dẫn các bạn sử dụng `screen` để tạo một phiên làm việc trong đó bạn chạy **rclone**. Với `screen`, bạn có thể đăng nhập, chạy **rclone** và sau đó tắt phiên **SSH** mà không ảnh hưởng đến quá trình **rclone**. Ví dụ:
 
-Tạo một phiên làm việc mới:
+### Tạo một phiên làm việc mới:
 
 
 ```shell
@@ -308,5 +310,33 @@ screen -r rclone-session
 ```
 
 Lệnh này sẽ đưa bạn trở lại phiên làm việc `screen` và bạn có thể kiểm tra và điều khiển quá trình **rclone**
+
+### Xóa phiên làm việc
+
+Khi mọi thứ đã xong, bạn có thể xóa phiên làm việc này đi, các bước như sau:
+
+Thoát khỏi phiên nếu bạn đang ở trong phiên muốn xóa bằng cách nhấn tổ hợp phím `Ctrl + A` sau đó nhấn phím `D` 
+
+Chạy lệnh sau để hiển thị danh sách các session đang chạy
+
+```terminal
+screen -ls
+```
+
+Tìm session có tên `clone-session` trong danh sách và ghi nhớ số session ID của nó, trong ví dụ của mình bên dưới thì số id là `16500`
+
+```terminal
+root@vultr:~# screen -ls
+There is a screen on:
+        16500.rclone-session    (12/30/2023 09:53:48 AM)        (Detached)
+1 Socket in /run/screen/S-root.
+
+```
+
+Xóa session bằng lệnh sau, thay thế `<sessionID>` bằng số session ID mà bạn đã tìm được:
+  
+```terminal
+  screen -X -S <sessionID> quit
+```
 
 Chúc các bạn thành công!
