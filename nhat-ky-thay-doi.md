@@ -59,7 +59,13 @@
 - Cấu hình cat và tag **Không thực hiện được khi host ở github, chỉ thực hiện thành công ở local**, đã trở về mặc định
   - Thêm vào Gemfile: `gem 'jekyll-archives'`
   - Thêm vào file `_confog.yml`
-  
+  - Thay đổi dòng số 7 trong file `_inludes/comment.html` thành:
+  - Thay đổi toàn bộ file `_inludes/comment.html` để có comment lồng nhau
+
+```html
+{% unless include.url == nil or include.url == empty or include.url == "" %}
+```  
+
 ```yml
 plugins:
 - jekyll-archives  # Thêm chỗ này
