@@ -177,13 +177,15 @@ analytics:
 
 # _config.yml (defaults)
 repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
-# comments:
-#   provider  : "staticman_v2"
-#   staticman:
-#     branch    : "master"
-#     endpoint  : https://staticman-weathered-sea-2594.fly.dev/v3/entry/github/
+comments:
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
+    endpoint  : https://staticman.sofsog.com/v3/entry/github/
 
 #     # http://95.179.130.240/v3/connect/thanhag/thanhag.github.io
+#     # https://staticman.sofsog.com/v3/connect/thanhag/thanhag.github.io
+
 #     # https://staticman-weathered-sea-2594.fly.dev/v3/connect/thanhag/thanhag.github.io
 
 
@@ -194,11 +196,11 @@ repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistak
 #     issue_term: "pathname"
 #     label: "comment" # Optional - must be existing label.
 
-comments:
-  provider: "facebook"
-  facebook:
-    appid: 949385505167728 # optional
-    num_posts: 5 # 5 (default)
-    colorscheme: "light" # "light" (default), "dark"
+# comments:
+#   provider: "facebook"
+#   facebook:
+#     appid: 949385505167728 # optional
+#     num_posts: 5 # 5 (default)
+#     colorscheme: "light" # "light" (default), "dark"
 
 
