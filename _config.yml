@@ -176,17 +176,25 @@ analytics:
 
 
 # _config.yml (defaults)
-repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
-comments:
-  provider  : "staticman_v2"
-  staticman:
-    branch    : "master"
-    endpoint  : https://staticman.sofsog.com/v2/entry/
+# repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+# comments:
+#   provider  : "staticman_v2"
+#   staticman:
+#     branch    : "master"
+#     endpoint  : https://staticman.sofsog.com/v2/entry/
 
 #     # http://95.179.130.240/v3/connect/thanhag/thanhag.github.io
 #     # https://staticman.sofsog.com/v3/connect/thanhag/thanhag.github.io
 
 #     # https://staticman-weathered-sea-2594.fly.dev/v3/connect/thanhag/thanhag.github.io
+
+
+# _config.yml (defaults)
+repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider  : "staticman_v2"
+  staticman:
+    branch    : "master"
 
 
 # comments:
