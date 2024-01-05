@@ -39,6 +39,16 @@
 ```
 
 - Xóa phần `reCaptcha` trong file staticman
+  - Đã thêm lại phần này bằng cách thêm khóa đã tạo sẵn trên google
+  - Mã hóa phần bí mật bằng hướng dẫn này `https://staticman.net/docs/encryption`, cụ thể chạy đoạn sau: `https://staticman.sofsog.com/v2/encrypt/<đoạn bí mật của google cần mã hóa>`, add 2 dòng như bên dưới vào cả 02 file `saticman.yml` và `_config.yml`
+
+```yml
+    reCaptcha:
+
+  siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
+  secret: "i1fL9gAbWPC0fItzKJUfmuGb9arCVuV6+hQukBEoz7876Bav8d0br/yRE9f5KM3IvGQLi6NUHUUcKl7gyF+ktoynFpZF6oLkSLIKx4fP/knWS9cniT+pQlSMu6aw9kNVrJ3JENCKr3vj6Xl3AKJ+TOVwxH2IlqVk1+Sw4aBluEo="
+```
+
 - Tạo RSA key online cho chắc ăn
 - Tạo lại token classic của github cho chuẩn, cài đặt mọi quyền luôn cho chắc ăn
 - Đến đây mọi thứ đã ok
