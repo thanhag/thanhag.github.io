@@ -38,28 +38,10 @@
       }
 ```
 
-sửa thành:
-
-```javascript
-if (isLegacyAuth) {
-  this.api.authenticate({
-    type: 'token',
-    token: config.get('githubToken')
-  })
-} else if (options.oauthToken) {
-  this.api.authenticate({
-    type: 'oauth',
-    token: options.oauthToken
-  })
-} else if (isAppAuth) {
-  this.authentication = this._authenticate(
-    options.username,
-    options.repository
-  )
-} else {
-  throw new Error('Require an `oauthToken` or `token` option')
-}
-```
+- Xóa phần `reCaptcha` trong file staticman
+- Tạo RSA key online cho chắc ăn
+- Tạo lại token classic của github cho chuẩn, cài đặt mọi quyền luôn cho chắc ăn
+- Đến đây mọi thứ đã ok
 
 - Chốt cuối tạo bình luận bằng Facebook
 - Thêm favicon theo hướng dẫn [ở đây](https://peateasea.de/add-favicon-to-mm-jekyll-site/) làm để so sánh với favicon cũ, bản mới nhìn trên android thì thấy hơn, nhưng trên tab trình duyệt thì không rõ ràng mấy.
