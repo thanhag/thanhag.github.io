@@ -4,7 +4,7 @@
 # another one to handle posts.
 # To encrypt strings use the following endpoint:
 # https://{your Staticman API URL}/v[2|3]/encrypt/{TEXT TO BE ENCRYPTED}
-
+endpoint  : https://staticman.sofsog.com/v2/entry/
 comments:
   # (*) REQUIRED
   #
