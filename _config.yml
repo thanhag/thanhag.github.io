@@ -211,4 +211,6 @@ comments:
 #     num_posts: 5 # 5 (default)
 #     colorscheme: "light" # "light" (default), "dark"
 
-
+reCaptcha:
+  siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
+  secret: "6Lfgx2oUAAAAAG9Ks4zGJyRdO85TKaUL-84UR9Hw"
