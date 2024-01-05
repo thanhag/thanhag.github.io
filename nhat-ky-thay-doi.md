@@ -60,7 +60,7 @@
   - Thêm vào Gemfile: `gem 'jekyll-archives'`
   - Thêm vào file `_confog.yml`
   - Thay đổi dòng số 7 trong file `_inludes/comment.html` thành:
-  - Thay đổi toàn bộ file `_inludes/comment.html` để có comment lồng nhau
+  - Thay đổi toàn bộ file `_inludes/comment.html` để có comment lồng nhau --> Không thành công, đã trở về như cũ
 
 ```html
 {% unless include.url == nil or include.url == empty or include.url == "" %}
