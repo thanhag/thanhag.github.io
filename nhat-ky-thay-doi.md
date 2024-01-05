@@ -1,15 +1,66 @@
 ## Tạo nút cuối trang và đầu trang
+
 ## Tạo các trang donate
 
-### Buy me a Coffe : https://www.buymeacoffee.com/thanhag
+### Buy me a Coffe : <https://www.buymeacoffee.com/thanhag>
 
-### Momo: https://nhantien.momo.vn/0919466523
+### Momo: <https://nhantien.momo.vn/0919466523>
 
 ### paypal.me: paypal.me/thanhag/3usd
 
 ## Việt hoá, cấu hình, Google analytic, bình luận file `_config.yml`
 
-- Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời
+- Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời:
+  - Vẫn tiếp tục: Chỉ SSL một bên trên Cloundflare, cái Ngix, chạy cổng 81
+  - Sửa file `staticman/lib/GitHub.js`
+
+```javascript
+//Cũ
+      if (options.oauthToken) {
+        authToken = options.oauthToken
+      } else if (isLegacyAuth) {
+        authToken = config.get('githubToken')
+      } else if (isAppAuth) {
+        authToken = await this._authenticate(options.username, options.repository)
+      } else {
+        throw new Error('Require an `oauthToken` or `token` option')
+      }
+
+//sửa thành
+      if (isLegacyAuth) {
+        authToken = config.get('githubToken')
+      } else if (options.oauthToken) {
+        authToken = options.oauthToken
+      } else if (isAppAuth) {
+        authToken = await this._authenticate(options.username, options.repository)
+      } else {
+        throw new Error('Require an `oauthToken` or `token` option')
+      }
+```
+
+sửa thành:
+
+```javascript
+if (isLegacyAuth) {
+  this.api.authenticate({
+    type: 'token',
+    token: config.get('githubToken')
+  })
+} else if (options.oauthToken) {
+  this.api.authenticate({
+    type: 'oauth',
+    token: options.oauthToken
+  })
+} else if (isAppAuth) {
+  this.authentication = this._authenticate(
+    options.username,
+    options.repository
+  )
+} else {
+  throw new Error('Require an `oauthToken` or `token` option')
+}
+```
+
 - Chốt cuối tạo bình luận bằng Facebook
 - Thêm favicon theo hướng dẫn [ở đây](https://peateasea.de/add-favicon-to-mm-jekyll-site/) làm để so sánh với favicon cũ, bản mới nhìn trên android thì thấy hơn, nhưng trên tab trình duyệt thì không rõ ràng mấy.
   - Đơn giản là thêm vào trang chủ rồi thêm hình ảnh mình vào, điều chỉnh cho phù hợp từng ứng dụng, rồi cuối cùng, path `/assets/images/favicon` vào, tải về, copy html về.
