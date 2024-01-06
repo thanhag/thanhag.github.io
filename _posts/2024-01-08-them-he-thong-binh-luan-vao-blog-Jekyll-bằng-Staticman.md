@@ -14,7 +14,7 @@ header:
   teaser: >-
     /assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com01.jpg
   overlay_image: >-
-    /assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com01.jpg)
+    /assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com01.jpg
   caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
 excerpt: >-
   Staticman là một dịch vụ bên thứ ba được sử dụng để thêm chức năng bình luận động vào các trang web tĩnh, bao gồm cả các trang web được xây dựng bằng Jekyll. Nó cho phép người dùng gửi bình luận từ giao diện người dùng và lưu trữ dữ liệu bình luận trên repository Git.
