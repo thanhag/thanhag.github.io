@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Thêm hệ thống bình luận vào blog Jekyll bằng Staticman
 # date: '2024-01-08'
 categories:
@@ -271,16 +271,112 @@ comments:
 
 `Commit` và `Push` các thay đổi để `Build` lại trang blog.
 
-Sau khi `Build` lại xong, các bạn vào blog của mình ở bất kỳ bài viết nào để bình luận thử, hiển thị như hình dưới là thành công.
-
-![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com03.jpg)
+Sau khi `Build` lại xong, các bạn vào blog của mình ở bất kỳ bài viết nào để bình luận thử.
 
 Phê duyệt bình luận bằng cách truy cập vào kho lưu trữ trang blog của bạn trên Github, vào `Pull requests`, chọn bình các bình luận chờ duyệt, chọn `Merge pull request` để phê duyệt.
 
 Chờ vài giây để Github `Build` lại trang blog của bạn, sau đó vào bài viết để kiểm tra xem bình luận đã xuất hiện chưa.
 
-## Đăng ký Akismet hoặc reCAPTCHA để chống thư rác
+## Bước 5: Đăng ký Akismet hoặc reCAPTCHA V2 để chống thư rác
 
-Chúc các bạn thành công!
+Mình sẽ chỉ hướng dẫn thực hiện đăng ký **reCAPTCHA V2** để phòng chống thư rác cho hệ thống bình luận. Trước tiên bạn phải đăng ký và sử dụng **reCAPTCHA V2** của Google , hãy tuân theo các bước sau:
 
-Nguồn: [Sofsog.com](https://sofsog.com/)
+### Truy cập vào trang quản lý reCAPTCHA
+
+Truy cập vào trang web reCAPTCHA của Google: [recaptcha](https://www.google.com/recaptcha)
+Nhấp vào nút `Get Started with Enterprise` ở góc phải trên cùng của trang, sau đó đăng nhập vào tài khoản Google của bạn.
+
+### Tạo một reCAPTCHA mới
+
+Trong trang tiếp theo hãy chọn hoặc [tạo dự án Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects). Sau đó thực hiện các bước theo hướng dẫn của Google.
+
+Hoặc bằng cách đơn giản hơn, nhấn vào link "`Switch to create a classic key`", rồi điền các thông tin cần thiết cho reCAPTCHA như sau:
+
+Nhãn (Label): Đặt tên cho reCAPTCHA của bạn để có thể nhận biết nó trong quản lý.
+Loại reCAPTCHA: Chọn "reCAPTCHA V2".
+
+![Đăng ký Akismet hoặc reCAPTCHA để chống thư rác Sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com04.png)
+
+Tên miền: Nhập tên miền của trang web cá nhân của bạn mà bạn muốn bảo vệ bằng reCAPTCHA.
+
+Chọn "Tôi không phải là người máy" (I'm not a robot).
+
+Đọc và chấp nhận các điều khoản và điều kiện của reCAPTCHA.
+
+Nhấp vào nút `"SUBMIT"` để hoàn thành quá trình tạo reCAPTCHA.
+
+### Lấy khóa reCAPTCHA cho trang Blog cá nhân của bạn
+
+Sau khi tạo reCAPTCHA thành công, trang quản lý sẽ hiển thị hai mã khóa quan trọng:
+
+**Site key**: Đây là mã khóa công khai (public key) được sử dụng để tích hợp reCAPTCHA vào trang web của bạn.
+
+```bash
+6Lfgx2oUBBBBBBZJmldPnrBPme8OwqgyedPSuIfE
+```
+
+**Secret key**: Đây là mã khóa bí mật (secret key) được sử dụng để xác thực và gửi yêu cầu kiểm tra reCAPTCHA từ trang web của bạn tới Google. Để sử dụng cho trang Jekyll, bạn cần mã hoá nó, mình sẽ nói ở bước sau
+
+```bash
+6LfgKLJSHKSJDFHSKJDHFFakeData-84UR9Hw
+```
+
+Sao chép cả hai mã khóa này và lưu trữ chúng một cách an toàn.
+
+
+### Tích hợp reCAPTCHA vào hệ thống bình luận của Blog
+
+Bình thường bạn cần điều chỉnh mã nguồn của trang web cá nhân của bạn để thêm **reCAPTCHA V2**. Tuy nhiên với Blog nền tảng [Jekyll](https://jekyllrb.com/), sử dụng chủ đề [Minimal mistakes](https://github.com/mmistakes/minimal-mistakes) này, chỉ cần làm vài bước đơn giản:
+
+- Mã hoá `Secret key` bằng cách [dùng hệ thống Staticman](https://staticman.net/docs/encryption), mở trình duyệt, truy cập vào:
+  
+  ```bash
+  https://{STATICMAN_BASE_URL}/v2/encrypt/<Secret key chỗ này>
+  ```
+
+  Ví dụ, đối với dữ liệu trong hướng dẫn này là:
+
+  ```bash
+  https://staticman.sofsog.com/v2/encrypt/6LfgKLJSHKSJDFHSKJDHFFakeData-84UR9Hw
+  ```
+
+  ![2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com05](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com05.png)
+
+  Sao chép đoạn đã mã hoá này và lưu trữ
+
+- Thêm vào tệp `_config.yml` đoạn sau đây, thay đổi thành dữ liệu của bạn, `siteKey` là mã khóa công khai mà bạn lấy được của google, `secret` là đoạn bạn vừa mới mã hoá và sao chép về.
+  
+  ```yml
+  reCaptcha:
+    siteKey: "6Lfgx2oUBBBBBBZJmldPnrBPme8OwqgyedPSuIfE"
+    secret: "ZYBJ5jA0g1D2PCabgjg43zNbKy0GuabCslrRJop5qG75Nqykf3/wrgrw873xovXAU2pT/2UoKOVH1c07OtY5r9AUKcfTbuZo9kL9X7xRnEOfgi1JuoZK9ENHSGsr++WfVLZB+BNpnyc2vvRzFXJAuUftHQYsdQfNkybsG2iH/JY="
+  ```
+
+- Thêm vào tệp `staticman.yml` tương tự như trên, nhưng đừng quên `enabled: true`
+
+  ```yml
+  reCaptcha:
+      enabled: true
+      siteKey: "6Lfgx2oUBBBBBBZJmldPnrBPme8OwqgyedPSuIfE"
+      secret: "ZYBJ5jA0g1D2PCabgjg43zNbKy0GuabCslrRJop5qG75Nqykf3/wrgrw873xovXAU2pT/2UoKOVH1c07OtY5r9AUKcfTbuZo9kL9X7xRnEOfgi1JuoZK9ENHSGsr++WfVLZB+BNpnyc2vvRzFXJAuUftHQYsdQfNkybsG2iH/JY="
+  ```
+
+`Commit` và `Push` các thay đổi để `Build` lại trang blog.
+
+Sau khi `Build` lại xong, các bạn vào blog của mình để thử bình luận thêm lần nữa.
+
+![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com03.jpg)
+
+Cảm ơn bạn nào đã kiên nhẫn đọc đến đây.
+
+Chúc các bạn thành công.
+
+## Link tham khảo
+
+https://mmistakes.github.io/minimal-mistakes/docs/configuration/#recaptcha-support-v2-only
+
+https://nithiya.gitlab.io/post/staticman-jekyll-gitlab/#site-nav
+
+https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/
+
+https://staticman.net/docs/getting-started.html
