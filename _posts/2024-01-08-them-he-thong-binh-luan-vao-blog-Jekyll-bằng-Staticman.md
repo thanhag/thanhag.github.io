@@ -1,7 +1,7 @@
 ---
 published: true
 title: Thêm hệ thống bình luận vào blog Jekyll bằng Staticman
-# date: '2024-01-08'
+date: '2024-01-06'
 categories:
   - thiet-ke-web
   - thu-thuat-chung
