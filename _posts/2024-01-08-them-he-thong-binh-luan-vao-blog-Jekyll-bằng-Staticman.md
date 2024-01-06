@@ -40,7 +40,7 @@ Mình thiết lập hệ thống bình luận với **Staticman** trên trang bl
   - Đã cài đặt [Git](https://git-scm.com/) và thiết lập thông tin người dùng đầy đủ
   - Đã cài đặt `Node.js 8.11.3+` của mình là `20.10.0`
   - Đã cài đặt [nginx](https://nginx.org/en/docs/windows.html)
-  - Đã tạo `A record` cho subdomain trỏ đến `IPv4 address` của máy chủ này thành công, trường hợp của mình là `staticmain.sofsog.com` được thực hiện trên [Cloudflare](https://www.cloudflare.com/), lưu ý chọn **mã hóa ssl một chiều từ Client đến Cloudflare**.
+  - Đã tạo `A record` cho subdomain trỏ đến `IPv4 address` của máy chủ này thành công, trường hợp của mình là `staticman.sofsog.com` được thực hiện trên [Cloudflare](https://www.cloudflare.com/), lưu ý chọn **mã hóa ssl một chiều từ Client đến Cloudflare**.
 
 ![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com01.jpg)
 
@@ -293,6 +293,7 @@ Trong trang tiếp theo hãy chọn hoặc [tạo dự án Google Cloud](https:/
 Hoặc bằng cách đơn giản hơn, nhấn vào link "`Switch to create a classic key`", rồi điền các thông tin cần thiết cho reCAPTCHA như sau:
 
 Nhãn (Label): Đặt tên cho reCAPTCHA của bạn để có thể nhận biết nó trong quản lý.
+
 Loại reCAPTCHA: Chọn "reCAPTCHA V2".
 
 ![Đăng ký Akismet hoặc reCAPTCHA để chống thư rác Sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com04.png)
