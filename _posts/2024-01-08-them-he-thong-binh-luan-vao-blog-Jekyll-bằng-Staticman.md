@@ -373,10 +373,10 @@ Chúc các bạn thành công.
 
 ## Link tham khảo
 
-https://mmistakes.github.io/minimal-mistakes/docs/configuration/#recaptcha-support-v2-only
+[https://mmistakes.github.io/minimal-mistakes/docs/configuration/#recaptcha-support-v2-only](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#recaptcha-support-v2-only)
 
-https://nithiya.gitlab.io/post/staticman-jekyll-gitlab/#site-nav
+[https://nithiya.gitlab.io/post/staticman-jekyll-gitlab/#site-nav](https://nithiya.gitlab.io/post/staticman-jekyll-gitlab/#site-nav)
 
-https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/
+[https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/](https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/)
 
-https://staticman.net/docs/getting-started.html
+[https://staticman.net/docs/getting-started.html](https://staticman.net/docs/getting-started.html)
