@@ -25,7 +25,7 @@ comments:
   # request.
   branch: "master"
 
-  commitMessage: "New comment by {fields.name}"
+  commitMessage: "Bình luận mới bởi {fields.name}"
 
   # (*) REQUIRED
   #

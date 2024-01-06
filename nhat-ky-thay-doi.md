@@ -1,3 +1,11 @@
+# Time
+
+## 06/01/2024
+
+- Vì build bị lỗi nên đã tìm cách quay trở lại bản commit chưa bị lỗi bằng cách: Vào Action, chọn stick xanh gần nhất click vào tìm mã commit, tìm được `29c442c`, nếu chưa thiết lập kết nối với repo GitHub thì chạy lệnh sau: `git remote add origin <url_repo_github>`. Trường hợp mình thường đã kết nối sắn. Sử dụng lệnh git push kết hợp với tùy chọn -f để đẩy ghi đè lên GitHub: `git push -f origin 29c442c:refs/heads/master`. Lưu ý rằng việc đẩy force (-f) có thể ghi đè lịch sử commit trên remote repository và làm thay đổi đáng kể. Hãy đảm bảo bạn đã sao lưu dữ liệu quan trọng và chỉ sử dụng git push -f khi bạn chắc chắn về hậu quả của việc này. Success
+- Hiện tại thì `Bình luận` bằng `staticman` đã có Recapcha và thực hiện ổn định trên điện thoại. Chỉ có điểm yếu là chưa lồng vào nhau `nested comments`.
+- Akismet: Chặn spam, đã có recapcha rồi nên thôi không cần nữa.
+
 ## Tạo nút cuối trang và đầu trang
 
 ## Tạo các trang donate
@@ -10,7 +18,54 @@
 
 ## Việt hoá, cấu hình, Google analytic, bình luận file `_config.yml`
 
-- Tạo bình luận bằng staticman không thành công vì dự án hình như đã lỗi thời:
+### Bình luận - Comments
+
+- Ngày 06/01/2024, staticman đã chạy thành công trên window server 2012, chạy bằng các bước sau:
+  - B1: chạy `export NODE_ENV=production`
+  - B2: chạy `npm start`
+  - Phiên bản node: `20.10.0`
+  - Ghi chú lại cấu hình trong file `_config.yml`
+
+  ```yml
+  repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+  comments:
+    provider  : "staticman_v2"
+    staticman:
+      branch    : "master"
+      endpoint  : https://staticman.sofsog.com/v2/entry/
+  ```
+
+  - Link file `staticman.yml` thành công : [29c442c](https://github.com/thanhag/thanhag.github.io/commit/29c442caedbe33c4f626784122d22d27e561656b)
+  
+  - Ghi chú lại file nginx của staticman thành công:
+
+  ```nginx
+  server {
+    listen 80;
+    listen [::]:80;
+    server_name staticman.sofsog.com;
+    location / {
+         proxy_set_header        X-Forwarded-Proto $scheme;
+         proxy_set_header        X-Real-IP $remote_addr;
+         proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
+         proxy_set_header        Host $http_host;
+         proxy_pass              http://127.0.0.1:81;
+     }
+  }
+
+  ```
+  
+  - Ghi chú lại `config.production.json` của staticman thành công:
+
+  ```json
+    {
+    "githubToken": "ghp_aX1xxxxxxxxxxxxxxxZk",
+    "rsaPrivateKey": "-----BEGIN RSA PRIVATE KEY-----MIICXQIBAAKBgQCY6qOC/xxxxxxxxxxxx+87NDmawrs94zQibtal-----END RSA PRIVATE KEY-----",
+    "port": 81
+    }
+  ```
+
+- Tạo bình luận bằng staticman dù đã lỗi thời nhưng vẫn thực hiện thành công:
   - Vẫn tiếp tục: Chỉ SSL một bên trên Cloundflare, cái Ngix, chạy cổng 81
   - Sửa file `staticman/lib/GitHub.js`
 
