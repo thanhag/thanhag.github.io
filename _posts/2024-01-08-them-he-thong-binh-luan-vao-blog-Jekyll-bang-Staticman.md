@@ -12,15 +12,15 @@ tags:
   - Comments
 header:
   teaser: >-
-    /assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com01.jpg
+    /assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com01.jpg
   overlay_image: >-
-    /assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com01.jpg
+    /assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com01.jpg
   caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
 excerpt: >-
   Staticman là một dịch vụ bên thứ ba được sử dụng để thêm chức năng bình luận động vào các trang web tĩnh, bao gồm cả các trang web được xây dựng bằng Jekyll. Nó cho phép người dùng gửi bình luận từ giao diện người dùng và lưu trữ dữ liệu bình luận trên repository Git.
 toc: true
 breadcrumbs: true
-permalink: /thiet-ke-web/them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman
+permalink: /thiet-ke-web/them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman
 ---
 
 ## Cách hoạt động của Staticman
@@ -42,7 +42,7 @@ Mình thiết lập hệ thống bình luận với **Staticman** trên trang bl
   - Đã cài đặt [nginx](https://nginx.org/en/docs/windows.html)
   - Đã tạo `A record` cho subdomain trỏ đến `IPv4 address` của máy chủ này thành công, trường hợp của mình là `staticman.sofsog.com` được thực hiện trên [Cloudflare](https://www.cloudflare.com/), lưu ý chọn **mã hóa ssl một chiều từ Client đến Cloudflare**.
 
-![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com01.jpg)
+![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com01.jpg)
 
 ## Bước 1: Tạo `Github token` có quyền truy cập và chỉnh sửa vào kho lưu trữ trang Blog của bạn
 
@@ -106,7 +106,7 @@ echo "\n\!config.production.json" >> .gitignore
 
 Tạo `RSA Private Key`: Vào trang [Travistidwell](https://travistidwell.com/jsencrypt/demo/)
 
-![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com02.jpg)
+![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com02.jpg)
 
 Copy và lưu trữ lại `Private Key` và `Public Key`
 
@@ -296,7 +296,7 @@ Nhãn (Label): Đặt tên cho reCAPTCHA của bạn để có thể nhận bi�
 
 Loại reCAPTCHA: Chọn "reCAPTCHA V2".
 
-![Đăng ký Akismet hoặc reCAPTCHA để chống thư rác Sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com04.png)
+![Đăng ký Akismet hoặc reCAPTCHA để chống thư rác Sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com04.png)
 
 Tên miền: Nhập tên miền của trang web cá nhân của bạn mà bạn muốn bảo vệ bằng reCAPTCHA.
 
@@ -341,7 +341,7 @@ Bình thường bạn cần điều chỉnh mã nguồn của trang web cá nhâ
   https://staticman.sofsog.com/v2/encrypt/6LfgKLJSHKSJDFHSKJDHFFakeData-84UR9Hw
   ```
 
-  ![2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com05](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com05.png)
+  ![2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com05](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com05.png)
 
   Sao chép đoạn đã mã hoá này và lưu trữ
 
@@ -366,7 +366,7 @@ Bình thường bạn cần điều chỉnh mã nguồn của trang web cá nhâ
 
 Sau khi `Build` lại xong, các bạn vào blog của mình để thử bình luận thêm lần nữa.
 
-![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bằng-Staticman-sofsog.com03.jpg)
+![Hình Thêm hệ thống bình luận vào blog Jekyll bằng Staticman sofsog.com](/assets/images/2024/2024-01-08-them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman-sofsog.com03.jpg)
 
 Cảm ơn bạn nào đã kiên nhẫn đọc đến đây.
 
