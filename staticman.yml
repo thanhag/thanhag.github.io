@@ -19,7 +19,7 @@ comments:
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
  allowedOrigins:
     - sofsog.com # Thay bằng tên miền trang blog của bạn
-    - https://playful-brigadeiros-7fc317.netlify.app/
+    - playful-brigadeiros-7fc317.netlify.app
 
   # (*) REQUIRED
   #
