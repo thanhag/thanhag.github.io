@@ -305,6 +305,17 @@
       }
     }
   }
+
+  .btn--inverse {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+
+    &:hover {
+      color: var(--masthead-link-color-hover);
+      background: var(--navicon-link-color-hover);
+    }
+  }
 }
 
 // Cần xử lý từng cái
