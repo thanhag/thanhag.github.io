@@ -358,6 +358,10 @@
 
 .c-scheme-switch {
   position: relative;
+  max-width: fit-content;
+  margin-left: auto;
+  display: block;
+  margin-left: auto;
 
   &_slider {
     position: relative;
