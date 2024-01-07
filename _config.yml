@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-minimal_mistakes_skin    : default  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "vi-VN"
+locale: "vi-VN"
 # Thêm logo đúng size vào đúng chỗ sẽ hiển thị phía trước tiêu đề trang web
 # logo                     : "/assets/images/main/Logo-Thanh88x88.png" # ẩn logo, vì nhiều hình quá trông có vẻ rối
-title                    : "Blog của Thành"
-subtitle                 : # site tagline that appears below site title in masthead
-description              : >- # this means to ignore newlines until "baseurl:"
+title: "Blog của Thành"
+subtitle: # site tagline that appears below site title in masthead
+description: >- # this means to ignore newlines until "baseurl:"
   Đây là trang blog cá nhân của Thành, vừa là nơi chia sẻ, vừa là nơi ghi chú
   lại những kinh nghiệm cá nhân.
 
@@ -32,9 +32,6 @@ twitter_username: rambothanh
 github_username: rambothanh
 
 search: true
-
-
-
 
 # Build settings
 markdown: kramdown
@@ -68,18 +65,19 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  #- jekyll-archives  # Host trên Github nên không dùng được 
+  #- jekyll-archives  # Host trên Github nên không dùng được
 
 # Site Author
 author:
-  name          : "Thành"
-  avatar        : /assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
-                # /assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
-                # /assets/images/main/Thanh-Avarta.png # Ảnh đủ màu  
-                #"/assets/images/avarta-thanh.jpg"
-                # /assets/images/main/thanh-avarta-dumaudep-vintage.png # ẢNH HIỆU ỨNG VINTAGE
-  bio           : "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
-  location      : "An Giang, Việt Nam"
+  name: "Thành"
+  avatar:
+    /assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
+    # /assets/images/main/thanh-avarta-dumaudep-fromSVG.png # ảnh trắng đen chuyển từ SVG cho nhẹ
+    # /assets/images/main/Thanh-Avarta.png # Ảnh đủ màu
+    #"/assets/images/avarta-thanh.jpg"
+    # /assets/images/main/thanh-avarta-dumaudep-vintage.png # ẢNH HIỆU ỨNG VINTAGE
+  bio: "Là một gã ít nói nhàm chán, chuyên về tài chính, thích mày mò công nghệ. Xem thêm tiểu sử của tôi qua facebook"
+  location: "An Giang, Việt Nam"
   links:
     - label: "Trang web"
       icon: "fas fa-fw fa-link"
@@ -98,7 +96,7 @@ author:
       url: "https://instagram.com/rambothanh"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:rambothanh1985@gmail.com"  
+      url: "mailto:rambothanh1985@gmail.com"
 
 footer:
   links:
@@ -138,8 +136,7 @@ defaults:
       layout: single
       author_profile: true
 
-
-# Cấu hình jekyll-archives # Host trên Github nên không dùng được 
+# Cấu hình jekyll-archives # Host trên Github nên không dùng được
 # category_archive:
 #   type: jekyll-archives
 #   path: /
@@ -159,7 +156,6 @@ defaults:
 #     tag: /:name/
 # End Cấu hình jekyll-archives
 
-
 # Cấu hình gốc
 category_archive:
   type: liquid
@@ -174,20 +170,17 @@ analytics:
     tracking_id: "G-S05S9PCKB2" # Luồn dữ liệu sofsog.com
     anonymize_ip: true # default false
 
-
 # _config.yml (defaults)
-repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
 comments:
-  provider  : "staticman_v2"
+  provider: "staticman_v2"
   staticman:
-    branch    : "master"
-    endpoint  : https://staticman.sofsog.com/v2/entry/
-
+    branch: "master"
+    endpoint: https://staticman.sofsog.com/v2/entry/
 #     # http://95.179.130.240/v3/connect/thanhag/thanhag.github.io
 #     # https://staticman.sofsog.com/v3/connect/thanhag/thanhag.github.io
 
 #     # https://staticman-weathered-sea-2594.fly.dev/v3/connect/thanhag/thanhag.github.io
-
 
 # _config.yml (defaults)
 # repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -195,7 +188,6 @@ comments:
 #   provider  : "staticman_v2"
 #   staticman:
 #     branch    : "master"
-
 
 # comments:
 #   provider: "utterances"
@@ -211,6 +203,6 @@ comments:
 #     num_posts: 5 # 5 (default)
 #     colorscheme: "light" # "light" (default), "dark"
 
-reCaptcha:
-  siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
-  secret: "i1fL9gAbWPC0fItzKJUfmuGb9arCVuV6+hQukBEoz7876Bav8d0br/yRE9f5KM3IvGQLi6NUHUUcKl7gyF+ktoynFpZF6oLkSLIKx4fP/knWS9cniT+pQlSMu6aw9kNVrJ3JENCKr3vj6Xl3AKJ+TOVwxH2IlqVk1+Sw4aBluEo="
+# reCaptcha:
+#   siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
+#   secret: "i1fL9gAbWPC0fItzKJUfmuGb9arCVuV6+hQukBEoz7876Bav8d0br/yRE9f5KM3IvGQLi6NUHUUcKl7gyF+ktoynFpZF6oLkSLIKx4fP/knWS9cniT+pQlSMu6aw9kNVrJ3JENCKr3vj6Xl3AKJ+TOVwxH2IlqVk1+Sw4aBluEo="
