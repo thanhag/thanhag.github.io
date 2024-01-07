@@ -424,8 +424,8 @@
   @media (min-width: 768px) {
     &_slider-track {
       $diameter: 1em;
-      -webkit-mask-image: url(/dust-texture.png);
-      mask-image: url(/dust-texture.png);
+      -webkit-mask-image: url(/assets/images/main/dust-texture.png);
+      mask-image: url(/assets/images/main/dust-texture.png);
       -webkit-mask-size: 960px 450px;
       mask-size: 960px 450px;
     }
