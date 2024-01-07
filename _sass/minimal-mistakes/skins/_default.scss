@@ -3,5 +3,26 @@
    ========================================================================== */
 
 // Thay đổi màu
-$background-color: #FAFAF9; // Màu xám nhạt
+$background-color: #fafaf9; // Màu xám nhạt
 $text-color: #000000;
+
+:root {
+  --size-1: 0.25rem;
+  --color-gray-200: #d6d4cf;
+  --color-gray-300: #bebcb3;
+  --color-gray-700: #3d3b36;
+  --color-gray-900: #1c1c19;
+  --color-aqua-600: #276e61;
+  --foreground-color: var(--color-gray-900);
+  --font-family-code: "Courier Prime", monospace;
+  --foreground-muted-color: var(--color-gray-700);
+  --radius-round: 1e5px;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-important: 2147483647;
+  color-scheme: light dark;
+  //Phía trên là sử dụng cho nút bật tắt darkmode
+
+  //phía dưới là dùng định nghĩa lại scss toàn html, đã bỏ cách này
+  --background-color: #fafaf9; // Màu xám nhạt
+}
