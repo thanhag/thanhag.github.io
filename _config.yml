@@ -177,7 +177,7 @@ comments:
   provider: "staticman_v2"
   staticman:
     branch: "netlify"
-    endpoint: https://staticman.sofsog.com/v2/entry/
+    endpoint: https://staticman-ek71.onrender.com/v2/entry/
 #     # http://95.179.130.240/v3/connect/thanhag/thanhag.github.io
 #     # https://staticman.sofsog.com/v3/connect/thanhag/thanhag.github.io
 
@@ -204,6 +204,6 @@ comments:
 #     num_posts: 5 # 5 (default)
 #     colorscheme: "light" # "light" (default), "dark"
 
-reCaptcha:
-  siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
-  secret: "i1fL9gAbWPC0fItzKJUfmuGb9arCVuV6+hQukBEoz7876Bav8d0br/yRE9f5KM3IvGQLi6NUHUUcKl7gyF+ktoynFpZF6oLkSLIKx4fP/knWS9cniT+pQlSMu6aw9kNVrJ3JENCKr3vj6Xl3AKJ+TOVwxH2IlqVk1+Sw4aBluEo="
+# reCaptcha:
+#   siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
+#   secret: "i1fL9gAbWPC0fItzKJUfmuGb9arCVuV6+hQukBEoz7876Bav8d0br/yRE9f5KM3IvGQLi6NUHUUcKl7gyF+ktoynFpZF6oLkSLIKx4fP/knWS9cniT+pQlSMu6aw9kNVrJ3JENCKr3vj6Xl3AKJ+TOVwxH2IlqVk1+Sw4aBluEo="

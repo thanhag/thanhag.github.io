@@ -17,15 +17,13 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
- allowedOrigins:
-    - sofsog.com # Thay bằng tên miền trang blog của bạn
-    - playful-brigadeiros-7fc317.netlify.app
+  allowedOrigins: ["playful-brigadeiros-7fc317.netlify.app"]
 
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
-  branch: "master"
+  branch: "netlify"
 
   commitMessage: "Bình luận mới bởi {fields.name}"
 
@@ -96,14 +94,14 @@ comments:
   transforms:
     email: md5
 
-  # reCaptcha
-  # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
-  reCaptcha:
-    enabled: true
-    siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
-    # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
-    # For more information, https://staticman.net/docs/encryption
-    secret: "i1fL9gAbWPC0fItzKJUfmuGb9arCVuV6+hQukBEoz7876Bav8d0br/yRE9f5KM3IvGQLi6NUHUUcKl7gyF+ktoynFpZF6oLkSLIKx4fP/knWS9cniT+pQlSMu6aw9kNVrJ3JENCKr3vj6Xl3AKJ+TOVwxH2IlqVk1+Sw4aBluEo="
+  # # reCaptcha
+  # # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
+  # reCaptcha:
+  #   enabled: true
+  #   siteKey: "6Lfgx2oUAAAAAAZJmldPnrBPme8OwqgyedPSuIfE"
+  #   # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+  #   # For more information, https://staticman.net/docs/encryption
+  #   secret: "i1fL9gAbWPC0fItzKJUfmuGb9arCVuV6+hQukBEoz7876Bav8d0br/yRE9f5KM3IvGQLi6NUHUUcKl7gyF+ktoynFpZF6oLkSLIKx4fP/knWS9cniT+pQlSMu6aw9kNVrJ3JENCKr3vj6Xl3AKJ+TOVwxH2IlqVk1+Sw4aBluEo="
 
 
 
