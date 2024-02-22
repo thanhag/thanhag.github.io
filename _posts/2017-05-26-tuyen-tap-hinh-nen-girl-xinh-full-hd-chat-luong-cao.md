@@ -1,25 +1,25 @@
 ---
-title: "Tuyển tập hình nền girl xinh Full HD chất lượng cao 1080p"
-date: "2017-05-26"
-categories: 
-  - "chia-se"
-  - "hinh-nen"
-tags: 
-  - "asia-girl"
-  - "chia-se"
-  - "full-hd-1080p-girls-wallpapers"
-  - "girl-xinh-viet"
-  - "girls-images-and-wallpapers"
-  - "hinh-nen"
-  - "hinh-nen-girl-xin-chat-luong-cao"
-  - "hinh-nen-girl-xinh-full-hd"
-  - "hinh-nen-girl-xinh-full-hd-chat-luong-cao"
-  - "vietnam-girl-image"
-  - "wallpaper"
-  - "web-chia-se-anh"
+title: Tuyển tập hình nền girl xinh Full HD chất lượng cao 1080p
+date: '2017-05-26'
+categories:
+  - chia-se
+  - hinh-nen
+tags:
+  - asia-girl
+  - chia-se
+  - full-hd-1080p-girls-wallpapers
+  - girl-xinh-viet
+  - girls-images-and-wallpapers
+  - hinh-nen
+  - hinh-nen-girl-xin-chat-luong-cao
+  - hinh-nen-girl-xinh-full-hd
+  - hinh-nen-girl-xinh-full-hd-chat-luong-cao
+  - vietnam-girl-image
+  - wallpaper
+  - web-chia-se-anh
 header:
   overlay_image: /assets/images/hinh-nen-girl-xinh-facebook-1.jpg
-  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)" 
+  caption: 'Nguồn ảnh: [**sofsog**](https://sofsog.com)'
   teaser: /assets/images/hinh-nen-girl-xinh-facebook-1.jpg
 toc: true
 breadcrumbs: true
@@ -38,13 +38,17 @@ Tuyển tập gồm 10 phần:
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRoT1g4dVFLRl9Pa0k/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRoT1g4dVFLRl9Pa0k/view?usp=sharing)
+[Google drive Phan 1](https://drive.google.com/file/d/0B8ux_FjvMSjxWlJnUldwTmVDU0E/view?usp=drive_link&resourcekey=0-c-XiQKj91P6QQe1NvLjGvA)
 
 ## Hình nền girl xinh Việt Nam đẹp nhất hành tinh phần 2
 
-#### ![Vài bộ hình nền girl xinh đẹp nhất hành tinh cho máy tính](/assets/images/hinh-nen-girl-dep-viet-nam-1.jpg "hinh nen girl dep viet nam 1")Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRoOGNFWGFwbGtjcFk/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRoOGNFWGFwbGtjcFk/view?usp=sharing)
+
+#### ![Vài bộ hình nền girl xinh đẹp nhất hành tinh cho máy tính](/assets/images/hinh-nen-girl-dep-viet-nam-1.jpg "hinh nen girl dep viet nam 1")
+
+#### Link download
+
+[Google drive Phan 1](https://drive.google.com/file/d/0B8ux_FjvMSjxWlJnUldwTmVDU0E/view?usp=drive_link&resourcekey=0-c-XiQKj91P6QQe1NvLjGvA)
 
 ## _Hình nền girl xinh đẹp nhất hành tinh phần 3:_
 
