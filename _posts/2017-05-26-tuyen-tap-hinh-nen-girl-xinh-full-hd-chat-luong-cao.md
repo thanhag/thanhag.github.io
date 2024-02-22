@@ -42,21 +42,19 @@ Tuyển tập gồm 10 phần:
 
 ## Hình nền girl xinh Việt Nam đẹp nhất hành tinh phần 2
 
-
-
 #### ![Vài bộ hình nền girl xinh đẹp nhất hành tinh cho máy tính](/assets/images/hinh-nen-girl-dep-viet-nam-1.jpg "hinh nen girl dep viet nam 1")
 
 #### Link download
 
-[Google drive Phan 1](https://drive.google.com/file/d/0B8ux_FjvMSjxWlJnUldwTmVDU0E/view?usp=drive_link&resourcekey=0-c-XiQKj91P6QQe1NvLjGvA)
+[Google drive Phan 2](https://drive.google.com/file/d/0B8ux_FjvMSjxTUhOb3J4QndpTzg/view?usp=drive_link&resourcekey=0--N1gwXErBxAEx115cd1KzQ)
 
-## _Hình nền girl xinh đẹp nhất hành tinh phần 3:_
+## Hình nền girl xinh đẹp nhất hành tinh phần 3:
 
 ![Vài bộ hình nền girl xinh đẹp nhất hành tinh cho máy tính](/assets/images/telasm-hinh-nen-hot-girl-viet-nam-1.jpg "telasm hinh nen hot girl viet nam 1")
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRoSktRMlRyRGpDbms/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRoSktRMlRyRGpDbms/view?usp=sharing)
+[Google drive Phan 3](https://drive.google.com/file/d/0B8ux_FjvMSjxOVhnSVd3alFBamc/view?usp=drive_link&resourcekey=0-QTGTwIbIyfZh1rULCU33MQ)
 
 ## Phần 4
 
@@ -64,7 +62,7 @@ Tuyển tập gồm 10 phần:
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRobjNSZ2FlYkxMQ28/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRobjNSZ2FlYkxMQ28/view?usp=sharing)
+[Google drive Phan 4](https://drive.google.com/file/d/0B8ux_FjvMSjxSlQwVVI5YWlFYkE/view?usp=drive_link&resourcekey=0-o5asjsth_KJTxbBChuZ_KA)
 
 ## Phần 5
 
@@ -72,7 +70,7 @@ Tuyển tập gồm 10 phần:
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRoVjB5LWVhaEJQTTA/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRoVjB5LWVhaEJQTTA/view?usp=sharing)
+[Google drive Phan 5](https://drive.google.com/file/d/0B8ux_FjvMSjxemYwMkJ6aUxmOTA/view?usp=drive_link&resourcekey=0-YxOrzusyxWy6UdfIYe4RUg)
 
 ## Phần 6
 
@@ -80,7 +78,7 @@ Tuyển tập gồm 10 phần:
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRodEtkSm1HUXYwZlk/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRodEtkSm1HUXYwZlk/view?usp=sharing)
+[Google drive Phan 6](https://drive.google.com/file/d/0B8ux_FjvMSjxbEJEam92RmJ6M2M/view?usp=drive_link&resourcekey=0--LAgx6wLtOZwMAfMUxhlyA)
 
 ## Phần 7
 
@@ -88,7 +86,7 @@ Tuyển tập gồm 10 phần:
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRoemZKNzR3cHVOT1k/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRoemZKNzR3cHVOT1k/view?usp=sharing)
+[Google drive Phan 7](https://drive.google.com/file/d/0B8ux_FjvMSjxQUptZE9BZ1kxUUk/view?usp=drive_link&resourcekey=0-bIAncU-l97uUM2No_WQ_dg)
 
 ## Phần 8
 
@@ -96,15 +94,14 @@ Tuyển tập gồm 10 phần:
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRoN3FJNTZ2aUlCLVk/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRoN3FJNTZ2aUlCLVk/view?usp=sharing)
-
+[Google drive Phan 8](https://drive.google.com/file/d/0B8ux_FjvMSjxYVNZYVp1bGZiaGs/view?usp=drive_link&resourcekey=0-lR7K9MRtugCYqAA7fVYjqA)
 ## Phần 9
 
 ![Vài bộ hình nền girl xinh đẹp nhất hành tinh cho máy tính](/assets/images/girl-dep-18-1.jpg "girl dep 18 1")
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRoVVluWGZ3VUlCazA/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRoVVluWGZ3VUlCazA/view?usp=sharing)
+[Google drive Phan 9](https://drive.google.com/file/d/0B8ux_FjvMSjxVEJvMWtPeEVIS2s/view?usp=drive_link&resourcekey=0-zMwT5TUUovADKpIFz0dsdw)
 
 ## Phần 10
 
@@ -112,7 +109,7 @@ Tuyển tập gồm 10 phần:
 
 #### Link download
 
-[https://drive.google.com/file/d/0B7jSuzB2NIRocGZQeTkzY2tXb0U/view?usp=sharing](https://drive.google.com/file/d/0B7jSuzB2NIRocGZQeTkzY2tXb0U/view?usp=sharing)
+[Google drive Phan 10](https://drive.google.com/file/d/0B8ux_FjvMSjxNVFENjJGeE1TOUU/view?usp=drive_link&resourcekey=0-82uXDJeUdojFYS2ALX0T-Q)
 
 Tải về và thưởng thức nhá các bạn. CHÚC VUI
 
