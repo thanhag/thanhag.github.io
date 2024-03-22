@@ -83,7 +83,7 @@ Nhờ quy trình xác minh và dựa trên nền tảng giao dịch bảo mật,
 6. **Mua Bitcoin:** Khi bạn đã nạp tiền vào tài khoản, bạn có thể sử dụng số tiền đó để mua Bitcoin trên sàn giao dịch. Bạn có thể đặt lệnh mua theo giá thị trường hoặc theo giá tự chọn.
 7. **Quản lý và bảo vệ Bitcoin của bạn:** Khi bạn đã sở hữu Bitcoin, hãy đảm bảo quản lý và bảo vệ nó một cách an toàn. Điều này bao gồm việc sao lưu khóa riêng tư của bạn, sử dụng các phần mềm ví an toàn, và cân nhắc việc lưu trữ Bitcoin trong ví phần cứng.
 
-## Các lại địa chỉ chứa Bitcoin
+## Bitcoin Legacy, Segwit, Taproot là gì
 
 ### Bitcoin Legacy
 
@@ -91,9 +91,13 @@ Bitcoin Legacy là địa chỉ Bitcoin ban đầu, bắt đầu bằng “1” 
 
 ### Bitcoin Segwit
 
+Bản nâng cấp giao thức được phát triển vào năm 2015 nhằm giải quyết vấn đề về khả năng mở rộng của Bitcoin. Bản cập nhật này sẽ tách chữ ký ra khỏi block và sau đó sẽ được xử lí ở ngoài giúp một block có thể chứa thêm nhiều thông tin giao dịch hơn. Từ đó, mạng lưới hoạt động hiệu quả và xử lý thêm nhiều giao dịch hơn. 
+
 Bitcoin Segwit là địa chỉ Bitcoin được cải tiến bắt đầu bằng “bc1” và được hỗ trợ trên Infinito Wallet từ phiên bản 2.25
 
 Nếu bạn sử dụng Bitcoin Segwit, giao dịch của bạn sẽ nhanh hơn và phí giao dịch sẽ rẻ hơn tới 30%. Trên Infinito Wallet, bạn có thể gửi và nhận tiền từ địa chỉ BTC Legacy đến địa chỉ BTC Segwit và ngược lại.
+
+
 
 Lưu ý rằng thông tin về Bitcoin có thể thay đổi theo thời gian và nên tham khảo nguồn tin cậy hoặc tìm hiểu thêm để có thông tin chi tiết và cập nhật nhất về Bitcoin.
 
