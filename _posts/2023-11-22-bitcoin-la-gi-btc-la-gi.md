@@ -99,15 +99,15 @@ Nếu bạn sử dụng Bitcoin Segwit, giao dịch của bạn sẽ nhanh hơn 
 
 ### Taproot Taproot
 
-Taproot là phiên bản cập nhật quan trọng nhất của Bitcoin trong năm 2021 và sẽ được kích hoạt cùng sơ đồ chữ ký Schnorr để gia tăng tính hiệu quả cho mạng lưới.
-
- Mình sẽ tổng kết lại một số điểm nổi bật của bản nâng cấp này:
+Taproot là phiên bản cập nhật quan trọng nhất của Bitcoin trong năm 2021, được kích hoạt cùng sơ đồ chữ ký Schnorr để gia tăng tính hiệu quả cho mạng lưới.
 
 Giảm lượng dữ liệu được chuyển và lưu trữ trên mạng lưới chính của Bitcoin.
-Nhiều giao dịch được thực hiện trên 1 block (TPS sẽ cao hơn).
-Phí giao dịch thấp vì khối lượng thông tin lưu trữ trong block đã được giảm thiểu.
-Đảm bảo quyền riêng tư, tính bảo mật với thuật toán sơ đồ chữ ký Schonorr.
 
+Nhiều giao dịch được thực hiện trên 1 block (TPS sẽ cao hơn).
+
+Phí giao dịch thấp vì khối lượng thông tin lưu trữ trong block đã được giảm thiểu.
+
+Đảm bảo quyền riêng tư, tính bảo mật với thuật toán sơ đồ chữ ký Schonorr.
 
 
 Lưu ý rằng thông tin về Bitcoin có thể thay đổi theo thời gian và nên tham khảo nguồn tin cậy hoặc tìm hiểu thêm để có thông tin chi tiết và cập nhật nhất về Bitcoin.
