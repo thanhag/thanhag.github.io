@@ -123,9 +123,11 @@ Nếu không được thì các bạn click file empires2.exe để cài đặt
 7.  **Thay đổi hình ảnh ruộng (Farm Terrain):** Thay đổi hình ảnh ruộng thô sơ mặc định thành ruộng lúa nước hoặc bắp cải sinh động. (Đổi tên file thành `Terrain.drs` và chép đè vào thư mục `Data`).
 	
 	Thay đổi ruộng thành như vầy:
+	
 	![Image](/assets/images/Lua-nuoc-Age-of-Empires-II-Đế-chế-2-đế-chế-xanh.png)
 		
 	Hoặc như vầy:
+	
 	![Image](/assets/images/Bap-cai-Age-of-Empires-II-Đế-chế-2-đế-chế-xanh.png)
 	
 	**Link download:** [FARM](https://drive.google.com/file/d/16U9ZIwqJAX0-cYG9feKsUkafvJzXwvYS/view?usp=drive_link)
