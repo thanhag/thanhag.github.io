@@ -109,6 +109,7 @@ Nếu không được thì các bạn click file empires2.exe để cài đặt
 	Tải về giải nén, copy file **GRAPHICS.DRS** và paste vào thư mục Data (nằm trong thư mục cài game của bạn).
 	Lưu ý là paste đè lên file cũ, nếu bạn muốn giữ lại file cũ để sau này phục hồi lại thì có thể copy file cũ ra nơi khác.
 6.  **AI Alliancethundaempire1:** Bản mod trí tuệ nhân tạo cực thông minh, một mình AI này có thể chấp 2 AI mặc định của game.
+	
 	**Link download:** [alliancethundaempire1](https://drive.google.com/file/d/1tcxmfSiISXgeIsSeZn1_EAaf6dLaRYkR/view?usp=drive_link)
 	Các bạn tải về giải nén, copy toàn bộ các file vào thư mục AI (nơi cài game của các bạn).
 
