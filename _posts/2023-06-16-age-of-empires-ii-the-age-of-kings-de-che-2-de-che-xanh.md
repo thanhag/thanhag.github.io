@@ -87,7 +87,8 @@ Nếu không được thì các bạn click file empires2.exe để cài đặt
 
 ### 🛠️ Các Bản Sửa Lỗi Và Mod Tiện Ích Cho Bản Cổ Điển
 1.  **Sửa lỗi ngôn ngữ:** Khắc phục tình trạng bản 1.0c bị hiển thị sai chữ hoặc hiện tiếng Trung về lại tiếng Anh chuẩn.
-**Link download:** [Sửa lỗi ngôn ngữ](https://drive.google.com/file/d/1WX5t4dwEX8lnxSBuuOEt4kQ6KhygBUcC/view?usp=drive_link)
+	
+	**Link download:** [Sửa lỗi ngôn ngữ](https://drive.google.com/file/d/1WX5t4dwEX8lnxSBuuOEt4kQ6KhygBUcC/view?usp=drive_link)
 2.  **Xóa tuyết (Remove Snow):** Thay thế bản đồ tuyết trắng xóa gây mỏi mắt thành bản đồ cỏ thông thường giúp dễ nhìn quân hơn.
 **Link download:** [Xóa tuyết trong game](https://drive.google.com/file/d/1iZ1_MEhzN6EUfbcGEzZULS5bitlqc_iF/view?usp=drive_link)
 3.  **Aoc 1.0e Patch:** Công cụ hỗ trợ chuyển đổi nhanh từ bản 1.0c sang 1.0e (nếu không xem được record, khuyến khích tải hẳn bản 1.0e riêng).
