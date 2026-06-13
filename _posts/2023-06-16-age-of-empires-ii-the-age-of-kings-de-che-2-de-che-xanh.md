@@ -45,7 +45,7 @@ breadcrumbs: true
 permalink: /game/age-of-empires-ii-the-age-of-kings-de-che-2-de-che-xanh
 ---
 
-*Cập nhật và bổ sung thông tin phiên bản Definitive Edition (2026)*
+*Cập nhật và bổ sung thông tin phiên bản Definitive Edition*
 
 ## 📜 Giới thiệu về Age of Empires II Cổ Điển
 
