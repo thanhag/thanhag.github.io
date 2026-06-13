@@ -90,7 +90,8 @@ Nếu không được thì các bạn click file empires2.exe để cài đặt
 	
 	**Link download:** [Sửa lỗi ngôn ngữ](https://drive.google.com/file/d/1WX5t4dwEX8lnxSBuuOEt4kQ6KhygBUcC/view?usp=drive_link)
 2.  **Xóa tuyết (Remove Snow):** Thay thế bản đồ tuyết trắng xóa gây mỏi mắt thành bản đồ cỏ thông thường giúp dễ nhìn quân hơn.
-**Link download:** [Xóa tuyết trong game](https://drive.google.com/file/d/1iZ1_MEhzN6EUfbcGEzZULS5bitlqc_iF/view?usp=drive_link)
+	
+	**Link download:** [Xóa tuyết trong game](https://drive.google.com/file/d/1iZ1_MEhzN6EUfbcGEzZULS5bitlqc_iF/view?usp=drive_link)
 3.  **Aoc 1.0e Patch:** Công cụ hỗ trợ chuyển đổi nhanh từ bản 1.0c sang 1.0e (nếu không xem được record, khuyến khích tải hẳn bản 1.0e riêng).
 	Cách 1: tải lại bản 1.0e ở link phía trên rồi để ở một thư mục khác.
 	
@@ -99,15 +100,20 @@ Nếu không được thì các bạn click file empires2.exe để cài đặt
 	
 	Lưu ý: mình dùng cách 2 để xem lại các record cũ không được, chuyển sang cách 1 lại được, không hiểu bị lỗi gì.
 4.  **Sửa lỗi không thấy Host trên Garena (UnPlug n' Pray):** Công cụ tắt UPnP của Windows. Mở bằng quyền Administrator, bấm *Disable UPnP* (chữ chuyển từ đỏ sang xanh) là có thể thấy phòng của bạn bè.
+	
 	Bạn tải **UnPlug n' Pray** để tắt upnp :**Link download:**  [**UnPlug n' Pray**](https://drive.google.com/file/d/1L5J2NsHXvnKph4phU8ElG1Zq3Yh7HA3v/view?usp=drive_link)
 	
 	Tải về mở lên (bằng quyền administrator), bấm vào nút **Disable UPnP,** hàng chữ **màu đỏ** sẽ chuyển sang **màu xanh** như hình bên dưới:
 	![tat upnp](/assets/images/tat-upnp-2.jpg)
 	Cứ để nguyên chương trình như vậy (hoặc bấm Minimize), vào room của garena mở game sẽ thấy host.
 5.  **Pussywood2 / Small Trees (Thu nhỏ cây):** Mod thu nhỏ kích thước các cây gỗ trong game, giúp người chơi dễ dàng bao quát bản đồ, tìm khe hở ở cánh rừng để bo nhà chống turn hớt dân. (Copy file `GRAPHICS.DRS` đè vào thư mục `Data` của game).
+	
 	![Image](/assets/images/213189j.gif)
+	
 	**Link download:** [pussywood2](https://drive.google.com/file/d/15db3i2Psc8RIyuTeq7fr_Is_By7PDwVn/view?usp=drive_link)
+	
 	Tải về giải nén, copy file **GRAPHICS.DRS** và paste vào thư mục Data (nằm trong thư mục cài game của bạn).
+	
 	Lưu ý là paste đè lên file cũ, nếu bạn muốn giữ lại file cũ để sau này phục hồi lại thì có thể copy file cũ ra nơi khác.
 6.  **AI Alliancethundaempire1:** Bản mod trí tuệ nhân tạo cực thông minh, một mình AI này có thể chấp 2 AI mặc định của game.
 	
@@ -115,15 +121,19 @@ Nếu không được thì các bạn click file empires2.exe để cài đặt
 	Các bạn tải về giải nén, copy toàn bộ các file vào thư mục AI (nơi cài game của các bạn).
 
 7.  **Thay đổi hình ảnh ruộng (Farm Terrain):** Thay đổi hình ảnh ruộng thô sơ mặc định thành ruộng lúa nước hoặc bắp cải sinh động. (Đổi tên file thành `Terrain.drs` và chép đè vào thư mục `Data`).
+	
 	Thay đổi ruộng thành như vầy:
-	Không tìm thấy “/assets/images/Lua-nuoc-Age-of-Empires-II-Đế-chế-2-đế-chế-xanh.png”.
+	![Image](/assets/images/Lua-nuoc-Age-of-Empires-II-Đế-chế-2-đế-chế-xanh.png)
+		
 	Hoặc như vầy:
-	Không tìm thấy “/assets/images/Bap-cai-Age-of-Empires-II-Đế-chế-2-đế-chế-xanh.png”.
+	![Image](/assets/images/Bap-cai-Age-of-Empires-II-Đế-chế-2-đế-chế-xanh.png)
+	
 	**Link download:** [FARM](https://drive.google.com/file/d/16U9ZIwqJAX0-cYG9feKsUkafvJzXwvYS/view?usp=drive_link)
 	Các bạn tải về, giải nén ra, copy file **Terrain.drs** (tương ứng là lúa nước hay bắp cải, chỉ được chọn 1), paste đè lên file **Terrain.drs** (File ruộng mặc định, có thể copy cất ở đâu đó để khôi phục khi cần) trong thư mục Data của thư mục cài game. (Lưu ý: chữ tên file **Terrain.drs** chữ **"T****"** phải viết hoa, nếu file không viết hòa thì bạn sửa lại nhé)
 	
 8.  **DirectDrawFix (Sửa lỗi nhòe màu):** Khắc phục triệt để lỗi nhòe màu, lỗi sắc cầu vồng hoặc màn hình tối đen khi chạy AoE 2 trên các hệ điều hành Windows đời mới.
 	Tải file DirectDrawFix về, chạy lên và tìm đến đường dẫn đến file .exe của game, nhấn Apply --> Xong, vào game bình thường
+	
 	**Link download:** [DirectDrawFix](https://drive.google.com/file/d/1_RsG7egoDlK021cGdmmRzJnf0vJVEpFo/view?usp=drive_link)
 
 ## Đang lúc viết bài này, mình có vào diễn đàn vns-clan.org, thì thấy thông báo
