@@ -39,6 +39,10 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
+# Địa chỉ gốc của site. Thiếu dòng này thì sitemap và og:url sinh ra bằng http://
+# trong khi canonical lại là https:// - Google nhận tín hiệu mâu thuẫn.
+url: "https://sofsog.com"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
