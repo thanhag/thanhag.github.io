@@ -177,11 +177,30 @@ analytics:
 
 # _config.yml (defaults)
 repository  : "thanhag/thanhag.github.io" # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+# Hệ thống bình luận: giscus (lưu bình luận trong GitHub Discussions của chính repo này)
+# Yêu cầu: repo public + bật Discussions + cài GitHub App giscus (https://github.com/apps/giscus)
 comments:
-  provider  : "staticman_v2"
-  staticman:
-    branch    : "master"
-    endpoint  : https://staticman.sofsog.com/v2/entry/
+  provider  : "giscus"
+  giscus:
+    repo_id           : "R_kgDOK84I7w"   # node_id của thanhag/thanhag.github.io
+    category_name     : "Announcements"
+    category_id       : "DIC_kwDOK84I784DEXEi"
+    discussion_term   : "pathname"       # mỗi URL bài viết = 1 discussion
+    strict            : "1"              # khớp chính xác, tránh gán nhầm discussion
+    reactions_enabled : "1"
+    input_position    : "bottom"
+    emit_metadata     : "0"
+    theme             : "light"
+    lang              : "vi"
+    lazy              : true             # chỉ tải khi cuộn tới khung bình luận
+
+# Cấu hình Staticman cũ - server staticman.sofsog.com (Windows Server 2012) đã tắt,
+# bản sao trên Render cũng không còn phản hồi. Giữ lại để tham khảo.
+# comments:
+#   provider  : "staticman_v2"
+#   staticman:
+#     branch    : "master"
+#     endpoint  : https://staticman.sofsog.com/v2/entry/
 
 #     # http://95.179.130.240/v3/connect/thanhag/thanhag.github.io
 #     # https://staticman.sofsog.com/v3/connect/thanhag/thanhag.github.io
