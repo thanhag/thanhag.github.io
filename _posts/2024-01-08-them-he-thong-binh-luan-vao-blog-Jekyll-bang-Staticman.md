@@ -23,6 +23,9 @@ breadcrumbs: true
 permalink: /thiet-ke-web/them-he-thong-binh-luan-vao-blog-Jekyll-bang-Staticman
 ---
 
+**Cập nhật 28/08/2026:** Hệ thống Staticman mô tả trong bài này giờ đã ngừng hoạt động — máy chủ tự dựng đã tắt, bản dự phòng miễn phí cũng không còn phản hồi, và mình đã chuyển blog sang **giscus**. Nếu bạn đang tìm cách thêm bình luận cho blog Jekyll, hãy đọc bài mới trước: [Từ Staticman sang giscus - làm lại hệ thống bình luận cho blog Jekyll](/thiet-ke-web/tu-staticman-sang-giscus-lam-lai-he-thong-binh-luan-blog-Jekyll). Bài dưới đây được giữ nguyên để tham khảo.
+{: .notice--warning}
+
 ## Cách hoạt động của Staticman
 
 Staticman hoạt động dựa trên webhook và sử dụng **API GitHub** để tương tác với repository. Khi người dùng gửi bình luận, **Staticman** sẽ tạo một `pull request` mới chứa dữ liệu bình luận và sau đó bạn có thể xem và quản lý bình luận thông qua **GitHub**.
