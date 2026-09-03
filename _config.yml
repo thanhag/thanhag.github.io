@@ -134,6 +134,7 @@ defaults:
       comments: true
       share: true
       related: true
+      toc_sticky: true   # muc luc ben phai chay theo khi cuon
   # _pages
   - scope:
       path: "_pages"

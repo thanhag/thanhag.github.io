@@ -7,3 +7,15 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Cột trái (hồ sơ tác giả) đứng yên khi cuộn.
+   Theme gán cứng class .sticky cho khối này, mà quy tắc .sticky dùng chung lại
+   đặt position: sticky — nên phải gỡ ở đây. Mục lục bên phải mới là thứ nên
+   chạy theo, bật bằng toc_sticky trong _config.yml. */
+@media (min-width: 64em) {
+  .sidebar.sticky {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+}
