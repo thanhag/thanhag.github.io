@@ -19,6 +19,7 @@ header:
     /assets/images/2026/2026-09-03-tailscale-vao-nas-sofsog.com01.png
   overlay_image: >-
     /assets/images/2026/2026-09-03-tailscale-vao-nas-sofsog.com01.png
+  overlay_filter: 0.55
   caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
 excerpt: >-
   Điện thoại ra khỏi nhà là mất kết nối với NAS. Cách quen thuộc là mở port trên
