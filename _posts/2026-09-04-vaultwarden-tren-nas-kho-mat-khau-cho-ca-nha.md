@@ -169,7 +169,7 @@ Vaultwarden nằm trên NAS, sau Tailscale, dữ liệu hoàn toàn trong nhà. 
 
 NodeWarden chạy trên Cloudflare Workers, không cần máy chủ nào cả, truy cập được từ mọi nơi mà không cần mạng riêng. Tiện hơn hẳn. Nhưng dữ liệu nằm trên hạ tầng của bên khác.
 
-Ai coi trọng việc dữ liệu nằm trong tầm tay thì chọn Vaultwarden. Ai coi trọng sự tiện lợi thì chọn NodeWarden. Mình chưa quyết được nên đang dùng song song vài tháng để tự trả lời. Bài về NodeWarden mình sẽ viết riêng sau khi có kết luận.
+Ai coi trọng việc dữ liệu nằm trong tầm tay thì chọn Vaultwarden. Ai coi trọng sự tiện lợi thì chọn NodeWarden. Sau mấy tháng chạy song song, mình đã chốt **NodeWarden** vì nó tiện hơn và ít lỗi vặt hơn. Đánh đổi bảo mật cụ thể là gì, và mình đã làm gì để bù lại, viết riêng ở [bài so sánh hai bên](/server/nodewarden-hay-vaultwarden-chot-cai-nao).
 
 Chúc các bạn thành công.
 
