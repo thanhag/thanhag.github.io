@@ -120,6 +120,7 @@ footer:
       url: "https://instagram.com/rambothanh"
 
 teaser: /assets/images/main/teaser-mac-dinh.png   # anh mac dinh khi bai khong khai anh rieng
+og_image: /assets/images/main/og-mac-dinh.png    # anh xem truoc khi chia se link (1200x630)
 
 defaults:
   # _posts
