@@ -7,7 +7,7 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
+  - title: "Giới thiệu"
     url: /about/
   - title: "Terms" # "Điều khoản và Chính sách bảo mật" # Chữ việt dài quá nhìn rối mắt
     url: /terms/  
