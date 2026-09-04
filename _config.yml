@@ -119,7 +119,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/rambothanh"
 
-teaser: /assets/images/500x300.png
+teaser: /assets/images/main/teaser-mac-dinh.png   # anh mac dinh khi bai khong khai anh rieng
 
 defaults:
   # _posts
@@ -135,8 +135,6 @@ defaults:
       share: true
       related: true
       toc_sticky: true   # muc luc ben phai chay theo khi cuon
-      header:
-        teaser: /assets/images/main/teaser-mac-dinh.png   # anh thay the khi bai khong khai anh rieng
   # _pages
   - scope:
       path: "_pages"
