@@ -19,3 +19,49 @@ search: false
     overflow: visible;
   }
 }
+
+/* ---- Khung series ----
+   Chèn ở đầu bài bằng {% include series-nav.html %}, và dùng lại một phần
+   class trên trang /series/. */
+.series-box {
+  margin: 1.5em 0 2em;
+  padding: 0.9em 1.2em 1em;
+  border: 1px solid #e6e7e8;
+  border-left: 4px solid #7a8288;
+  background: #fafafa;
+  font-size: 0.8em;
+}
+.series-box__dau { margin: 0 0 0.5em; color: #494e52; }
+.series-box__dau a { text-decoration: none; font-weight: 700; }
+.series-box__cap {
+  display: inline-block;
+  margin-left: 0.35em;
+  padding: 0.05em 0.5em;
+  border-radius: 2px;
+  background: #e6e7e8;
+  color: #494e52;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.series-box__ds { margin: 0; padding-left: 1.4em; }
+.series-box__ds li { margin-bottom: 0.25em; }
+.series-box__ds li.dang-doc { font-weight: 700; color: #494e52; list-style-type: disc; }
+
+/* ---- Trang /series/ ---- */
+.series-the {
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #f2f3f3;
+}
+.series-the:last-child { border-bottom: 0; }
+.series-the__nhan { margin: 0 0 0.3em; font-size: 0.75em; }
+.series-the__muc {
+  display: inline-block; padding: 0.05em 0.5em; border-radius: 2px;
+  background: #f2f3f3; color: #7a8288;
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
+.series-the__ten { margin: 0 0 0.2em; }
+.series-the__so { margin: 0 0 0.6em; color: #7a8288; font-size: 0.8em; }
+.series-the__ds { margin: 0; padding-left: 1.4em; font-size: 0.85em; }
+.series-the__ds li { margin-bottom: 0.2em; }

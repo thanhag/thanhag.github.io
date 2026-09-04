@@ -11,6 +11,9 @@ tags:
   - Synology
   - VPN
   - WireGuard
+series: "Tự dựng server tại nhà"
+series_thu_tu: 2
+cap_do: "Cơ bản"
 header:
   teaser: >-
     /assets/images/2026/2026-09-03-tailscale-vao-nas-sofsog.com01.png
@@ -27,6 +30,8 @@ permalink: /server/tailscale-vao-nas-tu-xa-khong-mo-port
 ---
 
 Điện thoại của mình đang ở quán cà phê và cần kéo vault Obsidian về từ Gitea chạy trên con NAS ở nhà. Cách quen thuộc là mở một cổng trên router rồi trỏ DDNS vào đó. Mình không làm vậy, và đây là cách mình vào được NAS từ bất cứ đâu trong khi router không mở thêm cổng nào.
+
+{% include series-nav.html %}
 
 ## Vì sao mình không mở port
 

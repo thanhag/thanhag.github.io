@@ -12,6 +12,9 @@ tags:
   - Obsidian
   - Tailscale
   - Git
+series: "Tự dựng server tại nhà"
+series_thu_tu: 1
+cap_do: "Cơ bản"
 header:
   teaser: >-
     /assets/images/2026/2026-08-28-dung-gitea-tren-nas-sofsog.com01.png
@@ -28,6 +31,8 @@ permalink: /server/dung-gitea-tren-nas-dong-bo-obsidian-giua-pc-va-dien-thoai
 ---
 
 Vault Obsidian của mình có 986 ghi chú và mình sửa chúng trên ba thiết bị: PC nhà, PC công ty, điện thoại. Suốt một thời gian dài mình để Synology Drive lo việc đồng bộ, và suốt thời gian đó mình phải đi dọn file conflict.
+
+{% include series-nav.html %}
 
 Bài này kể lại cách mình thay Synology Drive bằng một máy chủ Git riêng — **Gitea** — chạy ngay trên con NAS ở nhà, truy cập qua **Tailscale** nên không phải mở port nào ra Internet, và tự đẩy bản sao lên GitHub với GitLab để phòng NAS chết.
 

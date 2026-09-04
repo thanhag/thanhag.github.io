@@ -1,6 +1,8 @@
 main:
   - title: "Bài viết"
     url: /posts/
+  - title: "Series"
+    url: /series/
   - title: "Danh mục"
     url: /categories/
   - title: "Tags"

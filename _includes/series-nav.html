@@ -1,0 +1,13 @@
+{%- comment -%}
+Khung điều hướng series. Chèn vào bài bằng: {% include series-nav.html %}
+Bài phải khai báo trong frontmatter:
+  series: "Tên series"
+  series_thu_tu: 2
+Không khai báo series thì include này không in ra gì cả.
+Giữ HTML liền mạch, không xuống dòng trống, để kramdown khỏi chèn thêm thẻ <p>.
+{%- endcomment -%}
+{%- if page.series -%}
+{%- assign bai_trong_series = site.posts | where: "series", page.series | sort: "series_thu_tu" -%}
+{%- assign tong_so = bai_trong_series | size -%}
+<aside class="series-box" aria-label="Các bài trong series {{ page.series }}"><p class="series-box__dau">Series <a href="{{ '/series/' | relative_url }}">{{ page.series }}</a>{% if page.series_thu_tu %} &middot; bài {{ page.series_thu_tu }}/{{ tong_so }}{% else %} &middot; {{ tong_so }} bài{% endif %}{% if page.cap_do %} <span class="series-box__cap">{{ page.cap_do }}</span>{% endif %}</p><ol class="series-box__ds">{% for b in bai_trong_series %}<li{% if b.url == page.url %} class="dang-doc" aria-current="true"{% endif %}>{% if b.url == page.url %}{{ b.title }}{% else %}<a href="{{ b.url | relative_url }}">{{ b.title }}</a>{% endif %}</li>{% endfor %}</ol></aside>
+{%- endif -%}
