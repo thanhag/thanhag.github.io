@@ -14,6 +14,13 @@ tags:
 series: "Tự dựng server tại nhà"
 series_thu_tu: 7
 cap_do: "Nâng cao"
+header:
+  teaser: >-
+    /assets/images/2026/2026-09-04-nodewarden-vaultwarden-sofsog.com01.png
+  overlay_image: >-
+    /assets/images/2026/2026-09-04-nodewarden-vaultwarden-sofsog.com01.png
+  overlay_filter: 0.55
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
 excerpt: >-
   Bài Vaultwarden trước mình hẹn sẽ viết tiếp sau khi có kết luận. Giờ có rồi:
   mình chốt **NodeWarden**. Bài này nói rõ đánh đổi bảo mật là gì, và những gì
@@ -51,6 +58,24 @@ Tiện, vì nó chạy trên Cloudflare Workers nên không cần mạng riêng.
 | Chi phí | tiền điện NAS | miễn phí ở quy mô cá nhân |
 
 Dòng áp chót là đánh đổi lớn nhất, và mình sẽ nói kỹ.
+
+## Dự án này có đáng tin không
+
+Trước khi bàn đánh đổi kỹ thuật, cần nhìn thẳng vào chỗ này: bạn đang giao toàn bộ mật khẩu cho một dự án mã nguồn mở của một người lạ.
+
+![Hình trang giới thiệu dự án NodeWarden sofsog.com](/assets/images/2026/2026-09-04-nodewarden-vaultwarden-sofsog.com01.png)
+
+Dự án phát hành theo giấy phép LGPL-3.0, bản mình dùng là 1.8.0. Nhưng dòng đáng chú ý nhất nằm ở phần cuối trang giới thiệu: chính tác giả ghi rõ đây là dự án **cho mục đích học tập và thảo luận**, khuyên người dùng sao lưu vault thường xuyên, và nói rõ dự án không liên kết với Bitwarden.
+
+Với một trình quản lý mật khẩu thì lời tự bạch đó không phải chuyện nhỏ. Nó nghĩa là không có ai cam kết bảo hành, và không có đội ngũ nào chịu trách nhiệm nếu hỏng.
+
+Mặt khác, dự án rõ ràng còn sống:
+
+![Hình biểu đồ số sao GitHub của dự án NodeWarden theo thời gian sofsog.com](/assets/images/2026/2026-09-04-nodewarden-vaultwarden-sofsog.com02.png)
+
+Khoảng 3.500 sao sau bảy tháng, đường cong vẫn đi lên đều. Số sao chỉ đo mức chú ý chứ **không đo mức an toàn**, vì không ai kiểm định bảo mật một dự án bằng cách đếm sao. Nhưng nó cho biết dự án đang được cập nhật, lỗi báo lên còn có người đọc, và mình không phải người duy nhất dùng.
+
+Sở dĩ mình vẫn dùng nó không phải vì tin tưởng sẵn, mà vì đã đọc mã nguồn ở đúng những chỗ nhạy cảm, đã đo lại các cơ chế bảo vệ, và đã dựng ba lớp sao lưu để nếu dự án chết thì vẫn lấy được dữ liệu ra. Mấy phần dưới đây là những gì tìm thấy khi làm việc đó.
 
 ## Đánh đổi cụ thể phải trả
 
