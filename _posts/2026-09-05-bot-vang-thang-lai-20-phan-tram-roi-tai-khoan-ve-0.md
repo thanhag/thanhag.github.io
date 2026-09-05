@@ -34,7 +34,7 @@ Bài này không hướng dẫn bạn chạy bot. Nó là bảng tính tôi còn
 
 ## Bốn tài khoản, một bảng tính
 
-Tôi chạy EA — chương trình tự động giao dịch — trên cặp vàng, qua nhiều tài khoản song song ở các sàn khác nhau. Mỗi tháng tôi ghi lại tỷ suất, số dư, và số tiền rút ra. Bảng tính đó tôi vẫn còn.
+Tôi chạy EA — chương trình tự động giao dịch — trên cặp vàng, khung 5 phút, qua nhiều tài khoản song song ở các sàn khác nhau. Mỗi tháng tôi ghi lại tỷ suất, số dư, và số tiền rút ra. Bảng tính đó tôi vẫn còn.
 
 Tài khoản đầu tiên mở tháng 10 năm 2022 với **1.000 đô**. Ba tháng cuối năm đó lãi lần lượt 0,17%, 12,6% và 10,3%, khép lại năm 2022 ở mức **+24,41%**.
 
@@ -97,6 +97,20 @@ Một lệnh xoá sạch tám tháng. Và tám tháng đó có những tháng l�
 Chênh lệch giữa 0,052 và 0,47 là gần chín lần. Với một chiến lược vào lệnh dày, khoản đó ăn thẳng vào kết quả. Đây là số tôi đo năm 2024 và tôi không giới thiệu sàn nào cả — điều đáng nói là **cùng một con bot, cùng một chiến lược, đặt ở hai nơi khác nhau cho ra hai kết quả khác nhau**, và phần chênh đó không nằm trong bất kỳ bảng lãi nào bạn được xem.
 
 Ba thứ vừa kể — máy chủ, phần mềm, chi phí sàn — đều không phải chuyện thị trường. Chúng là chuyện vận hành. Và chúng đủ để quyết định lãi lỗ.
+
+## Con bot của tôi là loại nhồi lệnh theo lưới
+
+Tên các tệp cấu hình tôi còn lưu nói hết: `..._XAUUSD_M5-DCA.set` và `..._Vang_M5-DCAGrid-...`. Đây là chiến lược nhồi lệnh — khi giá đi ngược, bot mở thêm lệnh để hạ giá vốn trung bình rồi chờ thị trường quay lại.
+
+Loại này có một đặc điểm rất dễ đánh lừa người viết ra nó: **tỷ lệ thắng cực cao**. Bảng kết quả kiểm thử của tôi ghi 87,1% số lệnh có lãi. Gần chín trên mười lệnh thắng.
+
+Cũng bảng đó ghi mức sụt vốn tối đa **36,3%**.
+
+Và đường vốn trong ảnh kiểm thử cho thấy phần còn lại của câu chuyện: nó đi lên đều đặn suốt hơn bảy trăm lệnh, từ 793 lên gần 3.900, rồi **rơi thẳng đứng một nhát xuống 2.774**. Mất hơn một phần tư tài khoản trong một lần.
+
+Đó là hình dạng đặc trưng của nhồi lệnh theo lưới. Nó không thua nhiều lần nhỏ. Nó thắng rất nhiều lần nhỏ, rồi thua một lần rất lớn.
+
+Đây là kết quả kiểm thử trên dữ liệu quá khứ, không phải tài khoản thật — hai thứ đó không được lẫn lộn. Nhưng cái vách trong biểu đồ kiểm thử chính là thứ về sau xảy ra với tiền thật. **Nó đã nằm sẵn trong dữ liệu của tôi ngay từ đầu.** Tôi chỉ nhìn vào con số 87,1% mà không nhìn vào cái vách.
 
 ## Vì sao lãi 42% một năm vẫn không phải là một kế hoạch
 
