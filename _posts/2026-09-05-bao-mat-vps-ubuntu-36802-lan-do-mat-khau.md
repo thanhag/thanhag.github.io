@@ -384,6 +384,51 @@ awk '{print $NF}' ~/.ssh/authorized_keys
 
 Khoá nào không nhận ra thì xoá. Xoá nhầm khoá của máy đang dùng thì phiên SSH hiện tại vẫn sống, nên hãy giữ nguyên cửa sổ đó cho tới khi thử đăng nhập lại thành công từ cửa sổ khác.
 
+## Cập nhật cùng ngày: mình đã sửa hai dòng đỏ
+
+Viết xong bài thì không còn lý do gì để bảng trên giữ hai dòng "Vẫn bật". Mình làm đúng Việc 1 và Việc 2, và phần đáng kể lại nhất là cách tự bảo hiểm.
+
+Trước khi đụng vào gì, sao lưu tệp cấu hình rồi cài một cái chốt tự phục hồi. Ý tưởng đơn giản: nếu sau năm phút mình không tạo được tệp đánh dấu `/root/.ssh_ok` — nghĩa là mình đã tự khoá mình ở ngoài — thì máy tự khôi phục cấu hình cũ:
+
+```bash
+cp -a /etc/ssh/sshd_config /root/sshd_config.bak
+rm -f /root/.ssh_ok
+nohup bash -c 'sleep 300; [ -f /root/.ssh_ok ] || {   cp -a /root/sshd_config.bak /etc/ssh/sshd_config;   rm -f /etc/ssh/sshd_config.d/10-bao-mat.conf;   systemctl reload ssh; }' >/dev/null 2>&1 &
+```
+
+Sửa xong và xác minh vào được thì tháo chốt:
+
+```bash
+touch /root/.ssh_ok
+```
+
+Cái chốt này đã cứu mình thật, ngay trong lần chạy đầu. Một bước ở giữa bị hỏng, và đúng năm phút sau máy tự trả về nguyên trạng, không mất gì và không cần mình can thiệp. Nếu bạn chỉ lấy một thứ từ bài này, hãy lấy đoạn trên: **mọi thay đổi cấu hình SSH từ xa đều nên có đường lùi tự động.**
+
+Lần chạy thứ hai trót lọt. `sshd -T` sau khi nạp lại:
+
+```
+permitrootlogin without-password
+pubkeyauthentication yes
+passwordauthentication no
+kbdinteractiveauthentication no
+```
+
+`without-password` là tên cũ của `prohibit-password`. OpenSSH in ra tên cũ, ý nghĩa y hệt.
+
+Rồi tự tấn công máy mình để kiểm chứng, ép client chỉ được phép dùng mật khẩu:
+
+```bash
+ssh -o PubkeyAuthentication=no -o PreferredAuthentications=password root@dia-chi-vps
+```
+
+```
+root@dia-chi-vps: Permission denied (publickey).
+```
+
+Máy chỉ còn chào đúng một phương thức. Đừng bỏ bước này: `sshd -T` cho biết cấu hình **nói** gì, còn lệnh trên cho biết máy chủ **làm** gì. Hai thứ đó lệch nhau thường xuyên hơn bạn tưởng — cả bài này sinh ra từ một lần lệch như vậy.
+
+Hai dòng còn lại trong bảng thì vẫn còn nguyên đó. Nhân vẫn chậm hai phiên bản vì mình chưa chọn được lúc khởi động lại, và bảy cái khoá vẫn chưa rà. Ghi ra đây để lần sau mở bài này còn thấy mình nợ cái gì.
+
 ## Thứ tự nên làm
 
 Nếu bạn chỉ có mười lăm phút, làm theo đúng thứ tự này:
