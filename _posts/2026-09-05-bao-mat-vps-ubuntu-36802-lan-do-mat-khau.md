@@ -12,6 +12,11 @@ tags:
   - SSH
   - ufw
   - bao-mat
+header:
+  teaser: >-
+    /assets/images/2026/2026-09-05-bao-mat-vps-sofsog.com01.png
+  og_image: >-
+    /assets/images/2026/2026-09-05-bao-mat-vps-sofsog.com01.png
 excerpt: >-
   Cuối năm 2023 mình viết bài hướng dẫn tạo VPS trên Vultr, và bài đó bảo người đọc đặt
   **`PermitRootLogin yes`** rồi kết thúc. Hôm nay mình mở log của chính con VPS dựng theo
@@ -25,6 +30,8 @@ permalink: /server/bao-mat-vps-ubuntu-36802-lan-do-mat-khau
 Cuối năm 2023 mình viết [bài hướng dẫn tạo VPS trên Vultr](/thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat). Bài đó dừng lại đúng chỗ nguy hiểm nhất: nó chỉ người đọc mở đăng nhập root qua SSH, rồi hết bài.
 
 Hôm nay mình mở log của chính con VPS dựng theo hướng dẫn đó ra xem.
+
+![Hình minh hoạ máy chủ VPS Ubuntu bị dò mật khẩu liên tục sofsog.com](/assets/images/2026/2026-09-05-bao-mat-vps-sofsog.com01.png)
 
 ## Con số làm mình phải viết bài này
 
@@ -436,6 +443,14 @@ Nếu bạn chỉ có mười lăm phút, làm theo đúng thứ tự này:
 Đưa khoá SSH lên và **xác minh vào được bằng khoá**. Rồi tắt `PasswordAuthentication`. Rồi đặt `PermitRootLogin prohibit-password`. Ba việc đó xử lý gần hết rủi ro thực tế. Tường lửa và swapfile làm sau cũng được, còn `fail2ban` thì lúc nào rảnh.
 
 Bài hướng dẫn năm 2023 của mình sai ở chỗ nó coi việc dựng được máy là xong. Dựng xong mới là lúc máy bắt đầu bị quét, và trong bốn ngày nó hứng 36.802 lần gõ cửa mà mình không hề biết cho tới hôm nay.
+
+## Nếu bạn chưa có VPS nào để thử
+
+Mọi lệnh trong bài chỉ có nghĩa khi bạn có một cái máy để gõ vào. Con VPS của mình đặt ở Singapore, và mình đã viết [hướng dẫn tạo VPS trên Vultr từng bước](/thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi-tiet-nhat) từ năm 2023 — phần tạo máy trong đó vẫn dùng được, chỉ có đoạn cuối về SSH là mình đã đánh dấu bỏ và thay bằng bài này.
+
+Đăng ký tại [vultr.com](https://www.vultr.com/?ref=7392243).
+
+**Nói rõ: đó là liên kết giới thiệu của mình.** Bạn đăng ký qua nó thì mình được hoa hồng, còn bạn nhận khoản tín dụng dùng thử theo chương trình Vultr đang áp dụng — mức tín dụng và điều kiện thay đổi theo từng thời điểm nên bạn xem trên trang của họ, mình không hứa con số nào. Không thích thì gõ thẳng `vultr.com` vào trình duyệt, năm việc ở trên không vì thế mà khác đi.
 
 Chúc các bạn thành công.
 
