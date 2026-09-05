@@ -14,6 +14,14 @@ tags:
 series: "Tự dựng server tại nhà"
 series_thu_tu: 6
 cap_do: "Nâng cao"
+header:
+  teaser: >-
+    /assets/images/2026/2026-09-04-privatebin-tren-nas-sofsog.com01.png
+  overlay_image: >-
+    /assets/images/2026/2026-09-04-privatebin-tren-nas-sofsog.com01.png
+  og_image: >-
+    /assets/images/2026/2026-09-04-privatebin-tren-nas-sofsog.com01.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
 excerpt: >-
   Cần một đường link chứa text, mở ra phải nhập mật khẩu mới đọc được, và **không tự
   hết hạn sau 31 ngày** như Bitwarden Send. Bài này là toàn bộ cấu hình thật, kèm bốn
@@ -35,6 +43,10 @@ Mình đã thử chỉnh phía máy chủ Vaultwarden và không được. Lý d
 
 Nên mình dựng PrivateBin bên cạnh, làm đúng một việc mà Send không làm được.
 
+![Hình trình soạn thảo PrivateBin với ô Expires đặt thành Never sofsog.com](/assets/images/2026/2026-09-04-privatebin-tren-nas-sofsog.com01.png)
+
+Đây là chỗ khác biệt nằm gọn trong một ô chọn: **`Expires` để `Never`**. Cạnh nó là ô `Password` và ô `Burn after reading` — xoá sạch ngay sau lần mở đầu tiên. Ba thứ đó là toàn bộ lý do mình dựng thêm một dịch vụ nữa thay vì cố ép Bitwarden Send làm việc nó không làm được.
+
 ## PrivateBin làm việc theo kiểu nào
 
 PrivateBin **mã hoá ngay trong trình duyệt** trước khi gửi lên máy chủ. Khoá giải mã nằm ở phần sau dấu `#` của URL, mà theo chuẩn HTTP thì phần này **không bao giờ được gửi lên máy chủ**.
@@ -42,6 +54,10 @@ PrivateBin **mã hoá ngay trong trình duyệt** trước khi gửi lên máy c
 Nghĩa là máy chủ giữ một khối dữ liệu đã mã hoá mà chính nó không đọc được. Kể cả bạn là người quản trị, kể cả có toàn quyền trên NAS, mở tệp paste ra cũng chỉ thấy chuỗi rối.
 
 Điều đó dẫn tới hệ quả cần nhớ: **mất phần sau dấu `#` là mất nội dung vĩnh viễn**. Không có nút khôi phục nào cả.
+
+![Hình trang README của dự án PrivateBin trên GitHub sofsog.com](/assets/images/2026/2026-09-04-privatebin-tren-nas-sofsog.com02.png)
+
+Dự án là bản rẽ nhánh từ ZeroBin, mã nguồn mở, và README nói thẳng điều quan trọng nhất: máy chủ **không biết gì** về nội dung được lưu. Một chi tiết nhỏ đáng để ý lúc mình chụp tấm này — README còn ghi `Current version: 2.0.5` trong khi bản `latest` mình vừa kéo về đã là `2.0.6`. Đọc README để hiểu dự án thì tốt, nhưng đừng dùng nó để biết mình đang chạy phiên bản nào.
 
 ## Kiến trúc ba lớp
 
