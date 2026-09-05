@@ -25,6 +25,9 @@ permalink: /thu-thuat-chung/he-dieu-hanh/ubuntu/huong-dan-tao-vps-tren-vultr-chi
 
 ---
 
+**Cập nhật 05/09/2026:** phần 3 của bài này chỉ bạn đặt `PermitRootLogin yes`. Đó là một lời khuyên tệ, và mình phải nói thẳng ra. Chính con VPS mình dựng theo bài này đã hứng **36.802 lần dò mật khẩu trong bốn ngày**, 14.943 lần trong đó nhắm vào tài khoản `root`. Các bước tạo VPS bên dưới vẫn dùng được, nhưng làm xong hãy đọc tiếp bài này trước khi để máy chạy: [Bảo mật VPS Ubuntu: 36.802 lần bị dò mật khẩu trong 4 ngày](/server/bao-mat-vps-ubuntu-36802-lan-do-mat-khau).
+{: .notice--warning}
+
 Chất lượng VPS trên Vultr thì khỏi phải bàn. Trang _**sofsog.com**_ của mình đang được host trên VPS của Vultr hown 5 năm nay. Trong hướng dẫn này chúng ta sẽ từng bước tạo 1 _**VPS trên Vultr**_ chạy hệ điều hành **Ubuntu-22.04-LTS.**
 
 ## Bước 1: Tạo tài khoản trên Vultr
@@ -125,6 +128,9 @@ Mở Terminal và sử dụng lệnh sau để mở tệp cấu hình SSH:
 ```bash
 sudo nano /etc/ssh/sshd\_config
 ```
+
+**Đừng làm bước này.** Xem khối cảnh báo ở đầu bài. Đoạn dưới giữ nguyên để bạn biết mình đã viết sai chỗ nào.
+{: .notice--danger}
 
 Tìm đến dòng **`#PermitRootLogin`** trong tệp cấu hình và bỏ dấu **"#"** ở đầu dòng nếu có, sau đó đặt giá trị thành **`yes`**. Điều này cho phép đăng nhập qua SSH bằng tài khoản người dùng thay vì tài khoản **root**. Nếu bạn không muốn cho phép đăng nhập **root** qua SSH, bạn có thể bỏ qua bước này. Lưu và đóng tệp cấu hình bằng cách nhấn **Ctrl + X**, sau đó nhấn **Y** để lưu thay đổi và **Enter** để xác nhận tên tệp. Thêm người dùng sofsog vào nhóm ssh bằng lệnh sau:
 
