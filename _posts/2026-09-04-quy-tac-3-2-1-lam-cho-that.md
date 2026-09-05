@@ -14,6 +14,11 @@ tags:
 series: "Tự dựng server tại nhà"
 series_thu_tu: 5
 cap_do: "Cơ bản"
+header:
+  teaser: >-
+    /assets/images/2026/2026-09-04-quy-tac-3-2-1-sofsog.com01.jpg
+  og_image: >-
+    /assets/images/2026/2026-09-04-quy-tac-3-2-1-sofsog.com01.jpg
 excerpt: >-
   Ai đọc về sao lưu cũng thuộc quy tắc **3-2-1**, nhưng ít người ngồi đếm xem mình
   có thật hay không. Mình vừa đếm toàn bộ dữ liệu của mình, và kết quả không giống
@@ -26,6 +31,10 @@ permalink: /server/quy-tac-3-2-1-lam-cho-that
 Ai đọc về sao lưu cũng thuộc quy tắc 3-2-1: ba bản sao, hai loại phương tiện, một bản để ngoài nhà. Ít người ngồi đếm xem mình có thật hay không. Mình vừa đếm, và kết quả khác thứ mình vẫn đinh ninh.
 
 {% include series-nav.html %}
+
+![Hình sơ đồ quy tắc 3-2-1 gồm ba bản sao, hai loại lưu trữ và một bản để ngoài nhà sofsog.com](/assets/images/2026/2026-09-04-quy-tac-3-2-1-sofsog.com01.jpg)
+
+Sơ đồ trên là quy tắc ở dạng gọn nhất, và phần lớn bài viết về sao lưu dừng lại đúng ở đây. Bài này đi tiếp: mình lấy đúng ba ô đó áp vào dữ liệu thật của mình rồi đếm. Chú ý mẩu giấy vàng góc dưới bên phải — **sao lưu là để khôi phục** — vì đó là chỗ mình trượt, và cũng là mục cuối cùng của bài.
 
 ## Vì sao 3-2-1 hay thất bại
 
