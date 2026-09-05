@@ -142,9 +142,11 @@ Sụt vốn tối đa 1.395,22 đô, tức **36,34%** tài khoản. Sụt vốn 
 
 Đó là hình dạng đặc trưng của nhồi lệnh theo lưới. Nó không thua nhiều lần nhỏ. Nó thắng rất nhiều lần nhỏ, rồi thua một lần rất lớn.
 
-Một chi tiết nữa mình bỏ qua hồi đó: ô **Modelling quality ghi `n/a`**. Nghĩa là phần mềm không đánh giá được chất lượng mô phỏng. Một kết quả kiểm thử không rõ chất lượng dữ liệu thì con số đẹp tới đâu cũng không nên tin.
+Cần nói rõ một điều về bản kiểm thử này, vì nó là chỗ đa số bảng kết quả trên mạng gian lận được. Dữ liệu mình dùng là **dữ liệu tick mua về**, không phải dữ liệu mặc định của phần mềm, và spread được chỉnh sát với thực tế. Chỉ cần **đặt spread sai một chút thôi là lợi nhuận ảo phình lên khủng khiếp** — phần lớn những đường vốn đẹp không tưởng mà bạn thấy người ta khoe đều đẹp vì lý do đó.
 
-Đây là kiểm thử trên dữ liệu quá khứ, không phải tài khoản thật — hai thứ đó không được lẫn lộn. Nhưng cái vách trong biểu đồ chính là thứ về sau xảy ra với tiền thật. **Nó đã nằm sẵn trong dữ liệu của mình ngay từ đầu.** Mình chỉ nhìn con số 87,17% mà không nhìn cái vách.
+Nhưng kiểm thử chạy chuẩn tới đâu thì nó vẫn chỉ là lịch sử, và **thực tế khác rất nhiều**. Đúng ba thứ kể ở mục trên — máy chủ tắt, phần mềm lỗi, spread thật của từng sàn — không có kiểm thử nào mô phỏng được.
+
+Vậy nên cái vách kia còn đáng sợ hơn. Nó xuất hiện trong điều kiện lý tưởng nhất, trên dữ liệu sạch, không có sự cố vận hành nào. **Nó đã nằm sẵn trong dữ liệu của mình ngay từ đầu.** Mình chỉ nhìn con số 87,17% mà không nhìn cái vách.
 
 ## Bảy năm lãi đều, rồi cháy sạch trong một ngày
 
