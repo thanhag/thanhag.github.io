@@ -148,6 +148,26 @@ Nhưng kiểm thử chạy chuẩn tới đâu thì nó vẫn chỉ là lịch s
 
 Vậy nên cái vách kia còn đáng sợ hơn. Nó xuất hiện trong điều kiện lý tưởng nhất, trên dữ liệu sạch, không có sự cố vận hành nào. **Nó đã nằm sẵn trong dữ liệu của mình ngay từ đầu.** Mình chỉ nhìn con số 87,17% mà không nhìn cái vách.
 
+## Kênh riêng để ghi những ngày không vượt qua được
+
+Hồi đó mình lập hẳn một kênh riêng, chỉ để ghi lại những ngày con bot không qua nổi. Sau mấy năm nó có đúng năm dòng:
+
+```
+30/09/2021  Vàng
+19/04/2021  EU
+21/02/2022  cuối tháng
+06/05/2022  session không qua hồi
+28/02/2022  Set 18 DCA không qua được — 0.01 fixlot, 200 balance, 30 spread
+```
+
+Mỗi dòng là một ngày giá đi một chiều đủ xa và đủ lâu để lưới lệnh không gỡ lại được.
+
+Nhưng phải nói cho công bằng, và đây là điều mình mất khá lâu mới nhìn ra: **những ngày này chỉ khó vượt qua với một chiến lược nhồi lệnh không cắt lỗ.** Có điểm dừng lỗ và chốt lời rõ ràng thì chúng chỉ là những ngày lỗ bình thường, không phải ngày xoá sổ tài khoản. Thị trường hôm đó không làm gì sai. Thiết kế chiến lược mới là chỗ sai.
+
+Cái lưới không có điểm dừng lỗ nghĩa là **khoản lỗ không có giới hạn trên**. Và mọi con số đẹp ở mục trước đều được mua bằng đúng thứ đó.
+
+Tỷ lệ thắng chín trên mười không phải tự nhiên mà có. Muốn giữ nó đẹp thì phải để lệnh lỗ chạy tiếp và nhồi thêm cho tới khi giá quay lại; muốn giới hạn khoản lỗ thì phải cắt, và tỷ lệ thắng tụt xuống ngay. Mình đã chọn vế đầu trong nhiều năm mà không hiểu rằng mình đang chọn.
+
 ## Bảy năm lãi đều, rồi cháy sạch trong một ngày
 
 Chuyện của mình là tài khoản 202 đô. Nhưng mình từng chứng kiến bản phóng to của nó.
