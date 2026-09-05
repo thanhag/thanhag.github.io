@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'Danh mục dài hạn của mình: 83% vẫn đang nằm ở tiền mặt'
-date: '2026-09-05'
+date: '2026-09-07'
 categories:
   - tai-chinh
   - chia-se
@@ -17,11 +17,11 @@ series_thu_tu: 2
 cap_do: "Cơ bản"
 header:
   teaser: >-
-    /assets/images/2026/2026-09-05-danh-muc-dai-han-sofsog.com01.png
+    /assets/images/2026/2026-09-07-danh-muc-dai-han-sofsog.com01.png
   overlay_image: >-
-    /assets/images/2026/2026-09-05-danh-muc-dai-han-sofsog.com01.png
+    /assets/images/2026/2026-09-07-danh-muc-dai-han-sofsog.com01.png
   og_image: >-
-    /assets/images/2026/2026-09-05-danh-muc-dai-han-sofsog.com01.png
+    /assets/images/2026/2026-09-07-danh-muc-dai-han-sofsog.com01.png
   caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
 excerpt: >-
   Mục tiêu của mình là **8–9% một năm tính bằng đô**, dài hạn, để đi tới tự do tài chính.
@@ -40,7 +40,7 @@ Nhưng phải nói ngay một điều không đẹp: cái mình sắp cho bạn 
 
 ## Hiện trạng và mục tiêu
 
-![Hình biểu đồ so sánh tỷ lệ phân bổ tài sản hiện tại và mục tiêu sofsog.com](/assets/images/2026/2026-09-05-danh-muc-dai-han-sofsog.com01.png)
+![Hình biểu đồ so sánh tỷ lệ phân bổ tài sản hiện tại và mục tiêu sofsog.com](/assets/images/2026/2026-09-07-danh-muc-dai-han-sofsog.com01.png)
 
 | Nhóm | Đang có | Mục tiêu |
 |---|---|---|
