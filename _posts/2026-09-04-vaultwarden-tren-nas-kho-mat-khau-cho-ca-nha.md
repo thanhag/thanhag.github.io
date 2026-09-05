@@ -15,6 +15,15 @@ tags:
 series: "Tự dựng server tại nhà"
 series_thu_tu: 3
 cap_do: "Cơ bản"
+header:
+  teaser: >-
+    /assets/images/2026/2026-09-04-vaultwarden-tren-nas-sofsog.com01.png
+  overlay_image: >-
+    /assets/images/2026/2026-09-04-vaultwarden-tren-nas-sofsog.com01.png
+  overlay_filter: 0.55
+  og_image: >-
+    /assets/images/2026/2026-09-04-vaultwarden-tren-nas-sofsog.com01.png
+  caption: "Nguồn ảnh: [**sofsog**](https://sofsog.com)"
 excerpt: >-
   **Vaultwarden** là bản dựng lại của máy chủ Bitwarden, nhẹ tới mức chạy thoải mái
   trên một con NAS và dùng được với đúng ứng dụng Bitwarden sẵn có. Bài này là cách
@@ -37,6 +46,10 @@ Dịch vụ quản lý mật khẩu trả phí hoạt động tốt. Mình tự 
 Đổi lại, toàn bộ trách nhiệm giữ cho nó sống thuộc về mình. Nhà cung cấp trả phí lo backup thay bạn. Tự host thì backup hỏng là mất trắng, và không có bộ phận hỗ trợ nào để gọi.
 
 Đó là lý do bài này dành phần lớn dung lượng cho việc sao lưu chứ không phải việc cài đặt. Cài Vaultwarden mất mười lăm phút. Làm cho nó đáng tin mới là phần thật sự tốn công.
+
+![Hình trang README của dự án Vaultwarden trên GitHub sofsog.com](/assets/images/2026/2026-09-04-vaultwarden-tren-nas-sofsog.com01.png)
+
+Vaultwarden viết bằng Rust, và dòng mô tả trên GitHub nói đúng lý do nó tồn tại: dành cho người tự host, nơi chạy bản chính thức của Bitwarden là quá nặng. Mấy con số bên dưới đáng để yên tâm khi giao kho mật khẩu cho nó — **326 triệu lượt kéo ảnh Docker, 67 nghìn sao, 200 người đóng góp**. Đây không phải một dự án một người làm rồi bỏ.
 
 ## Điều kiện cần
 
@@ -77,6 +90,10 @@ Tailscale cấp chứng chỉ hợp lệ cho tên máy trong tailnet, miễn ph�
 ## Bước 3: Tạo tài khoản rồi khoá cửa lại
 
 `SIGNUPS_ALLOWED: "true"` cho phép ai vào được địa chỉ này cũng tạo được tài khoản. Bạn cần nó lúc đầu để tạo tài khoản cho mình và cho người nhà.
+
+![Hình màn hình đăng nhập Vaultwarden Web Vault sofsog.com](/assets/images/2026/2026-09-04-vaultwarden-tren-nas-sofsog.com02.png)
+
+Đây là màn hình bạn thấy khi mở địa chỉ máy chủ của mình lần đầu. Dòng **`Create account`** ngay dưới nút `Continue` chính là cánh cửa mà bước này nói tới. Dòng chữ nhỏ ở chân trang cũng đáng đọc một lần: đây là **bản dựng lại** của giao diện Bitwarden dành cho Vaultwarden, không phải sản phẩm của Bitwarden Inc.
 
 Tạo xong thì **đổi lại thành `"false"`** rồi khởi động lại container. Đây là chỗ mình để quên khá lâu. Rủi ro có hẹp lại vì máy chủ chỉ nằm trong tailnet, nhưng đã khoá được cửa thì không có lý do gì để mở.
 
