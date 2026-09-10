@@ -48,7 +48,7 @@ Hãy sử dụng phần mềm **Minitool partition wizard** để tạo thêm 1 
 
 #### Bước 2
 
-Tải boot về sau đó mount file iso vào ổ ảo UltralSO sau đó copy toàn bộ vào phân vùng 4GB định dạng Fat32 mà bạn đã tạo trước đó. [Link file Iso](https://drive.google.com/open?id=0B3FpmWUmd-t4V2FuVUpENTNiaG8)
+Tải boot về sau đó mount file iso vào ổ ảo UltralSO sau đó copy toàn bộ vào phân vùng 4GB định dạng Fat32 mà bạn đã tạo trước đó. [Link file Iso — BootUSB-Full(6-2016).iso](https://drive.google.com/file/d/0B3FpmWUmd-t4V2FuVUpENTNiaG8/view?usp=drivesdk&resourcekey=0-mvArl-XOE9CrJEf87S6W5Q)
 
 ![Hướng dẫn cài đặt Ubuntu/Linux trên ổ cứng không cần USB hay đĩa CD/DVD](/assets/images/0000.png "0000")
 
