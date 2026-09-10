@@ -115,7 +115,7 @@ Khi muốn dùng lại skin nào thì chỉ cần đổi tên skin đang dùng h
 
 ### Link download Skin _**DarkOne 4.0:**_
 
-[https://drive.google.com/open?id=0B3FpmWUmd-t4NmdZQUhMWU1PZHM](https://drive.google.com/open?id=0B3FpmWUmd-t4NmdZQUhMWU1PZHM)
+[Tải Skin DarkOne 4.0](https://drive.google.com/file/d/0B3FpmWUmd-t4NmdZQUhMWU1PZHM/view?usp=drivesdk&resourcekey=0-I2ji-isez9JG-nG2s3s8GQ)
 
 Bạn download về, giải nén, đổi đuôi file \*.bck thành \*.exe rồi chạy nó, nó sẽ tự xuất những file cần thiết vào thư mục mặc định cài foobar200 của bạn.
 

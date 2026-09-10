@@ -73,7 +73,7 @@ Thêm các thư mục C:\\ffmpeg\\bin  vào biến môi trường: Chuột ph�
 - Các bạn mở cmd bằng quyền Administrator
 - Gõ lệnh: pip install autosub
 - Vào thư mục C:\\Python27\\scripts  đổi tên file **autosub** thành **autosub\_app.py**
-- Dùng Notepad.exe hoặc Notepad++ mở file **autosub\_app.py** bên trên: Bấm **Ctrl+F** tìm kiếm dòng  _**temp = tempfile.NamedTemporaryFile(suffix='.flac')**_  thay đổi thành temp = tempfile.NamedTemporaryFile(suffix='.flac', delete=False) _._Tiếp tục tìm kiếm dòng: exe\_file = os.path.join(path, program)  thay đổi thành: exe\_file = os.path.join(path, program + ".exe") .  Hoặc các bạn có thể tài file của mình về tại link này: [File autosub\_app.py](https://drive.google.com/open?id=0B3FpmWUmd-t4ZkhHNHNXNjFER1k) và copy đè lên file của các bạn, khỏi chỉnh sửa.
+- Dùng Notepad.exe hoặc Notepad++ mở file **autosub\_app.py** bên trên: Bấm **Ctrl+F** tìm kiếm dòng  _**temp = tempfile.NamedTemporaryFile(suffix='.flac')**_  thay đổi thành temp = tempfile.NamedTemporaryFile(suffix='.flac', delete=False) _._Tiếp tục tìm kiếm dòng: exe\_file = os.path.join(path, program)  thay đổi thành: exe\_file = os.path.join(path, program + ".exe") .  Hoặc các bạn có thể tài file của mình về tại link này: [File autosub\_app.py](https://drive.google.com/file/d/0B3FpmWUmd-t4ZkhHNHNXNjFER1k/view?usp=drivesdk&resourcekey=0-ndPY1vvglO_E7MUyK__vTQ) và copy đè lên file của các bạn, khỏi chỉnh sửa.
 
 Ok giờ các bạn mở cmd bằng quyền Administrator gõ vào: C:\\Python27\\scripts\\autosub\_app.py -h  . Nếu hiện ra tương tự như hình dưới này là ok:
 
@@ -136,7 +136,7 @@ _(đoạn mã trên áp dụng cho file video **Tiếng Anh** nha các bạn)_
 
 Để tự động dịch phụ đề sang tiếng Việt chúng ta có nhiều cách, Sofsog.com sẽ hướng dẫn 1 cách đơn giản là dùng phần mềm miễn phí **Subtitle Edit** :
 
-- Tải phần mềm về bằng link này: [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit/releases) .Hoặc link này (bản Portable): [Subtitle Edit Portable](https://drive.google.com/open?id=0B3FpmWUmd-t4Qy1QRC1YcEdMSzA)
+- Tải phần mềm về bằng link này: [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit/releases) .Hoặc link này (bản Portable): [Subtitle Edit Portable](https://drive.google.com/file/d/0B3FpmWUmd-t4Qy1QRC1YcEdMSzA/view?usp=drivesdk&resourcekey=0-kHvOrl2KUSuxFOl4sfVcQQ)
 - Cài đặt **Subtitle Edit** hoặc giải nén file tải về tùy phiên bản cài đặt hay portable
 - Chạy chương trình, mở file **SubtitleEdit.exe**
 - Mở file phụ đề tiếng anh cần dịch (ví dụ: phudetienganh.srt)

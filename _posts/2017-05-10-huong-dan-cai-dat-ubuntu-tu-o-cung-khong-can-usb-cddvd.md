@@ -36,7 +36,7 @@ Linux , ubuntu là hệ điều hành mã nguồn mở, sử dụng hoàn toàn 
 - Một phần mềm Minitool partition wizard để tạo thêm 1 phân vùng chứa boot Ubuntu với định dạng Fat32 có dung lượng là 4GB trở xuống. - File ISO Ubuntu bất kỳ. - UltralSO
 - Công cụ BOOTICE Bạn có thể tải link này bao gồm công cụ có sẵn dạng Portable, UltralSo Portable, Boottice portable, và công cụ test khả năng boot ổ cứng, usb boot.
 
-[Link tải công cụ](https://drive.google.com/open?id=0B3FpmWUmd-t4Wm5jLWs5amRjTG8)
+[Link tải công cụ — Cong cu tao boot.7z](https://drive.google.com/file/d/0B3FpmWUmd-t4Wm5jLWs5amRjTG8/view?usp=drivesdk&resourcekey=0-454R1F0G0LrHUmPkek0hsw)
 
 \----------------------------------------
 
