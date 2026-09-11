@@ -13,7 +13,7 @@ tags:
   - chứng chỉ quỹ
   - DCA
 series: "Đầu tư dài hạn"
-series_thu_tu: 2
+series_thu_tu: 3
 cap_do: "Cơ bản"
 header:
   teaser: >-

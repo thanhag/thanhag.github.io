@@ -13,7 +13,7 @@ tags:
   - tích sản
   - DCA
 series: "Đầu tư dài hạn"
-series_thu_tu: 3
+series_thu_tu: 4
 cap_do: "Cơ bản"
 header:
   teaser: >-
