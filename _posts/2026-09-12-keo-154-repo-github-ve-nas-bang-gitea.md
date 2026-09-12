@@ -15,6 +15,14 @@ tags:
 series: "Tự dựng server tại nhà"
 series_thu_tu: 9
 cap_do: "Nâng cao"
+header:
+  teaser: >-
+    /assets/images/2026/2026-09-12-gitea-mirror-sofsog.com01.jpg
+  overlay_image: >-
+    /assets/images/2026/2026-09-12-gitea-mirror-sofsog.com01.jpg
+  og_image: >-
+    /assets/images/2026/2026-09-12-gitea-mirror-sofsog.com01.jpg
+  caption: "Ảnh minh hoạ — chu kỳ đồng bộ thật là 8 tiếng, không phải tức thời. [**sofsog**](https://sofsog.com)"
 excerpt: >-
   Toàn bộ 154 repo của mình nằm trên một tài khoản GitHub duy nhất. Bài này là cách
   dùng **Pull Mirror** của Gitea kéo hết về NAS làm bản sao tự cập nhật — kèm script
@@ -191,7 +199,7 @@ exit 0
 
 Vài chỗ trong script đáng giải thích:
 
-**`flock -n 9`** khoá không cho hai lần chạy chồng lên nhau. Chạy hàng tháng theo lịch mà lần trước còn đang tải dở thì lần sau tự thoát, không đánh nhau.
+**`flock -n 9`** khoá không cho hai lần chạy chồng lên nhau. Chạy theo lịch định kỳ mà lần trước còn đang tải dở thì lần sau tự thoát, không đánh nhau.
 
 **`--max-time 1800`** cho lệnh migrate là ba mươi phút cho mỗi repo. Nghe dài, nhưng Gitea clone repo lớn có thể lâu và cắt sớm thì hỏng dở dang.
 
@@ -227,9 +235,11 @@ Thấy đúng số repo mình có thì chạy thật:
 bash ~/scripts/gitea-mirror-all.sh
 ```
 
-## Bước 5: Đặt lịch chạy hàng tháng
+## Bước 5: Đặt lịch chạy hàng tuần
 
 Đây là chỗ nhiều người bỏ sót. **Gitea không có chức năng mirror cả một tài khoản.** Mỗi mirror là một repo được tạo riêng. Repo bạn tạo mới trên GitHub ngày mai sẽ không tự về NAS — phải chạy lại script.
+
+Mình đặt **hàng tuần**. Hàng tháng cũng chạy được, nhưng một repo mới có thể nằm ngoài bản sao tới ba mươi ngày, mà chi phí chạy thêm gần như bằng không: lần chạy khi không có repo mới chỉ mất hơn một phút và không tạo ra gì.
 
 Trên DSM: **Control Panel → Task Scheduler → Create → Scheduled Task → User-defined script**
 
@@ -237,7 +247,7 @@ Trên DSM: **Control Panel → Task Scheduler → Create → Scheduled Task → 
 |---|---|
 | Task name | `Gitea mirror GitHub` |
 | User | tài khoản có thư mục `scripts` |
-| Schedule → Date | Repeat **Monthly** |
+| Schedule → Date | Repeat **Weekly**, chọn một ngày cố định trong tuần |
 | First run time | `03:00` |
 | Run command | `/bin/bash /var/services/homes/<user>/scripts/gitea-mirror-all.sh` |
 
@@ -300,7 +310,7 @@ GitHub của mình lúc thiết lập có **101 repo công khai và 53 repo riê
 
 Đếm lại trên Gitea hôm nay: **152 pull mirror**, cộng repo vault đang chạy push mirror theo chiều ngược lại, cộng một repo thường — vừa đúng 154, khớp 1:1 với GitHub.
 
-Từ giờ mỗi tháng script tự chạy một lần để hứng repo mới, còn repo cũ thì tự cập nhật mỗi tám tiếng. Mình không phải làm gì nữa.
+Từ giờ mỗi tuần script tự chạy một lần để hứng repo mới, còn repo cũ thì tự cập nhật mỗi tám tiếng. Mình không phải làm gì nữa.
 
 Chúc các bạn thành công.
 
