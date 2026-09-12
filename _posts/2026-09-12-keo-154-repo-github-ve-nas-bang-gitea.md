@@ -52,6 +52,10 @@ Gitea có hai thứ tên gần giống nhau mà chiều dữ liệu ngược h�
 
 Bài này dùng **pull mirror**: GitHub là bản gốc, Gitea chỉ hứng về.
 
+![Hình sơ đồ dòng dữ liệu chảy từ GitHub qua Gitea rồi nằm lại trên NAS sofsog.com](/assets/images/2026/2026-09-12-gitea-mirror-sofsog.com01.jpg)
+
+Chiều mũi tên trong hình là thứ cần nhớ: dữ liệu chảy từ GitHub sang Gitea rồi nằm lại trên NAS, và **không có chiều ngược lại**. Bạn sửa gì trên bản ở NAS cũng sẽ bị ghi đè ở lần đồng bộ kế tiếp.
+
 Ở đây có một cái bẫy đáng nói. Vault Obsidian của mình đang chạy **ngược lại** — [Gitea trên NAS là hub](/server/dung-gitea-tren-nas-dong-bo-obsidian-giua-pc-va-dien-thoai), máy tính và điện thoại push vào đó rồi Gitea mới đẩy tiếp lên GitHub. Nếu mình lỡ tay bật pull mirror cho cái repo vault đó thì nó thành chỉ đọc, và **mọi commit từ máy sẽ bị chặn**.
 
 Nên việc đầu tiên là ghi tên repo đó vào danh sách loại trừ, trước khi chạy script. Mình sẽ nói ở bước 4.
